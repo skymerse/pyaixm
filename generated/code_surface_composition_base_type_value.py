@@ -1,0 +1,31 @@
+from enum import Enum
+
+__NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
+
+
+class CodeSurfaceCompositionBaseTypeValue(Enum):
+    ASPH = "ASPH"
+    ASPH_GRASS = "ASPH_GRASS"
+    CONC = "CONC"
+    CONC_ASPH = "CONC_ASPH"
+    CONC_GRS = "CONC_GRS"
+    GRASS = "GRASS"
+    SAND = "SAND"
+    WATER = "WATER"
+    BITUM = "BITUM"
+    BRICK = "BRICK"
+    MACADAM = "MACADAM"
+    STONE = "STONE"
+    CORAL = "CORAL"
+    CLAY = "CLAY"
+    LATERITE = "LATERITE"
+    GRAVEL = "GRAVEL"
+    EARTH = "EARTH"
+    ICE = "ICE"
+    SNOW = "SNOW"
+    MEMBRANE = "MEMBRANE"
+    METAL = "METAL"
+    MATS = "MATS"
+    PIERCED_STEEL = "PIERCED_STEEL"
+    WOOD = "WOOD"
+    NON_BITUM_MIX = "NON_BITUM_MIX"

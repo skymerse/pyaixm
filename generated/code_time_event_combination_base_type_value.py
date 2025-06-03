@@ -1,0 +1,8 @@
+from enum import Enum
+
+__NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
+
+
+class CodeTimeEventCombinationBaseTypeValue(Enum):
+    EARLIEST = "EARLIEST"
+    LATEST = "LATEST"

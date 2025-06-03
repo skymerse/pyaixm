@@ -1,0 +1,47 @@
+from dataclasses import dataclass, field
+from typing import Optional
+
+from generated.approach_leg_extension import ApproachLegExtension
+from generated.missed_approach_leg_extension import MissedApproachLegExtension
+from generated.segment_leg_extension import SegmentLegExtension
+
+__NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
+
+
+@dataclass
+class MissedApproachLegTimeSliceTypeExtension:
+    class Meta:
+        global_type = False
+
+    missed_approach_leg_extension: Optional[MissedApproachLegExtension] = (
+        field(
+            default=None,
+            metadata={
+                "name": "MissedApproachLegExtension",
+                "type": "Element",
+                "namespace": "http://www.aixm.aero/schema/5.1/event",
+            },
+        )
+    )
+    approach_leg_extension: Optional[ApproachLegExtension] = field(
+        default=None,
+        metadata={
+            "name": "ApproachLegExtension",
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1/event",
+        },
+    )
+    segment_leg_extension: Optional[SegmentLegExtension] = field(
+        default=None,
+        metadata={
+            "name": "SegmentLegExtension",
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1/event",
+        },
+    )
+    owns: bool = field(
+        default=False,
+        metadata={
+            "type": "Attribute",
+        },
+    )

@@ -1,0 +1,12 @@
+from dataclasses import dataclass
+
+from generated.code_list_value_type import CodeListValueType
+
+__NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
+
+
+@dataclass
+class MdDimensionNameTypeCode(CodeListValueType):
+    class Meta:
+        name = "MD_DimensionNameTypeCode"
+        namespace = "http://www.isotc211.org/2005/gmd"

@@ -1,0 +1,31 @@
+from enum import Enum
+
+__NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
+
+
+class CodeSegmentPathBaseTypeValue(Enum):
+    AF = "AF"
+    HF = "HF"
+    HA = "HA"
+    HM = "HM"
+    IF = "IF"
+    PI = "PI"
+    PT = "PT"
+    TF = "TF"
+    CA = "CA"
+    CD = "CD"
+    CI = "CI"
+    CR = "CR"
+    CF = "CF"
+    DF = "DF"
+    FA = "FA"
+    FC = "FC"
+    FT = "FT"
+    FM = "FM"
+    VM = "VM"
+    FD = "FD"
+    VR = "VR"
+    VD = "VD"
+    VI = "VI"
+    VA = "VA"
+    RF = "RF"

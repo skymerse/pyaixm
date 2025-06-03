@@ -1,0 +1,164 @@
+from collections.abc import Iterable
+from dataclasses import dataclass, field
+from typing import Optional
+
+from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
+from generated.airport_heliport_property_type import (
+    AirportHeliportPropertyType,
+)
+from generated.callsign_detail_property_type import CallsignDetailPropertyType
+from generated.code_aviation_standards_type import CodeAviationStandardsType
+from generated.code_facility_ranking_type import CodeFacilityRankingType
+from generated.code_fire_fighting_type import CodeFireFightingType
+from generated.code_flight_destination_type import CodeFlightDestinationType
+from generated.code_yes_no_type import CodeYesNoType
+from generated.contact_information_property_type import (
+    ContactInformationPropertyType,
+)
+from generated.elevated_point_property_type import ElevatedPointPropertyType
+from generated.fire_fighting_service_time_slice_type_extension import (
+    FireFightingServiceTimeSliceTypeExtension,
+)
+from generated.note_property_type import NotePropertyType
+from generated.radio_communication_channel_property_type import (
+    RadioCommunicationChannelPropertyType,
+)
+from generated.service_operational_status_property_type import (
+    ServiceOperationalStatusPropertyType,
+)
+from generated.text_name_type import TextNameType
+from generated.unit_property_type import UnitPropertyType
+
+__NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
+
+
+@dataclass
+class FireFightingServiceTimeSliceType(AbstractAixmtimeSliceType):
+    flight_operations: Optional[CodeFlightDestinationType] = field(
+        default=None,
+        metadata={
+            "name": "flightOperations",
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    rank: Optional[CodeFacilityRankingType] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    compliant_icao: Optional[CodeYesNoType] = field(
+        default=None,
+        metadata={
+            "name": "compliantICAO",
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    name: Optional[TextNameType] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    location: Optional[ElevatedPointPropertyType] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    service_provider: Optional[UnitPropertyType] = field(
+        default=None,
+        metadata={
+            "name": "serviceProvider",
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    call_sign: Iterable[CallsignDetailPropertyType] = field(
+        default_factory=list,
+        metadata={
+            "name": "call-sign",
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    radio_communication: Iterable[RadioCommunicationChannelPropertyType] = (
+        field(
+            default_factory=list,
+            metadata={
+                "name": "radioCommunication",
+                "type": "Element",
+                "namespace": "http://www.aixm.aero/schema/5.1",
+                "nillable": True,
+            },
+        )
+    )
+    ground_communication: Iterable[ContactInformationPropertyType] = field(
+        default_factory=list,
+        metadata={
+            "name": "groundCommunication",
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    availability: Iterable[ServiceOperationalStatusPropertyType] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    annotation: Iterable[NotePropertyType] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    airport_heliport: Iterable[AirportHeliportPropertyType] = field(
+        default_factory=list,
+        metadata={
+            "name": "airportHeliport",
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    category: Optional[CodeFireFightingType] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    standard: Optional[CodeAviationStandardsType] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+            "nillable": True,
+        },
+    )
+    extension: Iterable[FireFightingServiceTimeSliceTypeExtension] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.aixm.aero/schema/5.1",
+        },
+    )

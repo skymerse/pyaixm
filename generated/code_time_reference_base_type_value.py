@@ -1,0 +1,33 @@
+from enum import Enum
+
+__NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
+
+
+class CodeTimeReferenceBaseTypeValue(Enum):
+    UTC = "UTC"
+    UTC_12 = "UTC-12"
+    UTC_11 = "UTC-11"
+    UTC_10 = "UTC-10"
+    UTC_9 = "UTC-9"
+    UTC_8 = "UTC-8"
+    UTC_7 = "UTC-7"
+    UTC_6 = "UTC-6"
+    UTC_5 = "UTC-5"
+    UTC_4 = "UTC-4"
+    UTC_3 = "UTC-3"
+    UTC_2 = "UTC-2"
+    UTC_1 = "UTC-1"
+    UTC_1_5 = "UTC+1"
+    UTC_2_1 = "UTC+2"
+    UTC_3_1 = "UTC+3"
+    UTC_4_1 = "UTC+4"
+    UTC_5_1 = "UTC+5"
+    UTC_6_1 = "UTC+6"
+    UTC_7_1 = "UTC+7"
+    UTC_8_1 = "UTC+8"
+    UTC_9_1 = "UTC+9"
+    UTC_10_1 = "UTC+10"
+    UTC_11_1 = "UTC+11"
+    UTC_12_1 = "UTC+12"
+    UTC_13 = "UTC+13"
+    UTC_14 = "UTC+14"

@@ -1,0 +1,32 @@
+from enum import Enum
+
+__NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
+
+
+class CodeUpperAlphaBaseTypeValue(Enum):
+    A = "A"
+    B = "B"
+    C = "C"
+    D = "D"
+    E = "E"
+    F = "F"
+    G = "G"
+    H = "H"
+    I = "I"
+    J = "J"
+    K = "K"
+    L = "L"
+    M = "M"
+    N = "N"
+    O = "O"
+    P = "P"
+    Q = "Q"
+    R = "R"
+    S = "S"
+    T = "T"
+    U = "U"
+    V = "V"
+    W = "W"
+    X = "X"
+    Y = "Y"
+    Z = "Z"

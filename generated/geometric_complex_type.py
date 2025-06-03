@@ -1,0 +1,30 @@
+from collections.abc import Iterable
+from dataclasses import dataclass, field
+from typing import Optional
+
+from generated.abstract_geometry_type import AbstractGeometryType
+from generated.aggregation_type import AggregationType
+from generated.geometric_primitive_property_type import (
+    GeometricPrimitivePropertyType,
+)
+
+__NAMESPACE__ = "http://www.opengis.net/gml/3.2"
+
+
+@dataclass
+class GeometricComplexType(AbstractGeometryType):
+    element: Iterable[GeometricPrimitivePropertyType] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.opengis.net/gml/3.2",
+            "min_occurs": 1,
+        },
+    )
+    aggregation_type: Optional[AggregationType] = field(
+        default=None,
+        metadata={
+            "name": "aggregationType",
+            "type": "Attribute",
+        },
+    )

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="http://pypi.org/project/xsdata">
+    <Output>
+        <Format repr="true">dataclasses</Format>
+        <Package>generated</Package>
+        <Structure>clusters</Structure>
+        <CompoundFields>false</CompoundFields>
+        <PostponedAnnotations>false</PostponedAnnotations>
+        <WrapperFields>true</WrapperFields>
+        <UnnestClasses>true</UnnestClasses>
+    </Output>
+    <Namespaces>
+        <Namespace url="http://www.opengis.net/gml/3.2" package="generated.gml"/>
+        <Namespace url="http://www.aixm.aero/schema/5.1" package="generated.aixm"/>
+        <Namespace url="http://www.isotc211.org/2005/gmd" package="generated.gmd"/>
+    </Namespaces>
+    <Formats>
+        <Format name="dataclasses">
+            <TypeHints>true</TypeHints>
+            <UnnestClasses>false</UnnestClasses>
+        </Format>
+    </Formats>
+</Config>

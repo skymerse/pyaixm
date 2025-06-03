@@ -1,0 +1,32 @@
+from dataclasses import dataclass, field
+from typing import Optional
+
+from generated.abstract_extension_type import AbstractExtensionType
+from generated.text_designator_type import TextDesignatorType
+
+__NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
+
+
+@dataclass
+class InstrumentApproachProcedureExtensionType2(AbstractExtensionType):
+    class Meta:
+        name = "InstrumentApproachProcedureExtensionType"
+
+    printable_version_number: Optional[TextDesignatorType] = field(
+        default=None,
+        metadata={
+            "name": "printableVersionNumber",
+            "type": "Element",
+            "namespace": "urn:us.gov.dot.faa.aim.fns",
+            "nillable": True,
+        },
+    )
+    legacy_control_number: Optional[TextDesignatorType] = field(
+        default=None,
+        metadata={
+            "name": "legacyControlNumber",
+            "type": "Element",
+            "namespace": "urn:us.gov.dot.faa.aim.fns",
+            "nillable": True,
+        },
+    )

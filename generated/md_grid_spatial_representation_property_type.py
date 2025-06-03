@@ -1,0 +1,115 @@
+from dataclasses import dataclass, field
+from typing import Optional, Union
+
+from generated.actuate_type import ActuateType
+from generated.md_georectified import MdGeorectified
+from generated.md_georeferenceable import MdGeoreferenceable
+from generated.md_grid_spatial_representation import (
+    MdGridSpatialRepresentation,
+)
+from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from generated.show_type import ShowType
+from generated.type_type import TypeType
+
+__NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
+
+
+@dataclass
+class MdGridSpatialRepresentationPropertyType:
+    class Meta:
+        name = "MD_GridSpatialRepresentation_PropertyType"
+
+    md_georectified: Optional[MdGeorectified] = field(
+        default=None,
+        metadata={
+            "name": "MD_Georectified",
+            "type": "Element",
+            "namespace": "http://www.isotc211.org/2005/gmd",
+        },
+    )
+    md_georeferenceable: Optional[MdGeoreferenceable] = field(
+        default=None,
+        metadata={
+            "name": "MD_Georeferenceable",
+            "type": "Element",
+            "namespace": "http://www.isotc211.org/2005/gmd",
+        },
+    )
+    md_grid_spatial_representation: Optional[MdGridSpatialRepresentation] = (
+        field(
+            default=None,
+            metadata={
+                "name": "MD_GridSpatialRepresentation",
+                "type": "Element",
+                "namespace": "http://www.isotc211.org/2005/gmd",
+            },
+        )
+    )
+    type_value: TypeType = field(
+        init=False,
+        default=TypeType.SIMPLE,
+        metadata={
+            "name": "type",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        },
+    )
+    href: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        },
+    )
+    role: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        },
+    )
+    arcrole: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        },
+    )
+    title: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        },
+    )
+    show: Optional[ShowType] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        },
+    )
+    actuate: Optional[ActuateType] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        },
+    )
+    uuidref: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        },
+    )
+    nil_reason: Optional[Union[str, NilReasonEnumerationValue]] = field(
+        default=None,
+        metadata={
+            "name": "nilReason",
+            "type": "Attribute",
+            "namespace": "http://www.isotc211.org/2005/gco",
+            "pattern": r"other:\w{2,}",
+        },
+    )
