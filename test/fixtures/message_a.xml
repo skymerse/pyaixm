@@ -1,0 +1,310 @@
+<ns13:AIXMBasicMessage
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:ns1="http://www.opengis.net/ows/1.1"
+    xmlns:ns2="http://www.w3.org/1999/xlink"
+    xmlns:ns3="http://www.opengis.net/wfs/2.0"
+    xmlns:ns4="http://www.opengis.net/fes/2.0"
+    xmlns:ns5="http://www.opengis.net/gml/3.2"
+    xmlns:ns6="http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE"
+    xmlns:ns7="http://www.isotc211.org/2005/gco"
+    xmlns:ns8="http://www.isotc211.org/2005/gmd"
+    xmlns:ns9="http://www.aixm.aero/schema/5.1"
+    xmlns:ns10="http://www.isotc211.org/2005/gts"
+    xmlns:ns11="http://www.aixm.aero/schema/5.1/event"
+    xmlns:ns12="urn:us.gov.dot.faa.aim.fns"
+    xmlns:ns13="http://www.aixm.aero/schema/5.1/message"
+    xmlns:ns14="http://www.opengis.net/wfs-util/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:null="http://www.aixm.aero/schema/5.1/message"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event"
+    xmlns:fnse="http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr"
+    xmlns:gss="http://www.isotc211.org/2005/gss"
+    xmlns:gts="http://www.isotc211.org/2005/gts"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:fns="urn:us.gov.dot.faa.aim.fns"
+    ns5:id="FNS_ID_72350924">
+    <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+    <ns13:hasMember>
+        <ns9:StandardInstrumentDeparture ns5:id="SID1_1_72350924">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:StandardInstrumentDepartureTimeSlice ns5:id="SID1_TS_1_72350924">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="SID1_TS_TI_1_72350924">
+                            <ns5:timePosition>2024-05-07T17:31:31.666Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:name>GORMAN</ns9:name>
+                    <ns9:RNAV>NO</ns9:RNAV>
+                    <ns9:extension>
+                        <ns12:ProcedureExtension ns5:id="SID1_TS_EX1_72350924">
+                            <ns12:printableVersionNumber>SEVEN</ns12:printableVersionNumber>
+                            <ns12:legacyControlNumber>GMN7.GMN</ns12:legacyControlNumber>
+                        </ns12:ProcedureExtension>
+                    </ns9:extension>
+                </ns9:StandardInstrumentDepartureTimeSlice>
+            </ns9:timeSlice>
+        </ns9:StandardInstrumentDeparture>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:StandardInstrumentDeparture ns5:id="SID2_72350924">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:StandardInstrumentDepartureTimeSlice ns5:id="SID2_TS_72350924">
+                    <ns5:validTime>
+                        <ns5:TimePeriod ns5:id="SID2_TS_TP_72350924">
+                            <ns5:beginPosition>2024-05-07T17:29:00.000Z</ns5:beginPosition>
+                            <ns5:endPosition :indeterminatePosition="unknown">
+                                2026-05-10T17:29:00.000Z</ns5:endPosition>
+                        </ns5:TimePeriod>
+                    </ns5:validTime>
+                    <ns9:interpretation>TEMPDELTA</ns9:interpretation>
+                    <ns9:availability>
+                        <ns9:ProcedureAvailability ns5:id="SID2_TS_TP_AVAIL_72350924">
+                            <ns9:status>OTHER:CHANGED</ns9:status>
+                        </ns9:ProcedureAvailability>
+                    </ns9:availability>
+                    <ns9:annotation>
+                        <ns9:Note ns5:id="SID2_TS_Note_2_72350924">
+                            <ns9:propertyName>type</ns9:propertyName>
+                            <ns9:purpose>DESCRIPTION</ns9:purpose>
+                            <ns9:translatedNote>
+                                <ns9:LinguisticNote ns5:id="SID2_TS_Note_L_2_72350924">
+                                    <ns9:note>GMN VOR R-310 RESTRICTED</ns9:note>
+                                </ns9:LinguisticNote>
+                            </ns9:translatedNote>
+                        </ns9:Note>
+                    </ns9:annotation>
+                </ns9:StandardInstrumentDepartureTimeSlice>
+            </ns9:timeSlice>
+        </ns9:StandardInstrumentDeparture>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:StandardInstrumentDeparture ns5:id="SID3_1_72350924">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:StandardInstrumentDepartureTimeSlice ns5:id="SID3_TS_1_72350924">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="SID3_TS_TI_1_72350924">
+                            <ns5:timePosition>2024-05-07T17:31:31.666Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:flightTransition>
+                        <ns9:ProcedureTransition ns5:id="SID3_TS_PT_1_72350924">
+                            <ns9:annotation>
+                                <ns9:Note ns5:id="SID3_TS_PT_Note_1_1_72350924">
+                                    <ns9:propertyName>name</ns9:propertyName>
+                                    <ns9:purpose>DESCRIPTION</ns9:purpose>
+                                    <ns9:translatedNote>
+                                        <ns9:LinguisticNote ns5:id="SID3_TS_PT_Note_L_1_1_72350924">
+                                            <ns9:note>AVENAL TRANSITION NA</ns9:note>
+                                        </ns9:LinguisticNote>
+                                    </ns9:translatedNote>
+                                </ns9:Note>
+                            </ns9:annotation>
+                            <ns9:annotation>
+                                <ns9:Note ns5:id="SID3_TS_PT_Note_2_1_72350924">
+                                    <ns9:propertyName>status</ns9:propertyName>
+                                    <ns9:purpose>DESCRIPTION</ns9:purpose>
+                                    <ns9:translatedNote>
+                                        <ns9:LinguisticNote ns5:id="SID3_TS_PT_Note_L_2_1_72350924">
+                                            <ns9:note>EXCEPT FOR ACFT EQUIPPED WITH SUITABLE RNAV
+                                                SYSTEM WITH GPS</ns9:note>
+                                        </ns9:LinguisticNote>
+                                    </ns9:translatedNote>
+                                </ns9:Note>
+                            </ns9:annotation>
+                        </ns9:ProcedureTransition>
+                    </ns9:flightTransition>
+                </ns9:StandardInstrumentDepartureTimeSlice>
+            </ns9:timeSlice>
+        </ns9:StandardInstrumentDeparture>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:DepartureLeg ns5:id="DL021_72350924">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:DepartureLegTimeSlice ns5:id="DL02_TS011_72350924">
+                    <ns5:validTime>
+                        <ns5:TimePeriod ns5:id="DL02_TS01_TI01_72350924">
+                            <ns5:beginPosition>2024-05-07T17:29:00.000Z</ns5:beginPosition>
+                            <ns5:endPosition :indeterminatePosition="unknown">
+                                2026-05-10T17:29:00.000Z</ns5:endPosition>
+                        </ns5:TimePeriod>
+                    </ns5:validTime>
+                    <ns9:interpretation>TEMPDELTA</ns9:interpretation>
+                    <ns9:annotation>
+                        <ns9:Note ns5:id="DL02_TS01_Note_2_1_72350924">
+                            <ns9:propertyName>status</ns9:propertyName>
+                            <ns9:purpose>DESCRIPTION</ns9:purpose>
+                            <ns9:translatedNote>
+                                <ns9:LinguisticNote ns5:id="DL02_TS01_Note_L_2_1_72350924">
+                                    <ns9:note>EXCEPT FOR ACFT EQUIPPED WITH SUITABLE RNAV SYSTEM
+                                        WITH GPS</ns9:note>
+                                </ns9:LinguisticNote>
+                            </ns9:translatedNote>
+                        </ns9:Note>
+                    </ns9:annotation>
+                    <ns9:extension>
+                        <ns11:DepartureLegExtension ns5:id="DLE_EVENT_21_72350924">
+                            <ns11:theEvent ns2:href="#Event_1_72350924"></ns11:theEvent>
+                        </ns11:DepartureLegExtension>
+                    </ns9:extension>
+                </ns9:DepartureLegTimeSlice>
+            </ns9:timeSlice>
+        </ns9:DepartureLeg>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:Navaid ns5:id="N_1_72350924">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:NavaidTimeSlice ns5:id="N_TS_1_72350924">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="N_TS_TI_1_1_72350924">
+                            <ns5:timePosition>2024-05-07T17:31:31.666Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:type>VOR</ns9:type>
+                    <ns9:designator>GMN</ns9:designator>
+                </ns9:NavaidTimeSlice>
+            </ns9:timeSlice>
+            <ns9:timeSlice>
+                <ns9:NavaidTimeSlice ns5:id="N_TS_2_72350924">
+                    <ns5:validTime>
+                        <ns5:TimePeriod ns5:id="N_TS_TP_1_72350924">
+                            <ns5:beginPosition>2024-05-07T17:29:00.000Z</ns5:beginPosition>
+                            <ns5:endPosition :indeterminatePosition="unknown">
+                                2026-05-10T17:29:00.000Z</ns5:endPosition>
+                        </ns5:TimePeriod>
+                    </ns5:validTime>
+                    <ns9:interpretation>TEMPDELTA</ns9:interpretation>
+                    <ns9:availability>
+                        <ns9:NavaidOperationalStatus ns5:id="N_TS_NOS_1_72350924">
+                            <ns9:operationalStatus>OTHER:UNUSABLE</ns9:operationalStatus>
+                        </ns9:NavaidOperationalStatus>
+                    </ns9:availability>
+                </ns9:NavaidTimeSlice>
+            </ns9:timeSlice>
+        </ns9:Navaid>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:AirportHeliport ns5:id="Airport_1_72350924">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:AirportHeliportTimeSlice ns5:id="Airport_TS_1_72350924">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="Airport_TS_TI_1_72350924">
+                            <ns5:timePosition>2024-05-07T17:31:31.666Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:designator>LAX</ns9:designator>
+                    <ns9:name>LOS ANGELES INTL</ns9:name>
+                    <ns9:locationIndicatorICAO>KLAX</ns9:locationIndicatorICAO>
+                    <ns9:servedCity>
+                        <ns9:City ns5:id="Airport_City_1_72350924">
+                            <ns9:name>LOS ANGELES</ns9:name>
+                        </ns9:City>
+                    </ns9:servedCity>
+                    <ns9:ARP>
+                        <ns9:ElevatedPoint :srsName="urn:ogc:def:crs:EPSG::4326" :srsDimension="2"
+                            ns5:id="EP01_72350924">
+                            <ns5:pos>33.9425003055556 -118.408073638889</ns5:pos>
+                        </ns9:ElevatedPoint>
+                    </ns9:ARP>
+                    <ns9:extension>
+                        <ns12:AirportHeliportExtension ns5:id="AHE_EVENT_2_72350924">
+                            <ns12:stateTerritory>CA</ns12:stateTerritory>
+                        </ns12:AirportHeliportExtension>
+                    </ns9:extension>
+                    <ns9:extension>
+                        <ns11:AirportHeliportExtension ns5:id="AHE_EVENT_1_72350924">
+                            <ns11:theEvent ns2:href="#Event_1_72350924"></ns11:theEvent>
+                        </ns11:AirportHeliportExtension>
+                    </ns9:extension>
+                </ns9:AirportHeliportTimeSlice>
+            </ns9:timeSlice>
+        </ns9:AirportHeliport>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns11:Event ns5:id="Event_1_72350924">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns11:timeSlice>
+                <ns11:EventTimeSlice ns5:id="Event_TS_1_72350924">
+                    <ns5:validTime>
+                        <ns5:TimePeriod ns5:id="Event_TS_TP_1_72350924">
+                            <ns5:beginPosition>2024-05-07T17:29:00.000Z</ns5:beginPosition>
+                            <ns5:endPosition :indeterminatePosition="unknown">
+                                2026-05-10T17:29:00.000Z</ns5:endPosition>
+                        </ns5:TimePeriod>
+                    </ns5:validTime>
+                    <ns9:interpretation>BASELINE</ns9:interpretation>
+                    <ns11:scenario>812</ns11:scenario>
+                    <ns11:textNOTAM>
+                        <ns11:NOTAM ns5:id="NOTAM_1_72350924">
+                            <ns11:number>9915</ns11:number>
+                            <ns11:year>2024</ns11:year>
+                            <ns11:type>N</ns11:type>
+                            <ns11:issued>2024-05-07T17:29:00.000Z</ns11:issued>
+                            <ns11:location>LAX</ns11:location>
+                            <ns11:effectiveStart>202405071729</ns11:effectiveStart>
+                            <ns11:effectiveEnd>202605101729EST</ns11:effectiveEnd>
+                            <ns11:text>SID LOS ANGELES INTL, LOS ANGELES, CA.
+                                GORMAN SEVEN DEPARTURE...
+                                AVENAL TRANSITION NA EXCEPT FOR ACFT EQUIPPED WITH SUITABLE RNAV
+                                SYSTEM WITH GPS.
+                                GMN VOR R-310 RESTRICTED. 2405071729-2605101729EST</ns11:text>
+                            <ns11:translation>
+                                <ns11:NOTAMTranslation ns5:id="NT01_72350924">
+                                    <ns11:type>LOCAL_FORMAT</ns11:type>
+                                    <ns11:simpleText>!FDC 4/9915 LAX SID LOS ANGELES INTL, LOS
+                                        ANGELES, CA.
+                                        GORMAN SEVEN DEPARTURE...
+                                        AVENAL TRANSITION NA EXCEPT FOR ACFT EQUIPPED WITH SUITABLE
+                                        RNAV SYSTEM WITH GPS.
+                                        GMN VOR R-310 RESTRICTED. 2405071729-2605101729EST</ns11:simpleText>
+                                </ns11:NOTAMTranslation>
+                            </ns11:translation>
+                            <ns11:translation>
+                                <ns11:NOTAMTranslation ns5:id="NT02_72350924">
+                                    <ns11:type>OTHER:ICAO</ns11:type>
+                                    <ns11:formattedText>
+                                        <html:div>Q) KZLA/QPDCH/I/NBO/A/000/999/3356N11824W005
+                                            A) KLAX
+                                            B) 2405071723
+                                            C) 2412171722EST
+                                            E) LAX LOS ANGELES INTL, LOS ANGELES, CA.
+                                            GORMAN SEVEN DEPARTURE...
+                                            AVENAL TRANSITION NA EXCEPT FOR ACFT EQUIPPED WITH
+                                            SUITABLE RNAV SYSTEM WITH GPS.
+                                            GMN VOR R-310 RESTRICTED.</html:div>
+                                    </ns11:formattedText>
+                                </ns11:NOTAMTranslation>
+                            </ns11:translation>
+                        </ns11:NOTAM>
+                    </ns11:textNOTAM>
+                    <ns11:extension>
+                        <ns6:EventExtension ns5:id="ext_01_72350924">
+                            <ns6:classification>FDC</ns6:classification>
+                            <ns6:accountId>FDC</ns6:accountId>
+                            <ns6:xoveraccountID>KLAX</ns6:xoveraccountID>
+                            <ns6:xovernotamID>A2718/24</ns6:xovernotamID>
+                            <ns6:airportname>LOS ANGELES INTL</ns6:airportname>
+                            <ns6:lastUpdated>2024-05-07T17:31:00.000Z</ns6:lastUpdated>
+                            <ns6:icaoLocation>KLAX</ns6:icaoLocation>
+                        </ns6:EventExtension>
+                    </ns11:extension>
+                </ns11:EventTimeSlice>
+            </ns11:timeSlice>
+        </ns11:Event>
+    </ns13:hasMember>
+</ns13:AIXMBasicMessage>
