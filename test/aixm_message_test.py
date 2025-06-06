@@ -11,7 +11,11 @@ def message_a():
 
 def test_parse_message_a(message_a: str):
     message = AixmMessage.from_string(message_a)
-
     event: generated.Event = message.of_type(generated.Event)[0]
 
-    assert event.time_slice[0].event_time_slice.valid_time.time_period.begin_position.value.to_datetime() == "2024-05-07T17:29:00.000Z"
+    assert (
+        event.time_slice[0]
+        .event_time_slice.valid_time.time_period.begin_position.value.to_datetime()
+        .isoformat()
+        == "2024-05-07T17:29:00+00:00"
+    )

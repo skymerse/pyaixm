@@ -4,10 +4,10 @@ AIXM python bindings.
 
 ## Development
 
-Python data classes are generated from XML schema definition files from official AIXM java package found at https://github.com/faa-swim/aixm-5.1 (we use out public fork of the abovementioned repo to ensure business continuity).
+Python data classes are generated from XML schema definition files from official AIXM java package found at https://github.com/faa-swim/aixm-5.1 (we use our public fork of the abovementioned repo to ensure business continuity).
 
 To regenerate bindings run following:
 
 ```bash
-rm -rf generated/ && xsdata generate --generic-collections --config xsdata.xml aixm-5.1/src/main/fns2.0_xsds/
+make
 ```
