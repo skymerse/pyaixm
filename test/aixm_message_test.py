@@ -1,6 +1,12 @@
-from aixm_message import AixmMessage
+import sys
+import os
+
+src_root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "pyaixm")
+sys.path.append(src_root)
+
+from pyaixm.aixm_message import AixmMessage
 from pytest import fixture
-import generated
+from pyaixm import generated
 
 
 @fixture
