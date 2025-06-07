@@ -1,3 +1,3 @@
-from aixm_message import AixmMessage
+from .aixm_message import AixmMessage
 
 __all__ = ["AixmMessage"]
