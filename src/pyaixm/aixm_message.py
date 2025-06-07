@@ -1,6 +1,6 @@
 from lxml import etree
 from xsdata.formats.dataclass.parsers import XmlParser
-import generated
+from pyaixm import generated
 from typing import Any
 
 # from xsdata.models.generated import AixmBasicMessage
