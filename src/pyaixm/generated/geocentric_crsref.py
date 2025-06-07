@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.geocentric_crsproperty_type import GeocentricCrspropertyType
+from pyaixm.generated.geocentric_crsproperty_type import (
+    GeocentricCrspropertyType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

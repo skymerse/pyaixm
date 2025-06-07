@@ -1,16 +1,16 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_base_type import (
+from pyaixm.generated.abstract_aixmtime_slice_base_type import (
     AbstractAixmtimeSliceBaseType,
 )
-from generated.correction_number import CorrectionNumber
-from generated.feature_lifetime import FeatureLifetime
-from generated.feature_time_slice_metadata_property_type import (
+from pyaixm.generated.correction_number import CorrectionNumber
+from pyaixm.generated.feature_lifetime import FeatureLifetime
+from pyaixm.generated.feature_time_slice_metadata_property_type import (
     FeatureTimeSliceMetadataPropertyType,
 )
-from generated.interpretation import Interpretation
-from generated.sequence_number import SequenceNumber
+from pyaixm.generated.interpretation import Interpretation
+from pyaixm.generated.sequence_number import SequenceNumber
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

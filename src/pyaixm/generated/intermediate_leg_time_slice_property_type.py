@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.intermediate_leg_time_slice import IntermediateLegTimeSlice
+from pyaixm.generated.intermediate_leg_time_slice import (
+    IntermediateLegTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

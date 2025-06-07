@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airspace_volume_type import AirspaceVolumeType
+from pyaixm.generated.airspace_volume_type import AirspaceVolumeType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.shell_type import ShellType
+from pyaixm.generated.shell_type import ShellType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

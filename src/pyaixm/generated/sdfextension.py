@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.sdfextension_type import SdfextensionType
+from pyaixm.generated.sdfextension_type import SdfextensionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

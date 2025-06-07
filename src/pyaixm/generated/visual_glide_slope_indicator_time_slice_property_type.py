@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.visual_glide_slope_indicator_time_slice import (
+from pyaixm.generated.visual_glide_slope_indicator_time_slice import (
     VisualGlideSlopeIndicatorTimeSlice,
 )
 

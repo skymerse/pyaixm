@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.guidance_line_marking_extension import (
+from pyaixm.generated.guidance_line_marking_extension import (
     GuidanceLineMarkingExtension,
 )
-from generated.marking_extension import MarkingExtension
+from pyaixm.generated.marking_extension import MarkingExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

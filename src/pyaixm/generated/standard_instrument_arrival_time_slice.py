@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.standard_instrument_arrival_time_slice_type import (
+from pyaixm.generated.standard_instrument_arrival_time_slice_type import (
     StandardInstrumentArrivalTimeSliceType,
 )
 

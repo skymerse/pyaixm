@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_navigation_system_checkpoint_type import (
+from pyaixm.generated.abstract_navigation_system_checkpoint_type import (
     AbstractNavigationSystemCheckpointType,
 )
-from generated.checkpoint_vortime_slice_property_type import (
+from pyaixm.generated.checkpoint_vortime_slice_property_type import (
     CheckpointVortimeSlicePropertyType,
 )
 

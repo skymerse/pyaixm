@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.vertical_cstype import VerticalCstype
+from pyaixm.generated.vertical_cstype import VerticalCstype
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

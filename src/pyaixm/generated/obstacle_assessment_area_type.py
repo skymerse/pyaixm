@@ -2,27 +2,27 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.aircraft_characteristic_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.aircraft_characteristic_property_type import (
     AircraftCharacteristicPropertyType,
 )
-from generated.code_obstacle_assessment_surface_type import (
+from pyaixm.generated.code_obstacle_assessment_surface_type import (
     CodeObstacleAssessmentSurfaceType,
 )
-from generated.code_obstruction_id_surface_zone_type import (
+from pyaixm.generated.code_obstruction_id_surface_zone_type import (
     CodeObstructionIdSurfaceZoneType,
 )
-from generated.curve_property_type_2 import CurvePropertyType2
-from generated.no_number_type import NoNumberType
-from generated.note_property_type import NotePropertyType
-from generated.obstacle_assessment_area_type_extension import (
+from pyaixm.generated.curve_property_type_2 import CurvePropertyType2
+from pyaixm.generated.no_number_type import NoNumberType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstacle_assessment_area_type_extension import (
     ObstacleAssessmentAreaTypeExtension,
 )
-from generated.obstruction_property_type import ObstructionPropertyType
-from generated.surface_property_type_2 import SurfacePropertyType2
-from generated.text_name_type import TextNameType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.val_slope_type import ValSlopeType
+from pyaixm.generated.obstruction_property_type import ObstructionPropertyType
+from pyaixm.generated.surface_property_type_2 import SurfacePropertyType2
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_slope_type import ValSlopeType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

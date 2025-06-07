@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_meteo_conditions_type import CodeMeteoConditionsType
-from generated.code_value_interpretation_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_meteo_conditions_type import CodeMeteoConditionsType
+from pyaixm.generated.code_value_interpretation_type import (
     CodeValueInterpretationType,
 )
-from generated.meteorology_type_extension import MeteorologyTypeExtension
-from generated.note_property_type import NotePropertyType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.meteorology_type_extension import (
+    MeteorologyTypeExtension,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

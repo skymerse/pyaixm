@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.deicing_area_extension_1 import DeicingAreaExtension1
-from generated.deicing_area_extension_2 import DeicingAreaExtension2
+from pyaixm.generated.deicing_area_extension_1 import DeicingAreaExtension1
+from pyaixm.generated.deicing_area_extension_2 import DeicingAreaExtension2
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

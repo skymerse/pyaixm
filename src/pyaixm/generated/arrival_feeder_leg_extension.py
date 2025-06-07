@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.arrival_feeder_leg_extension_type import (
+from pyaixm.generated.arrival_feeder_leg_extension_type import (
     ArrivalFeederLegExtensionType,
 )
 

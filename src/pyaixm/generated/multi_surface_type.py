@@ -2,11 +2,11 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_geometric_aggregate_type import (
+from pyaixm.generated.abstract_geometric_aggregate_type import (
     AbstractGeometricAggregateType,
 )
-from generated.surface_members import SurfaceMembers
-from generated.surface_property_type_1 import SurfaceMember
+from pyaixm.generated.surface_members import SurfaceMembers
+from pyaixm.generated.surface_property_type_1 import SurfaceMember
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

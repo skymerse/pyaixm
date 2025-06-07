@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 
-from generated.abstract_gridded_surface_type import AbstractGriddedSurfaceType
-from generated.curve_interpolation_type import CurveInterpolationType
+from pyaixm.generated.abstract_gridded_surface_type import (
+    AbstractGriddedSurfaceType,
+)
+from pyaixm.generated.curve_interpolation_type import CurveInterpolationType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

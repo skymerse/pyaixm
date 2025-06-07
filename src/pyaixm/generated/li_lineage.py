@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.li_lineage_type import LiLineageType
+from pyaixm.generated.li_lineage_type import LiLineageType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.apron_extension_type import ApronExtensionType
+from pyaixm.generated.apron_extension_type import ApronExtensionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

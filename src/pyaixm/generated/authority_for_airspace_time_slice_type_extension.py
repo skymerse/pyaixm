@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.authority_for_airspace_extension import (
+from pyaixm.generated.authority_for_airspace_extension import (
     AuthorityForAirspaceExtension,
 )
 

@@ -1,14 +1,16 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.boolean_property_type_2 import BooleanPropertyType2
-from generated.integer_property_type import IntegerPropertyType
-from generated.md_coverage_description_type import MdCoverageDescriptionType
-from generated.md_identifier_type import MdIdentifierPropertyType
-from generated.md_imaging_condition_code_property_type import (
+from pyaixm.generated.boolean_property_type_2 import BooleanPropertyType2
+from pyaixm.generated.integer_property_type import IntegerPropertyType
+from pyaixm.generated.md_coverage_description_type import (
+    MdCoverageDescriptionType,
+)
+from pyaixm.generated.md_identifier_type import MdIdentifierPropertyType
+from pyaixm.generated.md_imaging_condition_code_property_type import (
     MdImagingConditionCodePropertyType,
 )
-from generated.real_property_type import RealPropertyType
+from pyaixm.generated.real_property_type import RealPropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

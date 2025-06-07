@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.derived_crsproperty_type import DerivedCrspropertyType
+from pyaixm.generated.derived_crsproperty_type import DerivedCrspropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

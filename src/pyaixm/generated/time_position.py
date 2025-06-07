@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.time_position_type import TimePositionType
+from pyaixm.generated.time_position_type import TimePositionType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

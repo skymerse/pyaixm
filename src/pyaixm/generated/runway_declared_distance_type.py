@@ -2,13 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_declared_distance_type import CodeDeclaredDistanceType
-from generated.note_property_type import NotePropertyType
-from generated.runway_declared_distance_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_declared_distance_type import (
+    CodeDeclaredDistanceType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_declared_distance_type_extension import (
     RunwayDeclaredDistanceTypeExtension,
 )
-from generated.runway_declared_distance_value_property_type import (
+from pyaixm.generated.runway_declared_distance_value_property_type import (
     RunwayDeclaredDistanceValuePropertyType,
 )
 

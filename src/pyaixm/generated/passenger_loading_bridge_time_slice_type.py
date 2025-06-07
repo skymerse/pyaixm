@@ -2,14 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.aircraft_stand_property_type import AircraftStandPropertyType
-from generated.code_loading_bridge_type import CodeLoadingBridgeType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.aircraft_stand_property_type import (
+    AircraftStandPropertyType,
+)
+from pyaixm.generated.code_loading_bridge_type import CodeLoadingBridgeType
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.passenger_loading_bridge_time_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.passenger_loading_bridge_time_slice_type_extension import (
     PassengerLoadingBridgeTimeSliceTypeExtension,
 )
 

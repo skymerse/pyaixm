@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.approach_lighting_system_time_slice import (
+from pyaixm.generated.approach_lighting_system_time_slice import (
     ApproachLightingSystemTimeSlice,
 )
 

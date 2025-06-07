@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.flight_routing_element import FlightRoutingElement
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.flight_routing_element import FlightRoutingElement
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

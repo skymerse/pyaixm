@@ -2,11 +2,13 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_reflector_type import CodeReflectorType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.reflector_type_extension import ReflectorTypeExtension
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_reflector_type import CodeReflectorType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.reflector_type_extension import ReflectorTypeExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

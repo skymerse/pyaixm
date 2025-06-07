@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_representative_fraction_type import (
+from pyaixm.generated.md_representative_fraction_type import (
     MdRepresentativeFractionType,
 )
 

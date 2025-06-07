@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.radio_frequency_area_type import RadioFrequencyAreaType
+from pyaixm.generated.radio_frequency_area_type import RadioFrequencyAreaType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

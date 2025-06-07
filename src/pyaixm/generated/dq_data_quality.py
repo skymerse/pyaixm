@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_data_quality_type import DqDataQualityType
+from pyaixm.generated.dq_data_quality_type import DqDataQualityType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

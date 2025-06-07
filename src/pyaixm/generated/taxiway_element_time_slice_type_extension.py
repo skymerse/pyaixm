@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.taxiway_element_extension import TaxiwayElementExtension
+from pyaixm.generated.taxiway_element_extension import TaxiwayElementExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

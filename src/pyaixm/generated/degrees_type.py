@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.degrees_type_direction import DegreesTypeDirection
+from pyaixm.generated.degrees_type_direction import DegreesTypeDirection
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

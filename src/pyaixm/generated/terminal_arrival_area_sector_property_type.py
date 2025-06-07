@@ -1,8 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.terminal_arrival_area_sector import TerminalArrivalAreaSector
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.terminal_arrival_area_sector import (
+    TerminalArrivalAreaSector,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.ring import Ring
+from pyaixm.generated.ring import Ring
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

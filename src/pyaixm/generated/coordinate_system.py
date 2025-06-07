@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.coordinate_system_property_type import (
+from pyaixm.generated.coordinate_system_property_type import (
     CoordinateSystemPropertyType,
 )
 

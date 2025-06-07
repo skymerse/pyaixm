@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_format_consistency_type import DqFormatConsistencyType
+from pyaixm.generated.dq_format_consistency_type import DqFormatConsistencyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

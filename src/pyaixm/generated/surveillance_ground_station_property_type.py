@@ -1,8 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.surveillance_ground_station import SurveillanceGroundStation
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.surveillance_ground_station import (
+    SurveillanceGroundStation,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

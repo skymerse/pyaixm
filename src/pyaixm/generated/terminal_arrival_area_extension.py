@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.terminal_arrival_area_extension_type import (
+from pyaixm.generated.terminal_arrival_area_extension_type import (
     TerminalArrivalAreaExtensionType,
 )
 

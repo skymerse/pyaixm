@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.checkpoint_insextension_type import CheckpointInsextensionType
+from pyaixm.generated.checkpoint_insextension_type import (
+    CheckpointInsextensionType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

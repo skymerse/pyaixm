@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_service_type import AbstractServiceType
-from generated.search_rescue_service_time_slice_property_type import (
+from pyaixm.generated.abstract_service_type import AbstractServiceType
+from pyaixm.generated.search_rescue_service_time_slice_property_type import (
     SearchRescueServiceTimeSlicePropertyType,
 )
 

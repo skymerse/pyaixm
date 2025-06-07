@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.safe_altitude_area_extension_type import (
+from pyaixm.generated.safe_altitude_area_extension_type import (
     SafeAltitudeAreaExtensionType,
 )
 

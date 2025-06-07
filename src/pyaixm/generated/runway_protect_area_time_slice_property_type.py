@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.runway_protect_area_time_slice import RunwayProtectAreaTimeSlice
+from pyaixm.generated.runway_protect_area_time_slice import (
+    RunwayProtectAreaTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

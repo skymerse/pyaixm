@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.fire_fighting_service_extension_type_1 import (
+from pyaixm.generated.fire_fighting_service_extension_type_1 import (
     FireFightingServiceExtensionType1,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.event_time_slice_type import EventTimeSliceType
+from pyaixm.generated.event_time_slice_type import EventTimeSliceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.transformation_type import TransformationType
+from pyaixm.generated.transformation_type import TransformationType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

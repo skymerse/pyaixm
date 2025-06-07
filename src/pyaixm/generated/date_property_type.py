@@ -1,9 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.date import Date
-from generated.date_time import DateTime
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.date import Date
+from pyaixm.generated.date_time import DateTime
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

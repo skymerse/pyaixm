@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.data_block_type import DataBlockType
+from pyaixm.generated.data_block_type import DataBlockType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

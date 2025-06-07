@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.final_profile_type import FinalProfileType
+from pyaixm.generated.final_profile_type import FinalProfileType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

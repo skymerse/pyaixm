@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.guidance_line_marking_time_slice import (
+from pyaixm.generated.guidance_line_marking_time_slice import (
     GuidanceLineMarkingTimeSlice,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.arc_string_type import ArcStringType
+from pyaixm.generated.arc_string_type import ArcStringType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

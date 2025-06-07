@@ -4,7 +4,9 @@ from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlPeriod, XmlTime
 
-from generated.time_indeterminate_value_type import TimeIndeterminateValueType
+from pyaixm.generated.time_indeterminate_value_type import (
+    TimeIndeterminateValueType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

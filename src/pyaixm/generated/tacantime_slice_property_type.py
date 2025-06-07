@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.tacantime_slice import TacantimeSlice
+from pyaixm.generated.tacantime_slice import TacantimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

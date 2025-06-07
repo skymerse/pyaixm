@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.code_type import CodeType
-from generated.compass_point_enumeration import CompassPointEnumeration
-from generated.reference_type import ReferenceType
+from pyaixm.generated.code_type import CodeType
+from pyaixm.generated.compass_point_enumeration import CompassPointEnumeration
+from pyaixm.generated.reference_type import ReferenceType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

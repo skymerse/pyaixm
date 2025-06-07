@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ex_bounding_polygon_type import ExBoundingPolygonType
+from pyaixm.generated.ex_bounding_polygon_type import ExBoundingPolygonType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

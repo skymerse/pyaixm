@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.event_extension import EventExtension
+from pyaixm.generated.event_extension import EventExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

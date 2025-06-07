@@ -2,33 +2,43 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
-from generated.code_colour_type import CodeColourType
-from generated.code_status_construction_type import CodeStatusConstructionType
-from generated.code_vertical_structure_marking_type import (
+from pyaixm.generated.code_colour_type import CodeColourType
+from pyaixm.generated.code_status_construction_type import (
+    CodeStatusConstructionType,
+)
+from pyaixm.generated.code_vertical_structure_marking_type import (
     CodeVerticalStructureMarkingType,
 )
-from generated.code_vertical_structure_material_type import (
+from pyaixm.generated.code_vertical_structure_material_type import (
     CodeVerticalStructureMaterialType,
 )
-from generated.code_vertical_structure_type import CodeVerticalStructureType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.elevated_curve_property_type import ElevatedCurvePropertyType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.code_vertical_structure_type import (
+    CodeVerticalStructureType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.elevated_curve_property_type import (
+    ElevatedCurvePropertyType,
+)
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.light_element_property_type import LightElementPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.light_element_property_type import (
+    LightElementPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.text_designator_type import TextDesignatorType
-from generated.timesheet_property_type import TimesheetPropertyType
-from generated.val_distance_type import ValDistanceType
-from generated.vertical_structure_part_type_extension import (
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.timesheet_property_type import TimesheetPropertyType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.vertical_structure_part_type_extension import (
     VerticalStructurePartTypeExtension,
 )
 

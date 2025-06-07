@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.clothoid_type import ClothoidType
+from pyaixm.generated.clothoid_type import ClothoidType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

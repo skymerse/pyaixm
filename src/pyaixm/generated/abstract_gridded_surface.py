@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.abstract_gridded_surface_type import AbstractGriddedSurfaceType
+from pyaixm.generated.abstract_gridded_surface_type import (
+    AbstractGriddedSurfaceType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

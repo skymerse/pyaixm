@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.checkpoint_instime_slice_type import CheckpointInstimeSliceType
+from pyaixm.generated.checkpoint_instime_slice_type import (
+    CheckpointInstimeSliceType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

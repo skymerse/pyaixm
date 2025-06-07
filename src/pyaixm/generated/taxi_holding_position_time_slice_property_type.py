@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.taxi_holding_position_time_slice import (
+from pyaixm.generated.taxi_holding_position_time_slice import (
     TaxiHoldingPositionTimeSlice,
 )
 

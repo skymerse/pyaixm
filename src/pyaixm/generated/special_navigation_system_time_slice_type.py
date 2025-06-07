@@ -2,21 +2,23 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.authority_for_special_navigation_system_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.authority_for_special_navigation_system_property_type import (
     AuthorityForSpecialNavigationSystemPropertyType,
 )
-from generated.code_special_navigation_chain_designator_type import (
+from pyaixm.generated.code_special_navigation_chain_designator_type import (
     CodeSpecialNavigationChainDesignatorType,
 )
-from generated.code_special_navigation_system_type import (
+from pyaixm.generated.code_special_navigation_system_type import (
     CodeSpecialNavigationSystemType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.special_navigation_system_time_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.special_navigation_system_time_slice_type_extension import (
     SpecialNavigationSystemTimeSliceTypeExtension,
 )
-from generated.text_name_type import TextNameType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

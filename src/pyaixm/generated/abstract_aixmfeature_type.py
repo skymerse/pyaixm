@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmfeature_base_type import (
+from pyaixm.generated.abstract_aixmfeature_base_type import (
     AbstractAixmfeatureBaseType,
 )
-from generated.feature_metadata_property_type import (
+from pyaixm.generated.feature_metadata_property_type import (
     FeatureMetadataPropertyType,
 )
 

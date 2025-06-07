@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_feature_type import AbstractFeatureType
+from pyaixm.generated.abstract_feature_type import AbstractFeatureType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

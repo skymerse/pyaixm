@@ -1,15 +1,15 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.ci_address_property_type import CiAddressPropertyType
-from generated.ci_online_resource_property_type import (
+from pyaixm.generated.ci_address_property_type import CiAddressPropertyType
+from pyaixm.generated.ci_online_resource_property_type import (
     CiOnlineResourcePropertyType,
 )
-from generated.ci_telephone_property_type import CiTelephonePropertyType
+from pyaixm.generated.ci_telephone_property_type import CiTelephonePropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ridge_type import RidgeType
+from pyaixm.generated.ridge_type import RidgeType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

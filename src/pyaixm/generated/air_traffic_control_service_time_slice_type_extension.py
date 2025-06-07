@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.air_traffic_control_service_extension import (
+from pyaixm.generated.air_traffic_control_service_extension import (
     AirTrafficControlServiceExtension,
 )
-from generated.service_extension_1 import ServiceExtension1
-from generated.service_extension_2 import ServiceExtension2
-from generated.traffic_separation_service_extension import (
+from pyaixm.generated.service_extension_1 import ServiceExtension1
+from pyaixm.generated.service_extension_2 import ServiceExtension2
+from pyaixm.generated.traffic_separation_service_extension import (
     TrafficSeparationServiceExtension,
 )
 

@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_segment_leg_type import AbstractSegmentLegType
-from generated.arrival_leg_time_slice_property_type import (
+from pyaixm.generated.abstract_segment_leg_type import AbstractSegmentLegType
+from pyaixm.generated.arrival_leg_time_slice_property_type import (
     ArrivalLegTimeSlicePropertyType,
 )
 

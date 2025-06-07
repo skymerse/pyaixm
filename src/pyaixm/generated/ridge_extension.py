@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ridge_extension_type import RidgeExtensionType
+from pyaixm.generated.ridge_extension_type import RidgeExtensionType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

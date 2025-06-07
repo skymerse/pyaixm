@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.route_segment_extension_1 import RouteSegmentExtension1
-from generated.route_segment_extension_2 import RouteSegmentExtension2
+from pyaixm.generated.route_segment_extension_1 import RouteSegmentExtension1
+from pyaixm.generated.route_segment_extension_2 import RouteSegmentExtension2
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,10 +1,12 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_navaid_equipment_type import (
+from pyaixm.generated.abstract_navaid_equipment_type import (
     AbstractNavaidEquipmentType,
 )
-from generated.dmetime_slice_property_type import DmetimeSlicePropertyType
+from pyaixm.generated.dmetime_slice_property_type import (
+    DmetimeSlicePropertyType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

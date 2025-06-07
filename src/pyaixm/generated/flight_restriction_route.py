@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.flight_restriction_route_type import FlightRestrictionRouteType
+from pyaixm.generated.flight_restriction_route_type import (
+    FlightRestrictionRouteType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

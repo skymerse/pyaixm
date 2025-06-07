@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.time_ordinal_reference_system_type import (
+from pyaixm.generated.time_ordinal_reference_system_type import (
     TimeOrdinalReferenceSystemType,
 )
 

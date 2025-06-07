@@ -2,12 +2,14 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_direct_flight_type import AbstractDirectFlightType
-from generated.direct_flight_class_type_extension import (
+from pyaixm.generated.abstract_direct_flight_type import (
+    AbstractDirectFlightType,
+)
+from pyaixm.generated.direct_flight_class_type_extension import (
     DirectFlightClassTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

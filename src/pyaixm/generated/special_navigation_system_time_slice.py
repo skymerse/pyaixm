@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.special_navigation_system_time_slice_type import (
+from pyaixm.generated.special_navigation_system_time_slice_type import (
     SpecialNavigationSystemTimeSliceType,
 )
 

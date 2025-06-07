@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.procedure_extension_type_2 import ProcedureExtensionType2
+from pyaixm.generated.procedure_extension_type_2 import ProcedureExtensionType2
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

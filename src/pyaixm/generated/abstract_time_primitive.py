@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.abstract_time_primitive_type import AbstractTimePrimitiveType
+from pyaixm.generated.abstract_time_primitive_type import (
+    AbstractTimePrimitiveType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

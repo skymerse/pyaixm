@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.ground_light_system_extension import GroundLightSystemExtension
-from generated.guidance_line_light_system_extension import (
+from pyaixm.generated.ground_light_system_extension import (
+    GroundLightSystemExtension,
+)
+from pyaixm.generated.guidance_line_light_system_extension import (
     GuidanceLineLightSystemExtension,
 )
 

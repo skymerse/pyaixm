@@ -2,140 +2,160 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_general_operation_parameter_property_type import (
+from pyaixm.generated.abstract_general_operation_parameter_property_type import (
     OperationParameterGroup,
 )
-from generated.abstract_general_parameter_value_property_type import (
+from pyaixm.generated.abstract_general_parameter_value_property_type import (
     ParameterValueGroup,
 )
-from generated.abstract_gmltype import AbstractGmltype
-from generated.abstract_time_primitive_type import (
+from pyaixm.generated.abstract_gmltype import AbstractGmltype
+from pyaixm.generated.abstract_time_primitive_type import (
     TimeEdge,
     TimeInstant,
     TimeNode,
     TimePeriod,
 )
-from generated.aerial_refuelling import AerialRefuelling
-from generated.aerial_refuelling_time_slice import AerialRefuellingTimeSlice
-from generated.aeronautical_ground_light import AeronauticalGroundLight
-from generated.aeronautical_ground_light_time_slice import (
+from pyaixm.generated.aerial_refuelling import AerialRefuelling
+from pyaixm.generated.aerial_refuelling_time_slice import (
+    AerialRefuellingTimeSlice,
+)
+from pyaixm.generated.aeronautical_ground_light import AeronauticalGroundLight
+from pyaixm.generated.aeronautical_ground_light_time_slice import (
     AeronauticalGroundLightTimeSlice,
 )
-from generated.affine_cs_1 import AffineCs1
-from generated.affine_placement import AffinePlacement
-from generated.air_traffic_control_service import AirTrafficControlService
-from generated.air_traffic_control_service_time_slice import (
+from pyaixm.generated.affine_cs_1 import AffineCs1
+from pyaixm.generated.affine_placement import AffinePlacement
+from pyaixm.generated.air_traffic_control_service import (
+    AirTrafficControlService,
+)
+from pyaixm.generated.air_traffic_control_service_time_slice import (
     AirTrafficControlServiceTimeSlice,
 )
-from generated.air_traffic_management_service import (
+from pyaixm.generated.air_traffic_management_service import (
     AirTrafficManagementService,
 )
-from generated.air_traffic_management_service_time_slice import (
+from pyaixm.generated.air_traffic_management_service_time_slice import (
     AirTrafficManagementServiceTimeSlice,
 )
-from generated.aircraft_ground_service import AircraftGroundService
-from generated.aircraft_ground_service_time_slice import (
+from pyaixm.generated.aircraft_ground_service import AircraftGroundService
+from pyaixm.generated.aircraft_ground_service_time_slice import (
     AircraftGroundServiceTimeSlice,
 )
-from generated.aircraft_stand import AircraftStand
-from generated.aircraft_stand_time_slice import AircraftStandTimeSlice
-from generated.airport_clearance_service import AirportClearanceService
-from generated.airport_clearance_service_time_slice import (
+from pyaixm.generated.aircraft_stand import AircraftStand
+from pyaixm.generated.aircraft_stand_time_slice import AircraftStandTimeSlice
+from pyaixm.generated.airport_clearance_service import AirportClearanceService
+from pyaixm.generated.airport_clearance_service_time_slice import (
     AirportClearanceServiceTimeSlice,
 )
-from generated.airport_heliport import AirportHeliport
-from generated.airport_heliport_collocation import AirportHeliportCollocation
-from generated.airport_heliport_collocation_time_slice import (
+from pyaixm.generated.airport_heliport import AirportHeliport
+from pyaixm.generated.airport_heliport_collocation import (
+    AirportHeliportCollocation,
+)
+from pyaixm.generated.airport_heliport_collocation_time_slice import (
     AirportHeliportCollocationTimeSlice,
 )
-from generated.airport_heliport_time_slice import AirportHeliportTimeSlice
-from generated.airport_hot_spot import AirportHotSpot
-from generated.airport_hot_spot_time_slice import AirportHotSpotTimeSlice
-from generated.airport_protection_area_marking import (
+from pyaixm.generated.airport_heliport_time_slice import (
+    AirportHeliportTimeSlice,
+)
+from pyaixm.generated.airport_hot_spot import AirportHotSpot
+from pyaixm.generated.airport_hot_spot_time_slice import (
+    AirportHotSpotTimeSlice,
+)
+from pyaixm.generated.airport_protection_area_marking import (
     AirportProtectionAreaMarking,
 )
-from generated.airport_protection_area_marking_time_slice import (
+from pyaixm.generated.airport_protection_area_marking_time_slice import (
     AirportProtectionAreaMarkingTimeSlice,
 )
-from generated.airport_sign import AirportSign
-from generated.airport_sign_time_slice import AirportSignTimeSlice
-from generated.airport_supplies_service import AirportSuppliesService
-from generated.airport_supplies_service_time_slice import (
+from pyaixm.generated.airport_sign import AirportSign
+from pyaixm.generated.airport_sign_time_slice import AirportSignTimeSlice
+from pyaixm.generated.airport_supplies_service import AirportSuppliesService
+from pyaixm.generated.airport_supplies_service_time_slice import (
     AirportSuppliesServiceTimeSlice,
 )
-from generated.airspace import Airspace
-from generated.airspace_border_crossing import AirspaceBorderCrossing
-from generated.airspace_border_crossing_time_slice import (
+from pyaixm.generated.airspace import Airspace
+from pyaixm.generated.airspace_border_crossing import AirspaceBorderCrossing
+from pyaixm.generated.airspace_border_crossing_time_slice import (
     AirspaceBorderCrossingTimeSlice,
 )
-from generated.airspace_time_slice import AirspaceTimeSlice
-from generated.aixmbasic_message import AixmbasicMessage
-from generated.altimeter_source import AltimeterSource
-from generated.altimeter_source_time_slice import AltimeterSourceTimeSlice
-from generated.angle_indication import AngleIndication
-from generated.angle_indication_time_slice import AngleIndicationTimeSlice
-from generated.approach_lighting_system import ApproachLightingSystem
-from generated.approach_lighting_system_time_slice import (
+from pyaixm.generated.airspace_time_slice import AirspaceTimeSlice
+from pyaixm.generated.aixmbasic_message import AixmbasicMessage
+from pyaixm.generated.altimeter_source import AltimeterSource
+from pyaixm.generated.altimeter_source_time_slice import (
+    AltimeterSourceTimeSlice,
+)
+from pyaixm.generated.angle_indication import AngleIndication
+from pyaixm.generated.angle_indication_time_slice import (
+    AngleIndicationTimeSlice,
+)
+from pyaixm.generated.approach_lighting_system import ApproachLightingSystem
+from pyaixm.generated.approach_lighting_system_time_slice import (
     ApproachLightingSystemTimeSlice,
 )
-from generated.apron import Apron
-from generated.apron_element import ApronElement
-from generated.apron_element_time_slice import ApronElementTimeSlice
-from generated.apron_light_system import ApronLightSystem
-from generated.apron_light_system_time_slice import ApronLightSystemTimeSlice
-from generated.apron_marking import ApronMarking
-from generated.apron_marking_time_slice import ApronMarkingTimeSlice
-from generated.apron_time_slice import ApronTimeSlice
-from generated.arc import Arc
-from generated.arc_by_bulge import ArcByBulge
-from generated.arc_by_center_point import ArcByCenterPoint
-from generated.arc_string import ArcString
-from generated.arc_string_by_bulge import ArcStringByBulge
-from generated.arresting_gear import ArrestingGear
-from generated.arresting_gear_time_slice import ArrestingGearTimeSlice
-from generated.arrival_feeder_leg import ArrivalFeederLeg
-from generated.arrival_feeder_leg_time_slice import ArrivalFeederLegTimeSlice
-from generated.arrival_leg import ArrivalLeg
-from generated.arrival_leg_time_slice import ArrivalLegTimeSlice
-from generated.authority_for_airspace import AuthorityForAirspace
-from generated.authority_for_airspace_time_slice import (
+from pyaixm.generated.apron import Apron
+from pyaixm.generated.apron_element import ApronElement
+from pyaixm.generated.apron_element_time_slice import ApronElementTimeSlice
+from pyaixm.generated.apron_light_system import ApronLightSystem
+from pyaixm.generated.apron_light_system_time_slice import (
+    ApronLightSystemTimeSlice,
+)
+from pyaixm.generated.apron_marking import ApronMarking
+from pyaixm.generated.apron_marking_time_slice import ApronMarkingTimeSlice
+from pyaixm.generated.apron_time_slice import ApronTimeSlice
+from pyaixm.generated.arc import Arc
+from pyaixm.generated.arc_by_bulge import ArcByBulge
+from pyaixm.generated.arc_by_center_point import ArcByCenterPoint
+from pyaixm.generated.arc_string import ArcString
+from pyaixm.generated.arc_string_by_bulge import ArcStringByBulge
+from pyaixm.generated.arresting_gear import ArrestingGear
+from pyaixm.generated.arresting_gear_time_slice import ArrestingGearTimeSlice
+from pyaixm.generated.arrival_feeder_leg import ArrivalFeederLeg
+from pyaixm.generated.arrival_feeder_leg_time_slice import (
+    ArrivalFeederLegTimeSlice,
+)
+from pyaixm.generated.arrival_leg import ArrivalLeg
+from pyaixm.generated.arrival_leg_time_slice import ArrivalLegTimeSlice
+from pyaixm.generated.authority_for_airspace import AuthorityForAirspace
+from pyaixm.generated.authority_for_airspace_time_slice import (
     AuthorityForAirspaceTimeSlice,
 )
-from generated.azimuth import Azimuth
-from generated.azimuth_time_slice import AzimuthTimeSlice
-from generated.base_unit import BaseUnit
-from generated.bezier import Bezier
-from generated.boolean_1 import Boolean1
-from generated.boolean_list import BooleanList
-from generated.bspline import Bspline
-from generated.cartesian_cs_1 import CartesianCs1
-from generated.category import Category
-from generated.category_extent import CategoryExtent
-from generated.category_list import CategoryList
-from generated.change_over_point import ChangeOverPoint
-from generated.change_over_point_time_slice import ChangeOverPointTimeSlice
-from generated.checkpoint_ins import CheckpointIns
-from generated.checkpoint_instime_slice import CheckpointInstimeSlice
-from generated.checkpoint_vor import CheckpointVor
-from generated.checkpoint_vortime_slice import CheckpointVortimeSlice
-from generated.circle import Circle
-from generated.circle_by_center_point import CircleByCenterPoint
-from generated.circling_area import CirclingArea
-from generated.circling_area_time_slice import CirclingAreaTimeSlice
-from generated.clothoid import Clothoid
-from generated.conventional_unit import ConventionalUnit
-from generated.coordinate_operation_property_type import (
+from pyaixm.generated.azimuth import Azimuth
+from pyaixm.generated.azimuth_time_slice import AzimuthTimeSlice
+from pyaixm.generated.base_unit import BaseUnit
+from pyaixm.generated.bezier import Bezier
+from pyaixm.generated.boolean_1 import Boolean1
+from pyaixm.generated.boolean_list import BooleanList
+from pyaixm.generated.bspline import Bspline
+from pyaixm.generated.cartesian_cs_1 import CartesianCs1
+from pyaixm.generated.category import Category
+from pyaixm.generated.category_extent import CategoryExtent
+from pyaixm.generated.category_list import CategoryList
+from pyaixm.generated.change_over_point import ChangeOverPoint
+from pyaixm.generated.change_over_point_time_slice import (
+    ChangeOverPointTimeSlice,
+)
+from pyaixm.generated.checkpoint_ins import CheckpointIns
+from pyaixm.generated.checkpoint_instime_slice import CheckpointInstimeSlice
+from pyaixm.generated.checkpoint_vor import CheckpointVor
+from pyaixm.generated.checkpoint_vortime_slice import CheckpointVortimeSlice
+from pyaixm.generated.circle import Circle
+from pyaixm.generated.circle_by_center_point import CircleByCenterPoint
+from pyaixm.generated.circling_area import CirclingArea
+from pyaixm.generated.circling_area_time_slice import CirclingAreaTimeSlice
+from pyaixm.generated.clothoid import Clothoid
+from pyaixm.generated.conventional_unit import ConventionalUnit
+from pyaixm.generated.coordinate_operation_property_type import (
     ConcatenatedOperation,
     PassThroughOperation,
 )
-from generated.coordinate_system_axis import CoordinateSystemAxis
-from generated.count import Count
-from generated.count_extent import CountExtent
-from generated.count_list import CountList
-from generated.coverage_function import CoverageFunction
-from generated.coverage_mapping_rule import CoverageMappingRule
-from generated.cubic_spline import CubicSpline
-from generated.curve_property_type_1 import (
+from pyaixm.generated.coordinate_system_axis import CoordinateSystemAxis
+from pyaixm.generated.count import Count
+from pyaixm.generated.count_extent import CountExtent
+from pyaixm.generated.count_list import CountList
+from pyaixm.generated.coverage_function import CoverageFunction
+from pyaixm.generated.coverage_mapping_rule import CoverageMappingRule
+from pyaixm.generated.cubic_spline import CubicSpline
+from pyaixm.generated.curve_property_type_1 import (
     CompositeCurve,
     Curve1,
     Curve2,
@@ -143,239 +163,281 @@ from generated.curve_property_type_1 import (
     OffsetCurve,
     OrientableCurve,
 )
-from generated.cylindrical_cs_1 import CylindricalCs1
-from generated.data_block import DataBlock
-from generated.definition import Definition
-from generated.definition_proxy import DefinitionProxy
-from generated.deicing_area import DeicingArea
-from generated.deicing_area_marking import DeicingAreaMarking
-from generated.deicing_area_marking_time_slice import (
+from pyaixm.generated.cylindrical_cs_1 import CylindricalCs1
+from pyaixm.generated.data_block import DataBlock
+from pyaixm.generated.definition import Definition
+from pyaixm.generated.definition_proxy import DefinitionProxy
+from pyaixm.generated.deicing_area import DeicingArea
+from pyaixm.generated.deicing_area_marking import DeicingAreaMarking
+from pyaixm.generated.deicing_area_marking_time_slice import (
     DeicingAreaMarkingTimeSlice,
 )
-from generated.deicing_area_time_slice import DeicingAreaTimeSlice
-from generated.departure_leg import DepartureLeg
-from generated.departure_leg_time_slice import DepartureLegTimeSlice
-from generated.derived_unit import DerivedUnit
-from generated.designated_point import DesignatedPoint
-from generated.designated_point_time_slice import DesignatedPointTimeSlice
-from generated.dictionary_type import (
+from pyaixm.generated.deicing_area_time_slice import DeicingAreaTimeSlice
+from pyaixm.generated.departure_leg import DepartureLeg
+from pyaixm.generated.departure_leg_time_slice import DepartureLegTimeSlice
+from pyaixm.generated.derived_unit import DerivedUnit
+from pyaixm.generated.designated_point import DesignatedPoint
+from pyaixm.generated.designated_point_time_slice import (
+    DesignatedPointTimeSlice,
+)
+from pyaixm.generated.dictionary_type import (
     DefinitionCollection,
     Dictionary,
 )
-from generated.direction_finder import DirectionFinder
-from generated.direction_finder_time_slice import DirectionFinderTimeSlice
-from generated.distance_indication import DistanceIndication
-from generated.distance_indication_time_slice import (
+from pyaixm.generated.direction_finder import DirectionFinder
+from pyaixm.generated.direction_finder_time_slice import (
+    DirectionFinderTimeSlice,
+)
+from pyaixm.generated.distance_indication import DistanceIndication
+from pyaixm.generated.distance_indication_time_slice import (
     DistanceIndicationTimeSlice,
 )
-from generated.dme import Dme
-from generated.dmetime_slice import DmetimeSlice
-from generated.dynamic_feature import DynamicFeature
-from generated.dynamic_feature_collection_type import DynamicFeatureCollection
-from generated.elevated_point import ElevatedPoint
-from generated.elevated_surface import ElevatedSurface
-from generated.elevation import Elevation
-from generated.elevation_time_slice import ElevationTimeSlice
-from generated.ellipsoid_1 import Ellipsoid1
-from generated.ellipsoidal_cs_1 import EllipsoidalCs1
-from generated.envelope import Envelope
-from generated.envelope_with_time_period import EnvelopeWithTimePeriod
-from generated.event import Event
-from generated.event_time_slice import EventTimeSlice
-from generated.face_or_topo_solid_property_type import (
+from pyaixm.generated.dme import Dme
+from pyaixm.generated.dmetime_slice import DmetimeSlice
+from pyaixm.generated.dynamic_feature import DynamicFeature
+from pyaixm.generated.dynamic_feature_collection_type import (
+    DynamicFeatureCollection,
+)
+from pyaixm.generated.elevated_point import ElevatedPoint
+from pyaixm.generated.elevated_surface import ElevatedSurface
+from pyaixm.generated.elevation import Elevation
+from pyaixm.generated.elevation_time_slice import ElevationTimeSlice
+from pyaixm.generated.ellipsoid_1 import Ellipsoid1
+from pyaixm.generated.ellipsoidal_cs_1 import EllipsoidalCs1
+from pyaixm.generated.envelope import Envelope
+from pyaixm.generated.envelope_with_time_period import EnvelopeWithTimePeriod
+from pyaixm.generated.event import Event
+from pyaixm.generated.event_time_slice import EventTimeSlice
+from pyaixm.generated.face_or_topo_solid_property_type import (
     Edge,
     Face,
     Node,
     TopoSolid,
 )
-from generated.feature_property_type import (
+from pyaixm.generated.feature_property_type import (
     DirectedObservation,
     DirectedObservationAtDistance,
     FeatureCollection,
     Observation,
 )
-from generated.file import File
-from generated.final_leg import FinalLeg
-from generated.final_leg_time_slice import FinalLegTimeSlice
-from generated.fire_fighting_service import FireFightingService
-from generated.fire_fighting_service_time_slice import (
+from pyaixm.generated.file import File
+from pyaixm.generated.final_leg import FinalLeg
+from pyaixm.generated.final_leg_time_slice import FinalLegTimeSlice
+from pyaixm.generated.fire_fighting_service import FireFightingService
+from pyaixm.generated.fire_fighting_service_time_slice import (
     FireFightingServiceTimeSlice,
 )
-from generated.flight_restriction import FlightRestriction
-from generated.flight_restriction_time_slice import FlightRestrictionTimeSlice
-from generated.floating_dock_site import FloatingDockSite
-from generated.floating_dock_site_time_slice import FloatingDockSiteTimeSlice
-from generated.generic_meta_data import GenericMetaData
-from generated.geo_border import GeoBorder
-from generated.geo_border_time_slice import GeoBorderTimeSlice
-from generated.geodesic import Geodesic
-from generated.geodesic_string import GeodesicString
-from generated.geometric_complex import GeometricComplex
-from generated.geometry_array_property_type import MultiGeometry
-from generated.glidepath import Glidepath
-from generated.glidepath_time_slice import GlidepathTimeSlice
-from generated.grid import Grid
-from generated.grid_coverage import GridCoverage
-from generated.grid_function import GridFunction
-from generated.ground_traffic_control_service import (
+from pyaixm.generated.flight_restriction import FlightRestriction
+from pyaixm.generated.flight_restriction_time_slice import (
+    FlightRestrictionTimeSlice,
+)
+from pyaixm.generated.floating_dock_site import FloatingDockSite
+from pyaixm.generated.floating_dock_site_time_slice import (
+    FloatingDockSiteTimeSlice,
+)
+from pyaixm.generated.generic_meta_data import GenericMetaData
+from pyaixm.generated.geo_border import GeoBorder
+from pyaixm.generated.geo_border_time_slice import GeoBorderTimeSlice
+from pyaixm.generated.geodesic import Geodesic
+from pyaixm.generated.geodesic_string import GeodesicString
+from pyaixm.generated.geometric_complex import GeometricComplex
+from pyaixm.generated.geometry_array_property_type import MultiGeometry
+from pyaixm.generated.glidepath import Glidepath
+from pyaixm.generated.glidepath_time_slice import GlidepathTimeSlice
+from pyaixm.generated.grid import Grid
+from pyaixm.generated.grid_coverage import GridCoverage
+from pyaixm.generated.grid_function import GridFunction
+from pyaixm.generated.ground_traffic_control_service import (
     GroundTrafficControlService,
 )
-from generated.ground_traffic_control_service_time_slice import (
+from pyaixm.generated.ground_traffic_control_service_time_slice import (
     GroundTrafficControlServiceTimeSlice,
 )
-from generated.guidance_line import GuidanceLine
-from generated.guidance_line_light_system import GuidanceLineLightSystem
-from generated.guidance_line_light_system_time_slice import (
+from pyaixm.generated.guidance_line import GuidanceLine
+from pyaixm.generated.guidance_line_light_system import GuidanceLineLightSystem
+from pyaixm.generated.guidance_line_light_system_time_slice import (
     GuidanceLineLightSystemTimeSlice,
 )
-from generated.guidance_line_marking import GuidanceLineMarking
-from generated.guidance_line_marking_time_slice import (
+from pyaixm.generated.guidance_line_marking import GuidanceLineMarking
+from pyaixm.generated.guidance_line_marking_time_slice import (
     GuidanceLineMarkingTimeSlice,
 )
-from generated.guidance_line_time_slice import GuidanceLineTimeSlice
-from generated.holding_assessment import HoldingAssessment
-from generated.holding_assessment_time_slice import HoldingAssessmentTimeSlice
-from generated.holding_pattern import HoldingPattern
-from generated.holding_pattern_time_slice import HoldingPatternTimeSlice
-from generated.information_service import InformationService
-from generated.information_service_time_slice import (
+from pyaixm.generated.guidance_line_time_slice import GuidanceLineTimeSlice
+from pyaixm.generated.holding_assessment import HoldingAssessment
+from pyaixm.generated.holding_assessment_time_slice import (
+    HoldingAssessmentTimeSlice,
+)
+from pyaixm.generated.holding_pattern import HoldingPattern
+from pyaixm.generated.holding_pattern_time_slice import HoldingPatternTimeSlice
+from pyaixm.generated.information_service import InformationService
+from pyaixm.generated.information_service_time_slice import (
     InformationServiceTimeSlice,
 )
-from generated.initial_leg import InitialLeg
-from generated.initial_leg_time_slice import InitialLegTimeSlice
-from generated.instrument_approach_procedure import InstrumentApproachProcedure
-from generated.instrument_approach_procedure_time_slice import (
+from pyaixm.generated.initial_leg import InitialLeg
+from pyaixm.generated.initial_leg_time_slice import InitialLegTimeSlice
+from pyaixm.generated.instrument_approach_procedure import (
+    InstrumentApproachProcedure,
+)
+from pyaixm.generated.instrument_approach_procedure_time_slice import (
     InstrumentApproachProcedureTimeSlice,
 )
-from generated.intermediate_leg import IntermediateLeg
-from generated.intermediate_leg_time_slice import IntermediateLegTimeSlice
-from generated.line_string import LineString
-from generated.line_string_segment import LineStringSegment
-from generated.linear_cs_1 import LinearCs1
-from generated.linear_ring import LinearRing
-from generated.localizer import Localizer
-from generated.localizer_time_slice import LocalizerTimeSlice
-from generated.marker_beacon import MarkerBeacon
-from generated.marker_beacon_time_slice import MarkerBeaconTimeSlice
-from generated.marking_buoy import MarkingBuoy
-from generated.marking_buoy_time_slice import MarkingBuoyTimeSlice
-from generated.member import Member
-from generated.missed_approach_leg import MissedApproachLeg
-from generated.missed_approach_leg_time_slice import MissedApproachLegTimeSlice
-from generated.moving_object_status import MovingObjectStatus
-from generated.multi_curve import MultiCurve
-from generated.multi_curve_coverage import MultiCurveCoverage
-from generated.multi_point import MultiPoint
-from generated.multi_point_coverage import MultiPointCoverage
-from generated.multi_solid import MultiSolid
-from generated.multi_solid_coverage import MultiSolidCoverage
-from generated.multi_surface import MultiSurface
-from generated.multi_surface_coverage import MultiSurfaceCoverage
-from generated.navaid import Navaid
-from generated.navaid_time_slice import NavaidTimeSlice
-from generated.navigation_area import NavigationArea
-from generated.navigation_area_restriction import NavigationAreaRestriction
-from generated.navigation_area_restriction_time_slice import (
+from pyaixm.generated.intermediate_leg import IntermediateLeg
+from pyaixm.generated.intermediate_leg_time_slice import (
+    IntermediateLegTimeSlice,
+)
+from pyaixm.generated.line_string import LineString
+from pyaixm.generated.line_string_segment import LineStringSegment
+from pyaixm.generated.linear_cs_1 import LinearCs1
+from pyaixm.generated.linear_ring import LinearRing
+from pyaixm.generated.localizer import Localizer
+from pyaixm.generated.localizer_time_slice import LocalizerTimeSlice
+from pyaixm.generated.marker_beacon import MarkerBeacon
+from pyaixm.generated.marker_beacon_time_slice import MarkerBeaconTimeSlice
+from pyaixm.generated.marking_buoy import MarkingBuoy
+from pyaixm.generated.marking_buoy_time_slice import MarkingBuoyTimeSlice
+from pyaixm.generated.member import Member
+from pyaixm.generated.missed_approach_leg import MissedApproachLeg
+from pyaixm.generated.missed_approach_leg_time_slice import (
+    MissedApproachLegTimeSlice,
+)
+from pyaixm.generated.moving_object_status import MovingObjectStatus
+from pyaixm.generated.multi_curve import MultiCurve
+from pyaixm.generated.multi_curve_coverage import MultiCurveCoverage
+from pyaixm.generated.multi_point import MultiPoint
+from pyaixm.generated.multi_point_coverage import MultiPointCoverage
+from pyaixm.generated.multi_solid import MultiSolid
+from pyaixm.generated.multi_solid_coverage import MultiSolidCoverage
+from pyaixm.generated.multi_surface import MultiSurface
+from pyaixm.generated.multi_surface_coverage import MultiSurfaceCoverage
+from pyaixm.generated.navaid import Navaid
+from pyaixm.generated.navaid_time_slice import NavaidTimeSlice
+from pyaixm.generated.navigation_area import NavigationArea
+from pyaixm.generated.navigation_area_restriction import (
+    NavigationAreaRestriction,
+)
+from pyaixm.generated.navigation_area_restriction_time_slice import (
     NavigationAreaRestrictionTimeSlice,
 )
-from generated.navigation_area_time_slice import NavigationAreaTimeSlice
-from generated.ndb import Ndb
-from generated.ndbtime_slice import NdbtimeSlice
-from generated.non_movement_area import NonMovementArea
-from generated.non_movement_area_time_slice import NonMovementAreaTimeSlice
-from generated.oblique_cartesian_cs import ObliqueCartesianCs
-from generated.obstacle_area import ObstacleArea
-from generated.obstacle_area_time_slice import ObstacleAreaTimeSlice
-from generated.operation_method import OperationMethod
-from generated.operation_parameter_1 import OperationParameter1
-from generated.organisation_authority import OrganisationAuthority
-from generated.organisation_authority_time_slice import (
+from pyaixm.generated.navigation_area_time_slice import NavigationAreaTimeSlice
+from pyaixm.generated.ndb import Ndb
+from pyaixm.generated.ndbtime_slice import NdbtimeSlice
+from pyaixm.generated.non_movement_area import NonMovementArea
+from pyaixm.generated.non_movement_area_time_slice import (
+    NonMovementAreaTimeSlice,
+)
+from pyaixm.generated.oblique_cartesian_cs import ObliqueCartesianCs
+from pyaixm.generated.obstacle_area import ObstacleArea
+from pyaixm.generated.obstacle_area_time_slice import ObstacleAreaTimeSlice
+from pyaixm.generated.operation_method import OperationMethod
+from pyaixm.generated.operation_parameter_1 import OperationParameter1
+from pyaixm.generated.organisation_authority import OrganisationAuthority
+from pyaixm.generated.organisation_authority_time_slice import (
     OrganisationAuthorityTimeSlice,
 )
-from generated.parameter_value_1 import ParameterValue1
-from generated.passenger_loading_bridge import PassengerLoadingBridge
-from generated.passenger_loading_bridge_time_slice import (
+from pyaixm.generated.parameter_value_1 import ParameterValue1
+from pyaixm.generated.passenger_loading_bridge import PassengerLoadingBridge
+from pyaixm.generated.passenger_loading_bridge_time_slice import (
     PassengerLoadingBridgeTimeSlice,
 )
-from generated.passenger_service import PassengerService
-from generated.passenger_service_time_slice import PassengerServiceTimeSlice
-from generated.pilot_controlled_lighting import PilotControlledLighting
-from generated.pilot_controlled_lighting_time_slice import (
+from pyaixm.generated.passenger_service import PassengerService
+from pyaixm.generated.passenger_service_time_slice import (
+    PassengerServiceTimeSlice,
+)
+from pyaixm.generated.pilot_controlled_lighting import PilotControlledLighting
+from pyaixm.generated.pilot_controlled_lighting_time_slice import (
     PilotControlledLightingTimeSlice,
 )
-from generated.point_1 import Point1
-from generated.point_2 import Point2
-from generated.polar_cs_1 import PolarCs1
-from generated.polygon import Polygon
-from generated.polyhedral_surface import PolyhedralSurface
-from generated.precision_approach_radar import PrecisionApproachRadar
-from generated.precision_approach_radar_time_slice import (
+from pyaixm.generated.point_1 import Point1
+from pyaixm.generated.point_2 import Point2
+from pyaixm.generated.polar_cs_1 import PolarCs1
+from pyaixm.generated.polygon import Polygon
+from pyaixm.generated.polyhedral_surface import PolyhedralSurface
+from pyaixm.generated.precision_approach_radar import PrecisionApproachRadar
+from pyaixm.generated.precision_approach_radar_time_slice import (
     PrecisionApproachRadarTimeSlice,
 )
-from generated.primary_surveillance_radar import PrimarySurveillanceRadar
-from generated.primary_surveillance_radar_time_slice import (
+from pyaixm.generated.primary_surveillance_radar import (
+    PrimarySurveillanceRadar,
+)
+from pyaixm.generated.primary_surveillance_radar_time_slice import (
     PrimarySurveillanceRadarTimeSlice,
 )
-from generated.prime_meridian_1 import PrimeMeridian1
-from generated.procedure_dme import ProcedureDme
-from generated.procedure_dmetime_slice import ProcedureDmetimeSlice
-from generated.quantity import Quantity
-from generated.quantity_extent import QuantityExtent
-from generated.quantity_list import QuantityList
-from generated.radar_system import RadarSystem
-from generated.radar_system_time_slice import RadarSystemTimeSlice
-from generated.radio_communication_channel import RadioCommunicationChannel
-from generated.radio_communication_channel_time_slice import (
+from pyaixm.generated.prime_meridian_1 import PrimeMeridian1
+from pyaixm.generated.procedure_dme import ProcedureDme
+from pyaixm.generated.procedure_dmetime_slice import ProcedureDmetimeSlice
+from pyaixm.generated.quantity import Quantity
+from pyaixm.generated.quantity_extent import QuantityExtent
+from pyaixm.generated.quantity_list import QuantityList
+from pyaixm.generated.radar_system import RadarSystem
+from pyaixm.generated.radar_system_time_slice import RadarSystemTimeSlice
+from pyaixm.generated.radio_communication_channel import (
+    RadioCommunicationChannel,
+)
+from pyaixm.generated.radio_communication_channel_time_slice import (
     RadioCommunicationChannelTimeSlice,
 )
-from generated.radio_frequency_area import RadioFrequencyArea
-from generated.radio_frequency_area_time_slice import (
+from pyaixm.generated.radio_frequency_area import RadioFrequencyArea
+from pyaixm.generated.radio_frequency_area_time_slice import (
     RadioFrequencyAreaTimeSlice,
 )
-from generated.rectified_grid import RectifiedGrid
-from generated.rectified_grid_coverage import RectifiedGridCoverage
-from generated.ring import Ring
-from generated.road import Road
-from generated.road_time_slice import RoadTimeSlice
-from generated.route import Route
-from generated.route_dme import RouteDme
-from generated.route_dmetime_slice import RouteDmetimeSlice
-from generated.route_segment import RouteSegment
-from generated.route_segment_time_slice import RouteSegmentTimeSlice
-from generated.route_time_slice import RouteTimeSlice
-from generated.rules_procedures import RulesProcedures
-from generated.rules_procedures_time_slice import RulesProceduresTimeSlice
-from generated.runway import Runway
-from generated.runway_blast_pad import RunwayBlastPad
-from generated.runway_blast_pad_time_slice import RunwayBlastPadTimeSlice
-from generated.runway_centreline_point import RunwayCentrelinePoint
-from generated.runway_centreline_point_time_slice import (
+from pyaixm.generated.rectified_grid import RectifiedGrid
+from pyaixm.generated.rectified_grid_coverage import RectifiedGridCoverage
+from pyaixm.generated.ring import Ring
+from pyaixm.generated.road import Road
+from pyaixm.generated.road_time_slice import RoadTimeSlice
+from pyaixm.generated.route import Route
+from pyaixm.generated.route_dme import RouteDme
+from pyaixm.generated.route_dmetime_slice import RouteDmetimeSlice
+from pyaixm.generated.route_segment import RouteSegment
+from pyaixm.generated.route_segment_time_slice import RouteSegmentTimeSlice
+from pyaixm.generated.route_time_slice import RouteTimeSlice
+from pyaixm.generated.rules_procedures import RulesProcedures
+from pyaixm.generated.rules_procedures_time_slice import (
+    RulesProceduresTimeSlice,
+)
+from pyaixm.generated.runway import Runway
+from pyaixm.generated.runway_blast_pad import RunwayBlastPad
+from pyaixm.generated.runway_blast_pad_time_slice import (
+    RunwayBlastPadTimeSlice,
+)
+from pyaixm.generated.runway_centreline_point import RunwayCentrelinePoint
+from pyaixm.generated.runway_centreline_point_time_slice import (
     RunwayCentrelinePointTimeSlice,
 )
-from generated.runway_direction import RunwayDirection
-from generated.runway_direction_light_system import RunwayDirectionLightSystem
-from generated.runway_direction_light_system_time_slice import (
+from pyaixm.generated.runway_direction import RunwayDirection
+from pyaixm.generated.runway_direction_light_system import (
+    RunwayDirectionLightSystem,
+)
+from pyaixm.generated.runway_direction_light_system_time_slice import (
     RunwayDirectionLightSystemTimeSlice,
 )
-from generated.runway_direction_time_slice import RunwayDirectionTimeSlice
-from generated.runway_element import RunwayElement
-from generated.runway_element_time_slice import RunwayElementTimeSlice
-from generated.runway_marking import RunwayMarking
-from generated.runway_marking_time_slice import RunwayMarkingTimeSlice
-from generated.runway_protect_area import RunwayProtectArea
-from generated.runway_protect_area_light_system import (
+from pyaixm.generated.runway_direction_time_slice import (
+    RunwayDirectionTimeSlice,
+)
+from pyaixm.generated.runway_element import RunwayElement
+from pyaixm.generated.runway_element_time_slice import RunwayElementTimeSlice
+from pyaixm.generated.runway_marking import RunwayMarking
+from pyaixm.generated.runway_marking_time_slice import RunwayMarkingTimeSlice
+from pyaixm.generated.runway_protect_area import RunwayProtectArea
+from pyaixm.generated.runway_protect_area_light_system import (
     RunwayProtectAreaLightSystem,
 )
-from generated.runway_protect_area_light_system_time_slice import (
+from pyaixm.generated.runway_protect_area_light_system_time_slice import (
     RunwayProtectAreaLightSystemTimeSlice,
 )
-from generated.runway_protect_area_time_slice import RunwayProtectAreaTimeSlice
-from generated.runway_time_slice import RunwayTimeSlice
-from generated.runway_visual_range import RunwayVisualRange
-from generated.runway_visual_range_time_slice import RunwayVisualRangeTimeSlice
-from generated.safe_altitude_area import SafeAltitudeArea
-from generated.safe_altitude_area_time_slice import SafeAltitudeAreaTimeSlice
-from generated.sc_crs_property_type import (
+from pyaixm.generated.runway_protect_area_time_slice import (
+    RunwayProtectAreaTimeSlice,
+)
+from pyaixm.generated.runway_time_slice import RunwayTimeSlice
+from pyaixm.generated.runway_visual_range import RunwayVisualRange
+from pyaixm.generated.runway_visual_range_time_slice import (
+    RunwayVisualRangeTimeSlice,
+)
+from pyaixm.generated.safe_altitude_area import SafeAltitudeArea
+from pyaixm.generated.safe_altitude_area_time_slice import (
+    SafeAltitudeAreaTimeSlice,
+)
+from pyaixm.generated.sc_crs_property_type import (
     CompoundCrs,
     Conversion1,
     DerivedCrs,
@@ -393,155 +455,183 @@ from generated.sc_crs_property_type import (
     VerticalCrs,
     VerticalDatum1,
 )
-from generated.sdf import Sdf
-from generated.sdftime_slice import SdftimeSlice
-from generated.seaplane_landing_area import SeaplaneLandingArea
-from generated.seaplane_landing_area_time_slice import (
+from pyaixm.generated.sdf import Sdf
+from pyaixm.generated.sdftime_slice import SdftimeSlice
+from pyaixm.generated.seaplane_landing_area import SeaplaneLandingArea
+from pyaixm.generated.seaplane_landing_area_time_slice import (
     SeaplaneLandingAreaTimeSlice,
 )
-from generated.seaplane_ramp_site import SeaplaneRampSite
-from generated.seaplane_ramp_site_time_slice import SeaplaneRampSiteTimeSlice
-from generated.search_rescue_service import SearchRescueService
-from generated.search_rescue_service_time_slice import (
+from pyaixm.generated.seaplane_ramp_site import SeaplaneRampSite
+from pyaixm.generated.seaplane_ramp_site_time_slice import (
+    SeaplaneRampSiteTimeSlice,
+)
+from pyaixm.generated.search_rescue_service import SearchRescueService
+from pyaixm.generated.search_rescue_service_time_slice import (
     SearchRescueServiceTimeSlice,
 )
-from generated.secondary_surveillance_radar import SecondarySurveillanceRadar
-from generated.secondary_surveillance_radar_time_slice import (
+from pyaixm.generated.secondary_surveillance_radar import (
+    SecondarySurveillanceRadar,
+)
+from pyaixm.generated.secondary_surveillance_radar_time_slice import (
     SecondarySurveillanceRadarTimeSlice,
 )
-from generated.shell import Shell
-from generated.significant_point_in_airspace import SignificantPointInAirspace
-from generated.significant_point_in_airspace_time_slice import (
+from pyaixm.generated.shell import Shell
+from pyaixm.generated.significant_point_in_airspace import (
+    SignificantPointInAirspace,
+)
+from pyaixm.generated.significant_point_in_airspace_time_slice import (
     SignificantPointInAirspaceTimeSlice,
 )
-from generated.solid import Solid
-from generated.solid_property_type import CompositeSolid
-from generated.special_date import SpecialDate
-from generated.special_date_time_slice import SpecialDateTimeSlice
-from generated.special_navigation_station import SpecialNavigationStation
-from generated.special_navigation_station_time_slice import (
+from pyaixm.generated.solid import Solid
+from pyaixm.generated.solid_property_type import CompositeSolid
+from pyaixm.generated.special_date import SpecialDate
+from pyaixm.generated.special_date_time_slice import SpecialDateTimeSlice
+from pyaixm.generated.special_navigation_station import (
+    SpecialNavigationStation,
+)
+from pyaixm.generated.special_navigation_station_time_slice import (
     SpecialNavigationStationTimeSlice,
 )
-from generated.special_navigation_system import SpecialNavigationSystem
-from generated.special_navigation_system_time_slice import (
+from pyaixm.generated.special_navigation_system import SpecialNavigationSystem
+from pyaixm.generated.special_navigation_system_time_slice import (
     SpecialNavigationSystemTimeSlice,
 )
-from generated.spherical_cs_1 import SphericalCs1
-from generated.stand_marking import StandMarking
-from generated.stand_marking_time_slice import StandMarkingTimeSlice
-from generated.standard_instrument_arrival import StandardInstrumentArrival
-from generated.standard_instrument_arrival_time_slice import (
+from pyaixm.generated.spherical_cs_1 import SphericalCs1
+from pyaixm.generated.stand_marking import StandMarking
+from pyaixm.generated.stand_marking_time_slice import StandMarkingTimeSlice
+from pyaixm.generated.standard_instrument_arrival import (
+    StandardInstrumentArrival,
+)
+from pyaixm.generated.standard_instrument_arrival_time_slice import (
     StandardInstrumentArrivalTimeSlice,
 )
-from generated.standard_instrument_departure import StandardInstrumentDeparture
-from generated.standard_instrument_departure_time_slice import (
+from pyaixm.generated.standard_instrument_departure import (
+    StandardInstrumentDeparture,
+)
+from pyaixm.generated.standard_instrument_departure_time_slice import (
     StandardInstrumentDepartureTimeSlice,
 )
-from generated.standard_level_column import StandardLevelColumn
-from generated.standard_level_column_time_slice import (
+from pyaixm.generated.standard_level_column import StandardLevelColumn
+from pyaixm.generated.standard_level_column_time_slice import (
     StandardLevelColumnTimeSlice,
 )
-from generated.standard_level_sector import StandardLevelSector
-from generated.standard_level_sector_time_slice import (
+from pyaixm.generated.standard_level_sector import StandardLevelSector
+from pyaixm.generated.standard_level_sector_time_slice import (
     StandardLevelSectorTimeSlice,
 )
-from generated.standard_level_table import StandardLevelTable
-from generated.standard_level_table_time_slice import (
+from pyaixm.generated.standard_level_table import StandardLevelTable
+from pyaixm.generated.standard_level_table_time_slice import (
     StandardLevelTableTimeSlice,
 )
-from generated.surface_1 import Surface1
-from generated.surface_2 import Surface2
-from generated.surface_property_type_1 import (
+from pyaixm.generated.surface_1 import Surface1
+from pyaixm.generated.surface_2 import Surface2
+from pyaixm.generated.surface_property_type_1 import (
     CompositeSurface,
     OrientableSurface,
 )
-from generated.survey_control_point import SurveyControlPoint
-from generated.survey_control_point_time_slice import (
+from pyaixm.generated.survey_control_point import SurveyControlPoint
+from pyaixm.generated.survey_control_point_time_slice import (
     SurveyControlPointTimeSlice,
 )
-from generated.tacan import Tacan
-from generated.tacantime_slice import TacantimeSlice
-from generated.taxi_holding_position import TaxiHoldingPosition
-from generated.taxi_holding_position_light_system import (
+from pyaixm.generated.tacan import Tacan
+from pyaixm.generated.tacantime_slice import TacantimeSlice
+from pyaixm.generated.taxi_holding_position import TaxiHoldingPosition
+from pyaixm.generated.taxi_holding_position_light_system import (
     TaxiHoldingPositionLightSystem,
 )
-from generated.taxi_holding_position_light_system_time_slice import (
+from pyaixm.generated.taxi_holding_position_light_system_time_slice import (
     TaxiHoldingPositionLightSystemTimeSlice,
 )
-from generated.taxi_holding_position_marking import TaxiHoldingPositionMarking
-from generated.taxi_holding_position_marking_time_slice import (
+from pyaixm.generated.taxi_holding_position_marking import (
+    TaxiHoldingPositionMarking,
+)
+from pyaixm.generated.taxi_holding_position_marking_time_slice import (
     TaxiHoldingPositionMarkingTimeSlice,
 )
-from generated.taxi_holding_position_time_slice import (
+from pyaixm.generated.taxi_holding_position_time_slice import (
     TaxiHoldingPositionTimeSlice,
 )
-from generated.taxiway import Taxiway
-from generated.taxiway_element import TaxiwayElement
-from generated.taxiway_element_time_slice import TaxiwayElementTimeSlice
-from generated.taxiway_light_system import TaxiwayLightSystem
-from generated.taxiway_light_system_time_slice import (
+from pyaixm.generated.taxiway import Taxiway
+from pyaixm.generated.taxiway_element import TaxiwayElement
+from pyaixm.generated.taxiway_element_time_slice import TaxiwayElementTimeSlice
+from pyaixm.generated.taxiway_light_system import TaxiwayLightSystem
+from pyaixm.generated.taxiway_light_system_time_slice import (
     TaxiwayLightSystemTimeSlice,
 )
-from generated.taxiway_marking import TaxiwayMarking
-from generated.taxiway_marking_time_slice import TaxiwayMarkingTimeSlice
-from generated.taxiway_time_slice import TaxiwayTimeSlice
-from generated.temporal_cs import TemporalCs
-from generated.terminal_arrival_area import TerminalArrivalArea
-from generated.terminal_arrival_area_time_slice import (
+from pyaixm.generated.taxiway_marking import TaxiwayMarking
+from pyaixm.generated.taxiway_marking_time_slice import TaxiwayMarkingTimeSlice
+from pyaixm.generated.taxiway_time_slice import TaxiwayTimeSlice
+from pyaixm.generated.temporal_cs import TemporalCs
+from pyaixm.generated.terminal_arrival_area import TerminalArrivalArea
+from pyaixm.generated.terminal_arrival_area_time_slice import (
     TerminalArrivalAreaTimeSlice,
 )
-from generated.time_calendar import TimeCalendar
-from generated.time_clock import TimeClock
-from generated.time_coordinate_system import TimeCoordinateSystem
-from generated.time_cs_1 import TimeCs1
-from generated.time_ordinal_reference_system import TimeOrdinalReferenceSystem
-from generated.time_reference_system import TimeReferenceSystem
-from generated.time_topology_complex import TimeTopologyComplex
-from generated.tin import Tin
-from generated.topo_complex_type import TopoComplex
-from generated.touch_down_lift_off import TouchDownLiftOff
-from generated.touch_down_lift_off_light_system import (
+from pyaixm.generated.time_calendar import TimeCalendar
+from pyaixm.generated.time_clock import TimeClock
+from pyaixm.generated.time_coordinate_system import TimeCoordinateSystem
+from pyaixm.generated.time_cs_1 import TimeCs1
+from pyaixm.generated.time_ordinal_reference_system import (
+    TimeOrdinalReferenceSystem,
+)
+from pyaixm.generated.time_reference_system import TimeReferenceSystem
+from pyaixm.generated.time_topology_complex import TimeTopologyComplex
+from pyaixm.generated.tin import Tin
+from pyaixm.generated.topo_complex_type import TopoComplex
+from pyaixm.generated.touch_down_lift_off import TouchDownLiftOff
+from pyaixm.generated.touch_down_lift_off_light_system import (
     TouchDownLiftOffLightSystem,
 )
-from generated.touch_down_lift_off_light_system_time_slice import (
+from pyaixm.generated.touch_down_lift_off_light_system_time_slice import (
     TouchDownLiftOffLightSystemTimeSlice,
 )
-from generated.touch_down_lift_off_marking import TouchDownLiftOffMarking
-from generated.touch_down_lift_off_marking_time_slice import (
+from pyaixm.generated.touch_down_lift_off_marking import (
+    TouchDownLiftOffMarking,
+)
+from pyaixm.generated.touch_down_lift_off_marking_time_slice import (
     TouchDownLiftOffMarkingTimeSlice,
 )
-from generated.touch_down_lift_off_safe_area import TouchDownLiftOffSafeArea
-from generated.touch_down_lift_off_safe_area_time_slice import (
+from pyaixm.generated.touch_down_lift_off_safe_area import (
+    TouchDownLiftOffSafeArea,
+)
+from pyaixm.generated.touch_down_lift_off_safe_area_time_slice import (
     TouchDownLiftOffSafeAreaTimeSlice,
 )
-from generated.touch_down_lift_off_time_slice import TouchDownLiftOffTimeSlice
-from generated.transformation import Transformation
-from generated.triangulated_surface import TriangulatedSurface
-from generated.unit import Unit
-from generated.unit_definition import UnitDefinition
-from generated.unit_time_slice import UnitTimeSlice
-from generated.unplanned_holding import UnplannedHolding
-from generated.unplanned_holding_time_slice import UnplannedHoldingTimeSlice
-from generated.user_defined_cs_1 import UserDefinedCs1
-from generated.value_array_property_type import (
+from pyaixm.generated.touch_down_lift_off_time_slice import (
+    TouchDownLiftOffTimeSlice,
+)
+from pyaixm.generated.transformation import Transformation
+from pyaixm.generated.triangulated_surface import TriangulatedSurface
+from pyaixm.generated.unit import Unit
+from pyaixm.generated.unit_definition import UnitDefinition
+from pyaixm.generated.unit_time_slice import UnitTimeSlice
+from pyaixm.generated.unplanned_holding import UnplannedHolding
+from pyaixm.generated.unplanned_holding_time_slice import (
+    UnplannedHoldingTimeSlice,
+)
+from pyaixm.generated.user_defined_cs_1 import UserDefinedCs1
+from pyaixm.generated.value_array_property_type import (
     CompositeValue,
     ValueArray,
 )
-from generated.vertical_cs_1 import VerticalCs1
-from generated.vertical_structure import VerticalStructure
-from generated.vertical_structure_time_slice import VerticalStructureTimeSlice
-from generated.visual_glide_slope_indicator import VisualGlideSlopeIndicator
-from generated.visual_glide_slope_indicator_time_slice import (
+from pyaixm.generated.vertical_cs_1 import VerticalCs1
+from pyaixm.generated.vertical_structure import VerticalStructure
+from pyaixm.generated.vertical_structure_time_slice import (
+    VerticalStructureTimeSlice,
+)
+from pyaixm.generated.visual_glide_slope_indicator import (
+    VisualGlideSlopeIndicator,
+)
+from pyaixm.generated.visual_glide_slope_indicator_time_slice import (
     VisualGlideSlopeIndicatorTimeSlice,
 )
-from generated.vor import Vor
-from generated.vortime_slice import VortimeSlice
-from generated.wind_direction_indicator import WindDirectionIndicator
-from generated.wind_direction_indicator_time_slice import (
+from pyaixm.generated.vor import Vor
+from pyaixm.generated.vortime_slice import VortimeSlice
+from pyaixm.generated.wind_direction_indicator import WindDirectionIndicator
+from pyaixm.generated.wind_direction_indicator_time_slice import (
     WindDirectionIndicatorTimeSlice,
 )
-from generated.work_area import WorkArea
-from generated.work_area_time_slice import WorkAreaTimeSlice
+from pyaixm.generated.work_area import WorkArea
+from pyaixm.generated.work_area_time_slice import WorkAreaTimeSlice
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_ex_geographic_extent_type import (
+from pyaixm.generated.abstract_ex_geographic_extent_type import (
     AbstractExGeographicExtentType,
 )
-from generated.gm_object_property_type import GmObjectPropertyType
+from pyaixm.generated.gm_object_property_type import GmObjectPropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

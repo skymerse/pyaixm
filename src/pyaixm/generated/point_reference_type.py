@@ -2,21 +2,21 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.angle_use_property_type import AngleUsePropertyType
-from generated.code_reference_role_type import CodeReferenceRoleType
-from generated.designated_point_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.angle_use_property_type import AngleUsePropertyType
+from pyaixm.generated.code_reference_role_type import CodeReferenceRoleType
+from pyaixm.generated.designated_point_property_type import (
     DesignatedPointPropertyType,
 )
-from generated.distance_indication_property_type import (
+from pyaixm.generated.distance_indication_property_type import (
     DistanceIndicationPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.point_reference_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.point_reference_type_extension import (
     PointReferenceTypeExtension,
 )
-from generated.surface_property_type_2 import SurfacePropertyType2
-from generated.val_distance_signed_type import ValDistanceSignedType
+from pyaixm.generated.surface_property_type_2 import SurfacePropertyType2
+from pyaixm.generated.val_distance_signed_type import ValDistanceSignedType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

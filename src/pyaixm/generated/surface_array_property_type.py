@@ -1,17 +1,17 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.elevated_surface import ElevatedSurface
-from generated.polygon import Polygon
-from generated.polyhedral_surface import PolyhedralSurface
-from generated.surface_1 import Surface1
-from generated.surface_2 import Surface2
-from generated.surface_property_type_1 import (
+from pyaixm.generated.elevated_surface import ElevatedSurface
+from pyaixm.generated.polygon import Polygon
+from pyaixm.generated.polyhedral_surface import PolyhedralSurface
+from pyaixm.generated.surface_1 import Surface1
+from pyaixm.generated.surface_2 import Surface2
+from pyaixm.generated.surface_property_type_1 import (
     CompositeSurface,
     OrientableSurface,
 )
-from generated.tin import Tin
-from generated.triangulated_surface import TriangulatedSurface
+from pyaixm.generated.tin import Tin
+from pyaixm.generated.triangulated_surface import TriangulatedSurface
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_general_parameter_value_type import (
+from pyaixm.generated.abstract_general_parameter_value_type import (
     AbstractGeneralParameterValueType,
 )
 

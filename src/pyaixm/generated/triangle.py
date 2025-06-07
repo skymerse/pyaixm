@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.triangle_type import TriangleType
+from pyaixm.generated.triangle_type import TriangleType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

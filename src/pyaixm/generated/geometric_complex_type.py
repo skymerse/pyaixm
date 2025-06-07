@@ -2,9 +2,9 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_geometry_type import AbstractGeometryType
-from generated.aggregation_type import AggregationType
-from generated.geometric_primitive_property_type import (
+from pyaixm.generated.abstract_geometry_type import AbstractGeometryType
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.geometric_primitive_property_type import (
     GeometricPrimitivePropertyType,
 )
 

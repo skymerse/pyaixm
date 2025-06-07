@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.ridge import Ridge
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.ridge import Ridge
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_protect_area_light_system_extension_type import (
+from pyaixm.generated.runway_protect_area_light_system_extension_type import (
     RunwayProtectAreaLightSystemExtensionType,
 )
 

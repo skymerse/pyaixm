@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.secondary_surveillance_radar_time_slice_type import (
+from pyaixm.generated.secondary_surveillance_radar_time_slice_type import (
     SecondarySurveillanceRadarTimeSliceType,
 )
 

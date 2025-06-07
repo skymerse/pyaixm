@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.unplanned_holding_extension import UnplannedHoldingExtension
+from pyaixm.generated.unplanned_holding_extension import (
+    UnplannedHoldingExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

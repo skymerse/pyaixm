@@ -1,14 +1,16 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.curve_property_type_1 import CompositeCurve
-from generated.geometric_complex import GeometricComplex
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.solid_property_type import CompositeSolid
-from generated.surface_property_type_1 import CompositeSurface
-from generated.type_type import TypeType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.curve_property_type_1 import CompositeCurve
+from pyaixm.generated.geometric_complex import GeometricComplex
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.solid_property_type import CompositeSolid
+from pyaixm.generated.surface_property_type_1 import CompositeSurface
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_language_type import CodeLanguageType
-from generated.code_notamtranslation_type import CodeNotamtranslationType
-from generated.notamtranslation_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_language_type import CodeLanguageType
+from pyaixm.generated.code_notamtranslation_type import (
+    CodeNotamtranslationType,
+)
+from pyaixm.generated.notamtranslation_type_extension import (
     NotamtranslationTypeExtension,
 )
-from generated.text_notamtype import TextNotamtype
-from generated.xhtmltype import Xhtmltype
+from pyaixm.generated.text_notamtype import TextNotamtype
+from pyaixm.generated.xhtmltype import Xhtmltype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

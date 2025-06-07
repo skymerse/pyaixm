@@ -1,11 +1,13 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.airport_heliport_usage import AirportHeliportUsage
-from generated.apron_area_usage import ApronAreaUsage
-from generated.manoeuvring_area_usage import ManoeuvringAreaUsage
-from generated.service_usage import ServiceUsage
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.airport_heliport_usage import AirportHeliportUsage
+from pyaixm.generated.apron_area_usage import ApronAreaUsage
+from pyaixm.generated.manoeuvring_area_usage import ManoeuvringAreaUsage
+from pyaixm.generated.service_usage import ServiceUsage
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

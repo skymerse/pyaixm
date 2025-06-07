@@ -2,9 +2,9 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.coordinates import Coordinates
-from generated.direct_position_type import DirectPositionType
-from generated.pos import Pos
+from pyaixm.generated.coordinates import Coordinates
+from pyaixm.generated.direct_position_type import DirectPositionType
+from pyaixm.generated.pos import Pos
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

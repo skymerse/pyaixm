@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_airport_heliport_protection_area_type import (
+from pyaixm.generated.abstract_airport_heliport_protection_area_type import (
     AbstractAirportHeliportProtectionAreaType,
 )
-from generated.touch_down_lift_off_safe_area_time_slice_property_type import (
+from pyaixm.generated.touch_down_lift_off_safe_area_time_slice_property_type import (
     TouchDownLiftOffSafeAreaTimeSlicePropertyType,
 )
 

@@ -2,10 +2,10 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.dq_element_property_type import DqElementPropertyType
-from generated.dq_scope_property_type import DqScopePropertyType
-from generated.li_lineage_property_type import LiLineagePropertyType
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.dq_element_property_type import DqElementPropertyType
+from pyaixm.generated.dq_scope_property_type import DqScopePropertyType
+from pyaixm.generated.li_lineage_property_type import LiLineagePropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

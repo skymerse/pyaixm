@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.standard_instrument_departure_extension_type import (
+from pyaixm.generated.standard_instrument_departure_extension_type import (
     StandardInstrumentDepartureExtensionType,
 )
 

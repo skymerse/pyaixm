@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_marking_type import RunwayMarkingType
+from pyaixm.generated.runway_marking_type import RunwayMarkingType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

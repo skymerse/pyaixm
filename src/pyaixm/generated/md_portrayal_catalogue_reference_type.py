@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.md_identifier_type import CiCitationPropertyType
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.md_identifier_type import CiCitationPropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

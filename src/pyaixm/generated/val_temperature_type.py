@@ -2,8 +2,10 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Optional, Union
 
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.uom_temperature_type_value import UomTemperatureTypeValue
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.uom_temperature_type_value import UomTemperatureTypeValue
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

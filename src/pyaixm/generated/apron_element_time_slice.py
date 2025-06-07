@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.apron_element_time_slice_type import ApronElementTimeSliceType
+from pyaixm.generated.apron_element_time_slice_type import (
+    ApronElementTimeSliceType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

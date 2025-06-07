@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.altimeter_source_extension import AltimeterSourceExtension
+from pyaixm.generated.altimeter_source_extension import (
+    AltimeterSourceExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ring_type import RingType
+from pyaixm.generated.ring_type import RingType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

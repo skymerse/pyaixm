@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.runway_element_time_slice_type import RunwayElementTimeSliceType
+from pyaixm.generated.runway_element_time_slice_type import (
+    RunwayElementTimeSliceType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

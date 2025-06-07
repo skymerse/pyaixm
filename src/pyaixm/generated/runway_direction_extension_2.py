@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_direction_extension_type_2 import (
+from pyaixm.generated.runway_direction_extension_type_2 import (
     RunwayDirectionExtensionType2,
 )
 

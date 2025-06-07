@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airport_hot_spot_extension_type import (
+from pyaixm.generated.airport_hot_spot_extension_type import (
     AirportHotSpotExtensionType,
 )
 

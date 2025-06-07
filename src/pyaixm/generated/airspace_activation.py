@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airspace_activation_type import AirspaceActivationType
+from pyaixm.generated.airspace_activation_type import AirspaceActivationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

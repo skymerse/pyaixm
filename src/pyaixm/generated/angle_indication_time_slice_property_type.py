@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.angle_indication_time_slice import AngleIndicationTimeSlice
+from pyaixm.generated.angle_indication_time_slice import (
+    AngleIndicationTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

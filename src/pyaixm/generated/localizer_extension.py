@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.localizer_extension_type import LocalizerExtensionType
+from pyaixm.generated.localizer_extension_type import LocalizerExtensionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

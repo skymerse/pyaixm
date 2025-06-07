@@ -2,15 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_md_content_information_type import (
+from pyaixm.generated.abstract_md_content_information_type import (
     AbstractMdContentInformationType,
 )
-from generated.boolean_property_type_2 import BooleanPropertyType2
-from generated.character_string_property_type import (
+from pyaixm.generated.boolean_property_type_2 import BooleanPropertyType2
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.generic_name_property_type import GenericNamePropertyType
-from generated.md_identifier_type import CiCitationPropertyType
+from pyaixm.generated.generic_name_property_type import GenericNamePropertyType
+from pyaixm.generated.md_identifier_type import CiCitationPropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

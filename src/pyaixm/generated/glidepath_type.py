@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_navaid_equipment_type import (
+from pyaixm.generated.abstract_navaid_equipment_type import (
     AbstractNavaidEquipmentType,
 )
-from generated.glidepath_time_slice_property_type import (
+from pyaixm.generated.glidepath_time_slice_property_type import (
     GlidepathTimeSlicePropertyType,
 )
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.topo_surface import TopoSurface
+from pyaixm.generated.topo_surface import TopoSurface
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

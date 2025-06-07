@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.service_usage_property_type import ServiceUsagePropertyType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.service_usage_property_type import (
+    ServiceUsagePropertyType,
+)
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

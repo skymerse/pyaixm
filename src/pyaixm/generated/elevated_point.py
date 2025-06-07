@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.elevated_point_type import ElevatedPointType
+from pyaixm.generated.elevated_point_type import ElevatedPointType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

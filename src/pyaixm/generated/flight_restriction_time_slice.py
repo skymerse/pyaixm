@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.flight_restriction_time_slice_type import (
+from pyaixm.generated.flight_restriction_time_slice_type import (
     FlightRestrictionTimeSliceType,
 )
 

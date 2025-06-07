@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.instrument_approach_procedure_extension_type_1 import (
+from pyaixm.generated.instrument_approach_procedure_extension_type_1 import (
     InstrumentApproachProcedureExtensionType1,
 )
 

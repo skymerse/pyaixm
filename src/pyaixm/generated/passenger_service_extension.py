@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.passenger_service_extension_type import (
+from pyaixm.generated.passenger_service_extension_type import (
     PassengerServiceExtensionType,
 )
 

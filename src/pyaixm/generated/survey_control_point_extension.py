@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.survey_control_point_extension_type import (
+from pyaixm.generated.survey_control_point_extension_type import (
     SurveyControlPointExtensionType,
 )
 

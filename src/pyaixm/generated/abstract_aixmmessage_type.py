@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmmessage_base_type import (
+from pyaixm.generated.abstract_aixmmessage_base_type import (
     AbstractAixmmessageBaseType,
 )
-from generated.aggregation_type import AggregationType
+from pyaixm.generated.aggregation_type import AggregationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

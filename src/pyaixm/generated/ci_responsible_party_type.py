@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.ci_contact_property_type import CiContactPropertyType
-from generated.ci_role_code_property_type import CiRoleCodePropertyType
+from pyaixm.generated.ci_contact_property_type import CiContactPropertyType
+from pyaixm.generated.ci_role_code_property_type import CiRoleCodePropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

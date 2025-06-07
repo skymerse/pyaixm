@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.runway_visual_range_extension_1 import (
+from pyaixm.generated.runway_visual_range_extension_1 import (
     RunwayVisualRangeExtension1,
 )
-from generated.runway_visual_range_extension_2 import (
+from pyaixm.generated.runway_visual_range_extension_2 import (
     RunwayVisualRangeExtension2,
 )
 

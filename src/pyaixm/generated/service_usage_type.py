@@ -2,17 +2,21 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_usage_condition_type import AbstractUsageConditionType
-from generated.code_usage_limitation_type import CodeUsageLimitationType
-from generated.condition_combination_property_type import (
+from pyaixm.generated.abstract_usage_condition_type import (
+    AbstractUsageConditionType,
+)
+from pyaixm.generated.code_usage_limitation_type import CodeUsageLimitationType
+from pyaixm.generated.condition_combination_property_type import (
     ConditionCombinationPropertyType,
 )
-from generated.contact_information_property_type import (
+from pyaixm.generated.contact_information_property_type import (
     ContactInformationPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.service_usage_type_extension import ServiceUsageTypeExtension
-from generated.val_duration_type import ValDurationType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.service_usage_type_extension import (
+    ServiceUsageTypeExtension,
+)
+from pyaixm.generated.val_duration_type import ValDurationType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

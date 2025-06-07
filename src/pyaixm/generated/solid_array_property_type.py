@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.solid import Solid
-from generated.solid_property_type import CompositeSolid
+from pyaixm.generated.solid import Solid
+from pyaixm.generated.solid_property_type import CompositeSolid
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

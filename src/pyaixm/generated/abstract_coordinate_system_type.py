@@ -2,10 +2,10 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.aggregation_type import AggregationType
-from generated.axis import Axis
-from generated.identified_object_type import IdentifiedObjectType
-from generated.uses_axis import UsesAxis
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.axis import Axis
+from pyaixm.generated.identified_object_type import IdentifiedObjectType
+from pyaixm.generated.uses_axis import UsesAxis
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

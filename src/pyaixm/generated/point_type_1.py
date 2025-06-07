@@ -1,11 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_geometric_primitive_type import (
+from pyaixm.generated.abstract_geometric_primitive_type import (
     AbstractGeometricPrimitiveType,
 )
-from generated.coordinates import Coordinates
-from generated.pos import Pos
+from pyaixm.generated.coordinates import Coordinates
+from pyaixm.generated.pos import Pos
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

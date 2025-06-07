@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.title_elt_type import TitleEltType
+from pyaixm.generated.title_elt_type import TitleEltType
 
 __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 

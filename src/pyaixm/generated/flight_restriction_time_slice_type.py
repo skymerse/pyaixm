@@ -2,22 +2,26 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_flight_restriction_designator_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_flight_restriction_designator_type import (
     CodeFlightRestrictionDesignatorType,
 )
-from generated.code_flight_restriction_type import CodeFlightRestrictionType
-from generated.flight_condition_combination_property_type import (
+from pyaixm.generated.code_flight_restriction_type import (
+    CodeFlightRestrictionType,
+)
+from pyaixm.generated.flight_condition_combination_property_type import (
     FlightConditionCombinationPropertyType,
 )
-from generated.flight_restriction_route_property_type import (
+from pyaixm.generated.flight_restriction_route_property_type import (
     FlightRestrictionRoutePropertyType,
 )
-from generated.flight_restriction_time_slice_type_extension import (
+from pyaixm.generated.flight_restriction_time_slice_type_extension import (
     FlightRestrictionTimeSliceTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.text_instruction_type import TextInstructionType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.text_instruction_type import TextInstructionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.change_over_point_type import ChangeOverPointType
+from pyaixm.generated.change_over_point_type import ChangeOverPointType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

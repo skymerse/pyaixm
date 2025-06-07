@@ -2,66 +2,72 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
-from generated.aerial_refuelling_property_type import (
+from pyaixm.generated.aerial_refuelling_property_type import (
     AerialRefuellingPropertyType,
 )
-from generated.aircraft_characteristic_property_type import (
+from pyaixm.generated.aircraft_characteristic_property_type import (
     AircraftCharacteristicPropertyType,
 )
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.airspace_border_crossing_property_type import (
+from pyaixm.generated.airspace_border_crossing_property_type import (
     AirspaceBorderCrossingPropertyType,
 )
-from generated.airspace_property_type import AirspacePropertyType
-from generated.code_flow_condition_operation_type import (
+from pyaixm.generated.airspace_property_type import AirspacePropertyType
+from pyaixm.generated.code_flow_condition_operation_type import (
     CodeFlowConditionOperationType,
 )
-from generated.designated_point_property_type import (
+from pyaixm.generated.designated_point_property_type import (
     DesignatedPointPropertyType,
 )
-from generated.direct_flight_property_type import DirectFlightPropertyType
-from generated.flight_characteristic_property_type import (
+from pyaixm.generated.direct_flight_property_type import (
+    DirectFlightPropertyType,
+)
+from pyaixm.generated.flight_characteristic_property_type import (
     FlightCharacteristicPropertyType,
 )
-from generated.flight_condition_circumstance_property_type import (
+from pyaixm.generated.flight_condition_circumstance_property_type import (
     FlightConditionCircumstancePropertyType,
 )
-from generated.flight_condition_combination_type_extension import (
+from pyaixm.generated.flight_condition_combination_type_extension import (
     FlightConditionCombinationTypeExtension,
 )
-from generated.flight_condition_element_type_extension import (
+from pyaixm.generated.flight_condition_element_type_extension import (
     FlightConditionElementTypeExtension,
 )
-from generated.flight_restriction_level_property_type import (
+from pyaixm.generated.flight_restriction_level_property_type import (
     FlightRestrictionLevelPropertyType,
 )
-from generated.meteorology_property_type import MeteorologyPropertyType
-from generated.navaid_property_type import NavaidPropertyType
-from generated.no_sequence_type import NoSequenceType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.meteorology_property_type import MeteorologyPropertyType
+from pyaixm.generated.navaid_property_type import NavaidPropertyType
+from pyaixm.generated.no_sequence_type import NoSequenceType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.point_property_type_2 import PointPropertyType2
-from generated.route_portion_property_type import RoutePortionPropertyType
-from generated.runway_centreline_point_property_type import (
+from pyaixm.generated.point_property_type_2 import PointPropertyType2
+from pyaixm.generated.route_portion_property_type import (
+    RoutePortionPropertyType,
+)
+from pyaixm.generated.runway_centreline_point_property_type import (
     RunwayCentrelinePointPropertyType,
 )
-from generated.standard_instrument_arrival_property_type import (
+from pyaixm.generated.standard_instrument_arrival_property_type import (
     StandardInstrumentArrivalPropertyType,
 )
-from generated.standard_instrument_departure_property_type import (
+from pyaixm.generated.standard_instrument_departure_property_type import (
     StandardInstrumentDeparturePropertyType,
 )
-from generated.timesheet_property_type import TimesheetPropertyType
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.timesheet_property_type import TimesheetPropertyType
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
 

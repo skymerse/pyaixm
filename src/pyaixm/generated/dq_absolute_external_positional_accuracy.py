@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_absolute_external_positional_accuracy_type import (
+from pyaixm.generated.dq_absolute_external_positional_accuracy_type import (
     DqAbsoluteExternalPositionalAccuracyType,
 )
 

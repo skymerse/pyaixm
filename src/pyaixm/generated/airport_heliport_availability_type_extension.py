@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.airport_heliport_availability_extension import (
+from pyaixm.generated.airport_heliport_availability_extension import (
     AirportHeliportAvailabilityExtension,
 )
 

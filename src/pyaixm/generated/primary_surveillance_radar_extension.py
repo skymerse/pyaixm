@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.primary_surveillance_radar_extension_type import (
+from pyaixm.generated.primary_surveillance_radar_extension_type import (
     PrimarySurveillanceRadarExtensionType,
 )
 

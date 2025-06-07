@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.topo_complex_type import TopoComplexPropertyType
+from pyaixm.generated.topo_complex_type import TopoComplexPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

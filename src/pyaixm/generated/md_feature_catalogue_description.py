@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_feature_catalogue_description_type import (
+from pyaixm.generated.md_feature_catalogue_description_type import (
     MdFeatureCatalogueDescriptionType,
 )
 

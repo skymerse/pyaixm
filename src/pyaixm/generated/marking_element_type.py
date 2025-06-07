@@ -2,18 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_colour_type import CodeColourType
-from generated.code_marking_style_type import CodeMarkingStyleType
-from generated.elevated_curve_property_type import ElevatedCurvePropertyType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_colour_type import CodeColourType
+from pyaixm.generated.code_marking_style_type import CodeMarkingStyleType
+from pyaixm.generated.elevated_curve_property_type import (
+    ElevatedCurvePropertyType,
+)
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.marking_element_type_extension import (
+from pyaixm.generated.marking_element_type_extension import (
     MarkingElementTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airspace_property_type import AirspacePropertyType
-from generated.authority_for_airspace_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airspace_property_type import AirspacePropertyType
+from pyaixm.generated.authority_for_airspace_time_slice_type_extension import (
     AuthorityForAirspaceTimeSliceTypeExtension,
 )
-from generated.code_authority_type import CodeAuthorityType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.code_authority_type import CodeAuthorityType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.navaid_equipment_extension_type import (
+from pyaixm.generated.navaid_equipment_extension_type import (
     NavaidEquipmentExtensionType,
 )
 

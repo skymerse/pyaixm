@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.catalog_symbol import CatalogSymbol
-from generated.definition_type import DefinitionType
-from generated.quantity_type import QuantityType
-from generated.quantity_type_reference import QuantityTypeReference
+from pyaixm.generated.catalog_symbol import CatalogSymbol
+from pyaixm.generated.definition_type import DefinitionType
+from pyaixm.generated.quantity_type import QuantityType
+from pyaixm.generated.quantity_type_reference import QuantityTypeReference
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

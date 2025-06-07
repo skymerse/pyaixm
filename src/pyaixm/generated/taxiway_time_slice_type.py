@@ -2,27 +2,29 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_taxiway_type import CodeTaxiwayType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.manoeuvring_area_availability_property_type import (
+from pyaixm.generated.code_taxiway_type import CodeTaxiwayType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.manoeuvring_area_availability_property_type import (
     ManoeuvringAreaAvailabilityPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.surface_characteristics_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surface_characteristics_property_type import (
     SurfaceCharacteristicsPropertyType,
 )
-from generated.taxiway_contamination_property_type import (
+from pyaixm.generated.taxiway_contamination_property_type import (
     TaxiwayContaminationPropertyType,
 )
-from generated.taxiway_time_slice_type_extension import (
+from pyaixm.generated.taxiway_time_slice_type_extension import (
     TaxiwayTimeSliceTypeExtension,
 )
-from generated.text_designator_type import TextDesignatorType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

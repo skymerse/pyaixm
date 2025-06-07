@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_surface_type import AbstractSurfaceType
-from generated.patches import Patches
-from generated.polygon_patches import PolygonPatches
-from generated.triangle_patches import TrianglePatches
+from pyaixm.generated.abstract_surface_type import AbstractSurfaceType
+from pyaixm.generated.patches import Patches
+from pyaixm.generated.polygon_patches import PolygonPatches
+from pyaixm.generated.triangle_patches import TrianglePatches
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,7 +2,7 @@
 <Config xmlns="http://pypi.org/project/xsdata">
     <Output>
         <Format repr="true">dataclasses</Format>
-        <Package>generated</Package>
+        <Package>pyaixm.generated</Package>
         <Structure>clusters</Structure>
         <CompoundFields>false</CompoundFields>
         <PostponedAnnotations>false</PostponedAnnotations>

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_time_primitive_type import (
+from pyaixm.generated.abstract_time_primitive_type import (
     AbstractTimeTopologyPrimitiveType,
 )
 

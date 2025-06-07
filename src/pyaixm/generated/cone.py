@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.cone_type import ConeType
+from pyaixm.generated.cone_type import ConeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

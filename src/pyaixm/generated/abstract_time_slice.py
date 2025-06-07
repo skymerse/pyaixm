@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_time_slice_type import AbstractTimeSliceType
+from pyaixm.generated.abstract_time_slice_type import AbstractTimeSliceType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

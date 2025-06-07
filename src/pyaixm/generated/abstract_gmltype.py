@@ -2,11 +2,11 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.description import Description
-from generated.description_reference import DescriptionReference
-from generated.identifier import Identifier
-from generated.meta_data_property import MetaDataProperty
-from generated.name import Name
+from pyaixm.generated.description import Description
+from pyaixm.generated.description_reference import DescriptionReference
+from pyaixm.generated.identifier import Identifier
+from pyaixm.generated.meta_data_property import MetaDataProperty
+from pyaixm.generated.name import Name
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,25 +2,31 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.aircraft_stand_property_type import AircraftStandPropertyType
-from generated.apron_property_type import ApronPropertyType
-from generated.code_direction_type import CodeDirectionType
-from generated.code_guidance_line_type import CodeGuidanceLineType
-from generated.elevated_curve_property_type import ElevatedCurvePropertyType
-from generated.guidance_line_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.aircraft_stand_property_type import (
+    AircraftStandPropertyType,
+)
+from pyaixm.generated.apron_property_type import ApronPropertyType
+from pyaixm.generated.code_direction_type import CodeDirectionType
+from pyaixm.generated.code_guidance_line_type import CodeGuidanceLineType
+from pyaixm.generated.elevated_curve_property_type import (
+    ElevatedCurvePropertyType,
+)
+from pyaixm.generated.guidance_line_time_slice_type_extension import (
     GuidanceLineTimeSliceTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.runway_centreline_point_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_centreline_point_property_type import (
     RunwayCentrelinePointPropertyType,
 )
-from generated.taxiway_property_type import TaxiwayPropertyType
-from generated.text_name_type import TextNameType
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.taxiway_property_type import TaxiwayPropertyType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
-from generated.val_speed_type import ValSpeedType
+from pyaixm.generated.val_speed_type import ValSpeedType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

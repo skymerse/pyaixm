@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.cartesian_cstype import CartesianCstype
+from pyaixm.generated.cartesian_cstype import CartesianCstype
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

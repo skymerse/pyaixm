@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.approach_condition_type import ApproachConditionType
+from pyaixm.generated.approach_condition_type import ApproachConditionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

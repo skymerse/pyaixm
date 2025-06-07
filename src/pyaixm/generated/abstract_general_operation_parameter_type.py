@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.identified_object_type import IdentifiedObjectType
-from generated.minimum_occurs import MinimumOccurs
+from pyaixm.generated.identified_object_type import IdentifiedObjectType
+from pyaixm.generated.minimum_occurs import MinimumOccurs
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.floating_dock_site_time_slice_type_extension import (
+from pyaixm.generated.floating_dock_site_time_slice_type_extension import (
     FloatingDockSiteTimeSliceTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

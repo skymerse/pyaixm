@@ -1,8 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.dq_evaluation_method_type_code import DqEvaluationMethodTypeCode
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.dq_evaluation_method_type_code import (
+    DqEvaluationMethodTypeCode,
+)
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

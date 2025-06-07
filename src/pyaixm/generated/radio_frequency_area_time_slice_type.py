@@ -2,31 +2,37 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.circle_sector_property_type import CircleSectorPropertyType
-from generated.code_radio_frequency_area_type import CodeRadioFrequencyAreaType
-from generated.code_radio_signal_type import CodeRadioSignalType
-from generated.navaid_equipment_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.circle_sector_property_type import (
+    CircleSectorPropertyType,
+)
+from pyaixm.generated.code_radio_frequency_area_type import (
+    CodeRadioFrequencyAreaType,
+)
+from pyaixm.generated.code_radio_signal_type import CodeRadioSignalType
+from pyaixm.generated.navaid_equipment_property_type import (
     NavaidEquipmentPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.precision_approach_radar_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.precision_approach_radar_property_type import (
     PrecisionApproachRadarPropertyType,
 )
-from generated.radio_communication_channel_property_type import (
+from pyaixm.generated.radio_communication_channel_property_type import (
     RadioCommunicationChannelPropertyType,
 )
-from generated.radio_frequency_area_time_slice_type_extension import (
+from pyaixm.generated.radio_frequency_area_time_slice_type_extension import (
     RadioFrequencyAreaTimeSliceTypeExtension,
 )
-from generated.secondary_surveillance_radar_property_type import (
+from pyaixm.generated.secondary_surveillance_radar_property_type import (
     SecondarySurveillanceRadarPropertyType,
 )
-from generated.special_navigation_station_property_type import (
+from pyaixm.generated.special_navigation_station_property_type import (
     SpecialNavigationStationPropertyType,
 )
-from generated.surface_property_type_2 import SurfacePropertyType2
-from generated.val_angle_type import ValAngleType
+from pyaixm.generated.surface_property_type_2 import SurfacePropertyType2
+from pyaixm.generated.val_angle_type import ValAngleType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

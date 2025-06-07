@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.vertical_structure_lighting_status_type import (
+from pyaixm.generated.vertical_structure_lighting_status_type import (
     VerticalStructureLightingStatusType,
 )
 

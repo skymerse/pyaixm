@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.checkpoint_insextension import CheckpointInsextension
-from generated.navigation_system_checkpoint_extension import (
+from pyaixm.generated.checkpoint_insextension import CheckpointInsextension
+from pyaixm.generated.navigation_system_checkpoint_extension import (
     NavigationSystemCheckpointExtension,
 )
 

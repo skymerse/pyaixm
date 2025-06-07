@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_aixmfeature_type import AbstractAixmfeatureType
-from generated.authority_for_airspace_time_slice_property_type import (
+from pyaixm.generated.abstract_aixmfeature_type import AbstractAixmfeatureType
+from pyaixm.generated.authority_for_airspace_time_slice_property_type import (
     AuthorityForAirspaceTimeSlicePropertyType,
 )
 

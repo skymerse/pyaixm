@@ -2,9 +2,9 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_ring_type import AbstractRingType
-from generated.aggregation_type import AggregationType
-from generated.curve_property_type_1 import CurveMember
+from pyaixm.generated.abstract_ring_type import AbstractRingType
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.curve_property_type_1 import CurveMember
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

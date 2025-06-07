@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.topo_point_property_type import TopoPointPropertyType
+from pyaixm.generated.topo_point_property_type import TopoPointPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

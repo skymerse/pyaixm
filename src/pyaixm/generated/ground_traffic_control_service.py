@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ground_traffic_control_service_type import (
+from pyaixm.generated.ground_traffic_control_service_type import (
     GroundTrafficControlServiceType,
 )
 

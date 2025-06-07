@@ -1,11 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.double_or_nil_reason_tuple_list import (
+from pyaixm.generated.double_or_nil_reason_tuple_list import (
     DoubleOrNilReasonTupleList,
 )
-from generated.range_parameters import RangeParameters
-from generated.tuple_list import TupleList
+from pyaixm.generated.range_parameters import RangeParameters
+from pyaixm.generated.tuple_list import TupleList
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

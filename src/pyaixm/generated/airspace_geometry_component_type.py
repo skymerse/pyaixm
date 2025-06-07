@@ -2,16 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.airspace_geometry_component_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.airspace_geometry_component_type_extension import (
     AirspaceGeometryComponentTypeExtension,
 )
-from generated.airspace_volume_property_type import AirspaceVolumePropertyType
-from generated.code_airspace_aggregation_type import (
+from pyaixm.generated.airspace_volume_property_type import (
+    AirspaceVolumePropertyType,
+)
+from pyaixm.generated.code_airspace_aggregation_type import (
     CodeAirspaceAggregationType,
 )
-from generated.no_sequence_type import NoSequenceType
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.no_sequence_type import NoSequenceType
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

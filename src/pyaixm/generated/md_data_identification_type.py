@@ -2,21 +2,23 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_md_identification_type import (
+from pyaixm.generated.abstract_md_identification_type import (
     AbstractMdIdentificationType,
 )
-from generated.character_string_property_type import (
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.ex_extent_property_type import ExExtentPropertyType
-from generated.md_character_set_code_property_type import (
+from pyaixm.generated.ex_extent_property_type import ExExtentPropertyType
+from pyaixm.generated.md_character_set_code_property_type import (
     MdCharacterSetCodePropertyType,
 )
-from generated.md_resolution_property_type import MdResolutionPropertyType
-from generated.md_spatial_representation_type_code_property_type import (
+from pyaixm.generated.md_resolution_property_type import (
+    MdResolutionPropertyType,
+)
+from pyaixm.generated.md_spatial_representation_type_code_property_type import (
     MdSpatialRepresentationTypeCodePropertyType,
 )
-from generated.md_topic_category_code_property_type import (
+from pyaixm.generated.md_topic_category_code_property_type import (
     MdTopicCategoryCodePropertyType,
 )
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.fuel_extension import FuelExtension
+from pyaixm.generated.fuel_extension import FuelExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

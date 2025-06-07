@@ -1,7 +1,7 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_gridded_surface_type_rows_row import (
+from pyaixm.generated.abstract_gridded_surface_type_rows_row import (
     AbstractGriddedSurfaceTypeRowsRow,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.unplanned_holding_time_slice_type import (
+from pyaixm.generated.unplanned_holding_time_slice_type import (
     UnplannedHoldingTimeSliceType,
 )
 

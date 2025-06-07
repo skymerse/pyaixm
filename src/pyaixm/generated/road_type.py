@@ -1,8 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_aixmfeature_type import AbstractAixmfeatureType
-from generated.road_time_slice_property_type import RoadTimeSlicePropertyType
+from pyaixm.generated.abstract_aixmfeature_type import AbstractAixmfeatureType
+from pyaixm.generated.road_time_slice_property_type import (
+    RoadTimeSlicePropertyType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

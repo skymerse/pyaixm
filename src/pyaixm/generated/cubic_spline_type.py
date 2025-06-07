@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_curve_segment_type import AbstractCurveSegmentType
-from generated.coordinates import Coordinates
-from generated.curve_interpolation_type import CurveInterpolationType
-from generated.point_property import PointProperty
-from generated.point_rep import PointRep
-from generated.pos import Pos
-from generated.pos_list import PosList
-from generated.vector_type import VectorType
+from pyaixm.generated.abstract_curve_segment_type import (
+    AbstractCurveSegmentType,
+)
+from pyaixm.generated.coordinates import Coordinates
+from pyaixm.generated.curve_interpolation_type import CurveInterpolationType
+from pyaixm.generated.point_property import PointProperty
+from pyaixm.generated.point_rep import PointRep
+from pyaixm.generated.pos import Pos
+from pyaixm.generated.pos_list import PosList
+from pyaixm.generated.vector_type import VectorType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

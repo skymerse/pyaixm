@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.guidance_line_extension import GuidanceLineExtension
+from pyaixm.generated.guidance_line_extension import GuidanceLineExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

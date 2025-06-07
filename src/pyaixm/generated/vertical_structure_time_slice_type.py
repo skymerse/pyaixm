@@ -2,37 +2,43 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_vertical_structure_type import CodeVerticalStructureType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.ground_light_system_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_vertical_structure_type import (
+    CodeVerticalStructureType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.ground_light_system_property_type import (
     GroundLightSystemPropertyType,
 )
-from generated.marker_beacon_property_type import MarkerBeaconPropertyType
-from generated.navaid_equipment_property_type import (
+from pyaixm.generated.marker_beacon_property_type import (
+    MarkerBeaconPropertyType,
+)
+from pyaixm.generated.navaid_equipment_property_type import (
     NavaidEquipmentPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.passenger_service_property_type import (
+from pyaixm.generated.passenger_service_property_type import (
     PassengerServicePropertyType,
 )
-from generated.service_property_type import ServicePropertyType
-from generated.special_navigation_station_property_type import (
+from pyaixm.generated.service_property_type import ServicePropertyType
+from pyaixm.generated.special_navigation_station_property_type import (
     SpecialNavigationStationPropertyType,
 )
-from generated.text_name_type import TextNameType
-from generated.unit_property_type import UnitPropertyType
-from generated.val_distance_type import ValDistanceType
-from generated.vertical_structure_lighting_status_property_type import (
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.unit_property_type import UnitPropertyType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.vertical_structure_lighting_status_property_type import (
     VerticalStructureLightingStatusPropertyType,
 )
-from generated.vertical_structure_part_property_type import (
+from pyaixm.generated.vertical_structure_part_property_type import (
     VerticalStructurePartPropertyType,
 )
-from generated.vertical_structure_time_slice_type_extension import (
+from pyaixm.generated.vertical_structure_time_slice_type_extension import (
     VerticalStructureTimeSliceTypeExtension,
 )
 

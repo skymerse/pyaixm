@@ -2,16 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.date_time_property_type import DateTimePropertyType
-from generated.dq_evaluation_method_type_code_property_type import (
+from pyaixm.generated.date_time_property_type import DateTimePropertyType
+from pyaixm.generated.dq_evaluation_method_type_code_property_type import (
     DqEvaluationMethodTypeCodePropertyType,
 )
-from generated.dq_result_property_type import DqResultPropertyType
-from generated.md_identifier_type import (
+from pyaixm.generated.dq_result_property_type import DqResultPropertyType
+from pyaixm.generated.md_identifier_type import (
     CiCitationPropertyType,
     MdIdentifierPropertyType,
 )

@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.flight_routing_element_type import FlightRoutingElementType
+from pyaixm.generated.flight_routing_element_type import (
+    FlightRoutingElementType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

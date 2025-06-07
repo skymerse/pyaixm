@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_blast_pad_time_slice_type import (
+from pyaixm.generated.runway_blast_pad_time_slice_type import (
     RunwayBlastPadTimeSliceType,
 )
 

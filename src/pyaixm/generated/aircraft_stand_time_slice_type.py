@@ -2,30 +2,36 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.aircraft_stand_contamination_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.aircraft_stand_contamination_property_type import (
     AircraftStandContaminationPropertyType,
 )
-from generated.aircraft_stand_time_slice_type_extension import (
+from pyaixm.generated.aircraft_stand_time_slice_type_extension import (
     AircraftStandTimeSliceTypeExtension,
 )
-from generated.apron_area_availability_property_type import (
+from pyaixm.generated.apron_area_availability_property_type import (
     ApronAreaAvailabilityPropertyType,
 )
-from generated.apron_element_property_type import ApronElementPropertyType
-from generated.code_aircraft_stand_type import CodeAircraftStandType
-from generated.code_visual_docking_guidance_type import (
+from pyaixm.generated.apron_element_property_type import (
+    ApronElementPropertyType,
+)
+from pyaixm.generated.code_aircraft_stand_type import CodeAircraftStandType
+from pyaixm.generated.code_visual_docking_guidance_type import (
     CodeVisualDockingGuidanceType,
 )
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.surface_characteristics_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surface_characteristics_property_type import (
     SurfaceCharacteristicsPropertyType,
 )
-from generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.text_designator_type import TextDesignatorType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

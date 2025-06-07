@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.seaplane_ramp_site_time_slice_type import (
+from pyaixm.generated.seaplane_ramp_site_time_slice_type import (
     SeaplaneRampSiteTimeSliceType,
 )
 

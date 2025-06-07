@@ -1,11 +1,15 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.code_cardinal_direction_type import CodeCardinalDirectionType
-from generated.code_runway_marking_type import CodeRunwayMarkingType
-from generated.code_status_operations_type import CodeStatusOperationsType
-from generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.code_cardinal_direction_type import (
+    CodeCardinalDirectionType,
+)
+from pyaixm.generated.code_runway_marking_type import CodeRunwayMarkingType
+from pyaixm.generated.code_status_operations_type import (
+    CodeStatusOperationsType,
+)
+from pyaixm.generated.text_designator_type import TextDesignatorType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

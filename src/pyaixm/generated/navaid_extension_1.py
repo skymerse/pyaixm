@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.navaid_extension_type_1 import NavaidExtensionType1
+from pyaixm.generated.navaid_extension_type_1 import NavaidExtensionType1
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_aixmfeature_type import AbstractAixmfeatureType
-from generated.designated_point_time_slice_property_type import (
+from pyaixm.generated.abstract_aixmfeature_type import AbstractAixmfeatureType
+from pyaixm.generated.designated_point_time_slice_property_type import (
     DesignatedPointTimeSlicePropertyType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.generic_meta_data_type import GenericMetaDataType
+from pyaixm.generated.generic_meta_data_type import GenericMetaDataType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

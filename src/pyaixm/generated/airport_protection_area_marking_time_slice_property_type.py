@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.airport_protection_area_marking_time_slice import (
+from pyaixm.generated.airport_protection_area_marking_time_slice import (
     AirportProtectionAreaMarkingTimeSlice,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.route_dmetype import RouteDmetype
+from pyaixm.generated.route_dmetype import RouteDmetype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

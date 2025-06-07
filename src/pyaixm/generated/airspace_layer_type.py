@@ -2,15 +2,19 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.airspace_layer_type_extension import AirspaceLayerTypeExtension
-from generated.code_altitude_use_type import CodeAltitudeUseType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.note_property_type import NotePropertyType
-from generated.standard_level_column_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.airspace_layer_type_extension import (
+    AirspaceLayerTypeExtension,
+)
+from pyaixm.generated.code_altitude_use_type import CodeAltitudeUseType
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.standard_level_column_property_type import (
     StandardLevelColumnPropertyType,
 )
-from generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

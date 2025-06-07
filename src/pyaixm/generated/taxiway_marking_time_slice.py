@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.taxiway_marking_time_slice_type import (
+from pyaixm.generated.taxiway_marking_time_slice_type import (
     TaxiwayMarkingTimeSliceType,
 )
 

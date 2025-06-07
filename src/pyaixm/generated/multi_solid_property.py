@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.multi_solid_property_type import MultiSolidPropertyType
+from pyaixm.generated.multi_solid_property_type import MultiSolidPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

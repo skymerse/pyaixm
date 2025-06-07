@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.intermediate_leg_type import IntermediateLegType
+from pyaixm.generated.intermediate_leg_type import IntermediateLegType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_service_identification_type import (
+from pyaixm.generated.md_service_identification_type import (
     MdServiceIdentificationType,
 )
 

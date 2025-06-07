@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.standard_level_sector_time_slice import (
+from pyaixm.generated.standard_level_sector_time_slice import (
     StandardLevelSectorTimeSlice,
 )
 

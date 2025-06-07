@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_maintenance_information_type import (
+from pyaixm.generated.md_maintenance_information_type import (
     MdMaintenanceInformationType,
 )
 

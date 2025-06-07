@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.polar_csproperty_type import PolarCspropertyType
+from pyaixm.generated.polar_csproperty_type import PolarCspropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

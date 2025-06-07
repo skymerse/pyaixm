@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.derivation_unit_term import DerivationUnitTerm
-from generated.unit_definition_type import UnitDefinitionType
+from pyaixm.generated.derivation_unit_term import DerivationUnitTerm
+from pyaixm.generated.unit_definition_type import UnitDefinitionType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

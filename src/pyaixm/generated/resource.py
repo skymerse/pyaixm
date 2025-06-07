@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.resource_type import ResourceType
+from pyaixm.generated.resource_type import ResourceType
 
 __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 

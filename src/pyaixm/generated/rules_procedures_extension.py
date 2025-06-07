@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.rules_procedures_extension_type import (
+from pyaixm.generated.rules_procedures_extension_type import (
     RulesProceduresExtensionType,
 )
 

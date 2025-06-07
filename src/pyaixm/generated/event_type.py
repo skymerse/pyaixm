@@ -1,8 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_aixmfeature_type import AbstractAixmfeatureType
-from generated.event_time_slice_property_type import EventTimeSlicePropertyType
+from pyaixm.generated.abstract_aixmfeature_type import AbstractAixmfeatureType
+from pyaixm.generated.event_time_slice_property_type import (
+    EventTimeSlicePropertyType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

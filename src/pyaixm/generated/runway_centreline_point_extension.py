@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_centreline_point_extension_type import (
+from pyaixm.generated.runway_centreline_point_extension_type import (
     RunwayCentrelinePointExtensionType,
 )
 

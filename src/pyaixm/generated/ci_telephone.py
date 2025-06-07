@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ci_telephone_type import CiTelephoneType
+from pyaixm.generated.ci_telephone_type import CiTelephoneType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -2,18 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.ais_publication_property_type import AisPublicationPropertyType
-from generated.code_event_encoding_type import CodeEventEncodingType
-from generated.date_time_type import DateTimeType
-from generated.event_property_type import EventPropertyType
-from generated.event_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.ais_publication_property_type import (
+    AisPublicationPropertyType,
+)
+from pyaixm.generated.code_event_encoding_type import CodeEventEncodingType
+from pyaixm.generated.date_time_type import DateTimeType
+from pyaixm.generated.event_property_type import EventPropertyType
+from pyaixm.generated.event_time_slice_type_extension import (
     EventTimeSliceTypeExtension,
 )
-from generated.notamproperty_type import NotampropertyType
-from generated.note_property_type import NotePropertyType
-from generated.text_designator_type import TextDesignatorType
-from generated.text_name_type import TextNameType
+from pyaixm.generated.notamproperty_type import NotampropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

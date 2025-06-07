@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.non_movement_area_extension import NonMovementAreaExtension
+from pyaixm.generated.non_movement_area_extension import (
+    NonMovementAreaExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.navaid_type import NavaidType
+from pyaixm.generated.navaid_type import NavaidType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

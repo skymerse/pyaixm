@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.aircraft_characteristic_extension_type import (
+from pyaixm.generated.aircraft_characteristic_extension_type import (
     AircraftCharacteristicExtensionType,
 )
 

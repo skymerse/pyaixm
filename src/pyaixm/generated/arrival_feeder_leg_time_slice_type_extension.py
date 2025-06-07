@@ -1,9 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.approach_leg_extension import ApproachLegExtension
-from generated.arrival_feeder_leg_extension import ArrivalFeederLegExtension
-from generated.segment_leg_extension import SegmentLegExtension
+from pyaixm.generated.approach_leg_extension import ApproachLegExtension
+from pyaixm.generated.arrival_feeder_leg_extension import (
+    ArrivalFeederLegExtension,
+)
+from pyaixm.generated.segment_leg_extension import SegmentLegExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

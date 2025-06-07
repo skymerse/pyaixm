@@ -2,12 +2,12 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_general_parameter_value_type import (
+from pyaixm.generated.abstract_general_parameter_value_type import (
     AbstractGeneralParameterValueType,
 )
-from generated.group import Group
-from generated.parameter_value_1 import ParameterValue1
-from generated.values_of_group import ValuesOfGroup
+from pyaixm.generated.group import Group
+from pyaixm.generated.parameter_value_1 import ParameterValue1
+from pyaixm.generated.values_of_group import ValuesOfGroup
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

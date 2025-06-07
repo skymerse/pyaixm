@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.fire_fighting_service_time_slice import (
+from pyaixm.generated.fire_fighting_service_time_slice import (
     FireFightingServiceTimeSlice,
 )
 

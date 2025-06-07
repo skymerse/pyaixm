@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.cylinder_type import CylinderType
+from pyaixm.generated.cylinder_type import CylinderType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.unit_dependency_type import UnitDependencyType
+from pyaixm.generated.unit_dependency_type import UnitDependencyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

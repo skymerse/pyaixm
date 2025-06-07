@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.engineering_crsproperty_type import EngineeringCrspropertyType
+from pyaixm.generated.engineering_crsproperty_type import (
+    EngineeringCrspropertyType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

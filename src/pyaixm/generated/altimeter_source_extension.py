@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.altimeter_source_extension_type import (
+from pyaixm.generated.altimeter_source_extension_type import (
     AltimeterSourceExtensionType,
 )
 

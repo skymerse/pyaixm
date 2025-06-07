@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.aerial_refuelling_time_slice import AerialRefuellingTimeSlice
+from pyaixm.generated.aerial_refuelling_time_slice import (
+    AerialRefuellingTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

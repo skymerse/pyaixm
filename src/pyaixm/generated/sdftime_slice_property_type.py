@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.sdftime_slice import SdftimeSlice
+from pyaixm.generated.sdftime_slice import SdftimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -2,27 +2,31 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.authority_for_special_navigation_station_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.authority_for_special_navigation_station_property_type import (
     AuthorityForSpecialNavigationStationPropertyType,
 )
-from generated.code_radio_emission_type import CodeRadioEmissionType
-from generated.code_special_navigation_station_type import (
+from pyaixm.generated.code_radio_emission_type import CodeRadioEmissionType
+from pyaixm.generated.code_special_navigation_station_type import (
     CodeSpecialNavigationStationType,
 )
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.special_navigation_station_status_property_type import (
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.special_navigation_station_status_property_type import (
     SpecialNavigationStationStatusPropertyType,
 )
-from generated.special_navigation_station_time_slice_type_extension import (
+from pyaixm.generated.special_navigation_station_time_slice_type_extension import (
     SpecialNavigationStationTimeSliceTypeExtension,
 )
-from generated.special_navigation_system_property_type import (
+from pyaixm.generated.special_navigation_system_property_type import (
     SpecialNavigationSystemPropertyType,
 )
-from generated.text_name_type import TextNameType
-from generated.val_frequency_type import ValFrequencyType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.val_frequency_type import ValFrequencyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

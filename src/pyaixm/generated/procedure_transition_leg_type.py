@@ -2,13 +2,13 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.no_sequence_type import NoSequenceType
-from generated.note_property_type import NotePropertyType
-from generated.procedure_transition_leg_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.no_sequence_type import NoSequenceType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.procedure_transition_leg_type_extension import (
     ProcedureTransitionLegTypeExtension,
 )
-from generated.segment_leg_property_type import SegmentLegPropertyType
+from pyaixm.generated.segment_leg_property_type import SegmentLegPropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

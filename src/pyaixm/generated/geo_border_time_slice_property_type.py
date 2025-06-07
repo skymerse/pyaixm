@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.geo_border_time_slice import GeoBorderTimeSlice
+from pyaixm.generated.geo_border_time_slice import GeoBorderTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

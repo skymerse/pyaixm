@@ -2,11 +2,11 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_geometric_aggregate_type import (
+from pyaixm.generated.abstract_geometric_aggregate_type import (
     AbstractGeometricAggregateType,
 )
-from generated.solid_members import SolidMembers
-from generated.solid_property_type import SolidMember
+from pyaixm.generated.solid_members import SolidMembers
+from pyaixm.generated.solid_property_type import SolidMember
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

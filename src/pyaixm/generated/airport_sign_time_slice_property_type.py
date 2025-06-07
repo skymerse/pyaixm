@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.airport_sign_time_slice import AirportSignTimeSlice
+from pyaixm.generated.airport_sign_time_slice import AirportSignTimeSlice
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

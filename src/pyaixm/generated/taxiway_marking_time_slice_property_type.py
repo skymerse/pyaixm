@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.taxiway_marking_time_slice import TaxiwayMarkingTimeSlice
+from pyaixm.generated.taxiway_marking_time_slice import TaxiwayMarkingTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

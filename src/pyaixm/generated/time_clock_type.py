@@ -4,9 +4,11 @@ from typing import Optional
 
 from xsdata.models.datatype import XmlTime
 
-from generated.string_or_ref_type import StringOrRefType
-from generated.time_calendar_property_type import TimeCalendarPropertyType
-from generated.time_reference_system_type import TimeReferenceSystemType
+from pyaixm.generated.string_or_ref_type import StringOrRefType
+from pyaixm.generated.time_calendar_property_type import (
+    TimeCalendarPropertyType,
+)
+from pyaixm.generated.time_reference_system_type import TimeReferenceSystemType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

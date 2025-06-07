@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.rectified_grid_type import RectifiedGridType
+from pyaixm.generated.rectified_grid_type import RectifiedGridType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

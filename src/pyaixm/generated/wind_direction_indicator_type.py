@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_aixmfeature_type import AbstractAixmfeatureType
-from generated.wind_direction_indicator_time_slice_property_type import (
+from pyaixm.generated.abstract_aixmfeature_type import AbstractAixmfeatureType
+from pyaixm.generated.wind_direction_indicator_time_slice_property_type import (
     WindDirectionIndicatorTimeSlicePropertyType,
 )
 

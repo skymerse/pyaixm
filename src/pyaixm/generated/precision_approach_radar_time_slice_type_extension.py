@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.precision_approach_radar_extension import (
+from pyaixm.generated.precision_approach_radar_extension import (
     PrecisionApproachRadarExtension,
 )
-from generated.radar_equipment_extension import RadarEquipmentExtension
+from pyaixm.generated.radar_equipment_extension import RadarEquipmentExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

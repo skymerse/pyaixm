@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_constraints_type import MdConstraintsType
+from pyaixm.generated.md_constraints_type import MdConstraintsType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.quantity_extent_type import QuantityExtentType
+from pyaixm.generated.quantity_extent_type import QuantityExtentType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.guidance_line_marking_type import GuidanceLineMarkingType
+from pyaixm.generated.guidance_line_marking_type import GuidanceLineMarkingType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

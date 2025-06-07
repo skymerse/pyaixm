@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.uom_distance_vertical_type_value import (
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.uom_distance_vertical_type_value import (
     UomDistanceVerticalTypeValue,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.information_service_time_slice_type import (
+from pyaixm.generated.information_service_time_slice_type import (
     InformationServiceTimeSliceType,
 )
 

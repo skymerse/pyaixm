@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_geometric_aggregate_type import (
+from pyaixm.generated.abstract_geometric_aggregate_type import (
     AbstractGeometricAggregateType,
 )
 

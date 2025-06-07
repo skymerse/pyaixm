@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.circle_by_center_point_type import CircleByCenterPointType
+from pyaixm.generated.circle_by_center_point_type import (
+    CircleByCenterPointType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

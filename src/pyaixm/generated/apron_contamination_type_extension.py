@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.surface_contamination_extension import (
+from pyaixm.generated.surface_contamination_extension import (
     SurfaceContaminationExtension,
 )
 

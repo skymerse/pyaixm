@@ -2,7 +2,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.type_type import TypeType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 

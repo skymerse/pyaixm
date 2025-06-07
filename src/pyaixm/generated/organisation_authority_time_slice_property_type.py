@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.organisation_authority_time_slice import (
+from pyaixm.generated.organisation_authority_time_slice import (
     OrganisationAuthorityTimeSlice,
 )
 

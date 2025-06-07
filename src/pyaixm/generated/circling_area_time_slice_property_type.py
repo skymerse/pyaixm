@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.circling_area_time_slice import CirclingAreaTimeSlice
+from pyaixm.generated.circling_area_time_slice import CirclingAreaTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

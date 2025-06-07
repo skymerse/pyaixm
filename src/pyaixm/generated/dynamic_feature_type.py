@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_feature_type import AbstractFeatureType
-from generated.data_source import DataSource
-from generated.data_source_reference import DataSourceReference
-from generated.history import History
-from generated.track import Track
-from generated.valid_time import ValidTime
+from pyaixm.generated.abstract_feature_type import AbstractFeatureType
+from pyaixm.generated.data_source import DataSource
+from pyaixm.generated.data_source_reference import DataSourceReference
+from pyaixm.generated.history import History
+from pyaixm.generated.track import Track
+from pyaixm.generated.valid_time import ValidTime
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

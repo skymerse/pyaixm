@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.apron_element_extension import ApronElementExtension
+from pyaixm.generated.apron_element_extension import ApronElementExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

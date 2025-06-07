@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.safe_altitude_area_time_slice import SafeAltitudeAreaTimeSlice
+from pyaixm.generated.safe_altitude_area_time_slice import (
+    SafeAltitudeAreaTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

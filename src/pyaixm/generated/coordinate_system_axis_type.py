@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.axis_abbrev import AxisAbbrev
-from generated.axis_direction import AxisDirection
-from generated.identified_object_type import IdentifiedObjectType
-from generated.maximum_value import MaximumValue
-from generated.minimum_value import MinimumValue
-from generated.range_meaning import RangeMeaning
+from pyaixm.generated.axis_abbrev import AxisAbbrev
+from pyaixm.generated.axis_direction import AxisDirection
+from pyaixm.generated.identified_object_type import IdentifiedObjectType
+from pyaixm.generated.maximum_value import MaximumValue
+from pyaixm.generated.minimum_value import MinimumValue
+from pyaixm.generated.range_meaning import RangeMeaning
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

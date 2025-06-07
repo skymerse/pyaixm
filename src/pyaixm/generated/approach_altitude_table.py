@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.approach_altitude_table_type import ApproachAltitudeTableType
+from pyaixm.generated.approach_altitude_table_type import (
+    ApproachAltitudeTableType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

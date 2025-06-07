@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.country import Country
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.country import Country
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

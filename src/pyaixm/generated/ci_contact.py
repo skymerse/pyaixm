@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ci_contact_type import CiContactType
+from pyaixm.generated.ci_contact_type import CiContactType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

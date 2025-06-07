@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_traffic_separation_service_type import (
+from pyaixm.generated.abstract_traffic_separation_service_type import (
     AbstractTrafficSeparationServiceType,
 )
 

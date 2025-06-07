@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.timesheet_type import TimesheetType
+from pyaixm.generated.timesheet_type import TimesheetType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

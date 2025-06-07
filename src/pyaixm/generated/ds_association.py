@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ds_association_type import DsAssociationType
+from pyaixm.generated.ds_association_type import DsAssociationType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.elevation_time_slice import ElevationTimeSlice
+from pyaixm.generated.elevation_time_slice import ElevationTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

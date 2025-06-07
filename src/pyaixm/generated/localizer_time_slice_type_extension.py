@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.localizer_extension import LocalizerExtension
-from generated.navaid_equipment_extension import NavaidEquipmentExtension
+from pyaixm.generated.localizer_extension import LocalizerExtension
+from pyaixm.generated.navaid_equipment_extension import (
+    NavaidEquipmentExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

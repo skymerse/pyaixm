@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.obstruction_type import ObstructionType
+from pyaixm.generated.obstruction_type import ObstructionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

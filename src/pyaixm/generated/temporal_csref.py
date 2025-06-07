@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.temporal_csproperty_type import TemporalCspropertyType
+from pyaixm.generated.temporal_csproperty_type import TemporalCspropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

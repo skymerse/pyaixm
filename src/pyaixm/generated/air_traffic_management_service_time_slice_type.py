@@ -2,33 +2,43 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.aerial_refuelling_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.aerial_refuelling_property_type import (
     AerialRefuellingPropertyType,
 )
-from generated.air_traffic_management_service_time_slice_type_extension import (
+from pyaixm.generated.air_traffic_management_service_time_slice_type_extension import (
     AirTrafficManagementServiceTimeSliceTypeExtension,
 )
-from generated.airspace_property_type import AirspacePropertyType
-from generated.callsign_detail_property_type import CallsignDetailPropertyType
-from generated.code_facility_ranking_type import CodeFacilityRankingType
-from generated.code_flight_destination_type import CodeFlightDestinationType
-from generated.code_service_atfmtype import CodeServiceAtfmtype
-from generated.code_yes_no_type import CodeYesNoType
-from generated.contact_information_property_type import (
+from pyaixm.generated.airspace_property_type import AirspacePropertyType
+from pyaixm.generated.callsign_detail_property_type import (
+    CallsignDetailPropertyType,
+)
+from pyaixm.generated.code_facility_ranking_type import CodeFacilityRankingType
+from pyaixm.generated.code_flight_destination_type import (
+    CodeFlightDestinationType,
+)
+from pyaixm.generated.code_service_atfmtype import CodeServiceAtfmtype
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.contact_information_property_type import (
     ContactInformationPropertyType,
 )
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.radio_communication_channel_property_type import (
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.radio_communication_channel_property_type import (
     RadioCommunicationChannelPropertyType,
 )
-from generated.route_portion_property_type import RoutePortionPropertyType
-from generated.service_operational_status_property_type import (
+from pyaixm.generated.route_portion_property_type import (
+    RoutePortionPropertyType,
+)
+from pyaixm.generated.service_operational_status_property_type import (
     ServiceOperationalStatusPropertyType,
 )
-from generated.text_name_type import TextNameType
-from generated.unit_property_type import UnitPropertyType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.unit_property_type import UnitPropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

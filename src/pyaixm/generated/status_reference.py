@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.reference_type import ReferenceType
+from pyaixm.generated.reference_type import ReferenceType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,18 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
-from generated.airport_heliport_responsibility_organisation_type_extension import (
+from pyaixm.generated.airport_heliport_responsibility_organisation_type_extension import (
     AirportHeliportResponsibilityOrganisationTypeExtension,
 )
-from generated.code_authority_role_type import CodeAuthorityRoleType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.code_authority_role_type import CodeAuthorityRoleType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.timesheet_property_type import TimesheetPropertyType
+from pyaixm.generated.timesheet_property_type import TimesheetPropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

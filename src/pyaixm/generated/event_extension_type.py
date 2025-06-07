@@ -1,13 +1,13 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.code_notamclassification_base_type_value import (
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.code_notamclassification_base_type_value import (
     CodeNotamclassificationBaseTypeValue,
 )
-from generated.date_time_type import DateTimeType
-from generated.text_name_type import TextNameType
-from generated.text_notamtype import TextNotamtype
+from pyaixm.generated.date_time_type import DateTimeType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.text_notamtype import TextNotamtype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE"
 

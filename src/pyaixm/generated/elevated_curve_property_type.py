@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.curve_property_type_1 import ElevatedCurve
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.curve_property_type_1 import ElevatedCurve
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

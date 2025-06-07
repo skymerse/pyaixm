@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.operation_version import OperationVersion
-from generated.sc_crs_property_type import (
+from pyaixm.generated.operation_version import OperationVersion
+from pyaixm.generated.sc_crs_property_type import (
     AbstractCoordinateOperationType,
     SourceCrs,
     TargetCrs,

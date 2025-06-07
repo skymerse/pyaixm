@@ -1,39 +1,45 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.dq_absolute_external_positional_accuracy import (
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.dq_absolute_external_positional_accuracy import (
     DqAbsoluteExternalPositionalAccuracy,
 )
-from generated.dq_accuracy_of_atime_measurement import (
+from pyaixm.generated.dq_accuracy_of_atime_measurement import (
     DqAccuracyOfAtimeMeasurement,
 )
-from generated.dq_completeness_commission import DqCompletenessCommission
-from generated.dq_completeness_omission import DqCompletenessOmission
-from generated.dq_conceptual_consistency import DqConceptualConsistency
-from generated.dq_domain_consistency import DqDomainConsistency
-from generated.dq_format_consistency import DqFormatConsistency
-from generated.dq_gridded_data_positional_accuracy import (
+from pyaixm.generated.dq_completeness_commission import (
+    DqCompletenessCommission,
+)
+from pyaixm.generated.dq_completeness_omission import DqCompletenessOmission
+from pyaixm.generated.dq_conceptual_consistency import DqConceptualConsistency
+from pyaixm.generated.dq_domain_consistency import DqDomainConsistency
+from pyaixm.generated.dq_format_consistency import DqFormatConsistency
+from pyaixm.generated.dq_gridded_data_positional_accuracy import (
     DqGriddedDataPositionalAccuracy,
 )
-from generated.dq_non_quantitative_attribute_accuracy import (
+from pyaixm.generated.dq_non_quantitative_attribute_accuracy import (
     DqNonQuantitativeAttributeAccuracy,
 )
-from generated.dq_quantitative_attribute_accuracy import (
+from pyaixm.generated.dq_quantitative_attribute_accuracy import (
     DqQuantitativeAttributeAccuracy,
 )
-from generated.dq_relative_internal_positional_accuracy import (
+from pyaixm.generated.dq_relative_internal_positional_accuracy import (
     DqRelativeInternalPositionalAccuracy,
 )
-from generated.dq_temporal_consistency import DqTemporalConsistency
-from generated.dq_temporal_validity import DqTemporalValidity
-from generated.dq_thematic_classification_correctness import (
+from pyaixm.generated.dq_temporal_consistency import DqTemporalConsistency
+from pyaixm.generated.dq_temporal_validity import DqTemporalValidity
+from pyaixm.generated.dq_thematic_classification_correctness import (
     DqThematicClassificationCorrectness,
 )
-from generated.dq_topological_consistency import DqTopologicalConsistency
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.dq_topological_consistency import (
+    DqTopologicalConsistency,
+)
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

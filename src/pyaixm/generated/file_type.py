@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.code_type import CodeType
-from generated.range_parameters import RangeParameters
+from pyaixm.generated.code_type import CodeType
+from pyaixm.generated.range_parameters import RangeParameters
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

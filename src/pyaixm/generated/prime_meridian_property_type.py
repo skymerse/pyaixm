@@ -1,11 +1,13 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.prime_meridian_1 import PrimeMeridian1
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.prime_meridian_1 import PrimeMeridian1
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

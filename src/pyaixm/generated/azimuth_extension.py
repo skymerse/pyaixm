@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.azimuth_extension_type import AzimuthExtensionType
+from pyaixm.generated.azimuth_extension_type import AzimuthExtensionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

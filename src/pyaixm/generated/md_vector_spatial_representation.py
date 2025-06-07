@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_vector_spatial_representation_type import (
+from pyaixm.generated.md_vector_spatial_representation_type import (
     MdVectorSpatialRepresentationType,
 )
 

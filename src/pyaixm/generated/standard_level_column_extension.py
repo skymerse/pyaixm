@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.standard_level_column_extension_type import (
+from pyaixm.generated.standard_level_column_extension_type import (
     StandardLevelColumnExtensionType,
 )
 

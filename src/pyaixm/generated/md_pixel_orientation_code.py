@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.md_pixel_orientation_code_type import MdPixelOrientationCodeType
+from pyaixm.generated.md_pixel_orientation_code_type import (
+    MdPixelOrientationCodeType,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

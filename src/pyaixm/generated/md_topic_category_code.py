@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.md_topic_category_code_type import MdTopicCategoryCodeType
+from pyaixm.generated.md_topic_category_code_type import (
+    MdTopicCategoryCodeType,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

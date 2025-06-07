@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.authority_for_airspace_time_slice_type import (
+from pyaixm.generated.authority_for_airspace_time_slice_type import (
     AuthorityForAirspaceTimeSliceType,
 )
 

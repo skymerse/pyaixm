@@ -2,14 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_notamrequest_action_base_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_notamrequest_action_base_type import (
     CodeNotamrequestActionBaseType,
 )
-from generated.code_notamscenario_type_value import CodeNotamscenarioTypeValue
-from generated.fns_notamproperty_type import FnsNotampropertyType
-from generated.notamrequest_type_extension import NotamrequestTypeExtension
-from generated.text_phone_type import TextPhoneType
+from pyaixm.generated.code_notamscenario_type_value import (
+    CodeNotamscenarioTypeValue,
+)
+from pyaixm.generated.fns_notamproperty_type import FnsNotampropertyType
+from pyaixm.generated.notamrequest_type_extension import (
+    NotamrequestTypeExtension,
+)
+from pyaixm.generated.text_phone_type import TextPhoneType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

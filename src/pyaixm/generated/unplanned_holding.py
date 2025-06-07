@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.unplanned_holding_type import UnplannedHoldingType
+from pyaixm.generated.unplanned_holding_type import UnplannedHoldingType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

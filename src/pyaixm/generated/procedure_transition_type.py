@@ -2,24 +2,24 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_designated_point_designator_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_designated_point_designator_type import (
     CodeDesignatedPointDesignatorType,
 )
-from generated.code_procedure_phase_type import CodeProcedurePhaseType
-from generated.curve_property_type_2 import CurvePropertyType2
-from generated.landing_takeoff_area_collection_property_type import (
+from pyaixm.generated.code_procedure_phase_type import CodeProcedurePhaseType
+from pyaixm.generated.curve_property_type_2 import CurvePropertyType2
+from pyaixm.generated.landing_takeoff_area_collection_property_type import (
     LandingTakeoffAreaCollectionPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.procedure_transition_leg_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.procedure_transition_leg_property_type import (
     ProcedureTransitionLegPropertyType,
 )
-from generated.procedure_transition_type_extension import (
+from pyaixm.generated.procedure_transition_type_extension import (
     ProcedureTransitionTypeExtension,
 )
-from generated.text_instruction_type import TextInstructionType
-from generated.val_bearing_type import ValBearingType
+from pyaixm.generated.text_instruction_type import TextInstructionType
+from pyaixm.generated.val_bearing_type import ValBearingType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

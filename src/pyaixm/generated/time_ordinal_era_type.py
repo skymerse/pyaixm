@@ -2,17 +2,19 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_time_primitive_type import (
+from pyaixm.generated.abstract_time_primitive_type import (
     RelatedTimeType,
     TimeNodePropertyType,
     TimePeriodPropertyType,
 )
-from generated.actuate_type import ActuateType
-from generated.definition_type import DefinitionType
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.reference_type import ReferenceType
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.definition_type import DefinitionType
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.reference_type import ReferenceType
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

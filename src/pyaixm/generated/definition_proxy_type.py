@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.definition_ref import DefinitionRef
-from generated.definition_type import DefinitionType
+from pyaixm.generated.definition_ref import DefinitionRef
+from pyaixm.generated.definition_type import DefinitionType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

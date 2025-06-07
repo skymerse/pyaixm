@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.holding_pattern_extension import HoldingPatternExtension
+from pyaixm.generated.holding_pattern_extension import HoldingPatternExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

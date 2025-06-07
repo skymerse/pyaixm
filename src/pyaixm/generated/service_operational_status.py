@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.service_operational_status_type import (
+from pyaixm.generated.service_operational_status_type import (
     ServiceOperationalStatusType,
 )
 

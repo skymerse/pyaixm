@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.angle_1 import Angle1
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.angle_1 import Angle1
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

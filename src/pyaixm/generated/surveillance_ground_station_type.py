@@ -2,13 +2,13 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.note_property_type import NotePropertyType
-from generated.surveillance_ground_station_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surveillance_ground_station_type_extension import (
     SurveillanceGroundStationTypeExtension,
 )
-from generated.unit_property_type import UnitPropertyType
+from pyaixm.generated.unit_property_type import UnitPropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

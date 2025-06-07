@@ -1,15 +1,17 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.code_apron_section_type import CodeApronSectionType
-from generated.code_cardinal_direction_type import CodeCardinalDirectionType
-from generated.code_crack_type import CodeCrackType
-from generated.code_frost_heave_type import CodeFrostHeaveType
-from generated.code_runway_section_type import CodeRunwaySectionType
-from generated.code_taxiway_section_type import CodeTaxiwaySectionType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.code_apron_section_type import CodeApronSectionType
+from pyaixm.generated.code_cardinal_direction_type import (
+    CodeCardinalDirectionType,
+)
+from pyaixm.generated.code_crack_type import CodeCrackType
+from pyaixm.generated.code_frost_heave_type import CodeFrostHeaveType
+from pyaixm.generated.code_runway_section_type import CodeRunwaySectionType
+from pyaixm.generated.code_taxiway_section_type import CodeTaxiwaySectionType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

@@ -1,15 +1,17 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_curve_segment_type import AbstractCurveSegmentType
-from generated.angle_type import AngleType
-from generated.coordinates import Coordinates
-from generated.curve_interpolation_type import CurveInterpolationType
-from generated.length_type import LengthType
-from generated.point_property import PointProperty
-from generated.point_rep import PointRep
-from generated.pos import Pos
-from generated.pos_list import PosList
+from pyaixm.generated.abstract_curve_segment_type import (
+    AbstractCurveSegmentType,
+)
+from pyaixm.generated.angle_type import AngleType
+from pyaixm.generated.coordinates import Coordinates
+from pyaixm.generated.curve_interpolation_type import CurveInterpolationType
+from pyaixm.generated.length_type import LengthType
+from pyaixm.generated.point_property import PointProperty
+from pyaixm.generated.point_rep import PointRep
+from pyaixm.generated.pos import Pos
+from pyaixm.generated.pos_list import PosList
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_ground_light_system_type import (
+from pyaixm.generated.abstract_ground_light_system_type import (
     AbstractGroundLightSystemType,
 )
 

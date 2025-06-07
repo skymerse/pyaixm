@@ -2,29 +2,35 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_primary_radar_type import CodePrimaryRadarType
-from generated.code_standby_power_type import CodeStandbyPowerType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.contact_information_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_primary_radar_type import CodePrimaryRadarType
+from pyaixm.generated.code_standby_power_type import CodeStandbyPowerType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.contact_information_property_type import (
     ContactInformationPropertyType,
 )
-from generated.date_year_type import DateYearType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.primary_surveillance_radar_time_slice_type_extension import (
+from pyaixm.generated.date_year_type import DateYearType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.primary_surveillance_radar_time_slice_type_extension import (
     PrimarySurveillanceRadarTimeSliceTypeExtension,
 )
-from generated.surveillance_ground_station_property_type import (
+from pyaixm.generated.surveillance_ground_station_property_type import (
     SurveillanceGroundStationPropertyType,
 )
-from generated.text_designator_type import TextDesignatorType
-from generated.text_name_type import TextNameType
-from generated.val_angle_type import ValAngleType
-from generated.val_bearing_type import ValBearingType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.val_magnetic_variation_type import ValMagneticVariationType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.val_angle_type import ValAngleType
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_magnetic_variation_type import (
+    ValMagneticVariationType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

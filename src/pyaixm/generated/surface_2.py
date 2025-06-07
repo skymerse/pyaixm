@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.surface_type_2 import SurfaceType2
+from pyaixm.generated.surface_type_2 import SurfaceType2
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

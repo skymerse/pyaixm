@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.aerial_refuelling_track_type import AerialRefuellingTrackType
+from pyaixm.generated.aerial_refuelling_track_type import (
+    AerialRefuellingTrackType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

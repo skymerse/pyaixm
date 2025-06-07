@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.multi_surface_type import MultiSurfaceType
+from pyaixm.generated.multi_surface_type import MultiSurfaceType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

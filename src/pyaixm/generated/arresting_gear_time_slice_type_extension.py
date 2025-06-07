@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.arresting_gear_extension import ArrestingGearExtension
+from pyaixm.generated.arresting_gear_extension import ArrestingGearExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

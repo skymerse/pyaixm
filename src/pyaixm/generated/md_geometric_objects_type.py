@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.integer_property_type import IntegerPropertyType
-from generated.md_geometric_object_type_code_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.integer_property_type import IntegerPropertyType
+from pyaixm.generated.md_geometric_object_type_code_property_type import (
     MdGeometricObjectTypeCodePropertyType,
 )
 

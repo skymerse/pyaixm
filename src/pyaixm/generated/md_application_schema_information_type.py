@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.binary_property_type import BinaryPropertyType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.binary_property_type import BinaryPropertyType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.md_identifier_type import CiCitationPropertyType
+from pyaixm.generated.md_identifier_type import CiCitationPropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

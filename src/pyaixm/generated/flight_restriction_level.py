@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.flight_restriction_level_type import FlightRestrictionLevelType
+from pyaixm.generated.flight_restriction_level_type import (
+    FlightRestrictionLevelType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

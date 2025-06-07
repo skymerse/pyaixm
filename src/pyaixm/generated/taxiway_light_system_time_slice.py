@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.taxiway_light_system_time_slice_type import (
+from pyaixm.generated.taxiway_light_system_time_slice_type import (
     TaxiwayLightSystemTimeSliceType,
 )
 

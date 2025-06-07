@@ -2,13 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.fasdata_block_type_extension import FasdataBlockTypeExtension
-from generated.no_sequence_type import NoSequenceType
-from generated.note_property_type import NotePropertyType
-from generated.val_alarm_limit_type import ValAlarmLimitType
-from generated.val_distance_type import ValDistanceType
-from generated.val_hex_type import ValHexType
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.fasdata_block_type_extension import (
+    FasdataBlockTypeExtension,
+)
+from pyaixm.generated.no_sequence_type import NoSequenceType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_alarm_limit_type import ValAlarmLimitType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_hex_type import ValHexType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

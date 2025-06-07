@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.guidance_line_marking_extension_type import (
+from pyaixm.generated.guidance_line_marking_extension_type import (
     GuidanceLineMarkingExtensionType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.navigation_area_time_slice_type import (
+from pyaixm.generated.navigation_area_time_slice_type import (
     NavigationAreaTimeSliceType,
 )
 

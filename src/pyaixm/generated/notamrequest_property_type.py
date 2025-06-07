@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.notamrequest import Notamrequest
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.notamrequest import Notamrequest
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

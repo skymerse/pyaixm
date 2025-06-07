@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.curve_property_type_1 import CurvePropertyType1
+from pyaixm.generated.curve_property_type_1 import CurvePropertyType1
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

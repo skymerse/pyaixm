@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.pass_through_operation_property_type import (
+from pyaixm.generated.pass_through_operation_property_type import (
     PassThroughOperationPropertyType,
 )
 

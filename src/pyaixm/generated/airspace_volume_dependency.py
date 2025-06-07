@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airspace_volume_dependency_type import (
+from pyaixm.generated.airspace_volume_dependency_type import (
     AirspaceVolumeDependencyType,
 )
 

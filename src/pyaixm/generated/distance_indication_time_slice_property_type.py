@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.distance_indication_time_slice import (
+from pyaixm.generated.distance_indication_time_slice import (
     DistanceIndicationTimeSlice,
 )
 

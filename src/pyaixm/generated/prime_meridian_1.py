@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.prime_meridian_type import PrimeMeridianType
+from pyaixm.generated.prime_meridian_type import PrimeMeridianType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

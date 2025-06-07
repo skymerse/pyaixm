@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ellipsoidal_cstype import EllipsoidalCstype
+from pyaixm.generated.ellipsoidal_cstype import EllipsoidalCstype
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

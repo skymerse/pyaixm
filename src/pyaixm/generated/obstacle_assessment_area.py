@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.obstacle_assessment_area_type import ObstacleAssessmentAreaType
+from pyaixm.generated.obstacle_assessment_area_type import (
+    ObstacleAssessmentAreaType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

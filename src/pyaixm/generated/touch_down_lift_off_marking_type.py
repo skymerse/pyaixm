@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_marking_type import AbstractMarkingType
-from generated.touch_down_lift_off_marking_time_slice_property_type import (
+from pyaixm.generated.abstract_marking_type import AbstractMarkingType
+from pyaixm.generated.touch_down_lift_off_marking_time_slice_property_type import (
     TouchDownLiftOffMarkingTimeSlicePropertyType,
 )
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.md_obligation_code_type import MdObligationCodeType
+from pyaixm.generated.md_obligation_code_type import MdObligationCodeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

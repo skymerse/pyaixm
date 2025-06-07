@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.minima_type import MinimaType
+from pyaixm.generated.minima_type import MinimaType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

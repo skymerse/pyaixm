@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.designated_point_extension_type_2 import (
+from pyaixm.generated.designated_point_extension_type_2 import (
     DesignatedPointExtensionType2,
 )
 

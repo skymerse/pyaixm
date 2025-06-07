@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airport_protection_area_marking_type import (
+from pyaixm.generated.airport_protection_area_marking_type import (
     AirportProtectionAreaMarkingType,
 )
 

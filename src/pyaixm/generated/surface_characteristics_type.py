@@ -2,22 +2,28 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_pcnmethod_type import CodePcnmethodType
-from generated.code_pcnpavement_type import CodePcnpavementType
-from generated.code_pcnsubgrade_type import CodePcnsubgradeType
-from generated.code_pcntyre_pressure_type import CodePcntyrePressureType
-from generated.code_surface_composition_type import CodeSurfaceCompositionType
-from generated.code_surface_condition_type import CodeSurfaceConditionType
-from generated.code_surface_preparation_type import CodeSurfacePreparationType
-from generated.note_property_type import NotePropertyType
-from generated.surface_characteristics_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_pcnmethod_type import CodePcnmethodType
+from pyaixm.generated.code_pcnpavement_type import CodePcnpavementType
+from pyaixm.generated.code_pcnsubgrade_type import CodePcnsubgradeType
+from pyaixm.generated.code_pcntyre_pressure_type import CodePcntyrePressureType
+from pyaixm.generated.code_surface_composition_type import (
+    CodeSurfaceCompositionType,
+)
+from pyaixm.generated.code_surface_condition_type import (
+    CodeSurfaceConditionType,
+)
+from pyaixm.generated.code_surface_preparation_type import (
+    CodeSurfacePreparationType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surface_characteristics_type_extension import (
     SurfaceCharacteristicsTypeExtension,
 )
-from generated.val_lcntype import ValLcntype
-from generated.val_pcntype import ValPcntype
-from generated.val_pressure_type import ValPressureType
-from generated.val_weight_type import ValWeightType
+from pyaixm.generated.val_lcntype import ValLcntype
+from pyaixm.generated.val_pcntype import ValPcntype
+from pyaixm.generated.val_pressure_type import ValPressureType
+from pyaixm.generated.val_weight_type import ValWeightType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

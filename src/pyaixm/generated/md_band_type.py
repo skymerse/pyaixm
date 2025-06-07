@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.integer_property_type import IntegerPropertyType
-from generated.md_range_dimension_type import MdRangeDimensionType
-from generated.real_property_type import RealPropertyType
-from generated.uom_length_property_type import UomLengthPropertyType
+from pyaixm.generated.integer_property_type import IntegerPropertyType
+from pyaixm.generated.md_range_dimension_type import MdRangeDimensionType
+from pyaixm.generated.real_property_type import RealPropertyType
+from pyaixm.generated.uom_length_property_type import UomLengthPropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

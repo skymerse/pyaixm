@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.touch_down_lift_off_contamination_type import (
+from pyaixm.generated.touch_down_lift_off_contamination_type import (
     TouchDownLiftOffContaminationType,
 )
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.final_leg_time_slice import FinalLegTimeSlice
+from pyaixm.generated.final_leg_time_slice import FinalLegTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

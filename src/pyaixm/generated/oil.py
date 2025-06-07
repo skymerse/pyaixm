@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.oil_type import OilType
+from pyaixm.generated.oil_type import OilType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

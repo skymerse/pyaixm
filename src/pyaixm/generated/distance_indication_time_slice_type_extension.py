@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.distance_indication_extension import DistanceIndicationExtension
+from pyaixm.generated.distance_indication_extension import (
+    DistanceIndicationExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

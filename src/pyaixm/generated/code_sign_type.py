@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.code_sign_base_type import CodeSignBaseType
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.code_sign_base_type import CodeSignBaseType
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

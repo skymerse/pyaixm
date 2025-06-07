@@ -1,12 +1,16 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.dq_completeness_commission import DqCompletenessCommission
-from generated.dq_completeness_omission import DqCompletenessOmission
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.dq_completeness_commission import (
+    DqCompletenessCommission,
+)
+from pyaixm.generated.dq_completeness_omission import DqCompletenessOmission
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

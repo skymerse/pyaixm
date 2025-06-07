@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.distance_indication_time_slice_type import (
+from pyaixm.generated.distance_indication_time_slice_type import (
     DistanceIndicationTimeSliceType,
 )
 

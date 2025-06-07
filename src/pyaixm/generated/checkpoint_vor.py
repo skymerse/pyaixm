@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.checkpoint_vortype import CheckpointVortype
+from pyaixm.generated.checkpoint_vortype import CheckpointVortype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

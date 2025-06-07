@@ -2,38 +2,44 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.aerial_refuelling_anchor_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.aerial_refuelling_anchor_property_type import (
     AerialRefuellingAnchorPropertyType,
 )
-from generated.aerial_refuelling_property_type import (
+from pyaixm.generated.aerial_refuelling_property_type import (
     AerialRefuellingPropertyType,
 )
-from generated.aerial_refuelling_time_slice_type_extension import (
+from pyaixm.generated.aerial_refuelling_time_slice_type_extension import (
     AerialRefuellingTimeSliceTypeExtension,
 )
-from generated.aerial_refuelling_track_property_type import (
+from pyaixm.generated.aerial_refuelling_track_property_type import (
     AerialRefuellingTrackPropertyType,
 )
-from generated.airspace_property_type import AirspacePropertyType
-from generated.authority_for_aerial_refuelling_property_type import (
+from pyaixm.generated.airspace_property_type import AirspacePropertyType
+from pyaixm.generated.authority_for_aerial_refuelling_property_type import (
     AuthorityForAerialRefuellingPropertyType,
 )
-from generated.code_aerial_refuelling_prefix_type import (
+from pyaixm.generated.code_aerial_refuelling_prefix_type import (
     CodeAerialRefuellingPrefixType,
 )
-from generated.code_aerial_refuelling_type import CodeAerialRefuellingType
-from generated.code_cardinal_direction_type import CodeCardinalDirectionType
-from generated.code_direction_turn_type import CodeDirectionTurnType
-from generated.code_tacanchannel_type import CodeTacanchannelType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.no_number_type import NoNumberType
-from generated.note_property_type import NotePropertyType
-from generated.route_availability_property_type import (
+from pyaixm.generated.code_aerial_refuelling_type import (
+    CodeAerialRefuellingType,
+)
+from pyaixm.generated.code_cardinal_direction_type import (
+    CodeCardinalDirectionType,
+)
+from pyaixm.generated.code_direction_turn_type import CodeDirectionTurnType
+from pyaixm.generated.code_tacanchannel_type import CodeTacanchannelType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.no_number_type import NoNumberType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.route_availability_property_type import (
     RouteAvailabilityPropertyType,
 )
-from generated.text_designator_type import TextDesignatorType
-from generated.text_name_type import TextNameType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

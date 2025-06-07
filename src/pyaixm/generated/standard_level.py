@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.standard_level_type import StandardLevelType
+from pyaixm.generated.standard_level_type import StandardLevelType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

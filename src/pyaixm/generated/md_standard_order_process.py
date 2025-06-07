@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.md_standard_order_process_type import MdStandardOrderProcessType
+from pyaixm.generated.md_standard_order_process_type import (
+    MdStandardOrderProcessType,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

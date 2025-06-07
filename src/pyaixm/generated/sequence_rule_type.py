@@ -2,8 +2,8 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.increment_order import IncrementOrder
-from generated.sequence_rule_enumeration import SequenceRuleEnumeration
+from pyaixm.generated.increment_order import IncrementOrder
+from pyaixm.generated.sequence_rule_enumeration import SequenceRuleEnumeration
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

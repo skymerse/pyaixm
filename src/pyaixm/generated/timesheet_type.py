@@ -2,19 +2,19 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_day_type import CodeDayType
-from generated.code_time_event_combination_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_day_type import CodeDayType
+from pyaixm.generated.code_time_event_combination_type import (
     CodeTimeEventCombinationType,
 )
-from generated.code_time_event_type import CodeTimeEventType
-from generated.code_time_reference_type import CodeTimeReferenceType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.date_month_day_type import DateMonthDayType
-from generated.note_property_type import NotePropertyType
-from generated.time_type_2 import TimeType2
-from generated.timesheet_type_extension import TimesheetTypeExtension
-from generated.val_duration_type import ValDurationType
+from pyaixm.generated.code_time_event_type import CodeTimeEventType
+from pyaixm.generated.code_time_reference_type import CodeTimeReferenceType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.date_month_day_type import DateMonthDayType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.time_type_2 import TimeType2
+from pyaixm.generated.timesheet_type_extension import TimesheetTypeExtension
+from pyaixm.generated.val_duration_type import ValDurationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

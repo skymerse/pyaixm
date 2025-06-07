@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_scope_type import DqScopeType
+from pyaixm.generated.dq_scope_type import DqScopeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

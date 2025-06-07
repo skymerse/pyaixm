@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.aerial_refuelling_extension_type import (
+from pyaixm.generated.aerial_refuelling_extension_type import (
     AerialRefuellingExtensionType,
 )
 

@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_time_complex_type import AbstractTimeComplexType
-from generated.time_topology_primitive_property_type import (
+from pyaixm.generated.abstract_time_complex_type import AbstractTimeComplexType
+from pyaixm.generated.time_topology_primitive_property_type import (
     TimeTopologyPrimitivePropertyType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.operation_parameter_property_type import (
+from pyaixm.generated.operation_parameter_property_type import (
     OperationParameterPropertyType,
 )
 

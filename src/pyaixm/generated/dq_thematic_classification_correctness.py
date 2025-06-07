@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_thematic_classification_correctness_type import (
+from pyaixm.generated.dq_thematic_classification_correctness_type import (
     DqThematicClassificationCorrectnessType,
 )
 

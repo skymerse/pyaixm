@@ -1,11 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.search_rescue_service_extension import (
+from pyaixm.generated.search_rescue_service_extension import (
     SearchRescueServiceExtension,
 )
-from generated.service_extension_1 import ServiceExtension1
-from generated.service_extension_2 import ServiceExtension2
+from pyaixm.generated.service_extension_1 import ServiceExtension1
+from pyaixm.generated.service_extension_2 import ServiceExtension2
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.guidance_line_extension_type import GuidanceLineExtensionType
+from pyaixm.generated.guidance_line_extension_type import (
+    GuidanceLineExtensionType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

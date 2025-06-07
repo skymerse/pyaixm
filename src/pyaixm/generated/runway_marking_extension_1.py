@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_marking_extension_type_1 import (
+from pyaixm.generated.runway_marking_extension_type_1 import (
     RunwayMarkingExtensionType1,
 )
 

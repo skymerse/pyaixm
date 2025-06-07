@@ -1,9 +1,13 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.marking_extension import MarkingExtension
-from generated.taxiway_marking_extension_1 import TaxiwayMarkingExtension1
-from generated.taxiway_marking_extension_2 import TaxiwayMarkingExtension2
+from pyaixm.generated.marking_extension import MarkingExtension
+from pyaixm.generated.taxiway_marking_extension_1 import (
+    TaxiwayMarkingExtension1,
+)
+from pyaixm.generated.taxiway_marking_extension_2 import (
+    TaxiwayMarkingExtension2,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

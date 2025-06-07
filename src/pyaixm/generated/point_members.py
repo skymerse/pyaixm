@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.point_array_property_type import PointArrayPropertyType
+from pyaixm.generated.point_array_property_type import PointArrayPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

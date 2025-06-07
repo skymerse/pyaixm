@@ -2,20 +2,24 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.aeronautical_ground_light_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.aeronautical_ground_light_time_slice_type_extension import (
     AeronauticalGroundLightTimeSliceTypeExtension,
 )
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_colour_type import CodeColourType
-from generated.code_ground_lighting_type import CodeGroundLightingType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.text_name_type import TextNameType
-from generated.vertical_structure_property_type import (
+from pyaixm.generated.code_colour_type import CodeColourType
+from pyaixm.generated.code_ground_lighting_type import CodeGroundLightingType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.vertical_structure_property_type import (
     VerticalStructurePropertyType,
 )
 

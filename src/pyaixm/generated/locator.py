@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.locator_type import LocatorType
+from pyaixm.generated.locator_type import LocatorType
 
 __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 

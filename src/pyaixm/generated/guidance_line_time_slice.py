@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.guidance_line_time_slice_type import GuidanceLineTimeSliceType
+from pyaixm.generated.guidance_line_time_slice_type import (
+    GuidanceLineTimeSliceType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

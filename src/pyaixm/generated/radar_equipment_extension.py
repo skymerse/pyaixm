@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.radar_equipment_extension_type import (
+from pyaixm.generated.radar_equipment_extension_type import (
     RadarEquipmentExtensionType,
 )
 

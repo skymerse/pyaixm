@@ -1,11 +1,13 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.radar_equipment_extension import RadarEquipmentExtension
-from generated.secondary_surveillance_radar_extension import (
+from pyaixm.generated.radar_equipment_extension import RadarEquipmentExtension
+from pyaixm.generated.secondary_surveillance_radar_extension import (
     SecondarySurveillanceRadarExtension,
 )
-from generated.surveillance_radar_extension import SurveillanceRadarExtension
+from pyaixm.generated.surveillance_radar_extension import (
+    SurveillanceRadarExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

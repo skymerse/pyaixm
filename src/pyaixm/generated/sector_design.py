@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.sector_design_type import SectorDesignType
+from pyaixm.generated.sector_design_type import SectorDesignType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

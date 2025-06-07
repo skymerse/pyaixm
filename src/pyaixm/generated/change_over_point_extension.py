@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.change_over_point_extension_type import (
+from pyaixm.generated.change_over_point_extension_type import (
     ChangeOverPointExtensionType,
 )
 

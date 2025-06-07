@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
 

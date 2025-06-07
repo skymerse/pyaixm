@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.direct_flight_segment_type import DirectFlightSegmentType
+from pyaixm.generated.direct_flight_segment_type import DirectFlightSegmentType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

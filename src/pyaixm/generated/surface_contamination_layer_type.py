@@ -2,14 +2,14 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_contamination_type import CodeContaminationType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_contamination_type import CodeContaminationType
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.no_sequence_type import NoSequenceType
-from generated.note_property_type import NotePropertyType
-from generated.surface_contamination_layer_type_extension import (
+from pyaixm.generated.no_sequence_type import NoSequenceType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surface_contamination_layer_type_extension import (
     SurfaceContaminationLayerTypeExtension,
 )
 

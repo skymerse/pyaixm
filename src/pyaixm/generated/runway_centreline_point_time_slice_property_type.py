@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.runway_centreline_point_time_slice import (
+from pyaixm.generated.runway_centreline_point_time_slice import (
     RunwayCentrelinePointTimeSlice,
 )
 

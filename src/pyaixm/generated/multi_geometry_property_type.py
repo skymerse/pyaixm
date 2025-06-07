@@ -1,15 +1,17 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.geometry_array_property_type import MultiGeometry
-from generated.multi_curve import MultiCurve
-from generated.multi_point import MultiPoint
-from generated.multi_solid import MultiSolid
-from generated.multi_surface import MultiSurface
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.geometry_array_property_type import MultiGeometry
+from pyaixm.generated.multi_curve import MultiCurve
+from pyaixm.generated.multi_point import MultiPoint
+from pyaixm.generated.multi_solid import MultiSolid
+from pyaixm.generated.multi_surface import MultiSurface
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

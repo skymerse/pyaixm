@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.abstract_segment_point_type import AbstractSegmentPointType
+from pyaixm.generated.abstract_segment_point_type import (
+    AbstractSegmentPointType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

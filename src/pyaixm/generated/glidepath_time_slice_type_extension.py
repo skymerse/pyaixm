@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.glidepath_extension import GlidepathExtension
-from generated.navaid_equipment_extension import NavaidEquipmentExtension
+from pyaixm.generated.glidepath_extension import GlidepathExtension
+from pyaixm.generated.navaid_equipment_extension import (
+    NavaidEquipmentExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

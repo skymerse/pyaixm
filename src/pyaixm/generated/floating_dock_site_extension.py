@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.floating_dock_site_extension_type import (
+from pyaixm.generated.floating_dock_site_extension_type import (
     FloatingDockSiteExtensionType,
 )
 

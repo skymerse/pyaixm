@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_geo_border_type import CodeGeoBorderType
-from generated.curve_property_type_2 import CurvePropertyType2
-from generated.geo_border_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_geo_border_type import CodeGeoBorderType
+from pyaixm.generated.curve_property_type_2 import CurvePropertyType2
+from pyaixm.generated.geo_border_time_slice_type_extension import (
     GeoBorderTimeSliceTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.text_name_type import TextNameType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

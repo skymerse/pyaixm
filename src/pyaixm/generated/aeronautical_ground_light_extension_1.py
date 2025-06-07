@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.aeronautical_ground_light_extension_type_1 import (
+from pyaixm.generated.aeronautical_ground_light_extension_type_1 import (
     AeronauticalGroundLightExtensionType1,
 )
 

@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.marking_extension import MarkingExtension
-from generated.touch_down_lift_off_marking_extension import (
+from pyaixm.generated.marking_extension import MarkingExtension
+from pyaixm.generated.touch_down_lift_off_marking_extension import (
     TouchDownLiftOffMarkingExtension,
 )
 

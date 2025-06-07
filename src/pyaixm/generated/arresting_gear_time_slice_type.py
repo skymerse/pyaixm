@@ -2,31 +2,39 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.arresting_gear_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.arresting_gear_time_slice_type_extension import (
     ArrestingGearTimeSliceTypeExtension,
 )
-from generated.code_arresting_gear_energy_absorb_type import (
+from pyaixm.generated.code_arresting_gear_energy_absorb_type import (
     CodeArrestingGearEnergyAbsorbType,
 )
-from generated.code_arresting_gear_engage_device_type import (
+from pyaixm.generated.code_arresting_gear_engage_device_type import (
     CodeArrestingGearEngageDeviceType,
 )
-from generated.code_status_operations_type import CodeStatusOperationsType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.elevated_curve_property_type import ElevatedCurvePropertyType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.code_status_operations_type import (
+    CodeStatusOperationsType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.elevated_curve_property_type import (
+    ElevatedCurvePropertyType,
+)
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.runway_direction_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_direction_property_type import (
     RunwayDirectionPropertyType,
 )
-from generated.surface_characteristics_property_type import (
+from pyaixm.generated.surface_characteristics_property_type import (
     SurfaceCharacteristicsPropertyType,
 )
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

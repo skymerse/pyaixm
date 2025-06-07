@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.geo_border_extension import GeoBorderExtension
+from pyaixm.generated.geo_border_extension import GeoBorderExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.approach_lighting_system_time_slice_type import (
+from pyaixm.generated.approach_lighting_system_time_slice_type import (
     ApproachLightingSystemTimeSliceType,
 )
 

@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.airport_heliport_protection_area_extension import (
+from pyaixm.generated.airport_heliport_protection_area_extension import (
     AirportHeliportProtectionAreaExtension,
 )
-from generated.touch_down_lift_off_safe_area_extension import (
+from pyaixm.generated.touch_down_lift_off_safe_area_extension import (
     TouchDownLiftOffSafeAreaExtension,
 )
 

@@ -1,11 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.member_name_property_type import MemberNamePropertyType
+from pyaixm.generated.member_name_property_type import MemberNamePropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

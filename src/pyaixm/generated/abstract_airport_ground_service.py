@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_airport_ground_service_type import (
+from pyaixm.generated.abstract_airport_ground_service_type import (
     AbstractAirportGroundServiceType,
 )
 

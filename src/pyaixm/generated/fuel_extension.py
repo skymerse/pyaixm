@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.fuel_extension_type import FuelExtensionType
+from pyaixm.generated.fuel_extension_type import FuelExtensionType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

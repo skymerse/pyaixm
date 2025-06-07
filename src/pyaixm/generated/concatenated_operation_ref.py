@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.concatenated_operation_property_type import (
+from pyaixm.generated.concatenated_operation_property_type import (
     ConcatenatedOperationPropertyType,
 )
 

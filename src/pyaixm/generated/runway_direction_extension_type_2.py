@@ -1,11 +1,11 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.runway_contamination_property_type import (
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.runway_contamination_property_type import (
     RunwayContaminationPropertyType,
 )
-from generated.runway_section_contamination_property_type import (
+from pyaixm.generated.runway_section_contamination_property_type import (
     RunwaySectionContaminationPropertyType,
 )
 

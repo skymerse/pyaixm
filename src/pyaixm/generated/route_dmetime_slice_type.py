@@ -2,14 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.dmeproperty_type import DmepropertyType
-from generated.note_property_type import NotePropertyType
-from generated.route_dmetime_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.dmeproperty_type import DmepropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.route_dmetime_slice_type_extension import (
     RouteDmetimeSliceTypeExtension,
 )
-from generated.route_portion_property_type import RoutePortionPropertyType
+from pyaixm.generated.route_portion_property_type import (
+    RoutePortionPropertyType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

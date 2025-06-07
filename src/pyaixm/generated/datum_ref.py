@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.datum_property_type import DatumPropertyType
+from pyaixm.generated.datum_property_type import DatumPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

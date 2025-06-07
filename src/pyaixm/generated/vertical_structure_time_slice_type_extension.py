@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.vertical_structure_extension_1 import (
+from pyaixm.generated.vertical_structure_extension_1 import (
     VerticalStructureExtension1,
 )
-from generated.vertical_structure_extension_2 import (
+from pyaixm.generated.vertical_structure_extension_2 import (
     VerticalStructureExtension2,
 )
 

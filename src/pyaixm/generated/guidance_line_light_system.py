@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.guidance_line_light_system_type import (
+from pyaixm.generated.guidance_line_light_system_type import (
     GuidanceLineLightSystemType,
 )
 

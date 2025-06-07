@@ -2,35 +2,41 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_direction_turn_type import CodeDirectionTurnType
-from generated.code_level_type import CodeLevelType
-from generated.code_rnptype import CodeRnptype
-from generated.code_route_designator_suffix_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_direction_turn_type import CodeDirectionTurnType
+from pyaixm.generated.code_level_type import CodeLevelType
+from pyaixm.generated.code_rnptype import CodeRnptype
+from pyaixm.generated.code_route_designator_suffix_type import (
     CodeRouteDesignatorSuffixType,
 )
-from generated.code_route_navigation_type import CodeRouteNavigationType
-from generated.code_route_segment_path_type import CodeRouteSegmentPathType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.curve_property_type_2 import CurvePropertyType2
-from generated.en_route_segment_point_property_type import (
+from pyaixm.generated.code_route_navigation_type import CodeRouteNavigationType
+from pyaixm.generated.code_route_segment_path_type import (
+    CodeRouteSegmentPathType,
+)
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.curve_property_type_2 import CurvePropertyType2
+from pyaixm.generated.en_route_segment_point_property_type import (
     EnRouteSegmentPointPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.obstacle_assessment_area_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstacle_assessment_area_property_type import (
     ObstacleAssessmentAreaPropertyType,
 )
-from generated.route_availability_property_type import (
+from pyaixm.generated.route_availability_property_type import (
     RouteAvailabilityPropertyType,
 )
-from generated.route_property_type import RoutePropertyType
-from generated.route_segment_time_slice_type_extension import (
+from pyaixm.generated.route_property_type import RoutePropertyType
+from pyaixm.generated.route_segment_time_slice_type_extension import (
     RouteSegmentTimeSliceTypeExtension,
 )
-from generated.val_bearing_type import ValBearingType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

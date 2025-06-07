@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.time_topology_complex_type import TimeTopologyComplexType
+from pyaixm.generated.time_topology_complex_type import TimeTopologyComplexType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

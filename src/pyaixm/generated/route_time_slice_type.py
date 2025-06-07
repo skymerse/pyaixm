@@ -2,29 +2,33 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_flight_rule_type import CodeFlightRuleType
-from generated.code_military_status_type import CodeMilitaryStatusType
-from generated.code_military_training_type import CodeMilitaryTrainingType
-from generated.code_route_designator_letter_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_flight_rule_type import CodeFlightRuleType
+from pyaixm.generated.code_military_status_type import CodeMilitaryStatusType
+from pyaixm.generated.code_military_training_type import (
+    CodeMilitaryTrainingType,
+)
+from pyaixm.generated.code_route_designator_letter_type import (
     CodeRouteDesignatorLetterType,
 )
-from generated.code_route_designator_prefix_type import (
+from pyaixm.generated.code_route_designator_prefix_type import (
     CodeRouteDesignatorPrefixType,
 )
-from generated.code_route_origin_type import CodeRouteOriginType
-from generated.code_route_type import CodeRouteType
-from generated.code_upper_alpha_type import CodeUpperAlphaType
-from generated.no_number_type import NoNumberType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.code_route_origin_type import CodeRouteOriginType
+from pyaixm.generated.code_route_type import CodeRouteType
+from pyaixm.generated.code_upper_alpha_type import CodeUpperAlphaType
+from pyaixm.generated.no_number_type import NoNumberType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.route_time_slice_type_extension import (
+from pyaixm.generated.route_time_slice_type_extension import (
     RouteTimeSliceTypeExtension,
 )
-from generated.text_designator_type import TextDesignatorType
-from generated.text_name_type import TextNameType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.obstacle_area_extension import ObstacleAreaExtension
+from pyaixm.generated.obstacle_area_extension import ObstacleAreaExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

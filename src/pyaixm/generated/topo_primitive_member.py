@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.topo_primitive_member_type import TopoPrimitiveMemberType
+from pyaixm.generated.topo_primitive_member_type import TopoPrimitiveMemberType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

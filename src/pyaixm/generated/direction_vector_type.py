@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.angle_type import AngleType
-from generated.vector import Vector
+from pyaixm.generated.angle_type import AngleType
+from pyaixm.generated.vector import Vector
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

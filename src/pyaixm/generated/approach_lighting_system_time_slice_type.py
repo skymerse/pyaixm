@@ -2,26 +2,32 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.approach_lighting_system_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.approach_lighting_system_time_slice_type_extension import (
     ApproachLightingSystemTimeSliceTypeExtension,
 )
-from generated.code_approach_lighting_icaotype import (
+from pyaixm.generated.code_approach_lighting_icaotype import (
     CodeApproachLightingIcaotype,
 )
-from generated.code_approach_lighting_type import CodeApproachLightingType
-from generated.code_colour_type import CodeColourType
-from generated.code_light_intensity_type import CodeLightIntensityType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.ground_lighting_availability_property_type import (
+from pyaixm.generated.code_approach_lighting_type import (
+    CodeApproachLightingType,
+)
+from pyaixm.generated.code_colour_type import CodeColourType
+from pyaixm.generated.code_light_intensity_type import CodeLightIntensityType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.ground_lighting_availability_property_type import (
     GroundLightingAvailabilityPropertyType,
 )
-from generated.light_element_property_type import LightElementPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.runway_direction_property_type import (
+from pyaixm.generated.light_element_property_type import (
+    LightElementPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_direction_property_type import (
     RunwayDirectionPropertyType,
 )
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

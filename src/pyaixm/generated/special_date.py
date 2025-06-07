@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.special_date_type import SpecialDateType
+from pyaixm.generated.special_date_type import SpecialDateType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

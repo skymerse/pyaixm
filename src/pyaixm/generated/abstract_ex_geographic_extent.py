@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_ex_geographic_extent_type import (
+from pyaixm.generated.abstract_ex_geographic_extent_type import (
     AbstractExGeographicExtentType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.rectangle_type import RectangleType
+from pyaixm.generated.rectangle_type import RectangleType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

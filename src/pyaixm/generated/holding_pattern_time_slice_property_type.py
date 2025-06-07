@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.holding_pattern_time_slice import HoldingPatternTimeSlice
+from pyaixm.generated.holding_pattern_time_slice import HoldingPatternTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

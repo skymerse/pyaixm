@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.azimuth_type import AzimuthType
+from pyaixm.generated.azimuth_type import AzimuthType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

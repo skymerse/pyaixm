@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.wind_direction_indicator_time_slice_type import (
+from pyaixm.generated.wind_direction_indicator_time_slice_type import (
     WindDirectionIndicatorTimeSliceType,
 )
 

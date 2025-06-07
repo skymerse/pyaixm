@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.precision_approach_radar_extension_type import (
+from pyaixm.generated.precision_approach_radar_extension_type import (
     PrecisionApproachRadarExtensionType,
 )
 

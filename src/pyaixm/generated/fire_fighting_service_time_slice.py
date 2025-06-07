@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.fire_fighting_service_time_slice_type import (
+from pyaixm.generated.fire_fighting_service_time_slice_type import (
     FireFightingServiceTimeSliceType,
 )
 

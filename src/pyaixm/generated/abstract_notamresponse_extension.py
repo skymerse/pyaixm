@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

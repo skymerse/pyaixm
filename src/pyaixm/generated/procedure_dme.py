@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.procedure_dmetype import ProcedureDmetype
+from pyaixm.generated.procedure_dmetype import ProcedureDmetype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,11 +1,11 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.character_string_property_type import (
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.md_constraints_type import MdConstraintsType
-from generated.md_restriction_code_property_type import (
+from pyaixm.generated.md_constraints_type import MdConstraintsType
+from pyaixm.generated.md_restriction_code_property_type import (
     MdRestrictionCodePropertyType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.significant_point_in_airspace_time_slice_type import (
+from pyaixm.generated.significant_point_in_airspace_time_slice_type import (
     SignificantPointInAirspaceTimeSliceType,
 )
 

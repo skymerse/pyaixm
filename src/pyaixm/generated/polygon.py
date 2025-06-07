@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.polygon_type import PolygonType
+from pyaixm.generated.polygon_type import PolygonType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

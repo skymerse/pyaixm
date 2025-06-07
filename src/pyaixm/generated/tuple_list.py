@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.coordinates_type import CoordinatesType
+from pyaixm.generated.coordinates_type import CoordinatesType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

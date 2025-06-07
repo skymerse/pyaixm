@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.fasdata_block_type import FasdataBlockType
+from pyaixm.generated.fasdata_block_type import FasdataBlockType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

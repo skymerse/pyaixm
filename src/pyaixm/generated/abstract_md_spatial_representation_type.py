@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.abstract_object_type import AbstractObjectType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

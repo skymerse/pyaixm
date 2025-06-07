@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.grid_type import GridType
+from pyaixm.generated.grid_type import GridType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.flight_restriction_extension import FlightRestrictionExtension
+from pyaixm.generated.flight_restriction_extension import (
+    FlightRestrictionExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

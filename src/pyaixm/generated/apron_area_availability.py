@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.apron_area_availability_type import ApronAreaAvailabilityType
+from pyaixm.generated.apron_area_availability_type import (
+    ApronAreaAvailabilityType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

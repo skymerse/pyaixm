@@ -1,8 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.code_response_status_base_type import CodeResponseStatusBaseType
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.code_response_status_base_type import (
+    CodeResponseStatusBaseType,
+)
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

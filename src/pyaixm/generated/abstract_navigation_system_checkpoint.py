@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_navigation_system_checkpoint_type import (
+from pyaixm.generated.abstract_navigation_system_checkpoint_type import (
     AbstractNavigationSystemCheckpointType,
 )
 

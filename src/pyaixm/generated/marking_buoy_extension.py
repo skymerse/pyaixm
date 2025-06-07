@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.marking_buoy_extension_type import MarkingBuoyExtensionType
+from pyaixm.generated.marking_buoy_extension_type import (
+    MarkingBuoyExtensionType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.arc_type_2 import ArcType2
+from pyaixm.generated.arc_type_2 import ArcType2
 
 __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 

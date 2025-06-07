@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_parametric_curve_surface_type import (
+from pyaixm.generated.abstract_parametric_curve_surface_type import (
     AbstractParametricCurveSurfaceType,
 )
 

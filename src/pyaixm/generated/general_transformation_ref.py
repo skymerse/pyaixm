@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.general_transformation_property_type import (
+from pyaixm.generated.general_transformation_property_type import (
     GeneralTransformationPropertyType,
 )
 

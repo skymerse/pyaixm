@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.spherical_cstype import SphericalCstype
+from pyaixm.generated.spherical_cstype import SphericalCstype
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

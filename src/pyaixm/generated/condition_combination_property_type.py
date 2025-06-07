@@ -2,26 +2,28 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
-from generated.aircraft_characteristic_property_type import (
+from pyaixm.generated.aircraft_characteristic_property_type import (
     AircraftCharacteristicPropertyType,
 )
-from generated.code_logical_operator_type import CodeLogicalOperatorType
-from generated.condition_combination_type_extension import (
+from pyaixm.generated.code_logical_operator_type import CodeLogicalOperatorType
+from pyaixm.generated.condition_combination_type_extension import (
     ConditionCombinationTypeExtension,
 )
-from generated.flight_characteristic_property_type import (
+from pyaixm.generated.flight_characteristic_property_type import (
     FlightCharacteristicPropertyType,
 )
-from generated.meteorology_property_type import MeteorologyPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.meteorology_property_type import MeteorologyPropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.timesheet_property_type import TimesheetPropertyType
+from pyaixm.generated.timesheet_property_type import TimesheetPropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

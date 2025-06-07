@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_centreline_point_time_slice_type import (
+from pyaixm.generated.runway_centreline_point_time_slice_type import (
     RunwayCentrelinePointTimeSliceType,
 )
 

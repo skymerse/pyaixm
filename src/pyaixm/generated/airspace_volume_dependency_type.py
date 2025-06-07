@@ -2,13 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.airspace_property_type import AirspacePropertyType
-from generated.airspace_volume_dependency_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.airspace_property_type import AirspacePropertyType
+from pyaixm.generated.airspace_volume_dependency_type_extension import (
     AirspaceVolumeDependencyTypeExtension,
 )
-from generated.code_airspace_dependency_type import CodeAirspaceDependencyType
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.code_airspace_dependency_type import (
+    CodeAirspaceDependencyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

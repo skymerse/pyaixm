@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.information_service_extension_type import (
+from pyaixm.generated.information_service_extension_type import (
     InformationServiceExtensionType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.point_reference_type import PointReferenceType
+from pyaixm.generated.point_reference_type import PointReferenceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

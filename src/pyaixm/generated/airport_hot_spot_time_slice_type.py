@@ -2,19 +2,21 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.airport_hot_spot_time_slice_type_extension import (
+from pyaixm.generated.airport_hot_spot_time_slice_type_extension import (
     AirportHotSpotTimeSliceTypeExtension,
 )
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.text_designator_type import TextDesignatorType
-from generated.text_instruction_type import TextInstructionType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.text_instruction_type import TextInstructionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

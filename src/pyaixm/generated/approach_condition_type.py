@@ -2,32 +2,32 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.aircraft_characteristic_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.aircraft_characteristic_property_type import (
     AircraftCharacteristicPropertyType,
 )
-from generated.altimeter_source_property_type import (
+from pyaixm.generated.altimeter_source_property_type import (
     AltimeterSourcePropertyType,
 )
-from generated.approach_condition_type_extension import (
+from pyaixm.generated.approach_condition_type_extension import (
     ApproachConditionTypeExtension,
 )
-from generated.circling_restriction_property_type import (
+from pyaixm.generated.circling_restriction_property_type import (
     CirclingRestrictionPropertyType,
 )
-from generated.code_minima_final_approach_path_type import (
+from pyaixm.generated.code_minima_final_approach_path_type import (
     CodeMinimaFinalApproachPathType,
 )
-from generated.code_rnptype import CodeRnptype
-from generated.landing_takeoff_area_collection_property_type import (
+from pyaixm.generated.code_rnptype import CodeRnptype
+from pyaixm.generated.landing_takeoff_area_collection_property_type import (
     LandingTakeoffAreaCollectionPropertyType,
 )
-from generated.minima_property_type import MinimaPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.obstacle_assessment_area_property_type import (
+from pyaixm.generated.minima_property_type import MinimaPropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstacle_assessment_area_property_type import (
     ObstacleAssessmentAreaPropertyType,
 )
-from generated.val_slope_type import ValSlopeType
+from pyaixm.generated.val_slope_type import ValSlopeType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

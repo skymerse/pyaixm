@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.time_ordinal_era_type import TimeOrdinalEraPropertyType
-from generated.time_reference_system_type import TimeReferenceSystemType
+from pyaixm.generated.time_ordinal_era_type import TimeOrdinalEraPropertyType
+from pyaixm.generated.time_reference_system_type import TimeReferenceSystemType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

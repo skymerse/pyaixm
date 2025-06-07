@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.vertical_structure_part import VerticalStructurePart
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.vertical_structure_part import VerticalStructurePart
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

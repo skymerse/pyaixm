@@ -2,10 +2,10 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_notamstatus_type import CodeNotamstatusType
-from generated.date_month_day_type import DateMonthDayType
-from generated.fns_notamtype_extension import FnsNotamtypeExtension
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_notamstatus_type import CodeNotamstatusType
+from pyaixm.generated.date_month_day_type import DateMonthDayType
+from pyaixm.generated.fns_notamtype_extension import FnsNotamtypeExtension
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

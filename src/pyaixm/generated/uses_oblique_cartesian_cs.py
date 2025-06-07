@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.oblique_cartesian_csproperty_type import (
+from pyaixm.generated.oblique_cartesian_csproperty_type import (
     ObliqueCartesianCspropertyType,
 )
 

@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_coverage_type import AbstractCoverageType
-from generated.coverage_function import CoverageFunction
+from pyaixm.generated.abstract_coverage_type import AbstractCoverageType
+from pyaixm.generated.coverage_function import CoverageFunction
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

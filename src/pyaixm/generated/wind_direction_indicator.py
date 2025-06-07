@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.wind_direction_indicator_type import WindDirectionIndicatorType
+from pyaixm.generated.wind_direction_indicator_type import (
+    WindDirectionIndicatorType,
+)
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

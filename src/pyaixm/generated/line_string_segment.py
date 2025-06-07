@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.line_string_segment_type import LineStringSegmentType
+from pyaixm.generated.line_string_segment_type import LineStringSegmentType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

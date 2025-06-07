@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.touch_down_lift_off_light_system_time_slice_type import (
+from pyaixm.generated.touch_down_lift_off_light_system_time_slice_type import (
     TouchDownLiftOffLightSystemTimeSliceType,
 )
 

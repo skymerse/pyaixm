@@ -2,12 +2,14 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.code_apron_marking_type import CodeApronMarkingType
-from generated.code_cardinal_direction_type import CodeCardinalDirectionType
-from generated.code_landing_marking_type import CodeLandingMarkingType
-from generated.code_marking_status_type import CodeMarkingStatusType
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.code_apron_marking_type import CodeApronMarkingType
+from pyaixm.generated.code_cardinal_direction_type import (
+    CodeCardinalDirectionType,
+)
+from pyaixm.generated.code_landing_marking_type import CodeLandingMarkingType
+from pyaixm.generated.code_marking_status_type import CodeMarkingStatusType
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

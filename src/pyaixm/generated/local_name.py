@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.code_type import CodeType
+from pyaixm.generated.code_type import CodeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

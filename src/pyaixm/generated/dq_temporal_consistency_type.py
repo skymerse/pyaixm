@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_dq_temporal_accuracy_type import (
+from pyaixm.generated.abstract_dq_temporal_accuracy_type import (
     AbstractDqTemporalAccuracyType,
 )
 

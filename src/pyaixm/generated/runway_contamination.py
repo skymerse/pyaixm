@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_contamination_type import RunwayContaminationType
+from pyaixm.generated.runway_contamination_type import RunwayContaminationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -2,10 +2,10 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.character_string_property_type import (
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.object_reference_property_type import (
+from pyaixm.generated.object_reference_property_type import (
     ObjectReferencePropertyType,
 )
 

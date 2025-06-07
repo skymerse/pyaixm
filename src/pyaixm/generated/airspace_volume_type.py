@@ -2,19 +2,21 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.airspace_volume_dependency_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.airspace_volume_dependency_property_type import (
     AirspaceVolumeDependencyPropertyType,
 )
-from generated.airspace_volume_type_extension import (
+from pyaixm.generated.airspace_volume_type_extension import (
     AirspaceVolumeTypeExtension,
 )
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.curve_property_type_2 import CurvePropertyType2
-from generated.note_property_type import NotePropertyType
-from generated.surface_property_type_2 import SurfacePropertyType2
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.curve_property_type_2 import CurvePropertyType2
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surface_property_type_2 import SurfacePropertyType2
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

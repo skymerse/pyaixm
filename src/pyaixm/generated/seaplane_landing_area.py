@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.seaplane_landing_area_type import SeaplaneLandingAreaType
+from pyaixm.generated.seaplane_landing_area_type import SeaplaneLandingAreaType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

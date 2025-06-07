@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_extended_element_information_type import (
+from pyaixm.generated.md_extended_element_information_type import (
     MdExtendedElementInformationType,
 )
 

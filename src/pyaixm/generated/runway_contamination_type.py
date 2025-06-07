@@ -2,27 +2,29 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_surface_contamination_type import (
+from pyaixm.generated.abstract_surface_contamination_type import (
     AbstractSurfaceContaminationType,
 )
-from generated.code_friction_device_type import CodeFrictionDeviceType
-from generated.code_friction_estimate_type import CodeFrictionEstimateType
-from generated.code_side_type import CodeSideType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.date_time_type import DateTimeType
-from generated.note_property_type import NotePropertyType
-from generated.ridge_property_type import RidgePropertyType
-from generated.runway_contamination_type_extension import (
+from pyaixm.generated.code_friction_device_type import CodeFrictionDeviceType
+from pyaixm.generated.code_friction_estimate_type import (
+    CodeFrictionEstimateType,
+)
+from pyaixm.generated.code_side_type import CodeSideType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.date_time_type import DateTimeType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.ridge_property_type import RidgePropertyType
+from pyaixm.generated.runway_contamination_type_extension import (
     RunwayContaminationTypeExtension,
 )
-from generated.surface_contamination_layer_property_type import (
+from pyaixm.generated.surface_contamination_layer_property_type import (
     SurfaceContaminationLayerPropertyType,
 )
-from generated.time_type_2 import TimeType2
-from generated.val_depth_type import ValDepthType
-from generated.val_distance_type import ValDistanceType
-from generated.val_friction_type import ValFrictionType
-from generated.val_percent_type import ValPercentType
+from pyaixm.generated.time_type_2 import TimeType2
+from pyaixm.generated.val_depth_type import ValDepthType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_friction_type import ValFrictionType
+from pyaixm.generated.val_percent_type import ValPercentType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

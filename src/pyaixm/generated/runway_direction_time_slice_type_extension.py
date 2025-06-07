@@ -1,8 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.runway_direction_extension_1 import RunwayDirectionExtension1
-from generated.runway_direction_extension_2 import RunwayDirectionExtension2
+from pyaixm.generated.runway_direction_extension_1 import (
+    RunwayDirectionExtension1,
+)
+from pyaixm.generated.runway_direction_extension_2 import (
+    RunwayDirectionExtension2,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

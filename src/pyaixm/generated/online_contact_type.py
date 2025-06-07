@@ -2,18 +2,20 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
-from generated.code_telecom_network_type import CodeTelecomNetworkType
-from generated.note_property_type import NotePropertyType
-from generated.online_contact_type_extension import OnlineContactTypeExtension
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.code_telecom_network_type import CodeTelecomNetworkType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.online_contact_type_extension import (
+    OnlineContactTypeExtension,
+)
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.text_address_type import TextAddressType
-from generated.text_name_type import TextNameType
-from generated.timesheet_property_type import TimesheetPropertyType
+from pyaixm.generated.text_address_type import TextAddressType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.timesheet_property_type import TimesheetPropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

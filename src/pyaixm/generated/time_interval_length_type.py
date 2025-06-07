@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Optional, Union
 
-from generated.time_unit_type_value import TimeUnitTypeValue
+from pyaixm.generated.time_unit_type_value import TimeUnitTypeValue
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.interpretation_value import InterpretationValue
+from pyaixm.generated.interpretation_value import InterpretationValue
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

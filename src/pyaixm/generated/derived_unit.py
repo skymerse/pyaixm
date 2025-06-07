@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.derived_unit_type import DerivedUnitType
+from pyaixm.generated.derived_unit_type import DerivedUnitType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

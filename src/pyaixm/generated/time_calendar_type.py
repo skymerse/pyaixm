@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.time_calendar_era_property_type import (
+from pyaixm.generated.time_calendar_era_property_type import (
     TimeCalendarEraPropertyType,
 )
-from generated.time_reference_system_type import TimeReferenceSystemType
+from pyaixm.generated.time_reference_system_type import TimeReferenceSystemType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

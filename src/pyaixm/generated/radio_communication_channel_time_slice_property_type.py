@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.radio_communication_channel_time_slice import (
+from pyaixm.generated.radio_communication_channel_time_slice import (
     RadioCommunicationChannelTimeSlice,
 )
 

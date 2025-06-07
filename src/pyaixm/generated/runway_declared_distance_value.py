@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_declared_distance_value_type import (
+from pyaixm.generated.runway_declared_distance_value_type import (
     RunwayDeclaredDistanceValueType,
 )
 

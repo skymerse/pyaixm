@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.navigation_area_restriction_extension import (
+from pyaixm.generated.navigation_area_restriction_extension import (
     NavigationAreaRestrictionExtension,
 )
 

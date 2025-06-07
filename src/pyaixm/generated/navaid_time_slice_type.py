@@ -2,35 +2,45 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_course_quality_ilstype import CodeCourseQualityIlstype
-from generated.code_integrity_level_ilstype import CodeIntegrityLevelIlstype
-from generated.code_navaid_designator_type import CodeNavaidDesignatorType
-from generated.code_navaid_purpose_type import CodeNavaidPurposeType
-from generated.code_navaid_service_type import CodeNavaidServiceType
-from generated.code_signal_performance_ilstype import (
+from pyaixm.generated.code_course_quality_ilstype import (
+    CodeCourseQualityIlstype,
+)
+from pyaixm.generated.code_integrity_level_ilstype import (
+    CodeIntegrityLevelIlstype,
+)
+from pyaixm.generated.code_navaid_designator_type import (
+    CodeNavaidDesignatorType,
+)
+from pyaixm.generated.code_navaid_purpose_type import CodeNavaidPurposeType
+from pyaixm.generated.code_navaid_service_type import CodeNavaidServiceType
+from pyaixm.generated.code_signal_performance_ilstype import (
     CodeSignalPerformanceIlstype,
 )
-from generated.code_yes_no_type import CodeYesNoType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.navaid_component_property_type import (
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.navaid_component_property_type import (
     NavaidComponentPropertyType,
 )
-from generated.navaid_operational_status_property_type import (
+from pyaixm.generated.navaid_operational_status_property_type import (
     NavaidOperationalStatusPropertyType,
 )
-from generated.navaid_time_slice_type_extension import (
+from pyaixm.generated.navaid_time_slice_type_extension import (
     NavaidTimeSliceTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.runway_direction_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_direction_property_type import (
     RunwayDirectionPropertyType,
 )
-from generated.text_name_type import TextNameType
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
 

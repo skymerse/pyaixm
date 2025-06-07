@@ -2,19 +2,19 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
-from generated.code_radio_signal_type import CodeRadioSignalType
-from generated.code_status_navaid_type import CodeStatusNavaidType
-from generated.navaid_operational_status_type_extension import (
+from pyaixm.generated.code_radio_signal_type import CodeRadioSignalType
+from pyaixm.generated.code_status_navaid_type import CodeStatusNavaidType
+from pyaixm.generated.navaid_operational_status_type_extension import (
     NavaidOperationalStatusTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.timesheet_property_type import TimesheetPropertyType
+from pyaixm.generated.timesheet_property_type import TimesheetPropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

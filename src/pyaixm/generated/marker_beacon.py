@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.marker_beacon_type import MarkerBeaconType
+from pyaixm.generated.marker_beacon_type import MarkerBeaconType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -2,16 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.ci_responsible_party_property_type import (
+from pyaixm.generated.ci_responsible_party_property_type import (
     CiResponsiblePartyPropertyType,
 )
-from generated.integer_property_type import IntegerPropertyType
-from generated.md_datatype_code_property_type import MdDatatypeCodePropertyType
-from generated.md_obligation_code_property_type import (
+from pyaixm.generated.integer_property_type import IntegerPropertyType
+from pyaixm.generated.md_datatype_code_property_type import (
+    MdDatatypeCodePropertyType,
+)
+from pyaixm.generated.md_obligation_code_property_type import (
     MdObligationCodePropertyType,
 )
 

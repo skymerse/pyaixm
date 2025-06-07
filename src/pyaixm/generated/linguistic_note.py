@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.linguistic_note_type import LinguisticNoteType
+from pyaixm.generated.linguistic_note_type import LinguisticNoteType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

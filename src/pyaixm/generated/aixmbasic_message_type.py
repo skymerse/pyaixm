@@ -1,7 +1,7 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_aixmmessage_type import AbstractAixmmessageType
+from pyaixm.generated.abstract_aixmmessage_type import AbstractAixmmessageType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/message"
 

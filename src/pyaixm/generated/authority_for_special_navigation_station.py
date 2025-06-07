@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.authority_for_special_navigation_station_type import (
+from pyaixm.generated.authority_for_special_navigation_station_type import (
     AuthorityForSpecialNavigationStationType,
 )
 

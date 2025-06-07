@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Union
 
-from generated.code_event_encoding_base_type_value import (
+from pyaixm.generated.code_event_encoding_base_type_value import (
     CodeEventEncodingBaseTypeValue,
 )
 

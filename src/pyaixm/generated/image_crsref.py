@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.image_crsproperty_type import ImageCrspropertyType
+from pyaixm.generated.image_crsproperty_type import ImageCrspropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

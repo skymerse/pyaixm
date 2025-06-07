@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.envelope_type import EnvelopeType
-from generated.time_position_type import TimePositionType
+from pyaixm.generated.envelope_type import EnvelopeType
+from pyaixm.generated.time_position_type import TimePositionType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

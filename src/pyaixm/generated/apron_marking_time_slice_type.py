@@ -2,16 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.apron_marking_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.apron_marking_time_slice_type_extension import (
     ApronMarkingTimeSliceTypeExtension,
 )
-from generated.apron_property_type import ApronPropertyType
-from generated.code_apron_section_type import CodeApronSectionType
-from generated.code_marking_condition_type import CodeMarkingConditionType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.marking_element_property_type import MarkingElementPropertyType
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.apron_property_type import ApronPropertyType
+from pyaixm.generated.code_apron_section_type import CodeApronSectionType
+from pyaixm.generated.code_marking_condition_type import (
+    CodeMarkingConditionType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.marking_element_property_type import (
+    MarkingElementPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

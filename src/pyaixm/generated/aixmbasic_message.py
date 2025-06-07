@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.aixmbasic_message_type import AixmbasicMessageType
+from pyaixm.generated.aixmbasic_message_type import AixmbasicMessageType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/message"
 

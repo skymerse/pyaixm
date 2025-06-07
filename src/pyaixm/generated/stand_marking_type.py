@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_marking_type import AbstractMarkingType
-from generated.stand_marking_time_slice_property_type import (
+from pyaixm.generated.abstract_marking_type import AbstractMarkingType
+from pyaixm.generated.stand_marking_time_slice_property_type import (
     StandMarkingTimeSlicePropertyType,
 )
 

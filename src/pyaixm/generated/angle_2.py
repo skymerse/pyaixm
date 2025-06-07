@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.angle_type import AngleType
+from pyaixm.generated.angle_type import AngleType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

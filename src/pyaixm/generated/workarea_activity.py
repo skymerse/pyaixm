@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.workarea_activity_type import WorkareaActivityType
+from pyaixm.generated.workarea_activity_type import WorkareaActivityType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

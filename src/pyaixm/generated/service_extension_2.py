@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.service_extension_type_2 import ServiceExtensionType2
+from pyaixm.generated.service_extension_type_2 import ServiceExtensionType2
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

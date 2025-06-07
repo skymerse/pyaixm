@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.procedure_dmetime_slice import ProcedureDmetimeSlice
+from pyaixm.generated.procedure_dmetime_slice import ProcedureDmetimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

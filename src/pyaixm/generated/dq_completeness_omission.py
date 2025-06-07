@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.dq_completeness_omission_type import DqCompletenessOmissionType
+from pyaixm.generated.dq_completeness_omission_type import (
+    DqCompletenessOmissionType,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

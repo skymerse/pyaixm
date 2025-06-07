@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_blast_pad_extension_type import (
+from pyaixm.generated.runway_blast_pad_extension_type import (
     RunwayBlastPadExtensionType,
 )
 

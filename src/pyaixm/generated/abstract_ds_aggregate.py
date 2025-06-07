@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_metadata_type import AbstractDsAggregateType
+from pyaixm.generated.md_metadata_type import AbstractDsAggregateType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

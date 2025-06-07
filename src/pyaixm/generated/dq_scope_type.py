@@ -2,10 +2,12 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.ex_extent_property_type import ExExtentPropertyType
-from generated.md_scope_code_property_type import MdScopeCodePropertyType
-from generated.md_scope_description_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.ex_extent_property_type import ExExtentPropertyType
+from pyaixm.generated.md_scope_code_property_type import (
+    MdScopeCodePropertyType,
+)
+from pyaixm.generated.md_scope_description_property_type import (
     MdScopeDescriptionPropertyType,
 )
 

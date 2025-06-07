@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.direction_finder_extension_type import (
+from pyaixm.generated.direction_finder_extension_type import (
     DirectionFinderExtensionType,
 )
 

@@ -1,10 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.decimal import DecimalType
-from generated.integer import Integer
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.real import Real
+from pyaixm.generated.decimal import DecimalType
+from pyaixm.generated.integer import Integer
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.real import Real
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

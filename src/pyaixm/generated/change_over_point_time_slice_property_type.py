@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.change_over_point_time_slice import ChangeOverPointTimeSlice
+from pyaixm.generated.change_over_point_time_slice import (
+    ChangeOverPointTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.aircraft_stand_contamination_type import (
+from pyaixm.generated.aircraft_stand_contamination_type import (
     AircraftStandContaminationType,
 )
 

@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.localised_character_string import LocalisedCharacterString
-from generated.object_reference_property_type import (
+from pyaixm.generated.localised_character_string import (
+    LocalisedCharacterString,
+)
+from pyaixm.generated.object_reference_property_type import (
     ObjectReferencePropertyType,
 )
 

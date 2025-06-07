@@ -2,22 +2,30 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.checkpoint_vortime_slice_type_extension import (
+from pyaixm.generated.checkpoint_vortime_slice_type_extension import (
     CheckpointVortimeSliceTypeExtension,
 )
-from generated.code_altitude_use_type import CodeAltitudeUseType
-from generated.code_checkpoint_category_type import CodeCheckpointCategoryType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.val_bearing_type import ValBearingType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.vorproperty_type import VorpropertyType
+from pyaixm.generated.code_altitude_use_type import CodeAltitudeUseType
+from pyaixm.generated.code_checkpoint_category_type import (
+    CodeCheckpointCategoryType,
+)
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.vorproperty_type import VorpropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

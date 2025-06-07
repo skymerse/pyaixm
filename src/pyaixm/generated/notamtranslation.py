@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.notamtranslation_type import NotamtranslationType
+from pyaixm.generated.notamtranslation_type import NotamtranslationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

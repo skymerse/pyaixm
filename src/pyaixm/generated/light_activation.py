@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.light_activation_type import LightActivationType
+from pyaixm.generated.light_activation_type import LightActivationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

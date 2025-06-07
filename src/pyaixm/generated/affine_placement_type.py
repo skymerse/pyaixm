@@ -2,8 +2,8 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.direct_position_type import DirectPositionType
-from generated.vector_type import VectorType
+from pyaixm.generated.direct_position_type import DirectPositionType
+from pyaixm.generated.vector_type import VectorType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

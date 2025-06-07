@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.bounding_shape_type import BoundingShapeType
+from pyaixm.generated.bounding_shape_type import BoundingShapeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

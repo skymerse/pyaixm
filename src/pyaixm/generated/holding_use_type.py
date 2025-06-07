@@ -2,14 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_holding_use_type import CodeHoldingUseType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.holding_pattern_property_type import HoldingPatternPropertyType
-from generated.holding_use_type_extension import HoldingUseTypeExtension
-from generated.note_property_type import NotePropertyType
-from generated.text_instruction_type import TextInstructionType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_holding_use_type import CodeHoldingUseType
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.holding_pattern_property_type import (
+    HoldingPatternPropertyType,
+)
+from pyaixm.generated.holding_use_type_extension import HoldingUseTypeExtension
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.text_instruction_type import TextInstructionType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

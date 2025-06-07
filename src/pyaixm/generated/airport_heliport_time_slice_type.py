@@ -2,51 +2,59 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_availability_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_availability_property_type import (
     AirportHeliportAvailabilityPropertyType,
 )
-from generated.airport_heliport_contamination_property_type import (
+from pyaixm.generated.airport_heliport_contamination_property_type import (
     AirportHeliportContaminationPropertyType,
 )
-from generated.airport_heliport_responsibility_organisation_property_type import (
+from pyaixm.generated.airport_heliport_responsibility_organisation_property_type import (
     AirportHeliportResponsibilityOrganisationPropertyType,
 )
-from generated.airport_heliport_time_slice_type_extension import (
+from pyaixm.generated.airport_heliport_time_slice_type_extension import (
     AirportHeliportTimeSliceTypeExtension,
 )
-from generated.altimeter_source_property_type import (
+from pyaixm.generated.altimeter_source_property_type import (
     AltimeterSourcePropertyType,
 )
-from generated.city_property_type import CityPropertyType
-from generated.code_airport_heliport_designator_type import (
+from pyaixm.generated.city_property_type import CityPropertyType
+from pyaixm.generated.code_airport_heliport_designator_type import (
     CodeAirportHeliportDesignatorType,
 )
-from generated.code_airport_heliport_type import CodeAirportHeliportType
-from generated.code_iatatype import CodeIatatype
-from generated.code_icaotype import CodeIcaotype
-from generated.code_military_operations_type import CodeMilitaryOperationsType
-from generated.code_vertical_datum_type import CodeVerticalDatumType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.contact_information_property_type import (
+from pyaixm.generated.code_airport_heliport_type import CodeAirportHeliportType
+from pyaixm.generated.code_iatatype import CodeIatatype
+from pyaixm.generated.code_icaotype import CodeIcaotype
+from pyaixm.generated.code_military_operations_type import (
+    CodeMilitaryOperationsType,
+)
+from pyaixm.generated.code_vertical_datum_type import CodeVerticalDatumType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.contact_information_property_type import (
     ContactInformationPropertyType,
 )
-from generated.date_type import DateType
-from generated.date_year_type import DateYearType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.date_type import DateType
+from pyaixm.generated.date_year_type import DateYearType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.text_name_type import TextNameType
-from generated.val_angle_type import ValAngleType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.val_fltype import ValFltype
-from generated.val_magnetic_variation_change_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.val_angle_type import ValAngleType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_fltype import ValFltype
+from pyaixm.generated.val_magnetic_variation_change_type import (
     ValMagneticVariationChangeType,
 )
-from generated.val_magnetic_variation_type import ValMagneticVariationType
-from generated.val_temperature_type import ValTemperatureType
+from pyaixm.generated.val_magnetic_variation_type import (
+    ValMagneticVariationType,
+)
+from pyaixm.generated.val_temperature_type import ValTemperatureType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

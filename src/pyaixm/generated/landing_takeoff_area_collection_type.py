@@ -1,15 +1,15 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.landing_takeoff_area_collection_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.landing_takeoff_area_collection_type_extension import (
     LandingTakeoffAreaCollectionTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.runway_direction_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_direction_property_type import (
     RunwayDirectionPropertyType,
 )
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
 

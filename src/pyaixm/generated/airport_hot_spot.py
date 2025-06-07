@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airport_hot_spot_type import AirportHotSpotType
+from pyaixm.generated.airport_hot_spot_type import AirportHotSpotType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

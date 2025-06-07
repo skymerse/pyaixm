@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.direction_finder_time_slice import DirectionFinderTimeSlice
+from pyaixm.generated.direction_finder_time_slice import (
+    DirectionFinderTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

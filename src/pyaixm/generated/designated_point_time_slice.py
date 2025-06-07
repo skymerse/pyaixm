@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.designated_point_time_slice_type import (
+from pyaixm.generated.designated_point_time_slice_type import (
     DesignatedPointTimeSliceType,
 )
 

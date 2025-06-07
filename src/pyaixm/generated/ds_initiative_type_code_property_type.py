@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.ds_initiative_type_code import DsInitiativeTypeCode
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.ds_initiative_type_code import DsInitiativeTypeCode
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

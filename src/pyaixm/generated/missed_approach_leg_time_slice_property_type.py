@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.missed_approach_leg_time_slice import MissedApproachLegTimeSlice
+from pyaixm.generated.missed_approach_leg_time_slice import (
+    MissedApproachLegTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

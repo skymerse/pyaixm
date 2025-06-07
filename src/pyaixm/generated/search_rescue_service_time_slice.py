@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.search_rescue_service_time_slice_type import (
+from pyaixm.generated.search_rescue_service_time_slice_type import (
     SearchRescueServiceTimeSliceType,
 )
 

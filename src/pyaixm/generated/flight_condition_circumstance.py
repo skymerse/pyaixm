@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.flight_condition_circumstance_type import (
+from pyaixm.generated.flight_condition_circumstance_type import (
     FlightConditionCircumstanceType,
 )
 

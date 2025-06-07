@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.inline_property_type import InlinePropertyType
+from pyaixm.generated.inline_property_type import InlinePropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

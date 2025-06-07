@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ndbtype import Ndbtype
+from pyaixm.generated.ndbtype import Ndbtype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

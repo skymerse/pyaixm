@@ -3,7 +3,9 @@ from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate
 
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

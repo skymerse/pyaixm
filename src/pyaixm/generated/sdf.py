@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.sdftype import Sdftype
+from pyaixm.generated.sdftype import Sdftype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

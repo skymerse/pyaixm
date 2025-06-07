@@ -2,29 +2,37 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.authority_for_navaid_equipment_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.authority_for_navaid_equipment_property_type import (
     AuthorityForNavaidEquipmentPropertyType,
 )
-from generated.code_navaid_designator_type import CodeNavaidDesignatorType
-from generated.code_radio_emission_type import CodeRadioEmissionType
-from generated.code_tacanchannel_type import CodeTacanchannelType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.date_year_type import DateYearType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.navaid_equipment_monitoring_property_type import (
+from pyaixm.generated.code_navaid_designator_type import (
+    CodeNavaidDesignatorType,
+)
+from pyaixm.generated.code_radio_emission_type import CodeRadioEmissionType
+from pyaixm.generated.code_tacanchannel_type import CodeTacanchannelType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.date_year_type import DateYearType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.navaid_equipment_monitoring_property_type import (
     NavaidEquipmentMonitoringPropertyType,
 )
-from generated.navaid_operational_status_property_type import (
+from pyaixm.generated.navaid_operational_status_property_type import (
     NavaidOperationalStatusPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.tacantime_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.tacantime_slice_type_extension import (
     TacantimeSliceTypeExtension,
 )
-from generated.text_name_type import TextNameType
-from generated.val_angle_type import ValAngleType
-from generated.val_magnetic_variation_type import ValMagneticVariationType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.val_angle_type import ValAngleType
+from pyaixm.generated.val_magnetic_variation_type import (
+    ValMagneticVariationType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_topological_consistency_type import (
+from pyaixm.generated.dq_topological_consistency_type import (
     DqTopologicalConsistencyType,
 )
 

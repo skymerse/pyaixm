@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.dq_temporal_consistency_type import DqTemporalConsistencyType
+from pyaixm.generated.dq_temporal_consistency_type import (
+    DqTemporalConsistencyType,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

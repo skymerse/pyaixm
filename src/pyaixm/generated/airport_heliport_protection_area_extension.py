@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airport_heliport_protection_area_extension_type import (
+from pyaixm.generated.airport_heliport_protection_area_extension_type import (
     AirportHeliportProtectionAreaExtensionType,
 )
 

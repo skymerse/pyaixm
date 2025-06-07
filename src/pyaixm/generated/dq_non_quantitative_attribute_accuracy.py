@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_non_quantitative_attribute_accuracy_type import (
+from pyaixm.generated.dq_non_quantitative_attribute_accuracy_type import (
     DqNonQuantitativeAttributeAccuracyType,
 )
 

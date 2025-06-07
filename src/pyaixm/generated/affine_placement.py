@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.affine_placement_type import AffinePlacementType
+from pyaixm.generated.affine_placement_type import AffinePlacementType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.md_obligation_code import MdObligationCode
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.md_obligation_code import MdObligationCode
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -2,18 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_general_operation_parameter_property_type import (
+from pyaixm.generated.abstract_general_operation_parameter_property_type import (
     GeneralOperationParameter,
     IncludesParameter,
     Parameter,
     UsesParameter,
 )
-from generated.formula import Formula
-from generated.formula_citation import FormulaCitation
-from generated.identified_object_type import IdentifiedObjectType
-from generated.method_formula import MethodFormula
-from generated.source_dimensions import SourceDimensions
-from generated.target_dimensions import TargetDimensions
+from pyaixm.generated.formula import Formula
+from pyaixm.generated.formula_citation import FormulaCitation
+from pyaixm.generated.identified_object_type import IdentifiedObjectType
+from pyaixm.generated.method_formula import MethodFormula
+from pyaixm.generated.source_dimensions import SourceDimensions
+from pyaixm.generated.target_dimensions import TargetDimensions
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

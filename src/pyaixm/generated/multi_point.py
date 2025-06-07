@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.multi_point_type import MultiPointType
+from pyaixm.generated.multi_point_type import MultiPointType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

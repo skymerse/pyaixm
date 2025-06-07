@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_light_intensity_type import CodeLightIntensityType
-from generated.code_system_activation_type import CodeSystemActivationType
-from generated.light_activation_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_light_intensity_type import CodeLightIntensityType
+from pyaixm.generated.code_system_activation_type import (
+    CodeSystemActivationType,
+)
+from pyaixm.generated.light_activation_type_extension import (
     LightActivationTypeExtension,
 )
-from generated.no_number_type import NoNumberType
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.no_number_type import NoNumberType
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

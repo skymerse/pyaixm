@@ -1,8 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.designated_point_extension_1 import DesignatedPointExtension1
-from generated.designated_point_extension_2 import DesignatedPointExtension2
+from pyaixm.generated.designated_point_extension_1 import (
+    DesignatedPointExtension1,
+)
+from pyaixm.generated.designated_point_extension_2 import (
+    DesignatedPointExtension2,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

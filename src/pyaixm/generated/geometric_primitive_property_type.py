@@ -1,34 +1,36 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.curve_property_type_1 import (
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.curve_property_type_1 import (
     CompositeCurve,
     Curve1,
     Curve2,
     ElevatedCurve,
     OrientableCurve,
 )
-from generated.elevated_point import ElevatedPoint
-from generated.elevated_surface import ElevatedSurface
-from generated.line_string import LineString
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.point_1 import Point1
-from generated.point_2 import Point2
-from generated.polygon import Polygon
-from generated.polyhedral_surface import PolyhedralSurface
-from generated.show_type import ShowType
-from generated.solid import Solid
-from generated.solid_property_type import CompositeSolid
-from generated.surface_1 import Surface1
-from generated.surface_2 import Surface2
-from generated.surface_property_type_1 import (
+from pyaixm.generated.elevated_point import ElevatedPoint
+from pyaixm.generated.elevated_surface import ElevatedSurface
+from pyaixm.generated.line_string import LineString
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.point_1 import Point1
+from pyaixm.generated.point_2 import Point2
+from pyaixm.generated.polygon import Polygon
+from pyaixm.generated.polyhedral_surface import PolyhedralSurface
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.solid import Solid
+from pyaixm.generated.solid_property_type import CompositeSolid
+from pyaixm.generated.surface_1 import Surface1
+from pyaixm.generated.surface_2 import Surface2
+from pyaixm.generated.surface_property_type_1 import (
     CompositeSurface,
     OrientableSurface,
 )
-from generated.tin import Tin
-from generated.triangulated_surface import TriangulatedSurface
-from generated.type_type import TypeType
+from pyaixm.generated.tin import Tin
+from pyaixm.generated.triangulated_surface import TriangulatedSurface
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

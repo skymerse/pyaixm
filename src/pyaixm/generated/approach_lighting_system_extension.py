@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.approach_lighting_system_extension_type import (
+from pyaixm.generated.approach_lighting_system_extension_type import (
     ApproachLightingSystemExtensionType,
 )
 

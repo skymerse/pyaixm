@@ -2,16 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.aerial_refuelling_point_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.aerial_refuelling_point_property_type import (
     AerialRefuellingPointPropertyType,
 )
-from generated.aerial_refuelling_track_type_extension import (
+from pyaixm.generated.aerial_refuelling_track_type_extension import (
     AerialRefuellingTrackTypeExtension,
 )
-from generated.airspace_layer_property_type import AirspaceLayerPropertyType
-from generated.curve_property_type_2 import CurvePropertyType2
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.airspace_layer_property_type import (
+    AirspaceLayerPropertyType,
+)
+from pyaixm.generated.curve_property_type_2 import CurvePropertyType2
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

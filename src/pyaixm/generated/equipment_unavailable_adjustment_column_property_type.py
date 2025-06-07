@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.equipment_unavailable_adjustment_column import (
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.equipment_unavailable_adjustment_column import (
     EquipmentUnavailableAdjustmentColumn,
 )
 

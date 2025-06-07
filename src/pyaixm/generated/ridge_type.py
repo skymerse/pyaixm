@@ -2,12 +2,12 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_side_type import CodeSideType
-from generated.note_property_type import NotePropertyType
-from generated.ridge_type_extension import RidgeTypeExtension
-from generated.val_depth_type import ValDepthType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_side_type import CodeSideType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.ridge_type_extension import RidgeTypeExtension
+from pyaixm.generated.val_depth_type import ValDepthType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

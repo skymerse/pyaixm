@@ -2,10 +2,10 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_gridded_surface_type_rows_row import (
+from pyaixm.generated.abstract_gridded_surface_type_rows_row import (
     AbstractGriddedSurfaceTypeRowsRow,
 )
-from generated.abstract_parametric_curve_surface_type import (
+from pyaixm.generated.abstract_parametric_curve_surface_type import (
     AbstractParametricCurveSurfaceType,
 )
 

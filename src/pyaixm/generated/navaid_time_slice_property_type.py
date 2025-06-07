@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.navaid_time_slice import NavaidTimeSlice
+from pyaixm.generated.navaid_time_slice import NavaidTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

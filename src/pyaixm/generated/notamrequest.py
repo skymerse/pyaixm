@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.notamrequest_type import NotamrequestType
+from pyaixm.generated.notamrequest_type import NotamrequestType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

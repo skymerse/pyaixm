@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_surveillance_radar_type import (
+from pyaixm.generated.abstract_surveillance_radar_type import (
     AbstractSurveillanceRadarType,
 )
-from generated.secondary_surveillance_radar_time_slice_property_type import (
+from pyaixm.generated.secondary_surveillance_radar_time_slice_property_type import (
     SecondarySurveillanceRadarTimeSlicePropertyType,
 )
 

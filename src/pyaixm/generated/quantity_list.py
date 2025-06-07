@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.measure_or_nil_reason_list_type import (
+from pyaixm.generated.measure_or_nil_reason_list_type import (
     MeasureOrNilReasonListType,
 )
 

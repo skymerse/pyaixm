@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.departure_leg_extension_type import DepartureLegExtensionType
+from pyaixm.generated.departure_leg_extension_type import (
+    DepartureLegExtensionType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

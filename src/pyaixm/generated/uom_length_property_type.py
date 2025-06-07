@@ -1,14 +1,16 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.base_unit import BaseUnit
-from generated.conventional_unit import ConventionalUnit
-from generated.derived_unit import DerivedUnit
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.type_type import TypeType
-from generated.unit_definition import UnitDefinition
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.base_unit import BaseUnit
+from pyaixm.generated.conventional_unit import ConventionalUnit
+from pyaixm.generated.derived_unit import DerivedUnit
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
+from pyaixm.generated.unit_definition import UnitDefinition
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

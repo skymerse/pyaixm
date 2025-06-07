@@ -2,8 +2,8 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.lang_value import LangValue
-from generated.type_type import TypeType
+from pyaixm.generated.lang_value import LangValue
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 

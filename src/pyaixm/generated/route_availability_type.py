@@ -2,21 +2,27 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
-from generated.airspace_layer_property_type import AirspaceLayerPropertyType
-from generated.code_cardinal_direction_type import CodeCardinalDirectionType
-from generated.code_direction_type import CodeDirectionType
-from generated.code_route_availability_type import CodeRouteAvailabilityType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.airspace_layer_property_type import (
+    AirspaceLayerPropertyType,
+)
+from pyaixm.generated.code_cardinal_direction_type import (
+    CodeCardinalDirectionType,
+)
+from pyaixm.generated.code_direction_type import CodeDirectionType
+from pyaixm.generated.code_route_availability_type import (
+    CodeRouteAvailabilityType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.route_availability_type_extension import (
+from pyaixm.generated.route_availability_type_extension import (
     RouteAvailabilityTypeExtension,
 )
-from generated.timesheet_property_type import TimesheetPropertyType
+from pyaixm.generated.timesheet_property_type import TimesheetPropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.time_calendar_era_type import TimeCalendarEraType
+from pyaixm.generated.time_calendar_era_type import TimeCalendarEraType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

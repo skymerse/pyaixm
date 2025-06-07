@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.sphere_type import SphereType
+from pyaixm.generated.sphere_type import SphereType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

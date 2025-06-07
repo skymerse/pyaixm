@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.bezier_type import BezierType
+from pyaixm.generated.bezier_type import BezierType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

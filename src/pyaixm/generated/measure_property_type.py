@@ -1,12 +1,14 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.angle_1 import Angle1
-from generated.distance import Distance
-from generated.length import Length
-from generated.measure_1 import Measure1
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.scale import Scale
+from pyaixm.generated.angle_1 import Angle1
+from pyaixm.generated.distance import Distance
+from pyaixm.generated.length import Length
+from pyaixm.generated.measure_1 import Measure1
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.scale import Scale
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

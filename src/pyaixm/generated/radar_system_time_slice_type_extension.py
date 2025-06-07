@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.radar_system_extension import RadarSystemExtension
+from pyaixm.generated.radar_system_extension import RadarSystemExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

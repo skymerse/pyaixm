@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.aircraft_ground_service_time_slice import (
+from pyaixm.generated.aircraft_ground_service_time_slice import (
     AircraftGroundServiceTimeSlice,
 )
 

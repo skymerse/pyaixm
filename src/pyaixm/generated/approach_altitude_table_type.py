@@ -2,14 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.approach_altitude_table_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.approach_altitude_table_type_extension import (
     ApproachAltitudeTableTypeExtension,
 )
-from generated.code_procedure_distance_type import CodeProcedureDistanceType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.note_property_type import NotePropertyType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.code_procedure_distance_type import (
+    CodeProcedureDistanceType,
+)
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

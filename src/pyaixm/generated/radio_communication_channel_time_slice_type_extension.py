@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.radio_communication_channel_extension import (
+from pyaixm.generated.radio_communication_channel_extension import (
     RadioCommunicationChannelExtension,
 )
 

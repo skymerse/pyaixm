@@ -2,16 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.circle_sector_type_extension import CircleSectorTypeExtension
-from generated.code_arc_direction_type import CodeArcDirectionType
-from generated.code_bearing_type import CodeBearingType
-from generated.code_direction_reference_type import CodeDirectionReferenceType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.note_property_type import NotePropertyType
-from generated.val_bearing_type import ValBearingType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.circle_sector_type_extension import (
+    CircleSectorTypeExtension,
+)
+from pyaixm.generated.code_arc_direction_type import CodeArcDirectionType
+from pyaixm.generated.code_bearing_type import CodeBearingType
+from pyaixm.generated.code_direction_reference_type import (
+    CodeDirectionReferenceType,
+)
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.localised_character_string_type import (
+from pyaixm.generated.localised_character_string_type import (
     LocalisedCharacterStringType,
 )
 

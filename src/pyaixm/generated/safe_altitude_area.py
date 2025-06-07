@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.safe_altitude_area_type import SafeAltitudeAreaType
+from pyaixm.generated.safe_altitude_area_type import SafeAltitudeAreaType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

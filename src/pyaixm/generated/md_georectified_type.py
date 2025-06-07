@@ -2,15 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.boolean_property_type_2 import BooleanPropertyType2
-from generated.character_string_property_type import (
+from pyaixm.generated.boolean_property_type_2 import BooleanPropertyType2
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.gm_point_property_type import GmPointPropertyType
-from generated.md_grid_spatial_representation_type import (
+from pyaixm.generated.gm_point_property_type import GmPointPropertyType
+from pyaixm.generated.md_grid_spatial_representation_type import (
     MdGridSpatialRepresentationType,
 )
-from generated.md_pixel_orientation_code_property_type import (
+from pyaixm.generated.md_pixel_orientation_code_property_type import (
     MdPixelOrientationCodePropertyType,
 )
 

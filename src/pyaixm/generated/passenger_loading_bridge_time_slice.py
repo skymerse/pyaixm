@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.passenger_loading_bridge_time_slice_type import (
+from pyaixm.generated.passenger_loading_bridge_time_slice_type import (
     PassengerLoadingBridgeTimeSliceType,
 )
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.seaplane_landing_area_extension import (
+from pyaixm.generated.seaplane_landing_area_extension import (
     SeaplaneLandingAreaExtension,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.pilot_controlled_lighting_extension_type import (
+from pyaixm.generated.pilot_controlled_lighting_extension_type import (
     PilotControlledLightingExtensionType,
 )
 

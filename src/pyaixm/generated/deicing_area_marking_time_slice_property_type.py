@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.deicing_area_marking_time_slice import (
+from pyaixm.generated.deicing_area_marking_time_slice import (
     DeicingAreaMarkingTimeSlice,
 )
 

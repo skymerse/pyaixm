@@ -2,15 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_md_spatial_representation_type import (
+from pyaixm.generated.abstract_md_spatial_representation_type import (
     AbstractMdSpatialRepresentationType,
 )
-from generated.boolean_property_type_2 import BooleanPropertyType2
-from generated.integer_property_type import IntegerPropertyType
-from generated.md_cell_geometry_code_property_type import (
+from pyaixm.generated.boolean_property_type_2 import BooleanPropertyType2
+from pyaixm.generated.integer_property_type import IntegerPropertyType
+from pyaixm.generated.md_cell_geometry_code_property_type import (
     MdCellGeometryCodePropertyType,
 )
-from generated.md_dimension_property_type import MdDimensionPropertyType
+from pyaixm.generated.md_dimension_property_type import MdDimensionPropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

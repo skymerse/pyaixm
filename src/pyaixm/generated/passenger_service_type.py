@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_airport_ground_service_type import (
+from pyaixm.generated.abstract_airport_ground_service_type import (
     AbstractAirportGroundServiceType,
 )
-from generated.passenger_service_time_slice_property_type import (
+from pyaixm.generated.passenger_service_time_slice_property_type import (
     PassengerServiceTimeSlicePropertyType,
 )
 

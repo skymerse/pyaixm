@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.floating_dock_site_time_slice import FloatingDockSiteTimeSlice
+from pyaixm.generated.floating_dock_site_time_slice import (
+    FloatingDockSiteTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

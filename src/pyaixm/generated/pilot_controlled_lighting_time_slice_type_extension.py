@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.pilot_controlled_lighting_extension import (
+from pyaixm.generated.pilot_controlled_lighting_extension import (
     PilotControlledLightingExtension,
 )
 

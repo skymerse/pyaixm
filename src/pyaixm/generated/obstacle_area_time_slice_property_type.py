@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.obstacle_area_time_slice import ObstacleAreaTimeSlice
+from pyaixm.generated.obstacle_area_time_slice import ObstacleAreaTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

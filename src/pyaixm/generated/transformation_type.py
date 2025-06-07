@@ -2,16 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_general_parameter_value_property_type import (
+from pyaixm.generated.abstract_general_parameter_value_property_type import (
     IncludesValue,
     ParameterValue2,
     UsesValue,
 )
-from generated.abstract_general_transformation_type import (
+from pyaixm.generated.abstract_general_transformation_type import (
     AbstractGeneralTransformationType,
 )
-from generated.method import Method
-from generated.uses_method import UsesMethod
+from pyaixm.generated.method import Method
+from pyaixm.generated.uses_method import UsesMethod
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

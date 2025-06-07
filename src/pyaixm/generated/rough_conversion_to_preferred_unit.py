@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.conversion_to_preferred_unit_type import (
+from pyaixm.generated.conversion_to_preferred_unit_type import (
     ConversionToPreferredUnitType,
 )
 

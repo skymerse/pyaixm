@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.surface_characteristics_extension_type import (
+from pyaixm.generated.surface_characteristics_extension_type import (
     SurfaceCharacteristicsExtensionType,
 )
 

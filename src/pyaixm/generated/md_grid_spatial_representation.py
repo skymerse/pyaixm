@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_grid_spatial_representation_type import (
+from pyaixm.generated.md_grid_spatial_representation_type import (
     MdGridSpatialRepresentationType,
 )
 

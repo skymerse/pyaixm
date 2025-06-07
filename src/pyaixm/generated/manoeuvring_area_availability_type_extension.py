@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.manoeuvring_area_availability_extension import (
+from pyaixm.generated.manoeuvring_area_availability_extension import (
     ManoeuvringAreaAvailabilityExtension,
 )
 

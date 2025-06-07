@@ -1,13 +1,15 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.ex_bounding_polygon import ExBoundingPolygon
-from generated.ex_geographic_bounding_box import ExGeographicBoundingBox
-from generated.ex_geographic_description import ExGeographicDescription
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.ex_bounding_polygon import ExBoundingPolygon
+from pyaixm.generated.ex_geographic_bounding_box import ExGeographicBoundingBox
+from pyaixm.generated.ex_geographic_description import ExGeographicDescription
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

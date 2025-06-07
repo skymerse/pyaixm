@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.decimal_minutes import DecimalMinutes
-from generated.degrees import Degrees
-from generated.minutes import Minutes
-from generated.seconds import Seconds
+from pyaixm.generated.decimal_minutes import DecimalMinutes
+from pyaixm.generated.degrees import Degrees
+from pyaixm.generated.minutes import Minutes
+from pyaixm.generated.seconds import Seconds
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

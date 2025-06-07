@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.instrument_approach_procedure_time_slice import (
+from pyaixm.generated.instrument_approach_procedure_time_slice import (
     InstrumentApproachProcedureTimeSlice,
 )
 

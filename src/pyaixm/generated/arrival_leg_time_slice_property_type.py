@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.arrival_leg_time_slice import ArrivalLegTimeSlice
+from pyaixm.generated.arrival_leg_time_slice import ArrivalLegTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

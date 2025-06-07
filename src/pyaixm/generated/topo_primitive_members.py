@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.topo_primitive_array_association_type import (
+from pyaixm.generated.topo_primitive_array_association_type import (
     TopoPrimitiveArrayAssociationType,
 )
 

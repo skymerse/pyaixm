@@ -2,25 +2,29 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_intensity_stand_by_type import CodeIntensityStandByType
-from generated.code_pilot_controlled_lighting_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_intensity_stand_by_type import (
+    CodeIntensityStandByType,
+)
+from pyaixm.generated.code_pilot_controlled_lighting_type import (
     CodePilotControlledLightingType,
 )
-from generated.ground_light_system_property_type import (
+from pyaixm.generated.ground_light_system_property_type import (
     GroundLightSystemPropertyType,
 )
-from generated.light_activation_property_type import (
+from pyaixm.generated.light_activation_property_type import (
     LightActivationPropertyType,
 )
-from generated.no_number_type import NoNumberType
-from generated.note_property_type import NotePropertyType
-from generated.pilot_controlled_lighting_time_slice_type_extension import (
+from pyaixm.generated.no_number_type import NoNumberType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.pilot_controlled_lighting_time_slice_type_extension import (
     PilotControlledLightingTimeSliceTypeExtension,
 )
-from generated.text_instruction_type import TextInstructionType
-from generated.val_duration_type import ValDurationType
-from generated.val_frequency_type import ValFrequencyType
+from pyaixm.generated.text_instruction_type import TextInstructionType
+from pyaixm.generated.val_duration_type import ValDurationType
+from pyaixm.generated.val_frequency_type import ValFrequencyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

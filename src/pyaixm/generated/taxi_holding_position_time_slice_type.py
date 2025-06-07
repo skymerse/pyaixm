@@ -2,14 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_holding_category_type import CodeHoldingCategoryType
-from generated.code_status_operations_type import CodeStatusOperationsType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.guidance_line_property_type import GuidanceLinePropertyType
-from generated.note_property_type import NotePropertyType
-from generated.runway_property_type import RunwayPropertyType
-from generated.taxi_holding_position_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_holding_category_type import CodeHoldingCategoryType
+from pyaixm.generated.code_status_operations_type import (
+    CodeStatusOperationsType,
+)
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.guidance_line_property_type import (
+    GuidanceLinePropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_property_type import RunwayPropertyType
+from pyaixm.generated.taxi_holding_position_time_slice_type_extension import (
     TaxiHoldingPositionTimeSliceTypeExtension,
 )
 

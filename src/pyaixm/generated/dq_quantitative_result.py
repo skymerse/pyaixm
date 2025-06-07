@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.dq_quantitative_result_type import DqQuantitativeResultType
+from pyaixm.generated.dq_quantitative_result_type import (
+    DqQuantitativeResultType,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

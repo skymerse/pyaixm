@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.fns_notamtype import FnsNotamtype
+from pyaixm.generated.fns_notamtype import FnsNotamtype
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

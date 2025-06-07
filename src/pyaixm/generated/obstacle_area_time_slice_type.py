@@ -2,26 +2,28 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_obstacle_area_type import CodeObstacleAreaType
-from generated.code_obstacle_assessment_surface_type import (
+from pyaixm.generated.code_obstacle_area_type import CodeObstacleAreaType
+from pyaixm.generated.code_obstacle_assessment_surface_type import (
     CodeObstacleAssessmentSurfaceType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.obstacle_area_time_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstacle_area_time_slice_type_extension import (
     ObstacleAreaTimeSliceTypeExtension,
 )
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.runway_direction_property_type import (
+from pyaixm.generated.runway_direction_property_type import (
     RunwayDirectionPropertyType,
 )
-from generated.surface_property_type_2 import SurfacePropertyType2
-from generated.vertical_structure_property_type import (
+from pyaixm.generated.surface_property_type_2 import SurfacePropertyType2
+from pyaixm.generated.vertical_structure_property_type import (
     VerticalStructurePropertyType,
 )
 

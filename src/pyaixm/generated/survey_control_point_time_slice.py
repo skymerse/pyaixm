@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.survey_control_point_time_slice_type import (
+from pyaixm.generated.survey_control_point_time_slice_type import (
     SurveyControlPointTimeSliceType,
 )
 

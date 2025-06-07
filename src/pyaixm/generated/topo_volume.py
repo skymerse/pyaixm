@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.topo_volume_type import TopoVolumeType
+from pyaixm.generated.topo_volume_type import TopoVolumeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

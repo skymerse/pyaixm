@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.definition_proxy_type import DefinitionProxyType
+from pyaixm.generated.definition_proxy_type import DefinitionProxyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.runway_direction_light_system_time_slice import (
+from pyaixm.generated.runway_direction_light_system_time_slice import (
     RunwayDirectionLightSystemTimeSlice,
 )
 

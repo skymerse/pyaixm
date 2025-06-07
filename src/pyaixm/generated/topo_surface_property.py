@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.topo_surface_property_type import TopoSurfacePropertyType
+from pyaixm.generated.topo_surface_property_type import TopoSurfacePropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

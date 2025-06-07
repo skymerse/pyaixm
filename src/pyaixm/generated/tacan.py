@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.tacantype import Tacantype
+from pyaixm.generated.tacantype import Tacantype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

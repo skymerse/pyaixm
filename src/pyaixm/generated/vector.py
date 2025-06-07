@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.vector_type import VectorType
+from pyaixm.generated.vector_type import VectorType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

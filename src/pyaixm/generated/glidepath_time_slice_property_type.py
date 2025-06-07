@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.glidepath_time_slice import GlidepathTimeSlice
+from pyaixm.generated.glidepath_time_slice import GlidepathTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

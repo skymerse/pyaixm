@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_gmltype import AbstractGmltype
-from generated.bounded_by import BoundedBy
-from generated.location import Location
-from generated.priority_location import PriorityLocation
+from pyaixm.generated.abstract_gmltype import AbstractGmltype
+from pyaixm.generated.bounded_by import BoundedBy
+from pyaixm.generated.location import Location
+from pyaixm.generated.priority_location import PriorityLocation
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

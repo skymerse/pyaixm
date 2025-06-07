@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ex_temporal_extent_type import ExTemporalExtentType
+from pyaixm.generated.ex_temporal_extent_type import ExTemporalExtentType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

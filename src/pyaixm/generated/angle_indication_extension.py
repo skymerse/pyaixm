@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.angle_indication_extension_type import (
+from pyaixm.generated.angle_indication_extension_type import (
     AngleIndicationExtensionType,
 )
 

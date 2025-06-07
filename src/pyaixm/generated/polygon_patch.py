@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.polygon_patch_type import PolygonPatchType
+from pyaixm.generated.polygon_patch_type import PolygonPatchType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

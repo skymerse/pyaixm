@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.approach_timing_table_type import ApproachTimingTableType
+from pyaixm.generated.approach_timing_table_type import ApproachTimingTableType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

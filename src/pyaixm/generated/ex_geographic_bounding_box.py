@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ex_geographic_bounding_box_type import (
+from pyaixm.generated.ex_geographic_bounding_box_type import (
     ExGeographicBoundingBoxType,
 )
 

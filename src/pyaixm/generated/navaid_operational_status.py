@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.navaid_operational_status_type import (
+from pyaixm.generated.navaid_operational_status_type import (
     NavaidOperationalStatusType,
 )
 

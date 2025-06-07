@@ -1,9 +1,9 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.elevated_point import ElevatedPoint
-from generated.point_1 import Point1
-from generated.point_2 import Point2
+from pyaixm.generated.elevated_point import ElevatedPoint
+from pyaixm.generated.point_1 import Point1
+from pyaixm.generated.point_2 import Point2
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

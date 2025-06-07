@@ -2,17 +2,21 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.contact_information_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.contact_information_type_extension import (
     ContactInformationTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.online_contact_property_type import OnlineContactPropertyType
-from generated.postal_address_property_type import PostalAddressPropertyType
-from generated.telephone_contact_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.online_contact_property_type import (
+    OnlineContactPropertyType,
+)
+from pyaixm.generated.postal_address_property_type import (
+    PostalAddressPropertyType,
+)
+from pyaixm.generated.telephone_contact_property_type import (
     TelephoneContactPropertyType,
 )
-from generated.text_name_type import TextNameType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

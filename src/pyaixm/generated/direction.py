@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.direction_property_type import DirectionPropertyType
+from pyaixm.generated.direction_property_type import DirectionPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

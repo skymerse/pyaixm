@@ -2,27 +2,33 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_communication_channel_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_communication_channel_type import (
     CodeCommunicationChannelType,
 )
-from generated.code_communication_direction_type import (
+from pyaixm.generated.code_communication_direction_type import (
     CodeCommunicationDirectionType,
 )
-from generated.code_communication_mode_type import CodeCommunicationModeType
-from generated.code_facility_ranking_type import CodeFacilityRankingType
-from generated.code_radio_emission_type import CodeRadioEmissionType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.radio_communication_channel_time_slice_type_extension import (
+from pyaixm.generated.code_communication_mode_type import (
+    CodeCommunicationModeType,
+)
+from pyaixm.generated.code_facility_ranking_type import CodeFacilityRankingType
+from pyaixm.generated.code_radio_emission_type import CodeRadioEmissionType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.radio_communication_channel_time_slice_type_extension import (
     RadioCommunicationChannelTimeSliceTypeExtension,
 )
-from generated.radio_communication_operational_status_property_type import (
+from pyaixm.generated.radio_communication_operational_status_property_type import (
     RadioCommunicationOperationalStatusPropertyType,
 )
-from generated.text_designator_type import TextDesignatorType
-from generated.val_frequency_type import ValFrequencyType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.val_frequency_type import ValFrequencyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

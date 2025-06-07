@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.geometric_complex_type import GeometricComplexType
+from pyaixm.generated.geometric_complex_type import GeometricComplexType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

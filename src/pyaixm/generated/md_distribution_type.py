@@ -1,11 +1,11 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.md_digital_transfer_options_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.md_digital_transfer_options_property_type import (
     MdDigitalTransferOptionsPropertyType,
 )
-from generated.md_distributor_type import (
+from pyaixm.generated.md_distributor_type import (
     MdDistributorPropertyType,
     MdFormatPropertyType,
 )

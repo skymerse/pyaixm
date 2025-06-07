@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_topology_type import AbstractTopologyType
-from generated.actuate_type import ActuateType
-from generated.aggregation_type import AggregationType
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.topo_primitive_member import TopoPrimitiveMember
-from generated.topo_primitive_members import TopoPrimitiveMembers
-from generated.type_type import TypeType
+from pyaixm.generated.abstract_topology_type import AbstractTopologyType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.topo_primitive_member import TopoPrimitiveMember
+from pyaixm.generated.topo_primitive_members import TopoPrimitiveMembers
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

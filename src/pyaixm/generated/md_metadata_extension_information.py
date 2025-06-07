@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_metadata_extension_information_type import (
+from pyaixm.generated.md_metadata_extension_information_type import (
     MdMetadataExtensionInformationType,
 )
 

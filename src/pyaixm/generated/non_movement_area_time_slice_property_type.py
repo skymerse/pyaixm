@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.non_movement_area_time_slice import NonMovementAreaTimeSlice
+from pyaixm.generated.non_movement_area_time_slice import (
+    NonMovementAreaTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

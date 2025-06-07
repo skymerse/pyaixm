@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.taxi_holding_position_type import TaxiHoldingPositionType
+from pyaixm.generated.taxi_holding_position_type import TaxiHoldingPositionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

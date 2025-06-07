@@ -1,16 +1,22 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.aircraft_stand_contamination import AircraftStandContamination
-from generated.airport_heliport_contamination import (
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.aircraft_stand_contamination import (
+    AircraftStandContamination,
+)
+from pyaixm.generated.airport_heliport_contamination import (
     AirportHeliportContamination,
 )
-from generated.apron_contamination import ApronContamination
-from generated.runway_contamination import RunwayContamination
-from generated.runway_section_contamination import RunwaySectionContamination
-from generated.taxiway_contamination import TaxiwayContamination
-from generated.touch_down_lift_off_contamination import (
+from pyaixm.generated.apron_contamination import ApronContamination
+from pyaixm.generated.runway_contamination import RunwayContamination
+from pyaixm.generated.runway_section_contamination import (
+    RunwaySectionContamination,
+)
+from pyaixm.generated.taxiway_contamination import TaxiwayContamination
+from pyaixm.generated.touch_down_lift_off_contamination import (
     TouchDownLiftOffContamination,
 )
 

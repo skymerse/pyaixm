@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.checkpoint_vortime_slice import CheckpointVortimeSlice
+from pyaixm.generated.checkpoint_vortime_slice import CheckpointVortimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

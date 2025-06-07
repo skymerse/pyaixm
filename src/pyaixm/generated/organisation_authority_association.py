@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.organisation_authority_association_type import (
+from pyaixm.generated.organisation_authority_association_type import (
     OrganisationAuthorityAssociationType,
 )
 

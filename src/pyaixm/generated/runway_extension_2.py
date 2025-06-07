@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_extension_type_2 import RunwayExtensionType2
+from pyaixm.generated.runway_extension_type_2 import RunwayExtensionType2
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

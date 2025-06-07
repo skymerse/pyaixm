@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.formula_type import FormulaType
-from generated.unit_of_measure_type import UnitOfMeasureType
+from pyaixm.generated.formula_type import FormulaType
+from pyaixm.generated.unit_of_measure_type import UnitOfMeasureType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_continuous_coverage_type import (
+from pyaixm.generated.abstract_continuous_coverage_type import (
     AbstractContinuousCoverageType,
 )
 

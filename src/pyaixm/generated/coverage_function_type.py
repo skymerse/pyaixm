@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.coverage_mapping_rule import CoverageMappingRule
-from generated.grid_function import GridFunction
-from generated.mapping_rule import MappingRule
+from pyaixm.generated.coverage_mapping_rule import CoverageMappingRule
+from pyaixm.generated.grid_function import GridFunction
+from pyaixm.generated.mapping_rule import MappingRule
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

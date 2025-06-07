@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.time_coordinate_system_type import TimeCoordinateSystemType
+from pyaixm.generated.time_coordinate_system_type import (
+    TimeCoordinateSystemType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

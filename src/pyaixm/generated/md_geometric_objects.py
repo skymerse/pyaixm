@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_geometric_objects_type import MdGeometricObjectsType
+from pyaixm.generated.md_geometric_objects_type import MdGeometricObjectsType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.route_segment_type import RouteSegmentType
+from pyaixm.generated.route_segment_type import RouteSegmentType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

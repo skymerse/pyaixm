@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_conceptual_consistency_type import (
+from pyaixm.generated.dq_conceptual_consistency_type import (
     DqConceptualConsistencyType,
 )
 

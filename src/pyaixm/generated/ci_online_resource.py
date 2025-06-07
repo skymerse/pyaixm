@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ci_online_resource_type import CiOnlineResourceType
+from pyaixm.generated.ci_online_resource_type import CiOnlineResourceType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.procedure_extension_1 import ProcedureExtension1
-from generated.procedure_extension_2 import ProcedureExtension2
-from generated.standard_instrument_departure_extension import (
+from pyaixm.generated.procedure_extension_1 import ProcedureExtension1
+from pyaixm.generated.procedure_extension_2 import ProcedureExtension2
+from pyaixm.generated.standard_instrument_departure_extension import (
     StandardInstrumentDepartureExtension,
 )
 

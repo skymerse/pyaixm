@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.aircraft_stand_time_slice import AircraftStandTimeSlice
+from pyaixm.generated.aircraft_stand_time_slice import AircraftStandTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

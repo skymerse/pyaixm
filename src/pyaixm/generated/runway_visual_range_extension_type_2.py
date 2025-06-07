@@ -2,9 +2,11 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.code_status_operations_type import CodeStatusOperationsType
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.code_status_operations_type import (
+    CodeStatusOperationsType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

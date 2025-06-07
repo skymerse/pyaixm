@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Any
 
-from generated.abstract_gmltype import AbstractGmltype
+from pyaixm.generated.abstract_gmltype import AbstractGmltype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

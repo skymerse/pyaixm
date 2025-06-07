@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.character_string_property_type import (
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.pt_free_text import PtFreeText
+from pyaixm.generated.pt_free_text import PtFreeText
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

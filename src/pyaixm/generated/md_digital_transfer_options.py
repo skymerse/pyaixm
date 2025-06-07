@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_digital_transfer_options_type import (
+from pyaixm.generated.md_digital_transfer_options_type import (
     MdDigitalTransferOptionsType,
 )
 

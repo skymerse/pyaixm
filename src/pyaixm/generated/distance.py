@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.length_type import LengthType
+from pyaixm.generated.length_type import LengthType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

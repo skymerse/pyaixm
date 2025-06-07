@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.apron_area_availability_extension_type import (
+from pyaixm.generated.apron_area_availability_extension_type import (
     ApronAreaAvailabilityExtensionType,
 )
 

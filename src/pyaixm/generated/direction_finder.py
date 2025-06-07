@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.direction_finder_type import DirectionFinderType
+from pyaixm.generated.direction_finder_type import DirectionFinderType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -2,17 +2,17 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.character_string_property_type import (
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.ci_date_property_type import CiDatePropertyType
-from generated.ci_responsible_party_property_type import (
+from pyaixm.generated.ci_date_property_type import CiDatePropertyType
+from pyaixm.generated.ci_responsible_party_property_type import (
     CiResponsiblePartyPropertyType,
 )
-from generated.localised_character_string_property_type import (
+from pyaixm.generated.localised_character_string_property_type import (
     LocalisedCharacterStringPropertyType,
 )
-from generated.pt_locale_property_type import PtLocalePropertyType
+from pyaixm.generated.pt_locale_property_type import PtLocalePropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

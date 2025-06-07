@@ -2,11 +2,11 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.ci_online_resource_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.ci_online_resource_property_type import (
     CiOnlineResourcePropertyType,
 )
-from generated.md_extended_element_information_property_type import (
+from pyaixm.generated.md_extended_element_information_property_type import (
     MdExtendedElementInformationPropertyType,
 )
 

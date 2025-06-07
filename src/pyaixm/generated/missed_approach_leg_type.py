@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_approach_leg_type import AbstractApproachLegType
-from generated.missed_approach_leg_time_slice_property_type import (
+from pyaixm.generated.abstract_approach_leg_type import AbstractApproachLegType
+from pyaixm.generated.missed_approach_leg_time_slice_property_type import (
     MissedApproachLegTimeSlicePropertyType,
 )
 

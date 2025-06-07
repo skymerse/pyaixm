@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.binary_type import BinaryType
+from pyaixm.generated.binary_type import BinaryType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

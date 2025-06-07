@@ -1,10 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.country_property_type import CountryPropertyType
-from generated.language_code_property_type import LanguageCodePropertyType
-from generated.md_character_set_code_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.country_property_type import CountryPropertyType
+from pyaixm.generated.language_code_property_type import (
+    LanguageCodePropertyType,
+)
+from pyaixm.generated.md_character_set_code_property_type import (
     MdCharacterSetCodePropertyType,
 )
 

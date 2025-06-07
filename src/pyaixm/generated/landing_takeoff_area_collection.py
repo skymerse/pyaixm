@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.landing_takeoff_area_collection_type import (
+from pyaixm.generated.landing_takeoff_area_collection_type import (
     LandingTakeoffAreaCollectionType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.cylindrical_cstype import CylindricalCstype
+from pyaixm.generated.cylindrical_cstype import CylindricalCstype
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

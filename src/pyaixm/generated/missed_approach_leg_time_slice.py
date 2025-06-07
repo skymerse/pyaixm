@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.missed_approach_leg_time_slice_type import (
+from pyaixm.generated.missed_approach_leg_time_slice_type import (
     MissedApproachLegTimeSliceType,
 )
 

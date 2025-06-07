@@ -1,46 +1,60 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.airport_heliport_availability import AirportHeliportAvailability
-from generated.airport_heliport_responsibility_organisation import (
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.airport_heliport_availability import (
+    AirportHeliportAvailability,
+)
+from pyaixm.generated.airport_heliport_responsibility_organisation import (
     AirportHeliportResponsibilityOrganisation,
 )
-from generated.airspace_activation import AirspaceActivation
-from generated.airspace_layer_class import AirspaceLayerClass
-from generated.altimeter_source_status import AltimeterSourceStatus
-from generated.apron_area_availability import ApronAreaAvailability
-from generated.circling_restriction import CirclingRestriction
-from generated.condition_combination_property_type import ConditionCombination
-from generated.flight_condition_combination_property_type import (
+from pyaixm.generated.airspace_activation import AirspaceActivation
+from pyaixm.generated.airspace_layer_class import AirspaceLayerClass
+from pyaixm.generated.altimeter_source_status import AltimeterSourceStatus
+from pyaixm.generated.apron_area_availability import ApronAreaAvailability
+from pyaixm.generated.circling_restriction import CirclingRestriction
+from pyaixm.generated.condition_combination_property_type import (
+    ConditionCombination,
+)
+from pyaixm.generated.flight_condition_combination_property_type import (
     FlightConditionCombination,
 )
-from generated.ground_lighting_availability import GroundLightingAvailability
-from generated.light_element_status import LightElementStatus
-from generated.manoeuvring_area_availability import ManoeuvringAreaAvailability
-from generated.navaid_equipment_monitoring import NavaidEquipmentMonitoring
-from generated.navaid_operational_status import NavaidOperationalStatus
-from generated.online_contact import OnlineContact
-from generated.postal_address import PostalAddress
-from generated.procedure_availability import ProcedureAvailability
-from generated.radio_communication_operational_status import (
+from pyaixm.generated.ground_lighting_availability import (
+    GroundLightingAvailability,
+)
+from pyaixm.generated.light_element_status import LightElementStatus
+from pyaixm.generated.manoeuvring_area_availability import (
+    ManoeuvringAreaAvailability,
+)
+from pyaixm.generated.navaid_equipment_monitoring import (
+    NavaidEquipmentMonitoring,
+)
+from pyaixm.generated.navaid_operational_status import NavaidOperationalStatus
+from pyaixm.generated.online_contact import OnlineContact
+from pyaixm.generated.postal_address import PostalAddress
+from pyaixm.generated.procedure_availability import ProcedureAvailability
+from pyaixm.generated.radio_communication_operational_status import (
     RadioCommunicationOperationalStatus,
 )
-from generated.route_availability import RouteAvailability
-from generated.runway_declared_distance_value import (
+from pyaixm.generated.route_availability import RouteAvailability
+from pyaixm.generated.runway_declared_distance_value import (
     RunwayDeclaredDistanceValue,
 )
-from generated.service_operational_status import ServiceOperationalStatus
-from generated.special_navigation_station_status import (
+from pyaixm.generated.service_operational_status import (
+    ServiceOperationalStatus,
+)
+from pyaixm.generated.special_navigation_station_status import (
     SpecialNavigationStationStatus,
 )
-from generated.telephone_contact import TelephoneContact
-from generated.unit_availability import UnitAvailability
-from generated.vertical_structure_lighting_status import (
+from pyaixm.generated.telephone_contact import TelephoneContact
+from pyaixm.generated.unit_availability import UnitAvailability
+from pyaixm.generated.vertical_structure_lighting_status import (
     VerticalStructureLightingStatus,
 )
-from generated.vertical_structure_part import VerticalStructurePart
-from generated.workarea_activity import WorkareaActivity
+from pyaixm.generated.vertical_structure_part import VerticalStructurePart
+from pyaixm.generated.workarea_activity import WorkareaActivity
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.glidepath_type import GlidepathType
+from pyaixm.generated.glidepath_type import GlidepathType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

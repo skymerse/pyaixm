@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.initial_leg_time_slice_type import InitialLegTimeSliceType
+from pyaixm.generated.initial_leg_time_slice_type import (
+    InitialLegTimeSliceType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

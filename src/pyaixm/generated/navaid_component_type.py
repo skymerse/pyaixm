@@ -2,17 +2,17 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_position_in_ilstype import CodePositionInIlstype
-from generated.code_yes_no_type import CodeYesNoType
-from generated.navaid_component_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_position_in_ilstype import CodePositionInIlstype
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.navaid_component_type_extension import (
     NavaidComponentTypeExtension,
 )
-from generated.navaid_equipment_property_type import (
+from pyaixm.generated.navaid_equipment_property_type import (
     NavaidEquipmentPropertyType,
 )
-from generated.no_sequence_type import NoSequenceType
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.no_sequence_type import NoSequenceType
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

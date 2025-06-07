@@ -2,13 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_dq_result_type import AbstractDqResultType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_dq_result_type import AbstractDqResultType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.record_property_type import RecordPropertyType
-from generated.record_type_property_type import RecordTypePropertyType
-from generated.unit_of_measure_property_type import UnitOfMeasurePropertyType
+from pyaixm.generated.record_property_type import RecordPropertyType
+from pyaixm.generated.record_type_property_type import RecordTypePropertyType
+from pyaixm.generated.unit_of_measure_property_type import (
+    UnitOfMeasurePropertyType,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

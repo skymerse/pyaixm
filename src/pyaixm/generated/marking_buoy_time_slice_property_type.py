@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.marking_buoy_time_slice import MarkingBuoyTimeSlice
+from pyaixm.generated.marking_buoy_time_slice import MarkingBuoyTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

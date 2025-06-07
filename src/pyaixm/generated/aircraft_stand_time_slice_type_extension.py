@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.aircraft_stand_extension import AircraftStandExtension
+from pyaixm.generated.aircraft_stand_extension import AircraftStandExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.vortime_slice_type import VortimeSliceType
+from pyaixm.generated.vortime_slice_type import VortimeSliceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

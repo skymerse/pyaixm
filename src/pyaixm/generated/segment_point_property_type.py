@@ -1,10 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.aerial_refuelling_point import AerialRefuellingPoint
-from generated.en_route_segment_point import EnRouteSegmentPoint
-from generated.terminal_segment_point import TerminalSegmentPoint
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.aerial_refuelling_point import AerialRefuellingPoint
+from pyaixm.generated.en_route_segment_point import EnRouteSegmentPoint
+from pyaixm.generated.terminal_segment_point import TerminalSegmentPoint
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

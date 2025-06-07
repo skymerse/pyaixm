@@ -2,28 +2,34 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_course_type import CodeCourseType
-from generated.code_direction_turn_type import CodeDirectionTurnType
-from generated.code_holding_usage_type import CodeHoldingUsageType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.curve_property_type_2 import CurvePropertyType2
-from generated.holding_pattern_distance_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_course_type import CodeCourseType
+from pyaixm.generated.code_direction_turn_type import CodeDirectionTurnType
+from pyaixm.generated.code_holding_usage_type import CodeHoldingUsageType
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.curve_property_type_2 import CurvePropertyType2
+from pyaixm.generated.holding_pattern_distance_property_type import (
     HoldingPatternDistancePropertyType,
 )
-from generated.holding_pattern_duration_property_type import (
+from pyaixm.generated.holding_pattern_duration_property_type import (
     HoldingPatternDurationPropertyType,
 )
-from generated.holding_pattern_time_slice_type_extension import (
+from pyaixm.generated.holding_pattern_time_slice_type_extension import (
     HoldingPatternTimeSliceTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.segment_point_property_type import SegmentPointPropertyType
-from generated.text_instruction_type import TextInstructionType
-from generated.val_bearing_type import ValBearingType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.val_speed_type import ValSpeedType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.segment_point_property_type import (
+    SegmentPointPropertyType,
+)
+from pyaixm.generated.text_instruction_type import TextInstructionType
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_speed_type import ValSpeedType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

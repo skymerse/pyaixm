@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.aerial_refuelling_time_slice_type import (
+from pyaixm.generated.aerial_refuelling_time_slice_type import (
     AerialRefuellingTimeSliceType,
 )
 

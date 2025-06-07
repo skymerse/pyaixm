@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.road_time_slice import RoadTimeSlice
+from pyaixm.generated.road_time_slice import RoadTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

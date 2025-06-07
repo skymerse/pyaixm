@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.organisation_authority_extension import (
+from pyaixm.generated.organisation_authority_extension import (
     OrganisationAuthorityExtension,
 )
 

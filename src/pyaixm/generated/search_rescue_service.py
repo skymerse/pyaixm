@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.search_rescue_service_type import SearchRescueServiceType
+from pyaixm.generated.search_rescue_service_type import SearchRescueServiceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

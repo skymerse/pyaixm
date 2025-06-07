@@ -2,13 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_direction_turn_type import CodeDirectionTurnType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.note_property_type import NotePropertyType
-from generated.sector_design_type_extension import SectorDesignTypeExtension
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.val_slope_type import ValSlopeType
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_direction_turn_type import CodeDirectionTurnType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.sector_design_type_extension import (
+    SectorDesignTypeExtension,
+)
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_slope_type import ValSlopeType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

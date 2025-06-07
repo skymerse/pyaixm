@@ -2,15 +2,19 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_buoy_type import CodeBuoyType
-from generated.code_colour_type import CodeColourType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.marking_buoy_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_buoy_type import CodeBuoyType
+from pyaixm.generated.code_colour_type import CodeColourType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.marking_buoy_time_slice_type_extension import (
     MarkingBuoyTimeSliceTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.seaplane_landing_area_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.seaplane_landing_area_property_type import (
     SeaplaneLandingAreaPropertyType,
 )
 

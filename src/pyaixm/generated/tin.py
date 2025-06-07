@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.tin_type import TinType
+from pyaixm.generated.tin_type import TinType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

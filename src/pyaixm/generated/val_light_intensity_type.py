@@ -2,8 +2,12 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Optional, Union
 
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.uom_light_intensity_type_value import UomLightIntensityTypeValue
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.uom_light_intensity_type_value import (
+    UomLightIntensityTypeValue,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

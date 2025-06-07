@@ -2,10 +2,10 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_nitrogen_type import CodeNitrogenType
-from generated.nitrogen_type_extension import NitrogenTypeExtension
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_nitrogen_type import CodeNitrogenType
+from pyaixm.generated.nitrogen_type_extension import NitrogenTypeExtension
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

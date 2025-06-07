@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_visual_range_time_slice_type import (
+from pyaixm.generated.runway_visual_range_time_slice_type import (
     RunwayVisualRangeTimeSliceType,
 )
 

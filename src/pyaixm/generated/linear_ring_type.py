@@ -2,12 +2,12 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_ring_type import AbstractRingType
-from generated.coordinates import Coordinates
-from generated.point_property import PointProperty
-from generated.point_rep import PointRep
-from generated.pos import Pos
-from generated.pos_list import PosList
+from pyaixm.generated.abstract_ring_type import AbstractRingType
+from pyaixm.generated.coordinates import Coordinates
+from pyaixm.generated.point_property import PointProperty
+from pyaixm.generated.point_rep import PointRep
+from pyaixm.generated.pos import Pos
+from pyaixm.generated.pos_list import PosList
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.association_role_type import AssociationRoleType
+from pyaixm.generated.association_role_type import AssociationRoleType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

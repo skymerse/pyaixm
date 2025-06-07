@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.localizer_type import LocalizerType
+from pyaixm.generated.localizer_type import LocalizerType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -2,27 +2,35 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_approach_guidance_type import CodeApproachGuidanceType
-from generated.code_direction_turn_type import CodeDirectionTurnType
-from generated.code_lighting_jartype import CodeLightingJartype
-from generated.code_marking_condition_type import CodeMarkingConditionType
-from generated.code_runway_marking_type import CodeRunwayMarkingType
-from generated.manoeuvring_area_availability_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_approach_guidance_type import (
+    CodeApproachGuidanceType,
+)
+from pyaixm.generated.code_direction_turn_type import CodeDirectionTurnType
+from pyaixm.generated.code_lighting_jartype import CodeLightingJartype
+from pyaixm.generated.code_marking_condition_type import (
+    CodeMarkingConditionType,
+)
+from pyaixm.generated.code_runway_marking_type import CodeRunwayMarkingType
+from pyaixm.generated.manoeuvring_area_availability_property_type import (
     ManoeuvringAreaAvailabilityPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.runway_direction_time_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_direction_time_slice_type_extension import (
     RunwayDirectionTimeSliceTypeExtension,
 )
-from generated.runway_element_property_type import RunwayElementPropertyType
-from generated.runway_property_type import RunwayPropertyType
-from generated.text_designator_type import TextDesignatorType
-from generated.val_angle_type import ValAngleType
-from generated.val_bearing_type import ValBearingType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.val_slope_type import ValSlopeType
+from pyaixm.generated.runway_element_property_type import (
+    RunwayElementPropertyType,
+)
+from pyaixm.generated.runway_property_type import RunwayPropertyType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.val_angle_type import ValAngleType
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_slope_type import ValSlopeType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

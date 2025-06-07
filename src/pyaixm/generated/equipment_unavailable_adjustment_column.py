@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.equipment_unavailable_adjustment_column_type import (
+from pyaixm.generated.equipment_unavailable_adjustment_column_type import (
     EquipmentUnavailableAdjustmentColumnType,
 )
 

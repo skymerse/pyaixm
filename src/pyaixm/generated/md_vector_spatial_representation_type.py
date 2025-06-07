@@ -2,13 +2,13 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_md_spatial_representation_type import (
+from pyaixm.generated.abstract_md_spatial_representation_type import (
     AbstractMdSpatialRepresentationType,
 )
-from generated.md_geometric_objects_property_type import (
+from pyaixm.generated.md_geometric_objects_property_type import (
     MdGeometricObjectsPropertyType,
 )
-from generated.md_topology_level_code_property_type import (
+from pyaixm.generated.md_topology_level_code_property_type import (
     MdTopologyLevelCodePropertyType,
 )
 

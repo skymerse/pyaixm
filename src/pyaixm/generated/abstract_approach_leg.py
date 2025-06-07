@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_approach_leg_type import AbstractApproachLegType
+from pyaixm.generated.abstract_approach_leg_type import AbstractApproachLegType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

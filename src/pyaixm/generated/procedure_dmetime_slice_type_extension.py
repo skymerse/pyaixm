@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.procedure_dmeextension import ProcedureDmeextension
+from pyaixm.generated.procedure_dmeextension import ProcedureDmeextension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

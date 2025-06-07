@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airspace_border_crossing_time_slice_type import (
+from pyaixm.generated.airspace_border_crossing_time_slice_type import (
     AirspaceBorderCrossingTimeSliceType,
 )
 

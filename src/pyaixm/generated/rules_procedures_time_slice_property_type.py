@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.rules_procedures_time_slice import RulesProceduresTimeSlice
+from pyaixm.generated.rules_procedures_time_slice import (
+    RulesProceduresTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

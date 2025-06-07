@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.ground_light_system_extension import GroundLightSystemExtension
-from generated.touch_down_lift_off_light_system_extension import (
+from pyaixm.generated.ground_light_system_extension import (
+    GroundLightSystemExtension,
+)
+from pyaixm.generated.touch_down_lift_off_light_system_extension import (
     TouchDownLiftOffLightSystemExtension,
 )
 

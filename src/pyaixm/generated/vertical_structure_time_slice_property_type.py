@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.vertical_structure_time_slice import VerticalStructureTimeSlice
+from pyaixm.generated.vertical_structure_time_slice import (
+    VerticalStructureTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

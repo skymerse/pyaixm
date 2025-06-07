@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_procedure_type import AbstractProcedureType
-from generated.standard_instrument_departure_time_slice_property_type import (
+from pyaixm.generated.abstract_procedure_type import AbstractProcedureType
+from pyaixm.generated.standard_instrument_departure_time_slice_property_type import (
     StandardInstrumentDepartureTimeSlicePropertyType,
 )
 

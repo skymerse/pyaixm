@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.approach_altitude_table import ApproachAltitudeTable
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.approach_altitude_table import ApproachAltitudeTable
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

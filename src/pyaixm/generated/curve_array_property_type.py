@@ -1,14 +1,14 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.curve_property_type_1 import (
+from pyaixm.generated.curve_property_type_1 import (
     CompositeCurve,
     Curve1,
     Curve2,
     ElevatedCurve,
     OrientableCurve,
 )
-from generated.line_string import LineString
+from pyaixm.generated.line_string import LineString
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

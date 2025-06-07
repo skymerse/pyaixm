@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.radio_communication_channel_type import (
+from pyaixm.generated.radio_communication_channel_type import (
     RadioCommunicationChannelType,
 )
 

@@ -2,21 +2,23 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.floating_dock_site_property_type import (
+from pyaixm.generated.floating_dock_site_property_type import (
     FloatingDockSitePropertyType,
 )
-from generated.manoeuvring_area_availability_property_type import (
+from pyaixm.generated.manoeuvring_area_availability_property_type import (
     ManoeuvringAreaAvailabilityPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.seaplane_landing_area_time_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.seaplane_landing_area_time_slice_type_extension import (
     SeaplaneLandingAreaTimeSliceTypeExtension,
 )
-from generated.seaplane_ramp_site_property_type import (
+from pyaixm.generated.seaplane_ramp_site_property_type import (
     SeaplaneRampSitePropertyType,
 )
 

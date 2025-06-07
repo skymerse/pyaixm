@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.priority_location_property_type import (
+from pyaixm.generated.priority_location_property_type import (
     PriorityLocationPropertyType,
 )
 

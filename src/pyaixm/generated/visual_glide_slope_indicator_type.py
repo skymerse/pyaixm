@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_ground_light_system_type import (
+from pyaixm.generated.abstract_ground_light_system_type import (
     AbstractGroundLightSystemType,
 )
-from generated.visual_glide_slope_indicator_time_slice_property_type import (
+from pyaixm.generated.visual_glide_slope_indicator_time_slice_property_type import (
     VisualGlideSlopeIndicatorTimeSlicePropertyType,
 )
 

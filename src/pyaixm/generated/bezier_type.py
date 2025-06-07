@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Any
 
-from generated.bspline_type import BsplineType
-from generated.curve_interpolation_type import CurveInterpolationType
-from generated.knot_types_type import KnotTypesType
+from pyaixm.generated.bspline_type import BsplineType
+from pyaixm.generated.curve_interpolation_type import CurveInterpolationType
+from pyaixm.generated.knot_types_type import KnotTypesType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ais_publication_type import AisPublicationType
+from pyaixm.generated.ais_publication_type import AisPublicationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

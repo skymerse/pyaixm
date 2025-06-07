@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airport_heliport_time_slice_type import (
+from pyaixm.generated.airport_heliport_time_slice_type import (
     AirportHeliportTimeSliceType,
 )
 

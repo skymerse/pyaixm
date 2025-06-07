@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.seaplane_ramp_site_time_slice import SeaplaneRampSiteTimeSlice
+from pyaixm.generated.seaplane_ramp_site_time_slice import (
+    SeaplaneRampSiteTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

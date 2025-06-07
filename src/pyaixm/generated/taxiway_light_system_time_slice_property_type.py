@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.taxiway_light_system_time_slice import (
+from pyaixm.generated.taxiway_light_system_time_slice import (
     TaxiwayLightSystemTimeSlice,
 )
 

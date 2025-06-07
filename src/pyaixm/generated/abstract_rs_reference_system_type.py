@@ -2,9 +2,11 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.ex_extent_property_type import ExExtentPropertyType
-from generated.rs_identifier_property_type import RsIdentifierPropertyType
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.ex_extent_property_type import ExExtentPropertyType
+from pyaixm.generated.rs_identifier_property_type import (
+    RsIdentifierPropertyType,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

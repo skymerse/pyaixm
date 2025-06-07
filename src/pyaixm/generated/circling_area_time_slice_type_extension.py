@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.circling_area_extension import CirclingAreaExtension
+from pyaixm.generated.circling_area_extension import CirclingAreaExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

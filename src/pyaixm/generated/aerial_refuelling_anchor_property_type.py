@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.aerial_refuelling_anchor import AerialRefuellingAnchor
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.aerial_refuelling_anchor import AerialRefuellingAnchor
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

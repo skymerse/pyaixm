@@ -1,13 +1,13 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmfeature_base_type import (
+from pyaixm.generated.abstract_aixmfeature_base_type import (
     AbstractAixmfeatureBaseType,
 )
-from generated.message_metadata_property_type import (
+from pyaixm.generated.message_metadata_property_type import (
     MessageMetadataPropertyType,
 )
-from generated.sequence_number import SequenceNumber
+from pyaixm.generated.sequence_number import SequenceNumber
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

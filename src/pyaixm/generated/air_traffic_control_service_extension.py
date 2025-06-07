@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.air_traffic_control_service_extension_type import (
+from pyaixm.generated.air_traffic_control_service_extension_type import (
     AirTrafficControlServiceExtensionType,
 )
 

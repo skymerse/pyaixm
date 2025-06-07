@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.primary_surveillance_radar_time_slice import (
+from pyaixm.generated.primary_surveillance_radar_time_slice import (
     PrimarySurveillanceRadarTimeSlice,
 )
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.grid_envelope_type import GridEnvelopeType
+from pyaixm.generated.grid_envelope_type import GridEnvelopeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

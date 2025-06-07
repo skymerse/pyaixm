@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.envelope_type import EnvelopeType
+from pyaixm.generated.envelope_type import EnvelopeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

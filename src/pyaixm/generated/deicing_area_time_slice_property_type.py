@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.deicing_area_time_slice import DeicingAreaTimeSlice
+from pyaixm.generated.deicing_area_time_slice import DeicingAreaTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

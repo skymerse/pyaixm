@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.marker_beacon_time_slice_type import MarkerBeaconTimeSliceType
+from pyaixm.generated.marker_beacon_time_slice_type import (
+    MarkerBeaconTimeSliceType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

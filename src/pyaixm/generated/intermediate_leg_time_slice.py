@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.intermediate_leg_time_slice_type import (
+from pyaixm.generated.intermediate_leg_time_slice_type import (
     IntermediateLegTimeSliceType,
 )
 

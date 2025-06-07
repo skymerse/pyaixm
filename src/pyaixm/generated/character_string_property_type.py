@@ -1,41 +1,55 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.character_string import CharacterString
-from generated.ci_date_type_code import CiDateTypeCode
-from generated.ci_on_line_function_code import CiOnLineFunctionCode
-from generated.ci_presentation_form_code import CiPresentationFormCode
-from generated.ci_role_code import CiRoleCode
-from generated.country import Country
-from generated.dq_evaluation_method_type_code import DqEvaluationMethodTypeCode
-from generated.ds_association_type_code import DsAssociationTypeCode
-from generated.ds_initiative_type_code import DsInitiativeTypeCode
-from generated.language_code import LanguageCode
-from generated.localised_character_string import LocalisedCharacterString
-from generated.md_cell_geometry_code import MdCellGeometryCode
-from generated.md_character_set_code import MdCharacterSetCode
-from generated.md_classification_code import MdClassificationCode
-from generated.md_coverage_content_type_code import MdCoverageContentTypeCode
-from generated.md_datatype_code import MdDatatypeCode
-from generated.md_dimension_name_type_code import MdDimensionNameTypeCode
-from generated.md_distribution_units import MdDistributionUnits
-from generated.md_geometric_object_type_code import MdGeometricObjectTypeCode
-from generated.md_imaging_condition_code import MdImagingConditionCode
-from generated.md_keyword_type_code import MdKeywordTypeCode
-from generated.md_maintenance_frequency_code import MdMaintenanceFrequencyCode
-from generated.md_medium_format_code import MdMediumFormatCode
-from generated.md_medium_name_code import MdMediumNameCode
-from generated.md_obligation_code import MdObligationCode
-from generated.md_pixel_orientation_code import MdPixelOrientationCode
-from generated.md_progress_code import MdProgressCode
-from generated.md_restriction_code import MdRestrictionCode
-from generated.md_scope_code import MdScopeCode
-from generated.md_spatial_representation_type_code import (
+from pyaixm.generated.character_string import CharacterString
+from pyaixm.generated.ci_date_type_code import CiDateTypeCode
+from pyaixm.generated.ci_on_line_function_code import CiOnLineFunctionCode
+from pyaixm.generated.ci_presentation_form_code import CiPresentationFormCode
+from pyaixm.generated.ci_role_code import CiRoleCode
+from pyaixm.generated.country import Country
+from pyaixm.generated.dq_evaluation_method_type_code import (
+    DqEvaluationMethodTypeCode,
+)
+from pyaixm.generated.ds_association_type_code import DsAssociationTypeCode
+from pyaixm.generated.ds_initiative_type_code import DsInitiativeTypeCode
+from pyaixm.generated.language_code import LanguageCode
+from pyaixm.generated.localised_character_string import (
+    LocalisedCharacterString,
+)
+from pyaixm.generated.md_cell_geometry_code import MdCellGeometryCode
+from pyaixm.generated.md_character_set_code import MdCharacterSetCode
+from pyaixm.generated.md_classification_code import MdClassificationCode
+from pyaixm.generated.md_coverage_content_type_code import (
+    MdCoverageContentTypeCode,
+)
+from pyaixm.generated.md_datatype_code import MdDatatypeCode
+from pyaixm.generated.md_dimension_name_type_code import (
+    MdDimensionNameTypeCode,
+)
+from pyaixm.generated.md_distribution_units import MdDistributionUnits
+from pyaixm.generated.md_geometric_object_type_code import (
+    MdGeometricObjectTypeCode,
+)
+from pyaixm.generated.md_imaging_condition_code import MdImagingConditionCode
+from pyaixm.generated.md_keyword_type_code import MdKeywordTypeCode
+from pyaixm.generated.md_maintenance_frequency_code import (
+    MdMaintenanceFrequencyCode,
+)
+from pyaixm.generated.md_medium_format_code import MdMediumFormatCode
+from pyaixm.generated.md_medium_name_code import MdMediumNameCode
+from pyaixm.generated.md_obligation_code import MdObligationCode
+from pyaixm.generated.md_pixel_orientation_code import MdPixelOrientationCode
+from pyaixm.generated.md_progress_code import MdProgressCode
+from pyaixm.generated.md_restriction_code import MdRestrictionCode
+from pyaixm.generated.md_scope_code import MdScopeCode
+from pyaixm.generated.md_spatial_representation_type_code import (
     MdSpatialRepresentationTypeCode,
 )
-from generated.md_topic_category_code import MdTopicCategoryCode
-from generated.md_topology_level_code import MdTopologyLevelCode
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.md_topic_category_code import MdTopicCategoryCode
+from pyaixm.generated.md_topology_level_code import MdTopologyLevelCode
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

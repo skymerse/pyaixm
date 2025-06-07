@@ -1,19 +1,19 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_general_parameter_value_type import (
+from pyaixm.generated.abstract_general_parameter_value_type import (
     AbstractGeneralParameterValueType,
 )
-from generated.boolean_value import BooleanValue
-from generated.dms_angle_value import DmsAngleValue
-from generated.integer_value import IntegerValue
-from generated.integer_value_list import IntegerValueList
-from generated.operation_parameter_2 import OperationParameter2
-from generated.string_value import StringValue
-from generated.value import Value
-from generated.value_file import ValueFile
-from generated.value_list import ValueList
-from generated.value_of_parameter import ValueOfParameter
+from pyaixm.generated.boolean_value import BooleanValue
+from pyaixm.generated.dms_angle_value import DmsAngleValue
+from pyaixm.generated.integer_value import IntegerValue
+from pyaixm.generated.integer_value_list import IntegerValueList
+from pyaixm.generated.operation_parameter_2 import OperationParameter2
+from pyaixm.generated.string_value import StringValue
+from pyaixm.generated.value import Value
+from pyaixm.generated.value_file import ValueFile
+from pyaixm.generated.value_list import ValueList
+from pyaixm.generated.value_of_parameter import ValueOfParameter
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

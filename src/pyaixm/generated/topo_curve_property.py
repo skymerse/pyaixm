@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.topo_curve_property_type import TopoCurvePropertyType
+from pyaixm.generated.topo_curve_property_type import TopoCurvePropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

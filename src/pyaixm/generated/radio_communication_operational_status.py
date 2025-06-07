@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.radio_communication_operational_status_type import (
+from pyaixm.generated.radio_communication_operational_status_type import (
     RadioCommunicationOperationalStatusType,
 )
 

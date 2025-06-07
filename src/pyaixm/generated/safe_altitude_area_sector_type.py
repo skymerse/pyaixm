@@ -2,15 +2,17 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.circle_sector_property_type import CircleSectorPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.obstruction_property_type import ObstructionPropertyType
-from generated.safe_altitude_area_sector_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.circle_sector_property_type import (
+    CircleSectorPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstruction_property_type import ObstructionPropertyType
+from pyaixm.generated.safe_altitude_area_sector_type_extension import (
     SafeAltitudeAreaSectorTypeExtension,
 )
-from generated.surface_property_type_2 import SurfacePropertyType2
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.surface_property_type_2 import SurfacePropertyType2
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

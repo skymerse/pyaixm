@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.grid_function_type import GridFunctionType
+from pyaixm.generated.grid_function_type import GridFunctionType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

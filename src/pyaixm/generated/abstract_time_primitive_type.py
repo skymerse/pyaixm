@@ -2,19 +2,21 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_time_object_type import AbstractTimeObjectType
-from generated.actuate_type import ActuateType
-from generated.duration import Duration
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.reference_type import ReferenceType
-from generated.related_time_type_relative_position import (
+from pyaixm.generated.abstract_time_object_type import AbstractTimeObjectType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.duration import Duration
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.reference_type import ReferenceType
+from pyaixm.generated.related_time_type_relative_position import (
     RelatedTimeTypeRelativePosition,
 )
-from generated.show_type import ShowType
-from generated.time_interval import TimeInterval
-from generated.time_position import TimePosition
-from generated.time_position_type import TimePositionType
-from generated.type_type import TypeType
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.time_interval import TimeInterval
+from pyaixm.generated.time_position import TimePosition
+from pyaixm.generated.time_position_type import TimePositionType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

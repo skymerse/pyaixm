@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.deicing_area_extension_type_2 import DeicingAreaExtensionType2
+from pyaixm.generated.deicing_area_extension_type_2 import (
+    DeicingAreaExtensionType2,
+)
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

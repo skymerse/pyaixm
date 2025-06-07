@@ -2,15 +2,15 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_side_type import CodeSideType
-from generated.note_property_type import NotePropertyType
-from generated.obstacle_placement_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_side_type import CodeSideType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstacle_placement_type_extension import (
     ObstaclePlacementTypeExtension,
 )
-from generated.text_name_type import TextNameType
-from generated.val_bearing_type import ValBearingType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

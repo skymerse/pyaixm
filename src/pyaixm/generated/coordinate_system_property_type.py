@@ -1,22 +1,24 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.affine_cs_1 import AffineCs1
-from generated.cartesian_cs_1 import CartesianCs1
-from generated.cylindrical_cs_1 import CylindricalCs1
-from generated.ellipsoidal_cs_1 import EllipsoidalCs1
-from generated.linear_cs_1 import LinearCs1
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.oblique_cartesian_cs import ObliqueCartesianCs
-from generated.polar_cs_1 import PolarCs1
-from generated.show_type import ShowType
-from generated.spherical_cs_1 import SphericalCs1
-from generated.temporal_cs import TemporalCs
-from generated.time_cs_1 import TimeCs1
-from generated.type_type import TypeType
-from generated.user_defined_cs_1 import UserDefinedCs1
-from generated.vertical_cs_1 import VerticalCs1
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.affine_cs_1 import AffineCs1
+from pyaixm.generated.cartesian_cs_1 import CartesianCs1
+from pyaixm.generated.cylindrical_cs_1 import CylindricalCs1
+from pyaixm.generated.ellipsoidal_cs_1 import EllipsoidalCs1
+from pyaixm.generated.linear_cs_1 import LinearCs1
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.oblique_cartesian_cs import ObliqueCartesianCs
+from pyaixm.generated.polar_cs_1 import PolarCs1
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.spherical_cs_1 import SphericalCs1
+from pyaixm.generated.temporal_cs import TemporalCs
+from pyaixm.generated.time_cs_1 import TimeCs1
+from pyaixm.generated.type_type import TypeType
+from pyaixm.generated.user_defined_cs_1 import UserDefinedCs1
+from pyaixm.generated.vertical_cs_1 import VerticalCs1
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

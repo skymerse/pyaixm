@@ -2,13 +2,13 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.boolean_list import BooleanList
-from generated.category_list import CategoryList
-from generated.count_list import CountList
-from generated.data_block import DataBlock
-from generated.file import File
-from generated.quantity_list import QuantityList
-from generated.value_array_property_type import ValueArray
+from pyaixm.generated.boolean_list import BooleanList
+from pyaixm.generated.category_list import CategoryList
+from pyaixm.generated.count_list import CountList
+from pyaixm.generated.data_block import DataBlock
+from pyaixm.generated.file import File
+from pyaixm.generated.quantity_list import QuantityList
+from pyaixm.generated.value_array_property_type import ValueArray
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

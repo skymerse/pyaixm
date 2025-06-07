@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.localizer_time_slice import LocalizerTimeSlice
+from pyaixm.generated.localizer_time_slice import LocalizerTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

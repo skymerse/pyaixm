@@ -2,30 +2,40 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_military_operations_type import CodeMilitaryOperationsType
-from generated.code_organisation_designator_type import (
+from pyaixm.generated.code_military_operations_type import (
+    CodeMilitaryOperationsType,
+)
+from pyaixm.generated.code_organisation_designator_type import (
     CodeOrganisationDesignatorType,
 )
-from generated.code_unit_type import CodeUnitType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.contact_information_property_type import (
+from pyaixm.generated.code_unit_type import CodeUnitType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.contact_information_property_type import (
     ContactInformationPropertyType,
 )
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.text_name_type import TextNameType
-from generated.unit_availability_property_type import (
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.unit_availability_property_type import (
     UnitAvailabilityPropertyType,
 )
-from generated.unit_dependency_property_type import UnitDependencyPropertyType
-from generated.unit_time_slice_type_extension import UnitTimeSliceTypeExtension
+from pyaixm.generated.unit_dependency_property_type import (
+    UnitDependencyPropertyType,
+)
+from pyaixm.generated.unit_time_slice_type_extension import (
+    UnitTimeSliceTypeExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

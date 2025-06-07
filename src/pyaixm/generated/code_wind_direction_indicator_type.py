@@ -1,10 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.code_wind_direction_indicator_base_type import (
+from pyaixm.generated.code_wind_direction_indicator_base_type import (
     CodeWindDirectionIndicatorBaseType,
 )
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

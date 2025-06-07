@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.unlimited_integer import UnlimitedInteger
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.unlimited_integer import UnlimitedInteger
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

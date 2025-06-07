@@ -1,10 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.airport_heliport_protection_area_extension import (
+from pyaixm.generated.airport_heliport_protection_area_extension import (
     AirportHeliportProtectionAreaExtension,
 )
-from generated.runway_protect_area_extension import RunwayProtectAreaExtension
+from pyaixm.generated.runway_protect_area_extension import (
+    RunwayProtectAreaExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

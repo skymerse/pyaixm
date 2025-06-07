@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.floating_dock_site_time_slice_type import (
+from pyaixm.generated.floating_dock_site_time_slice_type import (
     FloatingDockSiteTimeSliceType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.cubic_spline_type import CubicSplineType
+from pyaixm.generated.cubic_spline_type import CubicSplineType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

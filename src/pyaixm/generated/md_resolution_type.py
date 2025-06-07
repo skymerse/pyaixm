@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.distance_property_type import DistancePropertyType
-from generated.md_representative_fraction_property_type import (
+from pyaixm.generated.distance_property_type import DistancePropertyType
+from pyaixm.generated.md_representative_fraction_property_type import (
     MdRepresentativeFractionPropertyType,
 )
 

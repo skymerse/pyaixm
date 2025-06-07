@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.location_property_type import LocationPropertyType
+from pyaixm.generated.location_property_type import LocationPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

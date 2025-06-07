@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.altitude_adjustment_type import AltitudeAdjustmentType
+from pyaixm.generated.altitude_adjustment_type import AltitudeAdjustmentType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

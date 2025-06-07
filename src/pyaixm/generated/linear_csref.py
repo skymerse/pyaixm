@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.linear_csproperty_type import LinearCspropertyType
+from pyaixm.generated.linear_csproperty_type import LinearCspropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

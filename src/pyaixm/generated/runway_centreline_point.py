@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.runway_centreline_point_type import RunwayCentrelinePointType
+from pyaixm.generated.runway_centreline_point_type import (
+    RunwayCentrelinePointType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_range_dimension_type import MdRangeDimensionType
+from pyaixm.generated.md_range_dimension_type import MdRangeDimensionType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.contact_information_type import ContactInformationType
+from pyaixm.generated.contact_information_type import ContactInformationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

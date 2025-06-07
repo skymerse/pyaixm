@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.holding_assessment_time_slice_type import (
+from pyaixm.generated.holding_assessment_time_slice_type import (
     HoldingAssessmentTimeSliceType,
 )
 

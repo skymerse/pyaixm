@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_geometry_type import AbstractGeometryType
+from pyaixm.generated.abstract_geometry_type import AbstractGeometryType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

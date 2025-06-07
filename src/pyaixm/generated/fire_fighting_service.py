@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.fire_fighting_service_type import FireFightingServiceType
+from pyaixm.generated.fire_fighting_service_type import FireFightingServiceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

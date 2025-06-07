@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.vorextension_type import VorextensionType
+from pyaixm.generated.vorextension_type import VorextensionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

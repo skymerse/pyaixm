@@ -2,27 +2,33 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airspace_activation_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airspace_activation_property_type import (
     AirspaceActivationPropertyType,
 )
-from generated.airspace_geometry_component_property_type import (
+from pyaixm.generated.airspace_geometry_component_property_type import (
     AirspaceGeometryComponentPropertyType,
 )
-from generated.airspace_layer_class_property_type import (
+from pyaixm.generated.airspace_layer_class_property_type import (
     AirspaceLayerClassPropertyType,
 )
-from generated.airspace_time_slice_type_extension import (
+from pyaixm.generated.airspace_time_slice_type_extension import (
     AirspaceTimeSliceTypeExtension,
 )
-from generated.code_airspace_designator_type import CodeAirspaceDesignatorType
-from generated.code_airspace_type import CodeAirspaceType
-from generated.code_military_operations_type import CodeMilitaryOperationsType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.note_property_type import NotePropertyType
-from generated.route_property_type import RoutePropertyType
-from generated.text_name_type import TextNameType
-from generated.val_fltype import ValFltype
+from pyaixm.generated.code_airspace_designator_type import (
+    CodeAirspaceDesignatorType,
+)
+from pyaixm.generated.code_airspace_type import CodeAirspaceType
+from pyaixm.generated.code_military_operations_type import (
+    CodeMilitaryOperationsType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.route_property_type import RoutePropertyType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.val_fltype import ValFltype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

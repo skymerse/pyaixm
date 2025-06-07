@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_section_contamination_extension_type import (
+from pyaixm.generated.runway_section_contamination_extension_type import (
     RunwaySectionContaminationExtensionType,
 )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.time_calendar_type import TimeCalendarType
+from pyaixm.generated.time_calendar_type import TimeCalendarType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

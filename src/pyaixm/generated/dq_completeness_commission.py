@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_completeness_commission_type import (
+from pyaixm.generated.dq_completeness_commission_type import (
     DqCompletenessCommissionType,
 )
 

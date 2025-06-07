@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.apron_contamination_type import ApronContaminationType
+from pyaixm.generated.apron_contamination_type import ApronContaminationType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

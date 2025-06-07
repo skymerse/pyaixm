@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.result_type import ResultType
+from pyaixm.generated.result_type import ResultType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

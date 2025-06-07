@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.touch_down_lift_off_marking_time_slice import (
+from pyaixm.generated.touch_down_lift_off_marking_time_slice import (
     TouchDownLiftOffMarkingTimeSlice,
 )
 

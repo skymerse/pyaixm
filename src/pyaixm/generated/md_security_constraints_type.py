@@ -1,13 +1,13 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.character_string_property_type import (
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.md_classification_code_property_type import (
+from pyaixm.generated.md_classification_code_property_type import (
     MdClassificationCodePropertyType,
 )
-from generated.md_constraints_type import MdConstraintsType
+from pyaixm.generated.md_constraints_type import MdConstraintsType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

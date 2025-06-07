@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.taxiway_light_system_extension_type import (
+from pyaixm.generated.taxiway_light_system_extension_type import (
     TaxiwayLightSystemExtensionType,
 )
 

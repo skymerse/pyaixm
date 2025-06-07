@@ -2,63 +2,67 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Any, Optional, Union
 
-from generated.abstract_general_parameter_value_property_type import (
+from pyaixm.generated.abstract_general_parameter_value_property_type import (
     IncludesValue,
     ParameterValue2,
     UsesValue,
 )
-from generated.abstract_object_type import AbstractObjectType
-from generated.actuate_type import ActuateType
-from generated.affine_cs_2 import AffineCs2
-from generated.aggregation_type import AggregationType
-from generated.anchor_definition import AnchorDefinition
-from generated.anchor_point import AnchorPoint
-from generated.cartesian_cs_2 import CartesianCs2
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.affine_cs_2 import AffineCs2
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.anchor_definition import AnchorDefinition
+from pyaixm.generated.anchor_point import AnchorPoint
+from pyaixm.generated.cartesian_cs_2 import CartesianCs2
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.coordinate_operation_accuracy import CoordinateOperationAccuracy
-from generated.coordinate_system import CoordinateSystem
-from generated.cylindrical_cs_2 import CylindricalCs2
-from generated.derived_crstype import DerivedCrstype
-from generated.ellipsoid_2 import Ellipsoid2
-from generated.ellipsoidal_cs_2 import EllipsoidalCs2
-from generated.ex_geographic_extent_property_type import (
+from pyaixm.generated.coordinate_operation_accuracy import (
+    CoordinateOperationAccuracy,
+)
+from pyaixm.generated.coordinate_system import CoordinateSystem
+from pyaixm.generated.cylindrical_cs_2 import CylindricalCs2
+from pyaixm.generated.derived_crstype import DerivedCrstype
+from pyaixm.generated.ellipsoid_2 import Ellipsoid2
+from pyaixm.generated.ellipsoidal_cs_2 import EllipsoidalCs2
+from pyaixm.generated.ex_geographic_extent_property_type import (
     ExGeographicExtentPropertyType,
 )
-from generated.ex_temporal_extent_property_type import (
+from pyaixm.generated.ex_temporal_extent_property_type import (
     ExTemporalExtentPropertyType,
 )
-from generated.identified_object_type import IdentifiedObjectType
-from generated.linear_cs_2 import LinearCs2
-from generated.method import Method
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.operation_version import OperationVersion
-from generated.origin import Origin
-from generated.pixel_in_cell import PixelInCell
-from generated.polar_cs_2 import PolarCs2
-from generated.prime_meridian_2 import PrimeMeridian2
-from generated.real_property_type import RealPropertyType
-from generated.realization_epoch import RealizationEpoch
-from generated.scope import Scope
-from generated.show_type import ShowType
-from generated.spherical_cs_2 import SphericalCs2
-from generated.time_cs_2 import TimeCs2
-from generated.type_type import TypeType
-from generated.user_defined_cs_2 import UserDefinedCs2
-from generated.uses_affine_cs import UsesAffineCs
-from generated.uses_cartesian_cs import UsesCartesianCs
-from generated.uses_cs import UsesCs
-from generated.uses_ellipsoid import UsesEllipsoid
-from generated.uses_ellipsoidal_cs import UsesEllipsoidalCs
-from generated.uses_method import UsesMethod
-from generated.uses_oblique_cartesian_cs import UsesObliqueCartesianCs
-from generated.uses_prime_meridian import UsesPrimeMeridian
-from generated.uses_spherical_cs import UsesSphericalCs
-from generated.uses_temporal_cs import UsesTemporalCs
-from generated.uses_time_cs import UsesTimeCs
-from generated.uses_vertical_cs import UsesVerticalCs
-from generated.vertical_cs_2 import VerticalCs2
+from pyaixm.generated.identified_object_type import IdentifiedObjectType
+from pyaixm.generated.linear_cs_2 import LinearCs2
+from pyaixm.generated.method import Method
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.operation_version import OperationVersion
+from pyaixm.generated.origin import Origin
+from pyaixm.generated.pixel_in_cell import PixelInCell
+from pyaixm.generated.polar_cs_2 import PolarCs2
+from pyaixm.generated.prime_meridian_2 import PrimeMeridian2
+from pyaixm.generated.real_property_type import RealPropertyType
+from pyaixm.generated.realization_epoch import RealizationEpoch
+from pyaixm.generated.scope import Scope
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.spherical_cs_2 import SphericalCs2
+from pyaixm.generated.time_cs_2 import TimeCs2
+from pyaixm.generated.type_type import TypeType
+from pyaixm.generated.user_defined_cs_2 import UserDefinedCs2
+from pyaixm.generated.uses_affine_cs import UsesAffineCs
+from pyaixm.generated.uses_cartesian_cs import UsesCartesianCs
+from pyaixm.generated.uses_cs import UsesCs
+from pyaixm.generated.uses_ellipsoid import UsesEllipsoid
+from pyaixm.generated.uses_ellipsoidal_cs import UsesEllipsoidalCs
+from pyaixm.generated.uses_method import UsesMethod
+from pyaixm.generated.uses_oblique_cartesian_cs import UsesObliqueCartesianCs
+from pyaixm.generated.uses_prime_meridian import UsesPrimeMeridian
+from pyaixm.generated.uses_spherical_cs import UsesSphericalCs
+from pyaixm.generated.uses_temporal_cs import UsesTemporalCs
+from pyaixm.generated.uses_time_cs import UsesTimeCs
+from pyaixm.generated.uses_vertical_cs import UsesVerticalCs
+from pyaixm.generated.vertical_cs_2 import VerticalCs2
 
 
 @dataclass

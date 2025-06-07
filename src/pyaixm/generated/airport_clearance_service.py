@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airport_clearance_service_type import (
+from pyaixm.generated.airport_clearance_service_type import (
     AirportClearanceServiceType,
 )
 

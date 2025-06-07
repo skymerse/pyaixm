@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_md_content_information_type import (
+from pyaixm.generated.abstract_md_content_information_type import (
     AbstractMdContentInformationType,
 )
 

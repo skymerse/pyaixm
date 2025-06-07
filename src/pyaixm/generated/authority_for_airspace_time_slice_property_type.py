@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.authority_for_airspace_time_slice import (
+from pyaixm.generated.authority_for_airspace_time_slice import (
     AuthorityForAirspaceTimeSlice,
 )
 

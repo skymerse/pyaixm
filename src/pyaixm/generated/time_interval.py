@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.time_interval_length_type import TimeIntervalLengthType
+from pyaixm.generated.time_interval_length_type import TimeIntervalLengthType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

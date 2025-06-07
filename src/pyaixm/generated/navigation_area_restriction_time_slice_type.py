@@ -2,19 +2,23 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.circle_sector_property_type import CircleSectorPropertyType
-from generated.code_navigation_area_restriction_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.circle_sector_property_type import (
+    CircleSectorPropertyType,
+)
+from pyaixm.generated.code_navigation_area_restriction_type import (
     CodeNavigationAreaRestrictionType,
 )
-from generated.navigation_area_restriction_time_slice_type_extension import (
+from pyaixm.generated.navigation_area_restriction_time_slice_type_extension import (
     NavigationAreaRestrictionTimeSliceTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
-from generated.obstacle_assessment_area_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstacle_assessment_area_property_type import (
     ObstacleAssessmentAreaPropertyType,
 )
-from generated.procedure_property_type_2 import ProcedurePropertyType2
+from pyaixm.generated.procedure_property_type_2 import ProcedurePropertyType2
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.integer_property_type import IntegerPropertyType
-from generated.md_dimension_name_type_code_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.integer_property_type import IntegerPropertyType
+from pyaixm.generated.md_dimension_name_type_code_property_type import (
     MdDimensionNameTypeCodePropertyType,
 )
-from generated.measure_property_type import MeasurePropertyType
+from pyaixm.generated.measure_property_type import MeasurePropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

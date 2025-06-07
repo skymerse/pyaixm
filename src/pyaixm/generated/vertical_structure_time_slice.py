@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.vertical_structure_time_slice_type import (
+from pyaixm.generated.vertical_structure_time_slice_type import (
     VerticalStructureTimeSliceType,
 )
 

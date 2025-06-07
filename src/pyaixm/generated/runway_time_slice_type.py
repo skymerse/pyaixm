@@ -2,28 +2,30 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_runway_type import CodeRunwayType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.note_property_type import NotePropertyType
-from generated.runway_contamination_property_type import (
+from pyaixm.generated.code_runway_type import CodeRunwayType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_contamination_property_type import (
     RunwayContaminationPropertyType,
 )
-from generated.runway_section_contamination_property_type import (
+from pyaixm.generated.runway_section_contamination_property_type import (
     RunwaySectionContaminationPropertyType,
 )
-from generated.runway_time_slice_type_extension import (
+from pyaixm.generated.runway_time_slice_type_extension import (
     RunwayTimeSliceTypeExtension,
 )
-from generated.surface_characteristics_property_type import (
+from pyaixm.generated.surface_characteristics_property_type import (
     SurfaceCharacteristicsPropertyType,
 )
-from generated.text_designator_type import TextDesignatorType
-from generated.val_distance_signed_type import ValDistanceSignedType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.val_distance_signed_type import ValDistanceSignedType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

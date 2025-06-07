@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dmetype import Dmetype
+from pyaixm.generated.dmetype import Dmetype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

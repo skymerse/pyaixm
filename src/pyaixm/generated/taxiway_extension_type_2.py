@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.apron_property_type import ApronPropertyType
-from generated.runway_property_type import RunwayPropertyType
-from generated.taxiway_property_type import TaxiwayPropertyType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.apron_property_type import ApronPropertyType
+from pyaixm.generated.runway_property_type import RunwayPropertyType
+from pyaixm.generated.taxiway_property_type import TaxiwayPropertyType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.scale_type import ScaleType
+from pyaixm.generated.scale_type import ScaleType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

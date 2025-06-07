@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.event_extension_type import EventExtensionType
+from pyaixm.generated.event_extension_type import EventExtensionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE"
 

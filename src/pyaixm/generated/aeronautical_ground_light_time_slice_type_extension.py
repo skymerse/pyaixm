@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.aeronautical_ground_light_extension_1 import (
+from pyaixm.generated.aeronautical_ground_light_extension_1 import (
     AeronauticalGroundLightExtension1,
 )
-from generated.aeronautical_ground_light_extension_2 import (
+from pyaixm.generated.aeronautical_ground_light_extension_2 import (
     AeronauticalGroundLightExtension2,
 )
 

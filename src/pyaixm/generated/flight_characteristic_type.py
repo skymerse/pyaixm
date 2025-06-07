@@ -2,17 +2,17 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_flight_origin_type import CodeFlightOriginType
-from generated.code_flight_purpose_type import CodeFlightPurposeType
-from generated.code_flight_rule_type import CodeFlightRuleType
-from generated.code_flight_status_type import CodeFlightStatusType
-from generated.code_flight_type import CodeFlightType
-from generated.code_military_status_type import CodeMilitaryStatusType
-from generated.flight_characteristic_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_flight_origin_type import CodeFlightOriginType
+from pyaixm.generated.code_flight_purpose_type import CodeFlightPurposeType
+from pyaixm.generated.code_flight_rule_type import CodeFlightRuleType
+from pyaixm.generated.code_flight_status_type import CodeFlightStatusType
+from pyaixm.generated.code_flight_type import CodeFlightType
+from pyaixm.generated.code_military_status_type import CodeMilitaryStatusType
+from pyaixm.generated.flight_characteristic_type_extension import (
     FlightCharacteristicTypeExtension,
 )
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

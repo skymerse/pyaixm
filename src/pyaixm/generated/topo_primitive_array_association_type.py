@@ -1,7 +1,7 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.face_or_topo_solid_property_type import (
+from pyaixm.generated.face_or_topo_solid_property_type import (
     Edge,
     Face,
     Node,

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.surface_contamination_layer_extension_type import (
+from pyaixm.generated.surface_contamination_layer_extension_type import (
     SurfaceContaminationLayerExtensionType,
 )
 

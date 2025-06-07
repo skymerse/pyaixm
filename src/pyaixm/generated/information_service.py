@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.information_service_type import InformationServiceType
+from pyaixm.generated.information_service_type import InformationServiceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

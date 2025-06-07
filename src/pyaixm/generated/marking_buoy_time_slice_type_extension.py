@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.marking_buoy_extension import MarkingBuoyExtension
+from pyaixm.generated.marking_buoy_extension import MarkingBuoyExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

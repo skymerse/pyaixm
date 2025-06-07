@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.standard_level_sector_extension import (
+from pyaixm.generated.standard_level_sector_extension import (
     StandardLevelSectorExtension,
 )
 

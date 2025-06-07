@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.deicing_area_extension_type_1 import DeicingAreaExtensionType1
+from pyaixm.generated.deicing_area_extension_type_1 import (
+    DeicingAreaExtensionType1,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

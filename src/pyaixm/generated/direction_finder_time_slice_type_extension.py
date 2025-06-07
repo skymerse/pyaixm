@@ -1,8 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.direction_finder_extension import DirectionFinderExtension
-from generated.navaid_equipment_extension import NavaidEquipmentExtension
+from pyaixm.generated.direction_finder_extension import (
+    DirectionFinderExtension,
+)
+from pyaixm.generated.navaid_equipment_extension import (
+    NavaidEquipmentExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

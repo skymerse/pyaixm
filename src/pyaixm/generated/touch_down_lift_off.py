@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.touch_down_lift_off_type import TouchDownLiftOffType
+from pyaixm.generated.touch_down_lift_off_type import TouchDownLiftOffType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

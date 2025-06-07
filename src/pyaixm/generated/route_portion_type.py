@@ -2,22 +2,24 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.designated_point_property_type import (
+from pyaixm.generated.designated_point_property_type import (
     DesignatedPointPropertyType,
 )
-from generated.navaid_property_type import NavaidPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.point_property_type_2 import PointPropertyType2
-from generated.route_portion_type_extension import RoutePortionTypeExtension
-from generated.route_property_type import RoutePropertyType
-from generated.runway_centreline_point_property_type import (
+from pyaixm.generated.navaid_property_type import NavaidPropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.point_property_type_2 import PointPropertyType2
+from pyaixm.generated.route_portion_type_extension import (
+    RoutePortionTypeExtension,
+)
+from pyaixm.generated.route_property_type import RoutePropertyType
+from pyaixm.generated.runway_centreline_point_property_type import (
     RunwayCentrelinePointPropertyType,
 )
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
 

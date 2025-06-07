@@ -2,19 +2,21 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_height_reference_type import CodeHeightReferenceType
-from generated.code_minimum_altitude_type import CodeMinimumAltitudeType
-from generated.code_minimum_height_type import CodeMinimumHeightType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.equipment_unavailable_adjustment_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_height_reference_type import CodeHeightReferenceType
+from pyaixm.generated.code_minimum_altitude_type import CodeMinimumAltitudeType
+from pyaixm.generated.code_minimum_height_type import CodeMinimumHeightType
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.equipment_unavailable_adjustment_property_type import (
     EquipmentUnavailableAdjustmentPropertyType,
 )
-from generated.minima_type_extension import MinimaTypeExtension
-from generated.note_property_type import NotePropertyType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.minima_type_extension import MinimaTypeExtension
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

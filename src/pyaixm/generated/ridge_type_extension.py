@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.ridge_extension import RidgeExtension
+from pyaixm.generated.ridge_extension import RidgeExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

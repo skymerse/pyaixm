@@ -2,7 +2,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.sequence_rule_type import SequenceRuleType
+from pyaixm.generated.sequence_rule_type import SequenceRuleType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

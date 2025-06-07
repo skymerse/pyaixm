@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.solid_array_property_type import SolidArrayPropertyType
+from pyaixm.generated.solid_array_property_type import SolidArrayPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

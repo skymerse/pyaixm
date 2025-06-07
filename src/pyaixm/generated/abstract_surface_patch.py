@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.abstract_surface_patch_type import AbstractSurfacePatchType
+from pyaixm.generated.abstract_surface_patch_type import (
+    AbstractSurfacePatchType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,9 +2,11 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Optional
 
-from generated.abstract_curve_segment_type import AbstractCurveSegmentType
-from generated.affine_placement import AffinePlacement
-from generated.curve_interpolation_type import CurveInterpolationType
+from pyaixm.generated.abstract_curve_segment_type import (
+    AbstractCurveSegmentType,
+)
+from pyaixm.generated.affine_placement import AffinePlacement
+from pyaixm.generated.curve_interpolation_type import CurveInterpolationType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_gmltype import AbstractGmltype
-from generated.identifier import Identifier
+from pyaixm.generated.abstract_gmltype import AbstractGmltype
+from pyaixm.generated.identifier import Identifier
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

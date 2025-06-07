@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.runway_element_extension import RunwayElementExtension
+from pyaixm.generated.runway_element_extension import RunwayElementExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_temporal_validity_type import DqTemporalValidityType
+from pyaixm.generated.dq_temporal_validity_type import DqTemporalValidityType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

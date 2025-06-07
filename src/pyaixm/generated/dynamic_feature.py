@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dynamic_feature_type import DynamicFeatureType
+from pyaixm.generated.dynamic_feature_type import DynamicFeatureType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.apron_area_availability_extension import (
+from pyaixm.generated.apron_area_availability_extension import (
     ApronAreaAvailabilityExtension,
 )
 

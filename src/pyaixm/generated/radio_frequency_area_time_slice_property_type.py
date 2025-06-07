@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.radio_frequency_area_time_slice import (
+from pyaixm.generated.radio_frequency_area_time_slice import (
     RadioFrequencyAreaTimeSlice,
 )
 

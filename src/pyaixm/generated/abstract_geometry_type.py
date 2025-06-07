@@ -2,7 +2,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_gmltype import AbstractGmltype
+from pyaixm.generated.abstract_gmltype import AbstractGmltype
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

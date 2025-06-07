@@ -1,11 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.ci_date_type_code_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.ci_date_type_code_property_type import (
     CiDateTypeCodePropertyType,
 )
-from generated.date_property_type import DatePropertyType
+from pyaixm.generated.date_property_type import DatePropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

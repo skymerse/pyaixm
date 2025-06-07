@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.precision_approach_radar_time_slice import (
+from pyaixm.generated.precision_approach_radar_time_slice import (
     PrecisionApproachRadarTimeSlice,
 )
 

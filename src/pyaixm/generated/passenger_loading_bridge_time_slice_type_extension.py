@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.passenger_loading_bridge_extension import (
+from pyaixm.generated.passenger_loading_bridge_extension import (
     PassengerLoadingBridgeExtension,
 )
 

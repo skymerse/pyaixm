@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.ndbtime_slice import NdbtimeSlice
+from pyaixm.generated.ndbtime_slice import NdbtimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

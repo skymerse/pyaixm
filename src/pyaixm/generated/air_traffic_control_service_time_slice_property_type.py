@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.air_traffic_control_service_time_slice import (
+from pyaixm.generated.air_traffic_control_service_time_slice import (
     AirTrafficControlServiceTimeSlice,
 )
 

@@ -2,26 +2,28 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.actuate_type import ActuateType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.ci_responsible_party_property_type import (
+from pyaixm.generated.ci_responsible_party_property_type import (
     CiResponsiblePartyPropertyType,
 )
-from generated.date_time_property_type import DateTimePropertyType
-from generated.ex_extent_property_type import ExExtentPropertyType
-from generated.md_identifier_type import CiCitationPropertyType
-from generated.md_reference_system_property_type import (
+from pyaixm.generated.date_time_property_type import DateTimePropertyType
+from pyaixm.generated.ex_extent_property_type import ExExtentPropertyType
+from pyaixm.generated.md_identifier_type import CiCitationPropertyType
+from pyaixm.generated.md_reference_system_property_type import (
     MdReferenceSystemPropertyType,
 )
-from generated.md_representative_fraction_property_type import (
+from pyaixm.generated.md_representative_fraction_property_type import (
     MdRepresentativeFractionPropertyType,
 )
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

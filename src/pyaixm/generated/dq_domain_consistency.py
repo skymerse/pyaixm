@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_domain_consistency_type import DqDomainConsistencyType
+from pyaixm.generated.dq_domain_consistency_type import DqDomainConsistencyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

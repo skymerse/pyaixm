@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.dq_accuracy_of_atime_measurement_type import (
+from pyaixm.generated.dq_accuracy_of_atime_measurement_type import (
     DqAccuracyOfAtimeMeasurementType,
 )
 

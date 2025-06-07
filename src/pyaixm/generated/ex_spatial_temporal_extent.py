@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ex_spatial_temporal_extent_type import (
+from pyaixm.generated.ex_spatial_temporal_extent_type import (
     ExSpatialTemporalExtentType,
 )
 

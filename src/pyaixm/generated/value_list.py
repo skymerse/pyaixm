@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.measure_list_type import MeasureListType
+from pyaixm.generated.measure_list_type import MeasureListType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,12 +2,12 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.length_type import LengthType
-from generated.line_string_segment_array_property_type import (
+from pyaixm.generated.length_type import LengthType
+from pyaixm.generated.line_string_segment_array_property_type import (
     LineStringSegmentArrayPropertyType,
 )
-from generated.surface_type_1 import SurfaceType1
-from generated.tin_type_control_point import TinTypeControlPoint
+from pyaixm.generated.surface_type_1 import SurfaceType1
+from pyaixm.generated.tin_type_control_point import TinTypeControlPoint
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

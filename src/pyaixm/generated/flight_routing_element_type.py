@@ -2,46 +2,48 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.aerial_refuelling_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.aerial_refuelling_property_type import (
     AerialRefuellingPropertyType,
 )
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.airspace_property_type import AirspacePropertyType
-from generated.code_comparison_type import CodeComparisonType
-from generated.code_speed_reference_type import CodeSpeedReferenceType
-from generated.designated_point_property_type import (
+from pyaixm.generated.airspace_property_type import AirspacePropertyType
+from pyaixm.generated.code_comparison_type import CodeComparisonType
+from pyaixm.generated.code_speed_reference_type import CodeSpeedReferenceType
+from pyaixm.generated.designated_point_property_type import (
     DesignatedPointPropertyType,
 )
-from generated.direct_flight_segment_property_type import (
+from pyaixm.generated.direct_flight_segment_property_type import (
     DirectFlightSegmentPropertyType,
 )
-from generated.flight_restriction_level_property_type import (
+from pyaixm.generated.flight_restriction_level_property_type import (
     FlightRestrictionLevelPropertyType,
 )
-from generated.flight_routing_element_type_extension import (
+from pyaixm.generated.flight_routing_element_type_extension import (
     FlightRoutingElementTypeExtension,
 )
-from generated.navaid_property_type import NavaidPropertyType
-from generated.no_sequence_type import NoSequenceType
-from generated.note_property_type import NotePropertyType
-from generated.point_property_type_2 import PointPropertyType2
-from generated.route_portion_property_type import RoutePortionPropertyType
-from generated.runway_centreline_point_property_type import (
+from pyaixm.generated.navaid_property_type import NavaidPropertyType
+from pyaixm.generated.no_sequence_type import NoSequenceType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.point_property_type_2 import PointPropertyType2
+from pyaixm.generated.route_portion_property_type import (
+    RoutePortionPropertyType,
+)
+from pyaixm.generated.runway_centreline_point_property_type import (
     RunwayCentrelinePointPropertyType,
 )
-from generated.standard_instrument_arrival_property_type import (
+from pyaixm.generated.standard_instrument_arrival_property_type import (
     StandardInstrumentArrivalPropertyType,
 )
-from generated.standard_instrument_departure_property_type import (
+from pyaixm.generated.standard_instrument_departure_property_type import (
     StandardInstrumentDeparturePropertyType,
 )
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
-from generated.val_speed_type import ValSpeedType
+from pyaixm.generated.val_speed_type import ValSpeedType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

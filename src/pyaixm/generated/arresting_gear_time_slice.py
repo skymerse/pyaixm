@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.arresting_gear_time_slice_type import ArrestingGearTimeSliceType
+from pyaixm.generated.arresting_gear_time_slice_type import (
+    ArrestingGearTimeSliceType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.departure_arrival_condition_type import (
+from pyaixm.generated.departure_arrival_condition_type import (
     DepartureArrivalConditionType,
 )
 

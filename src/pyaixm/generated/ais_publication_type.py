@@ -2,17 +2,17 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.ais_publication_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.ais_publication_type_extension import (
     AisPublicationTypeExtension,
 )
-from generated.code_aispublication_type import CodeAispublicationType
-from generated.code_upper_alpha_type import CodeUpperAlphaType
-from generated.date_time_type import DateTimeType
-from generated.date_year_type import DateYearType
-from generated.no_number_type import NoNumberType
-from generated.unit_property_type import UnitPropertyType
-from generated.xhtmltype import Xhtmltype
+from pyaixm.generated.code_aispublication_type import CodeAispublicationType
+from pyaixm.generated.code_upper_alpha_type import CodeUpperAlphaType
+from pyaixm.generated.date_time_type import DateTimeType
+from pyaixm.generated.date_year_type import DateYearType
+from pyaixm.generated.no_number_type import NoNumberType
+from pyaixm.generated.unit_property_type import UnitPropertyType
+from pyaixm.generated.xhtmltype import Xhtmltype
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

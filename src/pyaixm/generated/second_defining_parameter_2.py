@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.second_defining_parameter_1 import SecondDefiningParameter1
+from pyaixm.generated.second_defining_parameter_1 import (
+    SecondDefiningParameter1,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.coverage_function_type import CoverageFunctionType
+from pyaixm.generated.coverage_function_type import CoverageFunctionType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

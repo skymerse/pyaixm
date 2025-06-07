@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.organisation_authority_type import OrganisationAuthorityType
+from pyaixm.generated.organisation_authority_type import (
+    OrganisationAuthorityType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

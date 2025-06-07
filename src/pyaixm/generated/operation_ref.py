@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.operation_property_type import OperationPropertyType
+from pyaixm.generated.operation_property_type import OperationPropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

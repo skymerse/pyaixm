@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.holding_pattern_duration_type import HoldingPatternDurationType
+from pyaixm.generated.holding_pattern_duration_type import (
+    HoldingPatternDurationType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

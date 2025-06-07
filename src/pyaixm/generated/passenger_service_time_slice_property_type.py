@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.passenger_service_time_slice import PassengerServiceTimeSlice
+from pyaixm.generated.passenger_service_time_slice import (
+    PassengerServiceTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

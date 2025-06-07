@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.topo_curve import TopoCurve
+from pyaixm.generated.topo_curve import TopoCurve
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

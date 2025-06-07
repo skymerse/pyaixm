@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.airport_hot_spot_extension import AirportHotSpotExtension
+from pyaixm.generated.airport_hot_spot_extension import AirportHotSpotExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

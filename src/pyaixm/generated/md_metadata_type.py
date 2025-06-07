@@ -2,53 +2,63 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.actuate_type import ActuateType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.ci_responsible_party_property_type import (
+from pyaixm.generated.ci_responsible_party_property_type import (
     CiResponsiblePartyPropertyType,
 )
-from generated.date_property_type import DatePropertyType
-from generated.dq_data_quality_property_type import DqDataQualityPropertyType
-from generated.md_application_schema_information_property_type import (
+from pyaixm.generated.date_property_type import DatePropertyType
+from pyaixm.generated.dq_data_quality_property_type import (
+    DqDataQualityPropertyType,
+)
+from pyaixm.generated.md_application_schema_information_property_type import (
     MdApplicationSchemaInformationPropertyType,
 )
-from generated.md_character_set_code_property_type import (
+from pyaixm.generated.md_character_set_code_property_type import (
     MdCharacterSetCodePropertyType,
 )
-from generated.md_constraints_property_type import MdConstraintsPropertyType
-from generated.md_content_information_property_type import (
+from pyaixm.generated.md_constraints_property_type import (
+    MdConstraintsPropertyType,
+)
+from pyaixm.generated.md_content_information_property_type import (
     MdContentInformationPropertyType,
 )
-from generated.md_distribution_property_type import MdDistributionPropertyType
-from generated.md_identification_property_type import (
+from pyaixm.generated.md_distribution_property_type import (
+    MdDistributionPropertyType,
+)
+from pyaixm.generated.md_identification_property_type import (
     MdIdentificationPropertyType,
 )
-from generated.md_maintenance_information_property_type import (
+from pyaixm.generated.md_maintenance_information_property_type import (
     MdMaintenanceInformationPropertyType,
 )
-from generated.md_metadata_extension_information_property_type import (
+from pyaixm.generated.md_metadata_extension_information_property_type import (
     MdMetadataExtensionInformationPropertyType,
 )
-from generated.md_portrayal_catalogue_reference_property_type import (
+from pyaixm.generated.md_portrayal_catalogue_reference_property_type import (
     MdPortrayalCatalogueReferencePropertyType,
 )
-from generated.md_reference_system_property_type import (
+from pyaixm.generated.md_reference_system_property_type import (
     MdReferenceSystemPropertyType,
 )
-from generated.md_scope_code_property_type import MdScopeCodePropertyType
-from generated.md_spatial_representation_property_type import (
+from pyaixm.generated.md_scope_code_property_type import (
+    MdScopeCodePropertyType,
+)
+from pyaixm.generated.md_spatial_representation_property_type import (
     MdSpatialRepresentationPropertyType,
 )
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.object_reference_property_type import (
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.object_reference_property_type import (
     ObjectReferencePropertyType,
 )
-from generated.pt_locale_property_type import PtLocalePropertyType
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.pt_locale_property_type import PtLocalePropertyType
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

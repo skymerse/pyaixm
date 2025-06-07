@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.direct_flight_class_type import DirectFlightClassType
+from pyaixm.generated.direct_flight_class_type import DirectFlightClassType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

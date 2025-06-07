@@ -2,13 +2,17 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.elevated_curve_property_type import ElevatedCurvePropertyType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.elevated_curve_property_type import (
+    ElevatedCurvePropertyType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.seaplane_ramp_site_time_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.seaplane_ramp_site_time_slice_type_extension import (
     SeaplaneRampSiteTimeSliceTypeExtension,
 )
 

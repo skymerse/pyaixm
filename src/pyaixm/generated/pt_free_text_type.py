@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.localised_character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.localised_character_string_property_type import (
     LocalisedCharacterStringPropertyType,
 )
 

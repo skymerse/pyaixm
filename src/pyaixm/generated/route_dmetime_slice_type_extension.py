@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.route_dmeextension import RouteDmeextension
+from pyaixm.generated.route_dmeextension import RouteDmeextension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

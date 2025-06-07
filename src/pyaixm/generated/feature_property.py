@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.feature_property_type import FeaturePropertyType
+from pyaixm.generated.feature_property_type import FeaturePropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

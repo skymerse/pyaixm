@@ -2,9 +2,9 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_topology_type import AbstractTopologyType
-from generated.aggregation_type import AggregationType
-from generated.face_or_topo_solid_property_type import DirectedFace
+from pyaixm.generated.abstract_topology_type import AbstractTopologyType
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.face_or_topo_solid_property_type import DirectedFace
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

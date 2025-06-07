@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.circling_restriction import CirclingRestriction
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.circling_restriction import CirclingRestriction
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

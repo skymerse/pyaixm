@@ -2,35 +2,39 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_helicopter_performance_type import (
+from pyaixm.generated.code_helicopter_performance_type import (
     CodeHelicopterPerformanceType,
 )
-from generated.code_yes_no_type import CodeYesNoType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.manoeuvring_area_availability_property_type import (
+from pyaixm.generated.manoeuvring_area_availability_property_type import (
     ManoeuvringAreaAvailabilityPropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.runway_property_type import RunwayPropertyType
-from generated.surface_characteristics_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_property_type import RunwayPropertyType
+from pyaixm.generated.surface_characteristics_property_type import (
     SurfaceCharacteristicsPropertyType,
 )
-from generated.text_designator_type import TextDesignatorType
-from generated.touch_down_lift_off_contamination_property_type import (
+from pyaixm.generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.touch_down_lift_off_contamination_property_type import (
     TouchDownLiftOffContaminationPropertyType,
 )
-from generated.touch_down_lift_off_time_slice_type_extension import (
+from pyaixm.generated.touch_down_lift_off_time_slice_type_extension import (
     TouchDownLiftOffTimeSliceTypeExtension,
 )
-from generated.val_distance_type import ValDistanceType
-from generated.val_slope_type import ValSlopeType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_slope_type import ValSlopeType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

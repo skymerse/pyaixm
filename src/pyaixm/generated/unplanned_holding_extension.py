@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.unplanned_holding_extension_type import (
+from pyaixm.generated.unplanned_holding_extension_type import (
     UnplannedHoldingExtensionType,
 )
 

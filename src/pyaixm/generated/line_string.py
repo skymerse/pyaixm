@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.line_string_type import LineStringType
+from pyaixm.generated.line_string_type import LineStringType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

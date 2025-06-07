@@ -2,16 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_properties_with_schedule_type import (
+from pyaixm.generated.abstract_properties_with_schedule_type import (
     AbstractPropertiesWithScheduleType,
 )
-from generated.code_status_operations_type import CodeStatusOperationsType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.code_status_operations_type import (
+    CodeStatusOperationsType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.timesheet_property_type import TimesheetPropertyType
-from generated.unit_availability_type_extension import (
+from pyaixm.generated.timesheet_property_type import TimesheetPropertyType
+from pyaixm.generated.unit_availability_type_extension import (
     UnitAvailabilityTypeExtension,
 )
 

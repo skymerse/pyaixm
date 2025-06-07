@@ -2,9 +2,9 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.note_property_type import NotePropertyType
-from generated.surface_type_1 import SurfaceType1
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surface_type_1 import SurfaceType1
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

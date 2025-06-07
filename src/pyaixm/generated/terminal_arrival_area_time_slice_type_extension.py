@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.terminal_arrival_area_extension import (
+from pyaixm.generated.terminal_arrival_area_extension import (
     TerminalArrivalAreaExtension,
 )
 

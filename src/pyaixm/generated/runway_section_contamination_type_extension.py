@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.runway_section_contamination_extension import (
+from pyaixm.generated.runway_section_contamination_extension import (
     RunwaySectionContaminationExtension,
 )
-from generated.surface_contamination_extension import (
+from pyaixm.generated.surface_contamination_extension import (
     SurfaceContaminationExtension,
 )
 

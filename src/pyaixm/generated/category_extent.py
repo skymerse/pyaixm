@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.category_extent_type import CategoryExtentType
+from pyaixm.generated.category_extent_type import CategoryExtentType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Any
 
-from generated.dynamic_feature_type import DynamicFeatureType
+from pyaixm.generated.dynamic_feature_type import DynamicFeatureType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

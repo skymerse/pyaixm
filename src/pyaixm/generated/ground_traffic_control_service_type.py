@@ -1,10 +1,10 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_traffic_separation_service_type import (
+from pyaixm.generated.abstract_traffic_separation_service_type import (
     AbstractTrafficSeparationServiceType,
 )
-from generated.ground_traffic_control_service_time_slice_property_type import (
+from pyaixm.generated.ground_traffic_control_service_time_slice_property_type import (
     GroundTrafficControlServiceTimeSlicePropertyType,
 )
 

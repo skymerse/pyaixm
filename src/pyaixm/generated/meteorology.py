@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.meteorology_type import MeteorologyType
+from pyaixm.generated.meteorology_type import MeteorologyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

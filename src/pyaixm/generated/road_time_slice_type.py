@@ -2,23 +2,31 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.aircraft_stand_property_type import AircraftStandPropertyType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.aircraft_stand_property_type import (
+    AircraftStandPropertyType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_road_type import CodeRoadType
-from generated.code_status_operations_type import CodeStatusOperationsType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.code_road_type import CodeRoadType
+from pyaixm.generated.code_status_operations_type import (
+    CodeStatusOperationsType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.road_time_slice_type_extension import RoadTimeSliceTypeExtension
-from generated.surface_characteristics_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.road_time_slice_type_extension import (
+    RoadTimeSliceTypeExtension,
+)
+from pyaixm.generated.surface_characteristics_property_type import (
     SurfaceCharacteristicsPropertyType,
 )
-from generated.text_name_type import TextNameType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

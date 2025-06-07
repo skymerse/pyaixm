@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ex_geographic_description_type import (
+from pyaixm.generated.ex_geographic_description_type import (
     ExGeographicDescriptionType,
 )
 

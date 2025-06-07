@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_md_spatial_representation_type import (
+from pyaixm.generated.abstract_md_spatial_representation_type import (
     AbstractMdSpatialRepresentationType,
 )
 

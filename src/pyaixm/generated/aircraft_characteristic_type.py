@@ -2,41 +2,45 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.aircraft_characteristic_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.aircraft_characteristic_type_extension import (
     AircraftCharacteristicTypeExtension,
 )
-from generated.code_aircraft_category_type import CodeAircraftCategoryType
-from generated.code_aircraft_engine_number_type import (
+from pyaixm.generated.code_aircraft_category_type import (
+    CodeAircraftCategoryType,
+)
+from pyaixm.generated.code_aircraft_engine_number_type import (
     CodeAircraftEngineNumberType,
 )
-from generated.code_aircraft_engine_type import CodeAircraftEngineType
-from generated.code_aircraft_icaotype import CodeAircraftIcaotype
-from generated.code_aircraft_type import CodeAircraftType
-from generated.code_aircraft_wingspan_class_type import (
+from pyaixm.generated.code_aircraft_engine_type import CodeAircraftEngineType
+from pyaixm.generated.code_aircraft_icaotype import CodeAircraftIcaotype
+from pyaixm.generated.code_aircraft_type import CodeAircraftType
+from pyaixm.generated.code_aircraft_wingspan_class_type import (
     CodeAircraftWingspanClassType,
 )
-from generated.code_communication_mode_type import CodeCommunicationModeType
-from generated.code_equipment_anti_collision_type import (
+from pyaixm.generated.code_communication_mode_type import (
+    CodeCommunicationModeType,
+)
+from pyaixm.generated.code_equipment_anti_collision_type import (
     CodeEquipmentAntiCollisionType,
 )
-from generated.code_navigation_equipment_type import (
+from pyaixm.generated.code_navigation_equipment_type import (
     CodeNavigationEquipmentType,
 )
-from generated.code_navigation_specification_type import (
+from pyaixm.generated.code_navigation_specification_type import (
     CodeNavigationSpecificationType,
 )
-from generated.code_rvsmtype import CodeRvsmtype
-from generated.code_transponder_type import CodeTransponderType
-from generated.code_value_interpretation_type import (
+from pyaixm.generated.code_rvsmtype import CodeRvsmtype
+from pyaixm.generated.code_transponder_type import CodeTransponderType
+from pyaixm.generated.code_value_interpretation_type import (
     CodeValueInterpretationType,
 )
-from generated.code_wake_turbulence_type import CodeWakeTurbulenceType
-from generated.no_number_type import NoNumberType
-from generated.note_property_type import NotePropertyType
-from generated.val_distance_type import ValDistanceType
-from generated.val_speed_type import ValSpeedType
-from generated.val_weight_type import ValWeightType
+from pyaixm.generated.code_wake_turbulence_type import CodeWakeTurbulenceType
+from pyaixm.generated.no_number_type import NoNumberType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_speed_type import ValSpeedType
+from pyaixm.generated.val_weight_type import ValWeightType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

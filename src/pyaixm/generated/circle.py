@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.circle_type import CircleType
+from pyaixm.generated.circle_type import CircleType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

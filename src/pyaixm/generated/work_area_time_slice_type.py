@@ -2,20 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_work_area_type import CodeWorkAreaType
-from generated.date_type import DateType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.code_work_area_type import CodeWorkAreaType
+from pyaixm.generated.date_type import DateType
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.work_area_time_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.work_area_time_slice_type_extension import (
     WorkAreaTimeSliceTypeExtension,
 )
-from generated.workarea_activity_property_type import (
+from pyaixm.generated.workarea_activity_property_type import (
     WorkareaActivityPropertyType,
 )
 

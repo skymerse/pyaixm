@@ -2,37 +2,43 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_curve_segment_type import AbstractCurveSegmentType
-from generated.abstract_curve_type import AbstractCurveType
-from generated.actuate_type import ActuateType
-from generated.aggregation_type import AggregationType
-from generated.arc import Arc
-from generated.arc_by_bulge import ArcByBulge
-from generated.arc_by_center_point import ArcByCenterPoint
-from generated.arc_string import ArcString
-from generated.arc_string_by_bulge import ArcStringByBulge
-from generated.bezier import Bezier
-from generated.bspline import Bspline
-from generated.circle import Circle
-from generated.circle_by_center_point import CircleByCenterPoint
-from generated.clothoid import Clothoid
-from generated.code_vertical_datum_type import CodeVerticalDatumType
-from generated.cubic_spline import CubicSpline
-from generated.elevated_curve_type_extension import ElevatedCurveTypeExtension
-from generated.geodesic import Geodesic
-from generated.geodesic_string import GeodesicString
-from generated.length_type import LengthType
-from generated.line_string import LineString
-from generated.line_string_segment import LineStringSegment
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.note_property_type import NotePropertyType
-from generated.show_type import ShowType
-from generated.sign_type import SignType
-from generated.type_type import TypeType
-from generated.val_distance_signed_type import ValDistanceSignedType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.vector_type import VectorType
+from pyaixm.generated.abstract_curve_segment_type import (
+    AbstractCurveSegmentType,
+)
+from pyaixm.generated.abstract_curve_type import AbstractCurveType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.arc import Arc
+from pyaixm.generated.arc_by_bulge import ArcByBulge
+from pyaixm.generated.arc_by_center_point import ArcByCenterPoint
+from pyaixm.generated.arc_string import ArcString
+from pyaixm.generated.arc_string_by_bulge import ArcStringByBulge
+from pyaixm.generated.bezier import Bezier
+from pyaixm.generated.bspline import Bspline
+from pyaixm.generated.circle import Circle
+from pyaixm.generated.circle_by_center_point import CircleByCenterPoint
+from pyaixm.generated.clothoid import Clothoid
+from pyaixm.generated.code_vertical_datum_type import CodeVerticalDatumType
+from pyaixm.generated.cubic_spline import CubicSpline
+from pyaixm.generated.elevated_curve_type_extension import (
+    ElevatedCurveTypeExtension,
+)
+from pyaixm.generated.geodesic import Geodesic
+from pyaixm.generated.geodesic_string import GeodesicString
+from pyaixm.generated.length_type import LengthType
+from pyaixm.generated.line_string import LineString
+from pyaixm.generated.line_string_segment import LineStringSegment
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.sign_type import SignType
+from pyaixm.generated.type_type import TypeType
+from pyaixm.generated.val_distance_signed_type import ValDistanceSignedType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.vector_type import VectorType
 
 
 @dataclass

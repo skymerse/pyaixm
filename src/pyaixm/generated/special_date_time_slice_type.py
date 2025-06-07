@@ -2,18 +2,20 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_special_date_type import CodeSpecialDateType
-from generated.date_month_day_type import DateMonthDayType
-from generated.date_year_type import DateYearType
-from generated.note_property_type import NotePropertyType
-from generated.organisation_authority_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_special_date_type import CodeSpecialDateType
+from pyaixm.generated.date_month_day_type import DateMonthDayType
+from pyaixm.generated.date_year_type import DateYearType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.organisation_authority_property_type import (
     OrganisationAuthorityPropertyType,
 )
-from generated.special_date_time_slice_type_extension import (
+from pyaixm.generated.special_date_time_slice_type_extension import (
     SpecialDateTimeSliceTypeExtension,
 )
-from generated.text_name_type import TextNameType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

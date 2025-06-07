@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.light_element_type import LightElementType
+from pyaixm.generated.light_element_type import LightElementType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

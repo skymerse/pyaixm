@@ -2,11 +2,13 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.code_note_purpose_type import CodeNotePurposeType
-from generated.linguistic_note_property_type import LinguisticNotePropertyType
-from generated.note_type_extension import NoteTypeExtension
-from generated.text_property_name_type import TextPropertyNameType
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.code_note_purpose_type import CodeNotePurposeType
+from pyaixm.generated.linguistic_note_property_type import (
+    LinguisticNotePropertyType,
+)
+from pyaixm.generated.note_type_extension import NoteTypeExtension
+from pyaixm.generated.text_property_name_type import TextPropertyNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

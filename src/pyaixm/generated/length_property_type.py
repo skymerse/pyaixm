@@ -1,9 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.distance import Distance
-from generated.length import Length
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.distance import Distance
+from pyaixm.generated.length import Length
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

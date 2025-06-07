@@ -2,23 +2,29 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_runway_point_role_type import CodeRunwayPointRoleType
-from generated.elevated_point_property_type import ElevatedPointPropertyType
-from generated.navaid_equipment_distance_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_runway_point_role_type import (
+    CodeRunwayPointRoleType,
+)
+from pyaixm.generated.elevated_point_property_type import (
+    ElevatedPointPropertyType,
+)
+from pyaixm.generated.navaid_equipment_distance_property_type import (
     NavaidEquipmentDistancePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.runway_centreline_point_time_slice_type_extension import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_centreline_point_time_slice_type_extension import (
     RunwayCentrelinePointTimeSliceTypeExtension,
 )
-from generated.runway_declared_distance_property_type import (
+from pyaixm.generated.runway_declared_distance_property_type import (
     RunwayDeclaredDistancePropertyType,
 )
-from generated.runway_direction_property_type import (
+from pyaixm.generated.runway_direction_property_type import (
     RunwayDirectionPropertyType,
 )
-from generated.text_designator_type import TextDesignatorType
+from pyaixm.generated.text_designator_type import TextDesignatorType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.special_navigation_station_time_slice import (
+from pyaixm.generated.special_navigation_station_time_slice import (
     SpecialNavigationStationTimeSlice,
 )
 

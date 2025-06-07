@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.standard_level_table_type import StandardLevelTableType
+from pyaixm.generated.standard_level_table_type import StandardLevelTableType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

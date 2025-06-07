@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.linear_ring_type import LinearRingType
+from pyaixm.generated.linear_ring_type import LinearRingType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

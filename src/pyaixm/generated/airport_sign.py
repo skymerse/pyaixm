@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airport_sign_type import AirportSignType
+from pyaixm.generated.airport_sign_type import AirportSignType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.multiplicity_type import MultiplicityType
+from pyaixm.generated.multiplicity_type import MultiplicityType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

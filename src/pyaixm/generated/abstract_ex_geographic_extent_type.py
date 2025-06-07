@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.boolean_property_type_2 import BooleanPropertyType2
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.boolean_property_type_2 import BooleanPropertyType2
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.navaid_equipment_extension import NavaidEquipmentExtension
-from generated.vorextension import Vorextension
+from pyaixm.generated.navaid_equipment_extension import (
+    NavaidEquipmentExtension,
+)
+from pyaixm.generated.vorextension import Vorextension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

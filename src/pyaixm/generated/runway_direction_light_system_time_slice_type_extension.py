@@ -1,11 +1,13 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.ground_light_system_extension import GroundLightSystemExtension
-from generated.runway_direction_light_system_extension_1 import (
+from pyaixm.generated.ground_light_system_extension import (
+    GroundLightSystemExtension,
+)
+from pyaixm.generated.runway_direction_light_system_extension_1 import (
     RunwayDirectionLightSystemExtension1,
 )
-from generated.runway_direction_light_system_extension_2 import (
+from pyaixm.generated.runway_direction_light_system_extension_2 import (
     RunwayDirectionLightSystemExtension2,
 )
 

@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.marking_extension import MarkingExtension
-from generated.stand_marking_extension import StandMarkingExtension
+from pyaixm.generated.marking_extension import MarkingExtension
+from pyaixm.generated.stand_marking_extension import StandMarkingExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

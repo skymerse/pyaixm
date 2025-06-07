@@ -2,23 +2,27 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.aerial_refuelling_anchor_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.aerial_refuelling_anchor_type_extension import (
     AerialRefuellingAnchorTypeExtension,
 )
-from generated.aerial_refuelling_point_property_type import (
+from pyaixm.generated.aerial_refuelling_point_property_type import (
     AerialRefuellingPointPropertyType,
 )
-from generated.airspace_layer_property_type import AirspaceLayerPropertyType
-from generated.code_course_type import CodeCourseType
-from generated.code_direction_turn_type import CodeDirectionTurnType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.note_property_type import NotePropertyType
-from generated.surface_property_type_2 import SurfacePropertyType2
-from generated.val_bearing_type import ValBearingType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.val_speed_type import ValSpeedType
+from pyaixm.generated.airspace_layer_property_type import (
+    AirspaceLayerPropertyType,
+)
+from pyaixm.generated.code_course_type import CodeCourseType
+from pyaixm.generated.code_direction_turn_type import CodeDirectionTurnType
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surface_property_type_2 import SurfacePropertyType2
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_speed_type import ValSpeedType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

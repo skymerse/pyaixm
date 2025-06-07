@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.airport_heliport_time_slice import AirportHeliportTimeSlice
+from pyaixm.generated.airport_heliport_time_slice import (
+    AirportHeliportTimeSlice,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

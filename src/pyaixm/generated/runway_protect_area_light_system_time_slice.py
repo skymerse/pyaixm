@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.runway_protect_area_light_system_time_slice_type import (
+from pyaixm.generated.runway_protect_area_light_system_time_slice_type import (
     RunwayProtectAreaLightSystemTimeSliceType,
 )
 

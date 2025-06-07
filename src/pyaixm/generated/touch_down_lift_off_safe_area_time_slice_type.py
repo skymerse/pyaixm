@@ -2,22 +2,24 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.elevated_surface_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.elevated_surface_property_type import (
     ElevatedSurfacePropertyType,
 )
-from generated.note_property_type import NotePropertyType
-from generated.surface_characteristics_property_type import (
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.surface_characteristics_property_type import (
     SurfaceCharacteristicsPropertyType,
 )
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
-from generated.touch_down_lift_off_safe_area_time_slice_type_extension import (
+from pyaixm.generated.touch_down_lift_off_safe_area_time_slice_type_extension import (
     TouchDownLiftOffSafeAreaTimeSliceTypeExtension,
 )
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

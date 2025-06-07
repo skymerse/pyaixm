@@ -2,11 +2,11 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_geometric_aggregate_type import (
+from pyaixm.generated.abstract_geometric_aggregate_type import (
     AbstractGeometricAggregateType,
 )
-from generated.curve_members import CurveMembers
-from generated.curve_property_type_1 import CurveMember
+from pyaixm.generated.curve_members import CurveMembers
+from pyaixm.generated.curve_property_type_1 import CurveMember
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

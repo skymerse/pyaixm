@@ -2,13 +2,13 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.callsign_detail_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.callsign_detail_type_extension import (
     CallsignDetailTypeExtension,
 )
-from generated.code_language_type import CodeLanguageType
-from generated.note_property_type import NotePropertyType
-from generated.text_name_type import TextNameType
+from pyaixm.generated.code_language_type import CodeLanguageType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

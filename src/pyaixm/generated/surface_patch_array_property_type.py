@@ -1,12 +1,12 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.cone import Cone
-from generated.cylinder import Cylinder
-from generated.polygon_patch import PolygonPatch
-from generated.rectangle import Rectangle
-from generated.sphere import Sphere
-from generated.triangle import Triangle
+from pyaixm.generated.cone import Cone
+from pyaixm.generated.cylinder import Cylinder
+from pyaixm.generated.polygon_patch import PolygonPatch
+from pyaixm.generated.rectangle import Rectangle
+from pyaixm.generated.sphere import Sphere
+from pyaixm.generated.triangle import Triangle
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,23 +2,25 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.actuate_type import ActuateType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.ci_responsible_party_property_type import (
+from pyaixm.generated.ci_responsible_party_property_type import (
     CiResponsiblePartyPropertyType,
 )
-from generated.md_digital_transfer_options_property_type import (
+from pyaixm.generated.md_digital_transfer_options_property_type import (
     MdDigitalTransferOptionsPropertyType,
 )
-from generated.md_standard_order_process_property_type import (
+from pyaixm.generated.md_standard_order_process_property_type import (
     MdStandardOrderProcessPropertyType,
 )
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.type_type import TypeType
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

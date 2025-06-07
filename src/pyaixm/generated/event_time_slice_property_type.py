@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.event_time_slice import EventTimeSlice
+from pyaixm.generated.event_time_slice import EventTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

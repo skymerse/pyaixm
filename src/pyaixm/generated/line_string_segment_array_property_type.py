@@ -1,7 +1,7 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.line_string_segment import LineStringSegment
+from pyaixm.generated.line_string_segment import LineStringSegment
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

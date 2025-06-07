@@ -1,15 +1,19 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.actuate_type import ActuateType
-from generated.code_type import CodeType
-from generated.compass_point_enumeration import CompassPointEnumeration
-from generated.direction_description_type import DirectionDescriptionType
-from generated.direction_vector_type import DirectionVectorType
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.show_type import ShowType
-from generated.string_or_ref_type import StringOrRefType
-from generated.type_type import TypeType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.code_type import CodeType
+from pyaixm.generated.compass_point_enumeration import CompassPointEnumeration
+from pyaixm.generated.direction_description_type import (
+    DirectionDescriptionType,
+)
+from pyaixm.generated.direction_vector_type import DirectionVectorType
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.string_or_ref_type import StringOrRefType
+from pyaixm.generated.type_type import TypeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

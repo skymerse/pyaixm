@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_browse_graphic_type import MdBrowseGraphicType
+from pyaixm.generated.md_browse_graphic_type import MdBrowseGraphicType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

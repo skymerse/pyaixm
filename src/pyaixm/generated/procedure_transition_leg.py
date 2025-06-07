@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.procedure_transition_leg_type import ProcedureTransitionLegType
+from pyaixm.generated.procedure_transition_leg_type import (
+    ProcedureTransitionLegType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.visual_glide_slope_indicator_type import (
+from pyaixm.generated.visual_glide_slope_indicator_type import (
     VisualGlideSlopeIndicatorType,
 )
 

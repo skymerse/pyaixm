@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_portrayal_catalogue_reference_type import (
+from pyaixm.generated.md_portrayal_catalogue_reference_type import (
     MdPortrayalCatalogueReferenceType,
 )
 

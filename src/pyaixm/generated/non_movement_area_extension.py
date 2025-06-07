@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.non_movement_area_extension_type import (
+from pyaixm.generated.non_movement_area_extension_type import (
     NonMovementAreaExtensionType,
 )
 

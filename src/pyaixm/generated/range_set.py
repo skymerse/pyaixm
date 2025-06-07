@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.range_set_type import RangeSetType
+from pyaixm.generated.range_set_type import RangeSetType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

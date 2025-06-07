@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.envelope_with_time_period_type import EnvelopeWithTimePeriodType
+from pyaixm.generated.envelope_with_time_period_type import (
+    EnvelopeWithTimePeriodType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

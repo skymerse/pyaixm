@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.reflector_type import ReflectorType
+from pyaixm.generated.reflector_type import ReflectorType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

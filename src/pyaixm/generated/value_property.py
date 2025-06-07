@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.value_array_property_type import ValuePropertyType
+from pyaixm.generated.value_array_property_type import ValuePropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

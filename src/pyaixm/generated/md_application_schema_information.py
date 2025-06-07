@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_application_schema_information_type import (
+from pyaixm.generated.md_application_schema_information_type import (
     MdApplicationSchemaInformationType,
 )
 

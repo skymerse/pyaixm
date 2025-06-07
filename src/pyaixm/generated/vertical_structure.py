@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.vertical_structure_type import VerticalStructureType
+from pyaixm.generated.vertical_structure_type import VerticalStructureType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

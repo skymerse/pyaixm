@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.circling_restriction_type import CirclingRestrictionType
+from pyaixm.generated.circling_restriction_type import CirclingRestrictionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

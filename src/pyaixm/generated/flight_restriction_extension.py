@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.flight_restriction_extension_type import (
+from pyaixm.generated.flight_restriction_extension_type import (
     FlightRestrictionExtensionType,
 )
 

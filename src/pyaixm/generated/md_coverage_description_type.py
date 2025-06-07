@@ -2,16 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_md_content_information_type import (
+from pyaixm.generated.abstract_md_content_information_type import (
     AbstractMdContentInformationType,
 )
-from generated.md_coverage_content_type_code_property_type import (
+from pyaixm.generated.md_coverage_content_type_code_property_type import (
     MdCoverageContentTypeCodePropertyType,
 )
-from generated.md_range_dimension_property_type import (
+from pyaixm.generated.md_range_dimension_property_type import (
     MdRangeDimensionPropertyType,
 )
-from generated.record_type_property_type import RecordTypePropertyType
+from pyaixm.generated.record_type_property_type import RecordTypePropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

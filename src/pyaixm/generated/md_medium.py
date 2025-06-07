@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_medium_type import MdMediumType
+from pyaixm.generated.md_medium_type import MdMediumType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

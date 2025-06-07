@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.point_type_1 import PointType1
+from pyaixm.generated.point_type_1 import PointType1
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

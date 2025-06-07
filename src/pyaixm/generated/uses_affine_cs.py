@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.affine_csproperty_type import AffineCspropertyType
+from pyaixm.generated.affine_csproperty_type import AffineCspropertyType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

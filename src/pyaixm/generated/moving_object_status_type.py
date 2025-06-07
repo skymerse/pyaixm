@@ -1,17 +1,17 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_time_slice_type import AbstractTimeSliceType
-from generated.direction_property_type import DirectionPropertyType
-from generated.geometry_array_property_type import GeometryPropertyType
-from generated.location import Location
-from generated.location_name import LocationName
-from generated.location_reference import LocationReference
-from generated.measure_type import MeasureType
-from generated.pos import Pos
-from generated.priority_location import PriorityLocation
-from generated.status import Status
-from generated.status_reference import StatusReference
+from pyaixm.generated.abstract_time_slice_type import AbstractTimeSliceType
+from pyaixm.generated.direction_property_type import DirectionPropertyType
+from pyaixm.generated.geometry_array_property_type import GeometryPropertyType
+from pyaixm.generated.location import Location
+from pyaixm.generated.location_name import LocationName
+from pyaixm.generated.location_reference import LocationReference
+from pyaixm.generated.measure_type import MeasureType
+from pyaixm.generated.pos import Pos
+from pyaixm.generated.priority_location import PriorityLocation
+from pyaixm.generated.status import Status
+from pyaixm.generated.status_reference import StatusReference
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

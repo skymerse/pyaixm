@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.multiplicity_range_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.multiplicity_range_property_type import (
     MultiplicityRangePropertyType,
 )
 

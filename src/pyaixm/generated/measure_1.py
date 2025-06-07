@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.measure_type import MeasureType
+from pyaixm.generated.measure_type import MeasureType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gco"
 

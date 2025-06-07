@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.azimuth_time_slice import AzimuthTimeSlice
+from pyaixm.generated.azimuth_time_slice import AzimuthTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

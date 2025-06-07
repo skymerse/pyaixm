@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.pilot_controlled_lighting_time_slice_type import (
+from pyaixm.generated.pilot_controlled_lighting_time_slice_type import (
     PilotControlledLightingTimeSliceType,
 )
 

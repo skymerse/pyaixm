@@ -2,16 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_marking_condition_type import CodeMarkingConditionType
-from generated.code_tlofsection_type import CodeTlofsectionType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.marking_element_property_type import MarkingElementPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.touch_down_lift_off_marking_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_marking_condition_type import (
+    CodeMarkingConditionType,
+)
+from pyaixm.generated.code_tlofsection_type import CodeTlofsectionType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.marking_element_property_type import (
+    MarkingElementPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.touch_down_lift_off_marking_time_slice_type_extension import (
     TouchDownLiftOffMarkingTimeSliceTypeExtension,
 )
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
 

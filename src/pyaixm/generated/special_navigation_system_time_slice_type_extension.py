@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.special_navigation_system_extension import (
+from pyaixm.generated.special_navigation_system_extension import (
     SpecialNavigationSystemExtension,
 )
 

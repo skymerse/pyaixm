@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.angle_indication_time_slice_type import (
+from pyaixm.generated.angle_indication_time_slice_type import (
     AngleIndicationTimeSliceType,
 )
 

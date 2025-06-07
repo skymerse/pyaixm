@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.affine_placement import AffinePlacement
+from pyaixm.generated.affine_placement import AffinePlacement
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

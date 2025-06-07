@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
-from generated.abstract_marking_type import AbstractMarkingType
-from generated.taxi_holding_position_marking_time_slice_property_type import (
+from pyaixm.generated.abstract_marking_type import AbstractMarkingType
+from pyaixm.generated.taxi_holding_position_marking_time_slice_property_type import (
     TaxiHoldingPositionMarkingTimeSlicePropertyType,
 )
 

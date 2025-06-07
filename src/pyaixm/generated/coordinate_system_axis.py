@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.coordinate_system_axis_type import CoordinateSystemAxisType
+from pyaixm.generated.coordinate_system_axis_type import (
+    CoordinateSystemAxisType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

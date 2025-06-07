@@ -2,25 +2,33 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_vertical_reference_type import CodeVerticalReferenceType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.holding_assessment_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_vertical_reference_type import (
+    CodeVerticalReferenceType,
+)
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.holding_assessment_time_slice_type_extension import (
     HoldingAssessmentTimeSliceTypeExtension,
 )
-from generated.holding_pattern_property_type import HoldingPatternPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.obstacle_assessment_area_property_type import (
+from pyaixm.generated.holding_pattern_property_type import (
+    HoldingPatternPropertyType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstacle_assessment_area_property_type import (
     ObstacleAssessmentAreaPropertyType,
 )
-from generated.segment_point_property_type import SegmentPointPropertyType
-from generated.text_name_type import TextNameType
-from generated.unplanned_holding_property_type import (
+from pyaixm.generated.segment_point_property_type import (
+    SegmentPointPropertyType,
+)
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.unplanned_holding_property_type import (
     UnplannedHoldingPropertyType,
 )
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.val_speed_type import ValSpeedType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.val_speed_type import ValSpeedType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -2,20 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.altitude_adjustment_property_type import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.altitude_adjustment_property_type import (
     AltitudeAdjustmentPropertyType,
 )
-from generated.code_yes_no_type import CodeYesNoType
-from generated.note_property_type import NotePropertyType
-from generated.obstacle_placement_property_type import (
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.obstacle_placement_property_type import (
     ObstaclePlacementPropertyType,
 )
-from generated.obstruction_type_extension import ObstructionTypeExtension
-from generated.val_angle_type import ValAngleType
-from generated.val_distance_type import ValDistanceType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.vertical_structure_property_type import (
+from pyaixm.generated.obstruction_type_extension import (
+    ObstructionTypeExtension,
+)
+from pyaixm.generated.val_angle_type import ValAngleType
+from pyaixm.generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.vertical_structure_property_type import (
     VerticalStructurePropertyType,
 )
 

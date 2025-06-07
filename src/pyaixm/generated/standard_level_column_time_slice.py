@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.standard_level_column_time_slice_type import (
+from pyaixm.generated.standard_level_column_time_slice_type import (
     StandardLevelColumnTimeSliceType,
 )
 

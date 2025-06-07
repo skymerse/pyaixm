@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.ci_responsible_party_type import CiResponsiblePartyType
+from pyaixm.generated.ci_responsible_party_type import CiResponsiblePartyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

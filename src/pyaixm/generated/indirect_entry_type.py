@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.definition_proxy import DefinitionProxy
+from pyaixm.generated.definition_proxy import DefinitionProxy
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

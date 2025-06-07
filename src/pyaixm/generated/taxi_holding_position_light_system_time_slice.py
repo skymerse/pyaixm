@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.taxi_holding_position_light_system_time_slice_type import (
+from pyaixm.generated.taxi_holding_position_light_system_time_slice_type import (
     TaxiHoldingPositionLightSystemTimeSliceType,
 )
 

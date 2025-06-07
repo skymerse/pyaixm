@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.route_dmetime_slice import RouteDmetimeSlice
+from pyaixm.generated.route_dmetime_slice import RouteDmetimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.affine_cstype import AffineCstype
+from pyaixm.generated.affine_cstype import AffineCstype
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

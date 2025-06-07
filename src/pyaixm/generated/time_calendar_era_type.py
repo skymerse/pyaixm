@@ -4,9 +4,11 @@ from typing import Optional, Union
 
 from xsdata.models.datatype import XmlDate, XmlPeriod
 
-from generated.abstract_time_primitive_type import TimePeriodPropertyType
-from generated.definition_type import DefinitionType
-from generated.string_or_ref_type import StringOrRefType
+from pyaixm.generated.abstract_time_primitive_type import (
+    TimePeriodPropertyType,
+)
+from pyaixm.generated.definition_type import DefinitionType
+from pyaixm.generated.string_or_ref_type import StringOrRefType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.user_defined_csproperty_type import UserDefinedCspropertyType
+from pyaixm.generated.user_defined_csproperty_type import (
+    UserDefinedCspropertyType,
+)
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

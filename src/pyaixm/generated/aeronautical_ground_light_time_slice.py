@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.aeronautical_ground_light_time_slice_type import (
+from pyaixm.generated.aeronautical_ground_light_time_slice_type import (
     AeronauticalGroundLightTimeSliceType,
 )
 

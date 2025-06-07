@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.text_name_type import TextNameType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.text_name_type import TextNameType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

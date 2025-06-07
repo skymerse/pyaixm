@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.apron_marking_extension_type_2 import ApronMarkingExtensionType2
+from pyaixm.generated.apron_marking_extension_type_2 import (
+    ApronMarkingExtensionType2,
+)
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

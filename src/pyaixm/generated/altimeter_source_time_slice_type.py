@@ -2,15 +2,17 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.altimeter_source_status_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.altimeter_source_status_property_type import (
     AltimeterSourceStatusPropertyType,
 )
-from generated.altimeter_source_time_slice_type_extension import (
+from pyaixm.generated.altimeter_source_time_slice_type_extension import (
     AltimeterSourceTimeSliceTypeExtension,
 )
-from generated.code_yes_no_type import CodeYesNoType
-from generated.note_property_type import NotePropertyType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.note_property_type import NotePropertyType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

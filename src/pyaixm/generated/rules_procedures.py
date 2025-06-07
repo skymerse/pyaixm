@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.rules_procedures_type import RulesProceduresType
+from pyaixm.generated.rules_procedures_type import RulesProceduresType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

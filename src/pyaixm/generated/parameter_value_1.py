@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.parameter_value_type import ParameterValueType
+from pyaixm.generated.parameter_value_type import ParameterValueType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

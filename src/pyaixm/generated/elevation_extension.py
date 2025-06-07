@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.elevation_extension_type import ElevationExtensionType
+from pyaixm.generated.elevation_extension_type import ElevationExtensionType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

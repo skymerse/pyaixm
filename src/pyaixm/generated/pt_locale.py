@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.pt_locale_type import PtLocaleType
+from pyaixm.generated.pt_locale_type import PtLocaleType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

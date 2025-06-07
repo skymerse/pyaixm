@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airspace_geometry_component_type import (
+from pyaixm.generated.airspace_geometry_component_type import (
     AirspaceGeometryComponentType,
 )
 

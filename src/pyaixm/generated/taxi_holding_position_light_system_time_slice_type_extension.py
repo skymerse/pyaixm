@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.ground_light_system_extension import GroundLightSystemExtension
-from generated.taxi_holding_position_light_system_extension import (
+from pyaixm.generated.ground_light_system_extension import (
+    GroundLightSystemExtension,
+)
+from pyaixm.generated.taxi_holding_position_light_system_extension import (
     TaxiHoldingPositionLightSystemExtension,
 )
 

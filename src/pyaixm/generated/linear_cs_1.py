@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.linear_cstype import LinearCstype
+from pyaixm.generated.linear_cstype import LinearCstype
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

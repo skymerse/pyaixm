@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmproperty_type import AbstractAixmpropertyType
-from generated.approach_distance_table import ApproachDistanceTable
+from pyaixm.generated.abstract_aixmproperty_type import (
+    AbstractAixmpropertyType,
+)
+from pyaixm.generated.approach_distance_table import ApproachDistanceTable
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

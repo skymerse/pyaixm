@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.code_clearance_method_type import CodeClearanceMethodType
-from generated.code_coverage_type import CodeCoverageType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.code_clearance_method_type import CodeClearanceMethodType
+from pyaixm.generated.code_coverage_type import CodeCoverageType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

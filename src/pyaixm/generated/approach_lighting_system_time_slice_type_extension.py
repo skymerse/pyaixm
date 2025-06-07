@@ -1,10 +1,12 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.approach_lighting_system_extension import (
+from pyaixm.generated.approach_lighting_system_extension import (
     ApproachLightingSystemExtension,
 )
-from generated.ground_light_system_extension import GroundLightSystemExtension
+from pyaixm.generated.ground_light_system_extension import (
+    GroundLightSystemExtension,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

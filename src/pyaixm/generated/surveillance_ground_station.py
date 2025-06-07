@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.surveillance_ground_station_type import (
+from pyaixm.generated.surveillance_ground_station_type import (
     SurveillanceGroundStationType,
 )
 

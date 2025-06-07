@@ -1,8 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.code_unit_base_type_value import CodeUnitBaseTypeValue
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
+from pyaixm.generated.code_unit_base_type_value import CodeUnitBaseTypeValue
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

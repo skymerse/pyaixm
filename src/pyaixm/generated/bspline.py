@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.bspline_type import BsplineType
+from pyaixm.generated.bspline_type import BsplineType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

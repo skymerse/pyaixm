@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_coverage_type import AbstractCoverageType
+from pyaixm.generated.abstract_coverage_type import AbstractCoverageType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

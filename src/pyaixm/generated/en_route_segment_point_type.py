@@ -2,35 +2,41 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_segment_point_type import AbstractSegmentPointType
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.abstract_segment_point_type import (
+    AbstractSegmentPointType,
+)
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_atcreporting_type import CodeAtcreportingType
-from generated.code_free_flight_type import CodeFreeFlightType
-from generated.code_military_route_point_type import CodeMilitaryRoutePointType
-from generated.code_rvsmpoint_role_type import CodeRvsmpointRoleType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.designated_point_property_type import (
+from pyaixm.generated.code_atcreporting_type import CodeAtcreportingType
+from pyaixm.generated.code_free_flight_type import CodeFreeFlightType
+from pyaixm.generated.code_military_route_point_type import (
+    CodeMilitaryRoutePointType,
+)
+from pyaixm.generated.code_rvsmpoint_role_type import CodeRvsmpointRoleType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.designated_point_property_type import (
     DesignatedPointPropertyType,
 )
-from generated.en_route_segment_point_type_extension import (
+from pyaixm.generated.en_route_segment_point_type_extension import (
     EnRouteSegmentPointTypeExtension,
 )
-from generated.navaid_property_type import NavaidPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.point_property_type_2 import PointPropertyType2
-from generated.point_reference_property_type import PointReferencePropertyType
-from generated.radio_frequency_area_property_type import (
+from pyaixm.generated.navaid_property_type import NavaidPropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.point_property_type_2 import PointPropertyType2
+from pyaixm.generated.point_reference_property_type import (
+    PointReferencePropertyType,
+)
+from pyaixm.generated.radio_frequency_area_property_type import (
     RadioFrequencyAreaPropertyType,
 )
-from generated.runway_centreline_point_property_type import (
+from pyaixm.generated.runway_centreline_point_property_type import (
     RunwayCentrelinePointPropertyType,
 )
-from generated.touch_down_lift_off_property_type import (
+from pyaixm.generated.touch_down_lift_off_property_type import (
     TouchDownLiftOffPropertyType,
 )
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

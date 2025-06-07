@@ -1,14 +1,14 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.instrument_approach_procedure_extension_1 import (
+from pyaixm.generated.instrument_approach_procedure_extension_1 import (
     InstrumentApproachProcedureExtension1,
 )
-from generated.instrument_approach_procedure_extension_2 import (
+from pyaixm.generated.instrument_approach_procedure_extension_2 import (
     InstrumentApproachProcedureExtension2,
 )
-from generated.procedure_extension_1 import ProcedureExtension1
-from generated.procedure_extension_2 import ProcedureExtension2
+from pyaixm.generated.procedure_extension_1 import ProcedureExtension1
+from pyaixm.generated.procedure_extension_2 import ProcedureExtension2
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

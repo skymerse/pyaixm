@@ -2,24 +2,28 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_colour_type import CodeColourType
-from generated.code_light_intensity_type import CodeLightIntensityType
-from generated.code_side_type import CodeSideType
-from generated.code_vasistype import CodeVasistype
-from generated.code_yes_no_type import CodeYesNoType
-from generated.ground_lighting_availability_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_colour_type import CodeColourType
+from pyaixm.generated.code_light_intensity_type import CodeLightIntensityType
+from pyaixm.generated.code_side_type import CodeSideType
+from pyaixm.generated.code_vasistype import CodeVasistype
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.ground_lighting_availability_property_type import (
     GroundLightingAvailabilityPropertyType,
 )
-from generated.light_element_property_type import LightElementPropertyType
-from generated.no_number_type import NoNumberType
-from generated.note_property_type import NotePropertyType
-from generated.runway_direction_property_type import (
+from pyaixm.generated.light_element_property_type import (
+    LightElementPropertyType,
+)
+from pyaixm.generated.no_number_type import NoNumberType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.runway_direction_property_type import (
     RunwayDirectionPropertyType,
 )
-from generated.val_angle_type import ValAngleType
-from generated.val_distance_vertical_type import ValDistanceVerticalType
-from generated.visual_glide_slope_indicator_time_slice_type_extension import (
+from pyaixm.generated.val_angle_type import ValAngleType
+from pyaixm.generated.val_distance_vertical_type import ValDistanceVerticalType
+from pyaixm.generated.visual_glide_slope_indicator_time_slice_type_extension import (
     VisualGlideSlopeIndicatorTimeSliceTypeExtension,
 )
 

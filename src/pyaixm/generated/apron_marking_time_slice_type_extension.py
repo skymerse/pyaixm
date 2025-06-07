@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.apron_marking_extension_1 import ApronMarkingExtension1
-from generated.apron_marking_extension_2 import ApronMarkingExtension2
-from generated.marking_extension import MarkingExtension
+from pyaixm.generated.apron_marking_extension_1 import ApronMarkingExtension1
+from pyaixm.generated.apron_marking_extension_2 import ApronMarkingExtension2
+from pyaixm.generated.marking_extension import MarkingExtension
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

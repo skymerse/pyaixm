@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.taxiway_element_time_slice import TaxiwayElementTimeSlice
+from pyaixm.generated.taxiway_element_time_slice import TaxiwayElementTimeSlice
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

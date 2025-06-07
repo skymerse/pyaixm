@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.taxiway_light_system_type import TaxiwayLightSystemType
+from pyaixm.generated.taxiway_light_system_type import TaxiwayLightSystemType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

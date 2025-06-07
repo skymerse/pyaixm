@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.multi_curve_type import MultiCurveType
+from pyaixm.generated.multi_curve_type import MultiCurveType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

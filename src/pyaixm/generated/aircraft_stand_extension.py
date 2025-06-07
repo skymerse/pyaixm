@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.aircraft_stand_extension_type import AircraftStandExtensionType
+from pyaixm.generated.aircraft_stand_extension_type import (
+    AircraftStandExtensionType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1/event"
 

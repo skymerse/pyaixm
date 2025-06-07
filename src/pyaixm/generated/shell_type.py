@@ -2,8 +2,8 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.aggregation_type import AggregationType
-from generated.surface_property_type_1 import SurfaceMember
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.surface_property_type_1 import SurfaceMember
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

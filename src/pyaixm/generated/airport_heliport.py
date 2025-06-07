@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.airport_heliport_type import AirportHeliportType
+from pyaixm.generated.airport_heliport_type import AirportHeliportType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

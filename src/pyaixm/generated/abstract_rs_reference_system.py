@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.abstract_rs_reference_system_type import (
+from pyaixm.generated.abstract_rs_reference_system_type import (
     AbstractRsReferenceSystemType,
 )
 

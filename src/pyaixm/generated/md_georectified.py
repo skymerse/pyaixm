@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.md_georectified_type import MdGeorectifiedType
+from pyaixm.generated.md_georectified_type import MdGeorectifiedType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

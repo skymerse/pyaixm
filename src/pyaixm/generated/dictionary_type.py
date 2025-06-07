@@ -2,37 +2,39 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_general_operation_parameter_property_type import (
+from pyaixm.generated.abstract_general_operation_parameter_property_type import (
     OperationParameterGroup,
 )
-from generated.abstract_member_type import AbstractMemberType
-from generated.actuate_type import ActuateType
-from generated.affine_cs_1 import AffineCs1
-from generated.aggregation_type import AggregationType
-from generated.base_unit import BaseUnit
-from generated.cartesian_cs_1 import CartesianCs1
-from generated.conventional_unit import ConventionalUnit
-from generated.coordinate_operation_property_type import (
+from pyaixm.generated.abstract_member_type import AbstractMemberType
+from pyaixm.generated.actuate_type import ActuateType
+from pyaixm.generated.affine_cs_1 import AffineCs1
+from pyaixm.generated.aggregation_type import AggregationType
+from pyaixm.generated.base_unit import BaseUnit
+from pyaixm.generated.cartesian_cs_1 import CartesianCs1
+from pyaixm.generated.conventional_unit import ConventionalUnit
+from pyaixm.generated.coordinate_operation_property_type import (
     ConcatenatedOperation,
     PassThroughOperation,
 )
-from generated.coordinate_system_axis import CoordinateSystemAxis
-from generated.cylindrical_cs_1 import CylindricalCs1
-from generated.definition import Definition
-from generated.definition_proxy import DefinitionProxy
-from generated.definition_type import DefinitionType
-from generated.derived_unit import DerivedUnit
-from generated.ellipsoid_1 import Ellipsoid1
-from generated.ellipsoidal_cs_1 import EllipsoidalCs1
-from generated.indirect_entry import IndirectEntry
-from generated.linear_cs_1 import LinearCs1
-from generated.nil_reason_enumeration_value import NilReasonEnumerationValue
-from generated.oblique_cartesian_cs import ObliqueCartesianCs
-from generated.operation_method import OperationMethod
-from generated.operation_parameter_1 import OperationParameter1
-from generated.polar_cs_1 import PolarCs1
-from generated.prime_meridian_1 import PrimeMeridian1
-from generated.sc_crs_property_type import (
+from pyaixm.generated.coordinate_system_axis import CoordinateSystemAxis
+from pyaixm.generated.cylindrical_cs_1 import CylindricalCs1
+from pyaixm.generated.definition import Definition
+from pyaixm.generated.definition_proxy import DefinitionProxy
+from pyaixm.generated.definition_type import DefinitionType
+from pyaixm.generated.derived_unit import DerivedUnit
+from pyaixm.generated.ellipsoid_1 import Ellipsoid1
+from pyaixm.generated.ellipsoidal_cs_1 import EllipsoidalCs1
+from pyaixm.generated.indirect_entry import IndirectEntry
+from pyaixm.generated.linear_cs_1 import LinearCs1
+from pyaixm.generated.nil_reason_enumeration_value import (
+    NilReasonEnumerationValue,
+)
+from pyaixm.generated.oblique_cartesian_cs import ObliqueCartesianCs
+from pyaixm.generated.operation_method import OperationMethod
+from pyaixm.generated.operation_parameter_1 import OperationParameter1
+from pyaixm.generated.polar_cs_1 import PolarCs1
+from pyaixm.generated.prime_meridian_1 import PrimeMeridian1
+from pyaixm.generated.sc_crs_property_type import (
     CompoundCrs,
     Conversion1,
     DerivedCrs,
@@ -50,20 +52,22 @@ from generated.sc_crs_property_type import (
     VerticalCrs,
     VerticalDatum1,
 )
-from generated.show_type import ShowType
-from generated.spherical_cs_1 import SphericalCs1
-from generated.temporal_cs import TemporalCs
-from generated.time_calendar import TimeCalendar
-from generated.time_clock import TimeClock
-from generated.time_coordinate_system import TimeCoordinateSystem
-from generated.time_cs_1 import TimeCs1
-from generated.time_ordinal_reference_system import TimeOrdinalReferenceSystem
-from generated.time_reference_system import TimeReferenceSystem
-from generated.transformation import Transformation
-from generated.type_type import TypeType
-from generated.unit_definition import UnitDefinition
-from generated.user_defined_cs_1 import UserDefinedCs1
-from generated.vertical_cs_1 import VerticalCs1
+from pyaixm.generated.show_type import ShowType
+from pyaixm.generated.spherical_cs_1 import SphericalCs1
+from pyaixm.generated.temporal_cs import TemporalCs
+from pyaixm.generated.time_calendar import TimeCalendar
+from pyaixm.generated.time_clock import TimeClock
+from pyaixm.generated.time_coordinate_system import TimeCoordinateSystem
+from pyaixm.generated.time_cs_1 import TimeCs1
+from pyaixm.generated.time_ordinal_reference_system import (
+    TimeOrdinalReferenceSystem,
+)
+from pyaixm.generated.time_reference_system import TimeReferenceSystem
+from pyaixm.generated.transformation import Transformation
+from pyaixm.generated.type_type import TypeType
+from pyaixm.generated.unit_definition import UnitDefinition
+from pyaixm.generated.user_defined_cs_1 import UserDefinedCs1
+from pyaixm.generated.vertical_cs_1 import VerticalCs1
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

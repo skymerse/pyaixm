@@ -2,53 +2,57 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.aircraft_characteristic_property_type import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.aircraft_characteristic_property_type import (
     AircraftCharacteristicPropertyType,
 )
-from generated.airport_heliport_property_type import (
+from pyaixm.generated.airport_heliport_property_type import (
     AirportHeliportPropertyType,
 )
-from generated.code_approach_equipment_additional_type import (
+from pyaixm.generated.code_approach_equipment_additional_type import (
     CodeApproachEquipmentAdditionalType,
 )
-from generated.code_approach_prefix_type import CodeApproachPrefixType
-from generated.code_approach_type import CodeApproachType
-from generated.code_design_standard_type import CodeDesignStandardType
-from generated.code_procedure_coding_standard_type import (
+from pyaixm.generated.code_approach_prefix_type import CodeApproachPrefixType
+from pyaixm.generated.code_approach_type import CodeApproachType
+from pyaixm.generated.code_design_standard_type import CodeDesignStandardType
+from pyaixm.generated.code_procedure_coding_standard_type import (
     CodeProcedureCodingStandardType,
 )
-from generated.code_upper_alpha_type import CodeUpperAlphaType
-from generated.code_yes_no_type import CodeYesNoType
-from generated.final_profile_property_type import FinalProfilePropertyType
-from generated.instrument_approach_procedure_time_slice_type_extension import (
+from pyaixm.generated.code_upper_alpha_type import CodeUpperAlphaType
+from pyaixm.generated.code_yes_no_type import CodeYesNoType
+from pyaixm.generated.final_profile_property_type import (
+    FinalProfilePropertyType,
+)
+from pyaixm.generated.instrument_approach_procedure_time_slice_type_extension import (
     InstrumentApproachProcedureTimeSliceTypeExtension,
 )
-from generated.landing_takeoff_area_collection_property_type import (
+from pyaixm.generated.landing_takeoff_area_collection_property_type import (
     LandingTakeoffAreaCollectionPropertyType,
 )
-from generated.missed_approach_group_property_type import (
+from pyaixm.generated.missed_approach_group_property_type import (
     MissedApproachGroupPropertyType,
 )
-from generated.navaid_property_type import NavaidPropertyType
-from generated.note_property_type import NotePropertyType
-from generated.procedure_availability_property_type import (
+from pyaixm.generated.navaid_property_type import NavaidPropertyType
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.procedure_availability_property_type import (
     ProcedureAvailabilityPropertyType,
 )
-from generated.procedure_transition_property_type import (
+from pyaixm.generated.procedure_transition_property_type import (
     ProcedureTransitionPropertyType,
 )
-from generated.radar_system_property_type import RadarSystemPropertyType
-from generated.safe_altitude_area_property_type import (
+from pyaixm.generated.radar_system_property_type import RadarSystemPropertyType
+from pyaixm.generated.safe_altitude_area_property_type import (
     SafeAltitudeAreaPropertyType,
 )
-from generated.special_navigation_system_property_type import (
+from pyaixm.generated.special_navigation_system_property_type import (
     SpecialNavigationSystemPropertyType,
 )
-from generated.text_instruction_type import TextInstructionType
-from generated.text_name_type import TextNameType
-from generated.val_bearing_type import ValBearingType
-from generated.val_channel_number_type import ValChannelNumberType
+from pyaixm.generated.text_instruction_type import TextInstructionType
+from pyaixm.generated.text_name_type import TextNameType
+from pyaixm.generated.val_bearing_type import ValBearingType
+from pyaixm.generated.val_channel_number_type import ValChannelNumberType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

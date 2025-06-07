@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.standard_level_sector_time_slice_type import (
+from pyaixm.generated.standard_level_sector_time_slice_type import (
     StandardLevelSectorTimeSliceType,
 )
 

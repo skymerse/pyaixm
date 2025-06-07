@@ -1,9 +1,11 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_extension_type import AbstractExtensionType
-from generated.code_cardinal_direction_type import CodeCardinalDirectionType
-from generated.val_distance_type import ValDistanceType
+from pyaixm.generated.abstract_extension_type import AbstractExtensionType
+from pyaixm.generated.code_cardinal_direction_type import (
+    CodeCardinalDirectionType,
+)
+from pyaixm.generated.val_distance_type import ValDistanceType
 
 __NAMESPACE__ = "urn:us.gov.dot.faa.aim.fns"
 

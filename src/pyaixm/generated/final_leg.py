@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.final_leg_type import FinalLegType
+from pyaixm.generated.final_leg_type import FinalLegType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

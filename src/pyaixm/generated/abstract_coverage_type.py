@@ -1,15 +1,15 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_feature_type import AbstractFeatureType
-from generated.domain_set import DomainSet
-from generated.grid_domain import GridDomain
-from generated.multi_curve_domain import MultiCurveDomain
-from generated.multi_point_domain import MultiPointDomain
-from generated.multi_solid_domain import MultiSolidDomain
-from generated.multi_surface_domain import MultiSurfaceDomain
-from generated.range_set import RangeSet
-from generated.rectified_grid_domain import RectifiedGridDomain
+from pyaixm.generated.abstract_feature_type import AbstractFeatureType
+from pyaixm.generated.domain_set import DomainSet
+from pyaixm.generated.grid_domain import GridDomain
+from pyaixm.generated.multi_curve_domain import MultiCurveDomain
+from pyaixm.generated.multi_point_domain import MultiPointDomain
+from pyaixm.generated.multi_solid_domain import MultiSolidDomain
+from pyaixm.generated.multi_surface_domain import MultiSurfaceDomain
+from pyaixm.generated.range_set import RangeSet
+from pyaixm.generated.rectified_grid_domain import RectifiedGridDomain
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

@@ -2,18 +2,18 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_object_type import AbstractObjectType
-from generated.character_string_property_type import (
+from pyaixm.generated.abstract_object_type import AbstractObjectType
+from pyaixm.generated.character_string_property_type import (
     CharacterStringPropertyType,
 )
-from generated.integer_property_type import IntegerPropertyType
-from generated.md_medium_format_code_property_type import (
+from pyaixm.generated.integer_property_type import IntegerPropertyType
+from pyaixm.generated.md_medium_format_code_property_type import (
     MdMediumFormatCodePropertyType,
 )
-from generated.md_medium_name_code_property_type import (
+from pyaixm.generated.md_medium_name_code_property_type import (
     MdMediumNameCodePropertyType,
 )
-from generated.real_property_type import RealPropertyType
+from pyaixm.generated.real_property_type import RealPropertyType
 
 __NAMESPACE__ = "http://www.isotc211.org/2005/gmd"
 

@@ -2,14 +2,16 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional
 
-from generated.abstract_aixmobject_type import AbstractAixmobjectType
-from generated.approach_timing_table_type_extension import (
+from pyaixm.generated.abstract_aixmobject_type import AbstractAixmobjectType
+from pyaixm.generated.approach_timing_table_type_extension import (
     ApproachTimingTableTypeExtension,
 )
-from generated.code_procedure_distance_type import CodeProcedureDistanceType
-from generated.note_property_type import NotePropertyType
-from generated.val_duration_type import ValDurationType
-from generated.val_speed_type import ValSpeedType
+from pyaixm.generated.code_procedure_distance_type import (
+    CodeProcedureDistanceType,
+)
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.val_duration_type import ValDurationType
+from pyaixm.generated.val_speed_type import ValSpeedType
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

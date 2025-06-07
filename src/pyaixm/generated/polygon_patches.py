@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.surface_patch_array_property_type import (
+from pyaixm.generated.surface_patch_array_property_type import (
     SurfacePatchArrayPropertyType,
 )
 

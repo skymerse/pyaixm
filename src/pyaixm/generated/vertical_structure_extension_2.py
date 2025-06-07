@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.vertical_structure_extension_type_2 import (
+from pyaixm.generated.vertical_structure_extension_type_2 import (
     VerticalStructureExtensionType2,
 )
 

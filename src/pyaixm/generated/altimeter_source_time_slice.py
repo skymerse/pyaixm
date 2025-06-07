@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.altimeter_source_time_slice_type import (
+from pyaixm.generated.altimeter_source_time_slice_type import (
     AltimeterSourceTimeSliceType,
 )
 

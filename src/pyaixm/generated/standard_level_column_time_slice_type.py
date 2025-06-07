@@ -2,18 +2,22 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Optional, Union
 
-from generated.abstract_aixmtime_slice_type import AbstractAixmtimeSliceType
-from generated.code_level_series_type import CodeLevelSeriesType
-from generated.code_rvsmtype import CodeRvsmtype
-from generated.note_property_type import NotePropertyType
-from generated.standard_level_column_time_slice_type_extension import (
+from pyaixm.generated.abstract_aixmtime_slice_type import (
+    AbstractAixmtimeSliceType,
+)
+from pyaixm.generated.code_level_series_type import CodeLevelSeriesType
+from pyaixm.generated.code_rvsmtype import CodeRvsmtype
+from pyaixm.generated.note_property_type import NotePropertyType
+from pyaixm.generated.standard_level_column_time_slice_type_extension import (
     StandardLevelColumnTimeSliceTypeExtension,
 )
-from generated.standard_level_property_type import StandardLevelPropertyType
-from generated.standard_level_table_property_type import (
+from pyaixm.generated.standard_level_property_type import (
+    StandardLevelPropertyType,
+)
+from pyaixm.generated.standard_level_table_property_type import (
     StandardLevelTablePropertyType,
 )
-from generated.uom_distance_vertical_type_value import (
+from pyaixm.generated.uom_distance_vertical_type_value import (
     UomDistanceVerticalTypeValue,
 )
 

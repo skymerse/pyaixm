@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Any
 
-from generated.arc_by_center_point_type import ArcByCenterPointType
+from pyaixm.generated.arc_by_center_point_type import ArcByCenterPointType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

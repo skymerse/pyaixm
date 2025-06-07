@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from generated.flight_characteristic_type import FlightCharacteristicType
+from pyaixm.generated.flight_characteristic_type import (
+    FlightCharacteristicType,
+)
 
 __NAMESPACE__ = "http://www.aixm.aero/schema/5.1"
 

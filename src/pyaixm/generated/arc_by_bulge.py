@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.arc_by_bulge_type import ArcByBulgeType
+from pyaixm.generated.arc_by_bulge_type import ArcByBulgeType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 

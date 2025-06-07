@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from generated.indirect_entry_type import IndirectEntryType
+from pyaixm.generated.indirect_entry_type import IndirectEntryType
 
 __NAMESPACE__ = "http://www.opengis.net/gml/3.2"
 
