@@ -1,0 +1,277 @@
+<ns13:AIXMBasicMessage xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:ns1="http://www.opengis.net/ows/1.1"
+    xmlns:ns2="http://www.w3.org/1999/xlink"
+    xmlns:ns3="http://www.opengis.net/wfs/2.0"
+    xmlns:ns4="http://www.opengis.net/fes/2.0"
+    xmlns:ns5="http://www.opengis.net/gml/3.2"
+    xmlns:ns6="http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE"
+    xmlns:ns7="http://www.isotc211.org/2005/gco"
+    xmlns:ns8="http://www.isotc211.org/2005/gmd"
+    xmlns:ns9="http://www.aixm.aero/schema/5.1"
+    xmlns:ns10="http://www.isotc211.org/2005/gts"
+    xmlns:ns11="http://www.aixm.aero/schema/5.1/event"
+    xmlns:ns12="urn:us.gov.dot.faa.aim.fns"
+    xmlns:ns13="http://www.aixm.aero/schema/5.1/message"
+    xmlns:ns14="http://www.opengis.net/wfs-util/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:null="http://www.aixm.aero/schema/5.1/message"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event"
+    xmlns:fnse="http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr"
+    xmlns:gss="http://www.isotc211.org/2005/gss"
+    xmlns:gts="http://www.isotc211.org/2005/gts"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:fns="urn:us.gov.dot.faa.aim.fns"
+    ns5:id="FNS_ID_76467396">
+    <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+    <ns13:hasMember>
+        <ns9:Navaid ns5:id="NAV01_76467396">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:NavaidTimeSlice ns5:id="NAV01_TS01_76467396">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="NAV01_TS01_TI01_76467396">
+                            <ns5:timePosition>2025-04-26T23:31:28.471Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:type>ILS</ns9:type>
+                    <ns9:navaidEquipment>
+                        <ns9:NavaidComponent ns5:id="NC06_76467396">
+                            <ns9:theNavaidEquipment ns2:href="#DME01_76467396"></ns9:theNavaidEquipment>
+                        </ns9:NavaidComponent>
+                    </ns9:navaidEquipment>
+                    <ns9:runwayDirection ns2:href="#RWYDIR01_76467396"></ns9:runwayDirection>
+                    <ns9:servedAirport ns2:href="#Airport_1_76467396"></ns9:servedAirport>
+                </ns9:NavaidTimeSlice>
+            </ns9:timeSlice>
+            <ns9:timeSlice>
+                <ns9:NavaidTimeSlice ns5:id="NAV01_TS02_76467396">
+                    <ns5:validTime>
+                        <ns5:TimePeriod ns5:id="NAV01_TS02_TP01_76467396">
+                            <ns5:beginPosition>2025-04-26T23:30:00.000Z</ns5:beginPosition>
+                            <ns5:endPosition>2025-12-31T23:59:00.000Z</ns5:endPosition>
+                        </ns5:TimePeriod>
+                    </ns5:validTime>
+                    <ns9:interpretation>TEMPDELTA</ns9:interpretation>
+                    <ns9:availability>
+                        <ns9:NavaidOperationalStatus ns5:id="NAV00_76467396">
+                            <ns9:operationalStatus>OTHER:UNMONITORED</ns9:operationalStatus>
+                        </ns9:NavaidOperationalStatus>
+                    </ns9:availability>
+                    <ns9:extension>
+                        <ns11:NavaidExtension ns5:id="NE_EVENT_1_76467396">
+                            <ns11:theEvent ns2:href="#Event_1_76467396"></ns11:theEvent>
+                        </ns11:NavaidExtension>
+                    </ns9:extension>
+                </ns9:NavaidTimeSlice>
+            </ns9:timeSlice>
+        </ns9:Navaid>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:DME ns5:id="DME01_76467396">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:DMETimeSlice ns5:id="DME01_TS02_76467396">
+                    <ns5:validTime>
+                        <ns5:TimePeriod ns5:id="DME01_TS02_TP01_76467396">
+                            <ns5:beginPosition>2025-04-26T23:30:00.000Z</ns5:beginPosition>
+                            <ns5:endPosition>2025-12-31T23:59:00.000Z</ns5:endPosition>
+                        </ns5:TimePeriod>
+                    </ns5:validTime>
+                    <ns9:interpretation>TEMPDELTA</ns9:interpretation>
+                    <ns9:availability>
+                        <ns9:NavaidOperationalStatus ns5:id="DME03_NAV00_76467396">
+                            <ns9:operationalStatus>OTHER:UNMONITORED</ns9:operationalStatus>
+                        </ns9:NavaidOperationalStatus>
+                    </ns9:availability>
+                    <ns9:extension>
+                        <ns11:DMEExtension ns5:id="DMEE_EVENT_1_76467396">
+                            <ns11:theEvent ns2:href="#Event_1_76467396"></ns11:theEvent>
+                        </ns11:DMEExtension>
+                    </ns9:extension>
+                </ns9:DMETimeSlice>
+            </ns9:timeSlice>
+        </ns9:DME>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:RunwayDirection ns5:id="RWYDIR01_76467396">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:RunwayDirectionTimeSlice ns5:id="RWYDIR01_TS01_76467396">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="RWYDIR01_TS01_TI01_76467396">
+                            <ns5:timePosition>2025-04-26T23:31:28.471Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:designator>23R</ns9:designator>
+                    <ns9:usedRunway ns2:href="#RWY01_76467396"></ns9:usedRunway>
+                    <ns9:extension>
+                        <ns11:RunwayDirectionExtension ns5:id="RDE_EVENT_1_76467396">
+                            <ns11:theEvent ns2:href="#Event_1_76467396"></ns11:theEvent>
+                        </ns11:RunwayDirectionExtension>
+                    </ns9:extension>
+                </ns9:RunwayDirectionTimeSlice>
+            </ns9:timeSlice>
+        </ns9:RunwayDirection>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:Runway ns5:id="RWY01_76467396">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:RunwayTimeSlice ns5:id="RWY01_TS01_76467396">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="RWY01_TS01_TI01_76467396">
+                            <ns5:timePosition>2025-04-26T23:31:28.471Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:designator>05L/23R</ns9:designator>
+                    <ns9:associatedAirportHeliport ns2:href="#Airport_1_76467396"></ns9:associatedAirportHeliport>
+                    <ns9:extension>
+                        <ns11:RunwayExtension ns5:id="RE_EVENT_1_76467396">
+                            <ns11:theEvent ns2:href="#Event_1_76467396"></ns11:theEvent>
+                        </ns11:RunwayExtension>
+                    </ns9:extension>
+                </ns9:RunwayTimeSlice>
+            </ns9:timeSlice>
+        </ns9:Runway>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:RunwayElement ns5:id="RE1_76467396">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:RunwayElementTimeSlice ns5:id="RE01_TS1_76467396">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="RE_TI1_76467396">
+                            <ns5:timePosition>2025-04-26T23:31:28.471Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:associatedRunway ns2:href="#RWY01_76467396"></ns9:associatedRunway>
+                    <ns9:extent>
+                        <ns9:ElevatedSurface :srsName="urn:ogc:def:crs:EPSG::4326"
+                            :srsDimension="2" ns5:id="ES1_76467396">
+                            <ns5:patches>
+                                <ns5:PolygonPatch>
+                                    <ns5:exterior>
+                                        <ns5:LinearRing>
+                                            <ns5:posList>35.8745946075952 -78.80214257053962
+                                                35.8743031699487 -78.8017846524172
+                                                35.8936780513549 -78.7778543192416
+                                                35.8939695595223 -78.7782122370488
+                                                35.8745946075952 -78.80214257053962</ns5:posList>
+                                        </ns5:LinearRing>
+                                    </ns5:exterior>
+                                </ns5:PolygonPatch>
+                            </ns5:patches>
+                        </ns9:ElevatedSurface>
+                    </ns9:extent>
+                    <ns9:extension>
+                        <ns11:RunwayElementExtension ns5:id="REE_EVENT_1_76467396">
+                            <ns11:theEvent ns2:href="#Event_1_76467396"></ns11:theEvent>
+                        </ns11:RunwayElementExtension>
+                    </ns9:extension>
+                </ns9:RunwayElementTimeSlice>
+            </ns9:timeSlice>
+        </ns9:RunwayElement>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns9:AirportHeliport ns5:id="Airport_1_76467396">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns9:timeSlice>
+                <ns9:AirportHeliportTimeSlice ns5:id="Airport_TS_1_76467396">
+                    <ns5:validTime>
+                        <ns5:TimeInstant ns5:id="Airport_TS_TI_1_76467396">
+                            <ns5:timePosition>2025-04-26T23:31:28.471Z</ns5:timePosition>
+                        </ns5:TimeInstant>
+                    </ns5:validTime>
+                    <ns9:interpretation>SNAPSHOT</ns9:interpretation>
+                    <ns9:designator>RDU</ns9:designator>
+                    <ns9:name>RALEIGH-DURHAM INTL</ns9:name>
+                    <ns9:locationIndicatorICAO>KRDU</ns9:locationIndicatorICAO>
+                    <ns9:ARP>
+                        <ns9:ElevatedPoint :srsName="urn:ogc:def:crs:EPSG::4326"
+                            :srsDimension="2" ns5:id="EP01_76467396">
+                            <ns5:pos>35.8776388888889 -78.7874722222222</ns5:pos>
+                        </ns9:ElevatedPoint>
+                    </ns9:ARP>
+                    <ns9:extension>
+                        <ns11:AirportHeliportExtension ns5:id="AHE_EVENT_1_76467396">
+                            <ns11:theEvent ns2:href="#Event_1_76467396"></ns11:theEvent>
+                        </ns11:AirportHeliportExtension>
+                    </ns9:extension>
+                </ns9:AirportHeliportTimeSlice>
+            </ns9:timeSlice>
+        </ns9:AirportHeliport>
+    </ns13:hasMember>
+    <ns13:hasMember>
+        <ns11:Event ns5:id="Event_1_76467396">
+            <ns5:boundedBy xsi:nil="true"></ns5:boundedBy>
+            <ns11:timeSlice>
+                <ns11:EventTimeSlice ns5:id="Event_TS_1_76467396">
+                    <ns5:validTime>
+                        <ns5:TimePeriod ns5:id="Event_TS_TP_1_76467396">
+                            <ns5:beginPosition>2025-04-26T23:30:00.000Z</ns5:beginPosition>
+                            <ns5:endPosition>2025-12-31T23:59:00.000Z</ns5:endPosition>
+                        </ns5:TimePeriod>
+                    </ns5:validTime>
+                    <ns9:interpretation>BASELINE</ns9:interpretation>
+                    <ns11:scenario>501</ns11:scenario>
+                    <ns11:textNOTAM>
+                        <ns11:NOTAM ns5:id="NOTAM_1_76467396">
+                            <ns11:number>326</ns11:number>
+                            <ns11:year>2025</ns11:year>
+                            <ns11:type>N</ns11:type>
+                            <ns11:issued>2025-04-26T23:30:00.000Z</ns11:issued>
+                            <ns11:affectedFIR>ZDC</ns11:affectedFIR>
+                            <ns11:minimumFL>000</ns11:minimumFL>
+                            <ns11:maximumFL>999</ns11:maximumFL>
+                            <ns11:radius>5</ns11:radius>
+                            <ns11:location>RDU</ns11:location>
+                            <ns11:effectiveStart>202504262330</ns11:effectiveStart>
+                            <ns11:effectiveEnd>202512312359</ns11:effectiveEnd>
+                            <ns11:text>NAV ILS RWY 23R DME NOT MNT</ns11:text>
+                            <ns11:translation>
+                                <ns11:NOTAMTranslation ns5:id="NT01_76467396">
+                                    <ns11:type>LOCAL_FORMAT</ns11:type>
+                                    <ns11:simpleText>!RDU 04/326 RDU NAV ILS RWY 23R DME NOT
+                                        MNT 2504262330-2512312359</ns11:simpleText>
+                                </ns11:NOTAMTranslation>
+                            </ns11:translation>
+                            <ns11:translation>
+                                <ns11:NOTAMTranslation ns5:id="NT02_76467396">
+                                    <ns11:type>OTHER:ICAO</ns11:type>
+                                    <ns11:formattedText>
+                                        <html:div>04/326 NOTAMR
+                                            Q) KZDC/QICXX/IV/NBO/A/000/999/3552N07847W025
+                                            A) KRDU
+                                            B) 2504262330
+                                            C) 2512312359
+
+                                            E) ILS RWY 23R DME NOT MNT</html:div>
+                                    </ns11:formattedText>
+                                </ns11:NOTAMTranslation>
+                            </ns11:translation>
+                        </ns11:NOTAM>
+                    </ns11:textNOTAM>
+                    <ns11:extension>
+                        <ns6:EventExtension ns5:id="ext_01_76467396">
+                            <ns6:classification>DOM</ns6:classification>
+                            <ns6:accountId>RDU</ns6:accountId>
+                            <ns6:airportname>RALEIGH-DURHAM INTL</ns6:airportname>
+                            <ns6:lastUpdated>2025-04-26T23:30:00.000Z</ns6:lastUpdated>
+                            <ns6:icaoLocation>KRDU</ns6:icaoLocation>
+                        </ns6:EventExtension>
+                    </ns11:extension>
+                </ns11:EventTimeSlice>
+            </ns11:timeSlice>
+        </ns11:Event>
+    </ns13:hasMember>
+</ns13:AIXMBasicMessage>
